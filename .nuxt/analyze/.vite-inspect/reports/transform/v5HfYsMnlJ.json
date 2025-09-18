@@ -1,0 +1,215 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/home2/Section3.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <section class=\"about-section-two style-two\">\r\n        <div class=\"anim-icons\">\r\n            <div class=\"float-image wow fadeInRight\"><img src=\"/images/resource/float-img-4.png\" alt=\"\"></div>\r\n            <div class=\"float-text wow zoomInRight\">m3logi</div>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <div class=\"content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight\" data-wow-delay=\"600ms\">\r\n                    <div class=\"inner-column\">\r\n                        <div class=\"sec-title\">\r\n                            <span class=\"sub-title\">About Company</span>\r\n                            <h2>Global logistics solution provider 2012</h2>\r\n                            <h4>Simplify your freight and logistics needs with a personal approch.</h4>\r\n                            <div class=\"text\">Explain to you how all this mistaken denouncing pleasure and praising pain was\r\n                                born and we will give you a complete account of the system, and expound the actual\r\n                                teachings.</div>\r\n                        </div>\r\n\r\n                        <!--Skills-->\r\n                        <div class=\"skills\">\r\n                            <!--Skill Item-->\r\n                            <div class=\"skill-item\">\r\n                                <div class=\"skill-header\">\r\n                                    <div class=\"skill-title\">Transport</div>\r\n                                </div>\r\n                                <div class=\"skill-bar\">\r\n                                    <div class=\"bar-inner\">\r\n                                        <div class=\"bar progress-line\" data-width=\"78\" style=\"width: 78%;\">\r\n                                            <div class=\"skill-percentage\">\r\n                                                <div class=\"count-box\"><ElementsCounterUp :end=\"78\"/>%</div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <div class=\"founder-info\">\r\n                            <div class=\"thumb\"><img src=\"/images/CEO.png\" alt=\"\"></div>\r\n                            <h5 class=\"name\">Muzammal Majeed</h5>\r\n                            <span class=\"designation\">CEO & Founder of Company</span>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Image Column -->\r\n                <div class=\"image-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <figure class=\"image-1\"><img src=\"/images/resource/about-3.jpg\" alt=\"\"></figure>\r\n                        <figure class=\"image-2\">\r\n                            <img src=\"/images/resource/about-4.jpg\" alt=\"\">\r\n                            <div class=\"icon-box\"><i class=\"icon flaticon-delivery-box-4\"></i></div>\r\n                        </figure>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n</section></template>",
+      "start": 1758152096342,
+      "end": 1758152096673,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152096673,
+      "end": 1758152096673,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152096673,
+      "end": 1758152096673,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1758152096673,
+      "end": 1758152096673,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1758152096673,
+      "end": 1758152096673,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1758152096673,
+      "end": 1758152096673,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1758152096673,
+      "end": 1758152096673,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1758152096673,
+      "end": 1758152096673,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/float-img-4.png'\nimport _imports_1 from '/images/CEO.png'\nimport _imports_2 from '/images/resource/about-3.jpg'\nimport _imports_3 from '/images/resource/about-4.jpg'\n\n\nconst _hoisted_1 = { class: \"about-section-two style-two\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"anim-icons\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"float-image wow fadeInRight\" }, [\n    /*#__PURE__*/_createElementVNode(\"img\", {\n      src: _imports_0,\n      alt: \"\"\n    })\n  ]),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"float-text wow zoomInRight\" }, \"m3logi\")\n], -1)\nconst _hoisted_3 = { class: \"auto-container\" }\nconst _hoisted_4 = { class: \"row\" }\nconst _hoisted_5 = {\n  class: \"content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight\",\n  \"data-wow-delay\": \"600ms\"\n}\nconst _hoisted_6 = { class: \"inner-column\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"About Company\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, \"Global logistics solution provider 2012\"),\n  /*#__PURE__*/_createElementVNode(\"h4\", null, \"Simplify your freight and logistics needs with a personal approch.\"),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Explain to you how all this mistaken denouncing pleasure and praising pain was born and we will give you a complete account of the system, and expound the actual teachings.\")\n], -1)\nconst _hoisted_8 = { class: \"skills\" }\nconst _hoisted_9 = { class: \"skill-item\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-header\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-title\" }, \"Transport\")\n], -1)\nconst _hoisted_11 = { class: \"skill-bar\" }\nconst _hoisted_12 = { class: \"bar-inner\" }\nconst _hoisted_13 = {\n  class: \"bar progress-line\",\n  \"data-width\": \"78\",\n  style: {\"width\":\"78%\"}\n}\nconst _hoisted_14 = { class: \"skill-percentage\" }\nconst _hoisted_15 = { class: \"count-box\" }\nconst _hoisted_16 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"founder-info\\\"><div class=\\\"thumb\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></div><h5 class=\\\"name\\\">Muzammal Majeed</h5><span class=\\\"designation\\\">CEO &amp; Founder of Company</span></div>\", 1)\nconst _hoisted_17 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-column col-lg-6 col-md-12 col-sm-12\\\"><div class=\\\"inner-column\\\"><figure class=\\\"image-1\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"\\\"></figure><figure class=\\\"image-2\\\"><img src=\\\"\" + _imports_3 + \"\\\" alt=\\\"\\\"><div class=\\\"icon-box\\\"><i class=\\\"icon flaticon-delivery-box-4\\\"></i></div></figure></div></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_ElementsCounterUp = _resolveComponent(\"ElementsCounterUp\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"div\", _hoisted_6, [\n            _hoisted_7,\n            _createElementVNode(\"div\", _hoisted_8, [\n              _createElementVNode(\"div\", _hoisted_9, [\n                _hoisted_10,\n                _createElementVNode(\"div\", _hoisted_11, [\n                  _createElementVNode(\"div\", _hoisted_12, [\n                    _createElementVNode(\"div\", _hoisted_13, [\n                      _createElementVNode(\"div\", _hoisted_14, [\n                        _createElementVNode(\"div\", _hoisted_15, [\n                          _createVNode(_component_ElementsCounterUp, { end: 78 }),\n                          _createTextVNode(\"%\")\n                        ])\n                      ])\n                    ])\n                  ])\n                ])\n              ])\n            ]),\n            _hoisted_16\n          ])\n        ]),\n        _hoisted_17\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1758152096673,
+      "end": 1758152096683,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1758152096684,
+      "end": 1758152096684,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152096684,
+      "end": 1758152096684,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152096684,
+      "end": 1758152096684,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1758152096684,
+      "end": 1758152096684,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1758152096684,
+      "end": 1758152096684,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152096690,
+      "end": 1758152096690,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1758152096690,
+      "end": 1758152096690,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152096691,
+      "end": 1758152096691,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152096691,
+      "end": 1758152096693,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152096693,
+      "end": 1758152096693,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152096693,
+      "end": 1758152096693,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1758152096693,
+      "end": 1758152096693,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1758152096693,
+      "end": 1758152096693,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/elements/CounterUp.vue\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/float-img-4.png'\nimport _imports_1 from '/images/CEO.png'\nimport _imports_2 from '/images/resource/about-3.jpg'\nimport _imports_3 from '/images/resource/about-4.jpg'\n\n\nconst _hoisted_1 = { class: \"about-section-two style-two\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"anim-icons\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"float-image wow fadeInRight\" }, [\n    /*#__PURE__*/_createElementVNode(\"img\", {\n      src: _imports_0,\n      alt: \"\"\n    })\n  ]),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"float-text wow zoomInRight\" }, \"m3logi\")\n], -1)\nconst _hoisted_3 = { class: \"auto-container\" }\nconst _hoisted_4 = { class: \"row\" }\nconst _hoisted_5 = {\n  class: \"content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight\",\n  \"data-wow-delay\": \"600ms\"\n}\nconst _hoisted_6 = { class: \"inner-column\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"About Company\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, \"Global logistics solution provider 2012\"),\n  /*#__PURE__*/_createElementVNode(\"h4\", null, \"Simplify your freight and logistics needs with a personal approch.\"),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Explain to you how all this mistaken denouncing pleasure and praising pain was born and we will give you a complete account of the system, and expound the actual teachings.\")\n], -1)\nconst _hoisted_8 = { class: \"skills\" }\nconst _hoisted_9 = { class: \"skill-item\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-header\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-title\" }, \"Transport\")\n], -1)\nconst _hoisted_11 = { class: \"skill-bar\" }\nconst _hoisted_12 = { class: \"bar-inner\" }\nconst _hoisted_13 = {\n  class: \"bar progress-line\",\n  \"data-width\": \"78\",\n  style: {\"width\":\"78%\"}\n}\nconst _hoisted_14 = { class: \"skill-percentage\" }\nconst _hoisted_15 = { class: \"count-box\" }\nconst _hoisted_16 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"founder-info\\\"><div class=\\\"thumb\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></div><h5 class=\\\"name\\\">Muzammal Majeed</h5><span class=\\\"designation\\\">CEO &amp; Founder of Company</span></div>\", 1)\nconst _hoisted_17 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"image-column col-lg-6 col-md-12 col-sm-12\\\"><div class=\\\"inner-column\\\"><figure class=\\\"image-1\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"\\\"></figure><figure class=\\\"image-2\\\"><img src=\\\"\" + _imports_3 + \"\\\" alt=\\\"\\\"><div class=\\\"icon-box\\\"><i class=\\\"icon flaticon-delivery-box-4\\\"></i></div></figure></div></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_ElementsCounterUp = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _createElementVNode(\"div\", _hoisted_4, [\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"div\", _hoisted_6, [\n            _hoisted_7,\n            _createElementVNode(\"div\", _hoisted_8, [\n              _createElementVNode(\"div\", _hoisted_9, [\n                _hoisted_10,\n                _createElementVNode(\"div\", _hoisted_11, [\n                  _createElementVNode(\"div\", _hoisted_12, [\n                    _createElementVNode(\"div\", _hoisted_13, [\n                      _createElementVNode(\"div\", _hoisted_14, [\n                        _createElementVNode(\"div\", _hoisted_15, [\n                          _createVNode(_component_ElementsCounterUp, { end: 78 }),\n                          _createTextVNode(\"%\")\n                        ])\n                      ])\n                    ])\n                  ])\n                ])\n              ])\n            ]),\n            _hoisted_16\n          ])\n        ]),\n        _hoisted_17\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1758152096693,
+      "end": 1758152096693,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1758152096693,
+      "end": 1758152096693,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1758152096693,
+      "end": 1758152096694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1758152096694,
+      "end": 1758152096694,
+      "order": "normal"
+    }
+  ]
+}

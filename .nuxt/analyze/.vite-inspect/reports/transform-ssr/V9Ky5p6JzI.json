@@ -1,0 +1,259 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/home1/Section12.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <section class=\"testimonial-section pt-0\">\r\n\r\n        <div class=\"anim-icons\">\r\n            <span class=\"icon icon-bg-dots\"></span>\r\n            <span class=\"icon icon-plane-2 bounce-y\"></span>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"sec-title text-center\">\r\n                <span class=\"sub-title\">Client’s Testimonials</span>\r\n                <h2>Here are some clients <br>feedbacks</h2>\r\n            </div>\r\n\r\n            <div class=\"outer-box\">\r\n                <!-- Testimonial Carousel -->\r\n                <swiper :slides-per-view=\"3\" :space-between=\"0\" :loop=\"true\" :autoplay=\"{\r\n                    delay: 8000,\r\n                    disableOnInteraction: true,\r\n                }\" :breakpoints=\"{\r\n    320: {\r\n        // slidesPerView: 1,\r\n        spaceBetween: 30,\r\n    },\r\n    575: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    767: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    991: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    1199: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n    1350: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n}\" :pagination=\"{\r\n    el: '.swiper-pagination',\r\n    clickable: true,\r\n}\" :navigation=\"{\r\n    nextEl: '.h1n',\r\n    prevEl: '.h1p',\r\n}\" :modules=\"modules\" class=\"testimonial-carousel owl-carousel owl-theme\">\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-1.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Jhon D. William</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-2.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Aleesha Brown</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-3.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Mike Hardon</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n                </swiper>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>\r\n<script>\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nexport default {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n</script>",
+      "start": 1758152126329,
+      "end": 1758152127251,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1758152127251,
+      "end": 1758152127251,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nconst _sfc_main = {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/testi-thumb-1.jpg'\nimport _imports_1 from '/images/resource/testi-thumb-2.jpg'\nimport _imports_2 from '/images/resource/testi-thumb-3.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_swiper = _resolveComponent(\"swiper\")\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n\n  _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"testimonial-section pt-0\" }, _attrs))}><div class=\"anim-icons\"><span class=\"icon icon-bg-dots\"></span><span class=\"icon icon-plane-2 bounce-y\"></span></div><div class=\"auto-container\"><div class=\"sec-title text-center\"><span class=\"sub-title\">Client’s Testimonials</span><h2>Here are some clients <br>feedbacks</h2></div><div class=\"outer-box\">`)\n  _push(_ssrRenderComponent(_component_swiper, {\n    \"slides-per-view\": 3,\n    \"space-between\": 0,\n    loop: true,\n    autoplay: {\r\n                    delay: 8000,\r\n                    disableOnInteraction: true,\r\n                },\n    breakpoints: {\r\n    320: {\r\n        // slidesPerView: 1,\r\n        spaceBetween: 30,\r\n    },\r\n    575: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    767: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    991: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    1199: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n    1350: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n},\n    pagination: {\r\n    el: '.swiper-pagination',\r\n    clickable: true,\r\n},\n    navigation: {\r\n    nextEl: '.h1n',\r\n    prevEl: '.h1p',\r\n},\n    modules: $setup.modules,\n    class: \"testimonial-carousel owl-carousel owl-theme\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_swiper_slide, { class: \"testimonial-block\" }, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(`<div class=\"inner-box\"${\n                _scopeId\n              }><div class=\"content-box\"${\n                _scopeId\n              }><div class=\"rating\"${\n                _scopeId\n              }><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star-half-alt\"${\n                _scopeId\n              }></i></div><div class=\"text\"${\n                _scopeId\n              }>“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.</div></div><div class=\"thumb\"${\n                _scopeId\n              }><img${\n                _ssrRenderAttr(\"src\", _imports_0)\n              } alt=\"\"${\n                _scopeId\n              }></div><span class=\"designation\"${\n                _scopeId\n              }>Client</span><h4 class=\"name\"${\n                _scopeId\n              }>Jhon D. William</h4></div>`)\n            } else {\n              return [\n                _createVNode(\"div\", { class: \"inner-box\" }, [\n                  _createVNode(\"div\", { class: \"content-box\" }, [\n                    _createVNode(\"div\", { class: \"rating\" }, [\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n                    ]),\n                    _createVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n                  ]),\n                  _createVNode(\"div\", { class: \"thumb\" }, [\n                    _createVNode(\"img\", {\n                      src: _imports_0,\n                      alt: \"\"\n                    })\n                  ]),\n                  _createVNode(\"span\", { class: \"designation\" }, \"Client\"),\n                  _createVNode(\"h4\", { class: \"name\" }, \"Jhon D. William\")\n                ])\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n        _push(_ssrRenderComponent(_component_swiper_slide, { class: \"testimonial-block\" }, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(`<div class=\"inner-box\"${\n                _scopeId\n              }><div class=\"content-box\"${\n                _scopeId\n              }><div class=\"rating\"${\n                _scopeId\n              }><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star-half-alt\"${\n                _scopeId\n              }></i></div><div class=\"text\"${\n                _scopeId\n              }>“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.</div></div><div class=\"thumb\"${\n                _scopeId\n              }><img${\n                _ssrRenderAttr(\"src\", _imports_1)\n              } alt=\"\"${\n                _scopeId\n              }></div><span class=\"designation\"${\n                _scopeId\n              }>Client</span><h4 class=\"name\"${\n                _scopeId\n              }>Aleesha Brown</h4></div>`)\n            } else {\n              return [\n                _createVNode(\"div\", { class: \"inner-box\" }, [\n                  _createVNode(\"div\", { class: \"content-box\" }, [\n                    _createVNode(\"div\", { class: \"rating\" }, [\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n                    ]),\n                    _createVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n                  ]),\n                  _createVNode(\"div\", { class: \"thumb\" }, [\n                    _createVNode(\"img\", {\n                      src: _imports_1,\n                      alt: \"\"\n                    })\n                  ]),\n                  _createVNode(\"span\", { class: \"designation\" }, \"Client\"),\n                  _createVNode(\"h4\", { class: \"name\" }, \"Aleesha Brown\")\n                ])\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n        _push(_ssrRenderComponent(_component_swiper_slide, { class: \"testimonial-block\" }, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(`<div class=\"inner-box\"${\n                _scopeId\n              }><div class=\"content-box\"${\n                _scopeId\n              }><div class=\"rating\"${\n                _scopeId\n              }><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star\"${\n                _scopeId\n              }></i><i class=\"fa fa-star-half-alt\"${\n                _scopeId\n              }></i></div><div class=\"text\"${\n                _scopeId\n              }>“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.</div></div><div class=\"thumb\"${\n                _scopeId\n              }><img${\n                _ssrRenderAttr(\"src\", _imports_2)\n              } alt=\"\"${\n                _scopeId\n              }></div><span class=\"designation\"${\n                _scopeId\n              }>Client</span><h4 class=\"name\"${\n                _scopeId\n              }>Mike Hardon</h4></div>`)\n            } else {\n              return [\n                _createVNode(\"div\", { class: \"inner-box\" }, [\n                  _createVNode(\"div\", { class: \"content-box\" }, [\n                    _createVNode(\"div\", { class: \"rating\" }, [\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star\" }),\n                      _createVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n                    ]),\n                    _createVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n                  ]),\n                  _createVNode(\"div\", { class: \"thumb\" }, [\n                    _createVNode(\"img\", {\n                      src: _imports_2,\n                      alt: \"\"\n                    })\n                  ]),\n                  _createVNode(\"span\", { class: \"designation\" }, \"Client\"),\n                  _createVNode(\"h4\", { class: \"name\" }, \"Mike Hardon\")\n                ])\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_swiper_slide, { class: \"testimonial-block\" }, {\n            default: _withCtx(() => [\n              _createVNode(\"div\", { class: \"inner-box\" }, [\n                _createVNode(\"div\", { class: \"content-box\" }, [\n                  _createVNode(\"div\", { class: \"rating\" }, [\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n                  ]),\n                  _createVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n                ]),\n                _createVNode(\"div\", { class: \"thumb\" }, [\n                  _createVNode(\"img\", {\n                    src: _imports_0,\n                    alt: \"\"\n                  })\n                ]),\n                _createVNode(\"span\", { class: \"designation\" }, \"Client\"),\n                _createVNode(\"h4\", { class: \"name\" }, \"Jhon D. William\")\n              ])\n            ]),\n            _: 1\n          }),\n          _createVNode(_component_swiper_slide, { class: \"testimonial-block\" }, {\n            default: _withCtx(() => [\n              _createVNode(\"div\", { class: \"inner-box\" }, [\n                _createVNode(\"div\", { class: \"content-box\" }, [\n                  _createVNode(\"div\", { class: \"rating\" }, [\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n                  ]),\n                  _createVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n                ]),\n                _createVNode(\"div\", { class: \"thumb\" }, [\n                  _createVNode(\"img\", {\n                    src: _imports_1,\n                    alt: \"\"\n                  })\n                ]),\n                _createVNode(\"span\", { class: \"designation\" }, \"Client\"),\n                _createVNode(\"h4\", { class: \"name\" }, \"Aleesha Brown\")\n              ])\n            ]),\n            _: 1\n          }),\n          _createVNode(_component_swiper_slide, { class: \"testimonial-block\" }, {\n            default: _withCtx(() => [\n              _createVNode(\"div\", { class: \"inner-box\" }, [\n                _createVNode(\"div\", { class: \"content-box\" }, [\n                  _createVNode(\"div\", { class: \"rating\" }, [\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star\" }),\n                    _createVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n                  ]),\n                  _createVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n                ]),\n                _createVNode(\"div\", { class: \"thumb\" }, [\n                  _createVNode(\"img\", {\n                    src: _imports_2,\n                    alt: \"\"\n                  })\n                ]),\n                _createVNode(\"span\", { class: \"designation\" }, \"Client\"),\n                _createVNode(\"h4\", { class: \"name\" }, \"Mike Hardon\")\n              ])\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home1/Section12.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1758152127251,
+      "end": 1758152127260,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/home1/Section12.vue",
+        "names": [],
+        "sources": [
+          "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/home1/Section12.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n    <section class=\"testimonial-section pt-0\">\r\n\r\n        <div class=\"anim-icons\">\r\n            <span class=\"icon icon-bg-dots\"></span>\r\n            <span class=\"icon icon-plane-2 bounce-y\"></span>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"sec-title text-center\">\r\n                <span class=\"sub-title\">Client’s Testimonials</span>\r\n                <h2>Here are some clients <br>feedbacks</h2>\r\n            </div>\r\n\r\n            <div class=\"outer-box\">\r\n                <!-- Testimonial Carousel -->\r\n                <swiper :slides-per-view=\"3\" :space-between=\"0\" :loop=\"true\" :autoplay=\"{\r\n                    delay: 8000,\r\n                    disableOnInteraction: true,\r\n                }\" :breakpoints=\"{\r\n    320: {\r\n        // slidesPerView: 1,\r\n        spaceBetween: 30,\r\n    },\r\n    575: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    767: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    991: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    1199: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n    1350: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n}\" :pagination=\"{\r\n    el: '.swiper-pagination',\r\n    clickable: true,\r\n}\" :navigation=\"{\r\n    nextEl: '.h1n',\r\n    prevEl: '.h1p',\r\n}\" :modules=\"modules\" class=\"testimonial-carousel owl-carousel owl-theme\">\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-1.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Jhon D. William</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-2.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Aleesha Brown</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-3.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Mike Hardon</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n                </swiper>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>\r\n<script>\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nexport default {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n</script>"
+        ],
+        "mappings": "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"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1758152127260,
+      "end": 1758152127260,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1758152127261,
+      "end": 1758152127261,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1758152127261,
+      "end": 1758152127261,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1758152127261,
+      "end": 1758152127261,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152127261,
+      "end": 1758152127261,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152127261,
+      "end": 1758152127261,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152127261,
+      "end": 1758152127267,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152127261,
+      "end": 1758152127267,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152127267,
+      "end": 1758152127267,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152127267,
+      "end": 1758152127267,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152127267,
+      "end": 1758152127267,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152127267,
+      "end": 1758152127267,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1758152127267,
+      "end": 1758152127267,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1758152127267,
+      "end": 1758152127267,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1758152127268,
+      "end": 1758152127268,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1758152127268,
+      "end": 1758152127268,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1758152127268,
+      "end": 1758152127268,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/News/Newsgrid.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n\t<!-- News Section -->\r\n\t<section class=\"news-section\">\r\n\t\t<div class=\"auto-container\">\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<!-- News Block -->\r\n\t\t\t\t<div class=\"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/news-details\"><img src=\"/images/resource/news-1.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t<span class=\"date\"><b>28</b> SEP</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"lower-content\">\r\n\t\t\t\t\t\t\t<ul class=\"post-info\">\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-user\"></i> by Admin</li>\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-comments\"></i> 2 Comments</li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/news-details\">We very careful handling the valuable goods</NuxtLink></h4>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"/news-details\" class=\"read-more\">Read More <i class=\"fa fa-angle-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- News Block -->\r\n\t\t\t\t<div class=\"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\" data-wow-delay=\"300ms\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/news-details\"><img src=\"/images/resource/news-2.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t<span class=\"date\"><b>28</b> SEP</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"lower-content\">\r\n\t\t\t\t\t\t\t<ul class=\"post-info\">\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-user\"></i> by Admin</li>\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-comments\"></i> 2 Comments</li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/news-details\">Cargo flow through better supply in UK</NuxtLink></h4>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"/news-details\" class=\"read-more\">Read More <i class=\"fa fa-angle-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- News Block -->\r\n\t\t\t\t<div class=\"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\" data-wow-delay=\"600ms\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/news-details\"><img src=\"/images/resource/news-3.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t<span class=\"date\"><b>28</b> SEP</span>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"lower-content\">\r\n\t\t\t\t\t\t\t<ul class=\"post-info\">\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-user\"></i> by Admin</li>\r\n\t\t\t\t\t\t\t\t<li><i class=\"fa fa-comments\"></i> 2 Comments</li>\r\n\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/news-details\">Why is supply chain visibility so important?</NuxtLink></h4>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"/news-details\" class=\"read-more\">Read More <i class=\"fa fa-angle-right\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n\t<!--End News Section -->\r\n</template>",
+      "start": 1758152097067,
+      "end": 1758152097338,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152097338,
+      "end": 1758152097338,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152097338,
+      "end": 1758152097339,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1758152097339,
+      "end": 1758152097339,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1758152097339,
+      "end": 1758152097339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1758152097339,
+      "end": 1758152097339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1758152097339,
+      "end": 1758152097339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1758152097339,
+      "end": 1758152097339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/news-1.jpg'\nimport _imports_1 from '/images/resource/news-2.jpg'\nimport _imports_2 from '/images/resource/news-3.jpg'\n\n\nconst _hoisted_1 = { class: \"news-section\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\" }\nconst _hoisted_5 = { class: \"inner-box\" }\nconst _hoisted_6 = { class: \"image-box\" }\nconst _hoisted_7 = { class: \"image\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"date\" }, [\n  /*#__PURE__*/_createElementVNode(\"b\", null, \"28\"),\n  /*#__PURE__*/_createTextVNode(\" SEP\")\n], -1)\nconst _hoisted_10 = { class: \"lower-content\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"ul\", { class: \"post-info\" }, [\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-user\" }),\n    /*#__PURE__*/_createTextVNode(\" by Admin\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-comments\" }),\n    /*#__PURE__*/_createTextVNode(\" 2 Comments\")\n  ])\n], -1)\nconst _hoisted_12 = { class: \"title\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-angle-right\" }, null, -1)\nconst _hoisted_14 = {\n  class: \"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"300ms\"\n}\nconst _hoisted_15 = { class: \"inner-box\" }\nconst _hoisted_16 = { class: \"image-box\" }\nconst _hoisted_17 = { class: \"image\" }\nconst _hoisted_18 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_19 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"date\" }, [\n  /*#__PURE__*/_createElementVNode(\"b\", null, \"28\"),\n  /*#__PURE__*/_createTextVNode(\" SEP\")\n], -1)\nconst _hoisted_20 = { class: \"lower-content\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"ul\", { class: \"post-info\" }, [\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-user\" }),\n    /*#__PURE__*/_createTextVNode(\" by Admin\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-comments\" }),\n    /*#__PURE__*/_createTextVNode(\" 2 Comments\")\n  ])\n], -1)\nconst _hoisted_22 = { class: \"title\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-angle-right\" }, null, -1)\nconst _hoisted_24 = {\n  class: \"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"600ms\"\n}\nconst _hoisted_25 = { class: \"inner-box\" }\nconst _hoisted_26 = { class: \"image-box\" }\nconst _hoisted_27 = { class: \"image\" }\nconst _hoisted_28 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_2,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_29 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"date\" }, [\n  /*#__PURE__*/_createElementVNode(\"b\", null, \"28\"),\n  /*#__PURE__*/_createTextVNode(\" SEP\")\n], -1)\nconst _hoisted_30 = { class: \"lower-content\" }\nconst _hoisted_31 = /*#__PURE__*/_createElementVNode(\"ul\", { class: \"post-info\" }, [\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-user\" }),\n    /*#__PURE__*/_createTextVNode(\" by Admin\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-comments\" }),\n    /*#__PURE__*/_createTextVNode(\" 2 Comments\")\n  ])\n], -1)\nconst _hoisted_32 = { class: \"title\" }\nconst _hoisted_33 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-angle-right\" }, null, -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"figure\", _hoisted_7, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_8\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_9\n            ]),\n            _createElementVNode(\"div\", _hoisted_10, [\n              _hoisted_11,\n              _createElementVNode(\"h4\", _hoisted_12, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"We very careful handling the valuable goods\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _createVNode(_component_NuxtLink, {\n                to: \"/news-details\",\n                class: \"read-more\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Read More \"),\n                  _hoisted_13\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_14, [\n          _createElementVNode(\"div\", _hoisted_15, [\n            _createElementVNode(\"div\", _hoisted_16, [\n              _createElementVNode(\"figure\", _hoisted_17, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_18\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_19\n            ]),\n            _createElementVNode(\"div\", _hoisted_20, [\n              _hoisted_21,\n              _createElementVNode(\"h4\", _hoisted_22, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Cargo flow through better supply in UK\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _createVNode(_component_NuxtLink, {\n                to: \"/news-details\",\n                class: \"read-more\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Read More \"),\n                  _hoisted_23\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_24, [\n          _createElementVNode(\"div\", _hoisted_25, [\n            _createElementVNode(\"div\", _hoisted_26, [\n              _createElementVNode(\"figure\", _hoisted_27, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_28\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_29\n            ]),\n            _createElementVNode(\"div\", _hoisted_30, [\n              _hoisted_31,\n              _createElementVNode(\"h4\", _hoisted_32, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Why is supply chain visibility so important?\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _createVNode(_component_NuxtLink, {\n                to: \"/news-details\",\n                class: \"read-more\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Read More \"),\n                  _hoisted_33\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1758152097339,
+      "end": 1758152097342,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1758152097342,
+      "end": 1758152097342,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152097342,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152097343,
+      "end": 1758152097343,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152097343,
+      "end": 1758152097346,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152097346,
+      "end": 1758152097347,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152097347,
+      "end": 1758152097347,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1758152097347,
+      "end": 1758152097347,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1758152097347,
+      "end": 1758152097347,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/news-1.jpg'\nimport _imports_1 from '/images/resource/news-2.jpg'\nimport _imports_2 from '/images/resource/news-3.jpg'\n\n\nconst _hoisted_1 = { class: \"news-section\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\" }\nconst _hoisted_5 = { class: \"inner-box\" }\nconst _hoisted_6 = { class: \"image-box\" }\nconst _hoisted_7 = { class: \"image\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"date\" }, [\n  /*#__PURE__*/_createElementVNode(\"b\", null, \"28\"),\n  /*#__PURE__*/_createTextVNode(\" SEP\")\n], -1)\nconst _hoisted_10 = { class: \"lower-content\" }\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"ul\", { class: \"post-info\" }, [\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-user\" }),\n    /*#__PURE__*/_createTextVNode(\" by Admin\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-comments\" }),\n    /*#__PURE__*/_createTextVNode(\" 2 Comments\")\n  ])\n], -1)\nconst _hoisted_12 = { class: \"title\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-angle-right\" }, null, -1)\nconst _hoisted_14 = {\n  class: \"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"300ms\"\n}\nconst _hoisted_15 = { class: \"inner-box\" }\nconst _hoisted_16 = { class: \"image-box\" }\nconst _hoisted_17 = { class: \"image\" }\nconst _hoisted_18 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_19 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"date\" }, [\n  /*#__PURE__*/_createElementVNode(\"b\", null, \"28\"),\n  /*#__PURE__*/_createTextVNode(\" SEP\")\n], -1)\nconst _hoisted_20 = { class: \"lower-content\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"ul\", { class: \"post-info\" }, [\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-user\" }),\n    /*#__PURE__*/_createTextVNode(\" by Admin\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-comments\" }),\n    /*#__PURE__*/_createTextVNode(\" 2 Comments\")\n  ])\n], -1)\nconst _hoisted_22 = { class: \"title\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-angle-right\" }, null, -1)\nconst _hoisted_24 = {\n  class: \"news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"600ms\"\n}\nconst _hoisted_25 = { class: \"inner-box\" }\nconst _hoisted_26 = { class: \"image-box\" }\nconst _hoisted_27 = { class: \"image\" }\nconst _hoisted_28 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_2,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_29 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"date\" }, [\n  /*#__PURE__*/_createElementVNode(\"b\", null, \"28\"),\n  /*#__PURE__*/_createTextVNode(\" SEP\")\n], -1)\nconst _hoisted_30 = { class: \"lower-content\" }\nconst _hoisted_31 = /*#__PURE__*/_createElementVNode(\"ul\", { class: \"post-info\" }, [\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-user\" }),\n    /*#__PURE__*/_createTextVNode(\" by Admin\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"li\", null, [\n    /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-comments\" }),\n    /*#__PURE__*/_createTextVNode(\" 2 Comments\")\n  ])\n], -1)\nconst _hoisted_32 = { class: \"title\" }\nconst _hoisted_33 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-angle-right\" }, null, -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"figure\", _hoisted_7, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_8\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_9\n            ]),\n            _createElementVNode(\"div\", _hoisted_10, [\n              _hoisted_11,\n              _createElementVNode(\"h4\", _hoisted_12, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"We very careful handling the valuable goods\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _createVNode(_component_NuxtLink, {\n                to: \"/news-details\",\n                class: \"read-more\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Read More \"),\n                  _hoisted_13\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_14, [\n          _createElementVNode(\"div\", _hoisted_15, [\n            _createElementVNode(\"div\", _hoisted_16, [\n              _createElementVNode(\"figure\", _hoisted_17, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_18\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_19\n            ]),\n            _createElementVNode(\"div\", _hoisted_20, [\n              _hoisted_21,\n              _createElementVNode(\"h4\", _hoisted_22, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Cargo flow through better supply in UK\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _createVNode(_component_NuxtLink, {\n                to: \"/news-details\",\n                class: \"read-more\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Read More \"),\n                  _hoisted_23\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_24, [\n          _createElementVNode(\"div\", _hoisted_25, [\n            _createElementVNode(\"div\", _hoisted_26, [\n              _createElementVNode(\"figure\", _hoisted_27, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_28\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_29\n            ]),\n            _createElementVNode(\"div\", _hoisted_30, [\n              _hoisted_31,\n              _createElementVNode(\"h4\", _hoisted_32, [\n                _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Why is supply chain visibility so important?\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _createVNode(_component_NuxtLink, {\n                to: \"/news-details\",\n                class: \"read-more\"\n              }, {\n                default: _withCtx(() => [\n                  _createTextVNode(\"Read More \"),\n                  _hoisted_33\n                ]),\n                _: 1\n              })\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1758152097347,
+      "end": 1758152097347,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1758152097347,
+      "end": 1758152097347,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1758152097347,
+      "end": 1758152097347,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1758152097347,
+      "end": 1758152097347,
+      "order": "normal"
+    }
+  ]
+}

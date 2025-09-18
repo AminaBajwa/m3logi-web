@@ -1,0 +1,214 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section12.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <section class=\"testimonial-section pt-0\">\r\n\r\n        <div class=\"anim-icons\">\r\n            <span class=\"icon icon-bg-dots\"></span>\r\n            <span class=\"icon icon-plane-2 bounce-y\"></span>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"sec-title text-center\">\r\n                <span class=\"sub-title\">Client’s Testimonials</span>\r\n                <h2>Here are some clients <br>feedbacks</h2>\r\n            </div>\r\n\r\n            <div class=\"outer-box\">\r\n                <!-- Testimonial Carousel -->\r\n                <swiper :slides-per-view=\"3\" :space-between=\"0\" :loop=\"true\" :autoplay=\"{\r\n                    delay: 8000,\r\n                    disableOnInteraction: true,\r\n                }\" :breakpoints=\"{\r\n    320: {\r\n        // slidesPerView: 1,\r\n        spaceBetween: 30,\r\n    },\r\n    575: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    767: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    991: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    1199: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n    1350: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n}\" :pagination=\"{\r\n    el: '.swiper-pagination',\r\n    clickable: true,\r\n}\" :navigation=\"{\r\n    nextEl: '.h1n',\r\n    prevEl: '.h1p',\r\n}\" :modules=\"modules\" class=\"testimonial-carousel owl-carousel owl-theme\">\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-1.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Jhon D. William</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-2.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Aleesha Brown</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n\r\n                    <!-- Testimonial Block -->\r\n                    <swiper-slide class=\"testimonial-block\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"content-box\">\r\n                                <div class=\"rating\"><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i\r\n                                        class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-alt\"></i>\r\n                                </div>\r\n                                <div class=\"text\">“All of our lorries are fitted with Satellite Tracking and Temperature\r\n                                    Controlled monitoring systems so that the transportation of high value and temperature\r\n                                    sensitive loads can be monitored at all times.</div>\r\n                            </div>\r\n                            <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-3.jpg\" alt=\"\"></div>\r\n                            <span class=\"designation\">Client</span>\r\n                            <h4 class=\"name\">Mike Hardon</h4>\r\n                        </div>\r\n                    </swiper-slide>\r\n                </swiper>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>\r\n<script>\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nexport default {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n</script>",
+      "start": 1758152097086,
+      "end": 1758152097361,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152097361,
+      "end": 1758152097361,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152097361,
+      "end": 1758152097361,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1758152097361,
+      "end": 1758152097362,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1758152097362,
+      "end": 1758152097362,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1758152097362,
+      "end": 1758152097362,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1758152097362,
+      "end": 1758152097362,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1758152097362,
+      "end": 1758152097362,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nconst _sfc_main = {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/testi-thumb-1.jpg'\nimport _imports_1 from '/images/resource/testi-thumb-2.jpg'\nimport _imports_2 from '/images/resource/testi-thumb-3.jpg'\n\n\nconst _hoisted_1 = { class: \"testimonial-section pt-0\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"anim-icons\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"icon icon-bg-dots\" }),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"icon icon-plane-2 bounce-y\" })\n], -1)\nconst _hoisted_3 = { class: \"auto-container\" }\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title text-center\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"Client’s Testimonials\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, [\n    /*#__PURE__*/_createTextVNode(\"Here are some clients \"),\n    /*#__PURE__*/_createElementVNode(\"br\"),\n    /*#__PURE__*/_createTextVNode(\"feedbacks\")\n  ])\n], -1)\nconst _hoisted_5 = { class: \"outer-box\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-box\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"content-box\" }, [\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"rating\" }, [\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n    ]),\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"thumb\" }, [\n    /*#__PURE__*/_createElementVNode(\"img\", {\n      src: _imports_0,\n      alt: \"\"\n    })\n  ]),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"designation\" }, \"Client\"),\n  /*#__PURE__*/_createElementVNode(\"h4\", { class: \"name\" }, \"Jhon D. William\")\n], -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-box\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"content-box\" }, [\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"rating\" }, [\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n    ]),\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"thumb\" }, [\n    /*#__PURE__*/_createElementVNode(\"img\", {\n      src: _imports_1,\n      alt: \"\"\n    })\n  ]),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"designation\" }, \"Client\"),\n  /*#__PURE__*/_createElementVNode(\"h4\", { class: \"name\" }, \"Aleesha Brown\")\n], -1)\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-box\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"content-box\" }, [\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"rating\" }, [\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star\" }),\n      /*#__PURE__*/_createElementVNode(\"i\", { class: \"fa fa-star-half-alt\" })\n    ]),\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"“All of our lorries are fitted with Satellite Tracking and Temperature Controlled monitoring systems so that the transportation of high value and temperature sensitive loads can be monitored at all times.\")\n  ]),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"thumb\" }, [\n    /*#__PURE__*/_createElementVNode(\"img\", {\n      src: _imports_2,\n      alt: \"\"\n    })\n  ]),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"designation\" }, \"Client\"),\n  /*#__PURE__*/_createElementVNode(\"h4\", { class: \"name\" }, \"Mike Hardon\")\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_swiper = _resolveComponent(\"swiper\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _hoisted_2,\n    _createElementVNode(\"div\", _hoisted_3, [\n      _hoisted_4,\n      _createElementVNode(\"div\", _hoisted_5, [\n        _createVNode(_component_swiper, {\n          \"slides-per-view\": 3,\n          \"space-between\": 0,\n          loop: true,\n          autoplay: {\r\n                    delay: 8000,\r\n                    disableOnInteraction: true,\r\n                },\n          breakpoints: {\r\n    320: {\r\n        // slidesPerView: 1,\r\n        spaceBetween: 30,\r\n    },\r\n    575: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    767: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    991: {\r\n        // slidesPerView: 2,\r\n        spaceBetween: 30,\r\n    },\r\n    1199: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n    1350: {\r\n        // slidesPerView: 3,\r\n        spaceBetween: 30,\r\n    },\r\n},\n          pagination: {\r\n    el: '.swiper-pagination',\r\n    clickable: true,\r\n},\n          navigation: {\r\n    nextEl: '.h1n',\r\n    prevEl: '.h1p',\r\n},\n          modules: $setup.modules,\n          class: \"testimonial-carousel owl-carousel owl-theme\"\n        }, {\n          default: _withCtx(() => [\n            _createVNode(_component_swiper_slide, { class: \"testimonial-block\" }, {\n              default: _withCtx(() => [\n                _hoisted_6\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_swiper_slide, { class: \"testimonial-block\" }, {\n              default: _withCtx(() => [\n                _hoisted_7\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_swiper_slide, { class: \"testimonial-block\" }, {\n              default: _withCtx(() => [\n                _hoisted_8\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }, 8, [\"pagination\", \"navigation\", \"modules\"])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1758152097362,
+      "end": 1758152097368,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1758152097368,
+      "end": 1758152097368,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152097368,
+      "end": 1758152097368,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152097368,
+      "end": 1758152097368,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1758152097368,
+      "end": 1758152097368,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1758152097368,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152097369,
+      "end": 1758152097369,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152097369,
+      "end": 1758152097373,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152097373,
+      "end": 1758152097373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152097373,
+      "end": 1758152097373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1758152097373,
+      "end": 1758152097373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1758152097373,
+      "end": 1758152097373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1758152097373,
+      "end": 1758152097373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1758152097373,
+      "end": 1758152097373,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1758152097373,
+      "end": 1758152097374,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1758152097374,
+      "end": 1758152097374,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import"./entry.D5UbSBlD.js";const e=""+globalThis.__publicAssetsURL("images/resource/news-1.jpg"),o=""+globalThis.__publicAssetsURL("images/resource/news-2.jpg"),i=""+globalThis.__publicAssetsURL("images/resource/news-3.jpg");export{e as _,o as a,i as b};

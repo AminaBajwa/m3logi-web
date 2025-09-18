@@ -1,0 +1,212 @@
+{
+  "resolvedId": "virtual:nuxt:C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/.nuxt/routes.mjs",
+  "transforms": [
+    {
+      "name": "virtual",
+      "result": "import { default as indexmzlV3RuwBPMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/index-2/index.vue?macro=true\";\nimport { default as indexZ3oyOiEmQDMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/index.vue?macro=true\";\nimport { default as news_45detailsGOQB1PC7fAMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/news-details.vue?macro=true\";\nimport { default as news_45gridnXD2bI7nVkMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/news-grid.vue?macro=true\";\nimport { default as page_45aboutcuj9EjhFJWMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-about.vue?macro=true\";\nimport { default as page_45contact3N6azziC8gMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-contact.vue?macro=true\";\nimport { default as page_45project_45details6TaapVkTAVMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-project-details.vue?macro=true\";\nimport { default as page_45projectsngA8ST3ioAMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-projects.vue?macro=true\";\nimport { default as page_45service_45detailsK9TftlIZN6Meta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-service-details.vue?macro=true\";\nimport { default as page_45services3SFMG8wV2bMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-services.vue?macro=true\";\nimport { default as page_45team_45detailsZkdIeitRnWMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-team-details.vue?macro=true\";\nimport { default as page_45teamclkSKC65j0Meta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-team.vue?macro=true\";\nexport default [\n  {\n    name: indexmzlV3RuwBPMeta?.name ?? \"index-2\",\n    path: indexmzlV3RuwBPMeta?.path ?? \"/index-2\",\n    meta: indexmzlV3RuwBPMeta || {},\n    alias: indexmzlV3RuwBPMeta?.alias || [],\n    redirect: indexmzlV3RuwBPMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/index-2/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexZ3oyOiEmQDMeta?.name ?? \"index\",\n    path: indexZ3oyOiEmQDMeta?.path ?? \"/\",\n    meta: indexZ3oyOiEmQDMeta || {},\n    alias: indexZ3oyOiEmQDMeta?.alias || [],\n    redirect: indexZ3oyOiEmQDMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: news_45detailsGOQB1PC7fAMeta?.name ?? \"news-details\",\n    path: news_45detailsGOQB1PC7fAMeta?.path ?? \"/news-details\",\n    meta: news_45detailsGOQB1PC7fAMeta || {},\n    alias: news_45detailsGOQB1PC7fAMeta?.alias || [],\n    redirect: news_45detailsGOQB1PC7fAMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/news-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: news_45gridnXD2bI7nVkMeta?.name ?? \"news-grid\",\n    path: news_45gridnXD2bI7nVkMeta?.path ?? \"/news-grid\",\n    meta: news_45gridnXD2bI7nVkMeta || {},\n    alias: news_45gridnXD2bI7nVkMeta?.alias || [],\n    redirect: news_45gridnXD2bI7nVkMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/news-grid.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45aboutcuj9EjhFJWMeta?.name ?? \"page-about\",\n    path: page_45aboutcuj9EjhFJWMeta?.path ?? \"/page-about\",\n    meta: page_45aboutcuj9EjhFJWMeta || {},\n    alias: page_45aboutcuj9EjhFJWMeta?.alias || [],\n    redirect: page_45aboutcuj9EjhFJWMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-about.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45contact3N6azziC8gMeta?.name ?? \"page-contact\",\n    path: page_45contact3N6azziC8gMeta?.path ?? \"/page-contact\",\n    meta: page_45contact3N6azziC8gMeta || {},\n    alias: page_45contact3N6azziC8gMeta?.alias || [],\n    redirect: page_45contact3N6azziC8gMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-contact.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45project_45details6TaapVkTAVMeta?.name ?? \"page-project-details\",\n    path: page_45project_45details6TaapVkTAVMeta?.path ?? \"/page-project-details\",\n    meta: page_45project_45details6TaapVkTAVMeta || {},\n    alias: page_45project_45details6TaapVkTAVMeta?.alias || [],\n    redirect: page_45project_45details6TaapVkTAVMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-project-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45projectsngA8ST3ioAMeta?.name ?? \"page-projects\",\n    path: page_45projectsngA8ST3ioAMeta?.path ?? \"/page-projects\",\n    meta: page_45projectsngA8ST3ioAMeta || {},\n    alias: page_45projectsngA8ST3ioAMeta?.alias || [],\n    redirect: page_45projectsngA8ST3ioAMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-projects.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45service_45detailsK9TftlIZN6Meta?.name ?? \"page-service-details\",\n    path: page_45service_45detailsK9TftlIZN6Meta?.path ?? \"/page-service-details\",\n    meta: page_45service_45detailsK9TftlIZN6Meta || {},\n    alias: page_45service_45detailsK9TftlIZN6Meta?.alias || [],\n    redirect: page_45service_45detailsK9TftlIZN6Meta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-service-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45services3SFMG8wV2bMeta?.name ?? \"page-services\",\n    path: page_45services3SFMG8wV2bMeta?.path ?? \"/page-services\",\n    meta: page_45services3SFMG8wV2bMeta || {},\n    alias: page_45services3SFMG8wV2bMeta?.alias || [],\n    redirect: page_45services3SFMG8wV2bMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-services.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45team_45detailsZkdIeitRnWMeta?.name ?? \"page-team-details\",\n    path: page_45team_45detailsZkdIeitRnWMeta?.path ?? \"/page-team-details\",\n    meta: page_45team_45detailsZkdIeitRnWMeta || {},\n    alias: page_45team_45detailsZkdIeitRnWMeta?.alias || [],\n    redirect: page_45team_45detailsZkdIeitRnWMeta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-team-details.vue\").then(m => m.default || m)\n  },\n  {\n    name: page_45teamclkSKC65j0Meta?.name ?? \"page-team\",\n    path: page_45teamclkSKC65j0Meta?.path ?? \"/page-team\",\n    meta: page_45teamclkSKC65j0Meta || {},\n    alias: page_45teamclkSKC65j0Meta?.alias || [],\n    redirect: page_45teamclkSKC65j0Meta?.redirect || undefined,\n    component: () => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-team.vue\").then(m => m.default || m)\n  }\n]",
+      "start": 1758152093512,
+      "end": 1758152093512,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1758152093513,
+      "end": 1758152093513,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1758152093513,
+      "end": 1758152093514,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1758152093514,
+      "end": 1758152093514,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1758152093514,
+      "end": 1758152093514,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1758152093514,
+      "end": 1758152093514,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1758152093514,
+      "end": 1758152093515,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1758152093515,
+      "end": 1758152093515,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152093515,
+      "end": 1758152093515,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152093516,
+      "end": 1758152093520,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152093520,
+      "end": 1758152093520,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152093520,
+      "end": 1758152093520,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1758152093520,
+      "end": 1758152093520,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1758152093520,
+      "end": 1758152093520,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1758152093520,
+      "end": 1758152093520,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1758152093520,
+      "end": 1758152093520,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as indexmzlV3RuwBPMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/index-2/index.vue?macro=true\";\nimport { default as indexZ3oyOiEmQDMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/index.vue?macro=true\";\nimport { default as news_45detailsGOQB1PC7fAMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/news-details.vue?macro=true\";\nimport { default as news_45gridnXD2bI7nVkMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/news-grid.vue?macro=true\";\nimport { default as page_45aboutcuj9EjhFJWMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-about.vue?macro=true\";\nimport { default as page_45contact3N6azziC8gMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-contact.vue?macro=true\";\nimport { default as page_45project_45details6TaapVkTAVMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-project-details.vue?macro=true\";\nimport { default as page_45projectsngA8ST3ioAMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-projects.vue?macro=true\";\nimport { default as page_45service_45detailsK9TftlIZN6Meta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-service-details.vue?macro=true\";\nimport { default as page_45services3SFMG8wV2bMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-services.vue?macro=true\";\nimport { default as page_45team_45detailsZkdIeitRnWMeta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-team-details.vue?macro=true\";\nimport { default as page_45teamclkSKC65j0Meta } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-team.vue?macro=true\";\nexport default [\n  {\n    name: indexmzlV3RuwBPMeta?.name ?? \"index-2\",\n    path: indexmzlV3RuwBPMeta?.path ?? \"/index-2\",\n    meta: indexmzlV3RuwBPMeta || {},\n    alias: indexmzlV3RuwBPMeta?.alias || [],\n    redirect: indexmzlV3RuwBPMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/index-2/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexZ3oyOiEmQDMeta?.name ?? \"index\",\n    path: indexZ3oyOiEmQDMeta?.path ?? \"/\",\n    meta: indexZ3oyOiEmQDMeta || {},\n    alias: indexZ3oyOiEmQDMeta?.alias || [],\n    redirect: indexZ3oyOiEmQDMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: news_45detailsGOQB1PC7fAMeta?.name ?? \"news-details\",\n    path: news_45detailsGOQB1PC7fAMeta?.path ?? \"/news-details\",\n    meta: news_45detailsGOQB1PC7fAMeta || {},\n    alias: news_45detailsGOQB1PC7fAMeta?.alias || [],\n    redirect: news_45detailsGOQB1PC7fAMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/news-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: news_45gridnXD2bI7nVkMeta?.name ?? \"news-grid\",\n    path: news_45gridnXD2bI7nVkMeta?.path ?? \"/news-grid\",\n    meta: news_45gridnXD2bI7nVkMeta || {},\n    alias: news_45gridnXD2bI7nVkMeta?.alias || [],\n    redirect: news_45gridnXD2bI7nVkMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/news-grid.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45aboutcuj9EjhFJWMeta?.name ?? \"page-about\",\n    path: page_45aboutcuj9EjhFJWMeta?.path ?? \"/page-about\",\n    meta: page_45aboutcuj9EjhFJWMeta || {},\n    alias: page_45aboutcuj9EjhFJWMeta?.alias || [],\n    redirect: page_45aboutcuj9EjhFJWMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-about.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45contact3N6azziC8gMeta?.name ?? \"page-contact\",\n    path: page_45contact3N6azziC8gMeta?.path ?? \"/page-contact\",\n    meta: page_45contact3N6azziC8gMeta || {},\n    alias: page_45contact3N6azziC8gMeta?.alias || [],\n    redirect: page_45contact3N6azziC8gMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-contact.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45project_45details6TaapVkTAVMeta?.name ?? \"page-project-details\",\n    path: page_45project_45details6TaapVkTAVMeta?.path ?? \"/page-project-details\",\n    meta: page_45project_45details6TaapVkTAVMeta || {},\n    alias: page_45project_45details6TaapVkTAVMeta?.alias || [],\n    redirect: page_45project_45details6TaapVkTAVMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-project-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45projectsngA8ST3ioAMeta?.name ?? \"page-projects\",\n    path: page_45projectsngA8ST3ioAMeta?.path ?? \"/page-projects\",\n    meta: page_45projectsngA8ST3ioAMeta || {},\n    alias: page_45projectsngA8ST3ioAMeta?.alias || [],\n    redirect: page_45projectsngA8ST3ioAMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-projects.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45service_45detailsK9TftlIZN6Meta?.name ?? \"page-service-details\",\n    path: page_45service_45detailsK9TftlIZN6Meta?.path ?? \"/page-service-details\",\n    meta: page_45service_45detailsK9TftlIZN6Meta || {},\n    alias: page_45service_45detailsK9TftlIZN6Meta?.alias || [],\n    redirect: page_45service_45detailsK9TftlIZN6Meta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-service-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45services3SFMG8wV2bMeta?.name ?? \"page-services\",\n    path: page_45services3SFMG8wV2bMeta?.path ?? \"/page-services\",\n    meta: page_45services3SFMG8wV2bMeta || {},\n    alias: page_45services3SFMG8wV2bMeta?.alias || [],\n    redirect: page_45services3SFMG8wV2bMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-services.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45team_45detailsZkdIeitRnWMeta?.name ?? \"page-team-details\",\n    path: page_45team_45detailsZkdIeitRnWMeta?.path ?? \"/page-team-details\",\n    meta: page_45team_45detailsZkdIeitRnWMeta || {},\n    alias: page_45team_45detailsZkdIeitRnWMeta?.alias || [],\n    redirect: page_45team_45detailsZkdIeitRnWMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-team-details.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: page_45teamclkSKC65j0Meta?.name ?? \"page-team\",\n    path: page_45teamclkSKC65j0Meta?.path ?? \"/page-team\",\n    meta: page_45teamclkSKC65j0Meta || {},\n    alias: page_45teamclkSKC65j0Meta?.alias || [],\n    redirect: page_45teamclkSKC65j0Meta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/pages/page-team.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  }\n]",
+      "start": 1758152093521,
+      "end": 1758152093521,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1758152093521,
+      "end": 1758152093521,
+      "order": "normal"
+    }
+  ]
+}

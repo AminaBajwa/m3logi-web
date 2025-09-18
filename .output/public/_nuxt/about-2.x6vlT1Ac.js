@@ -1,0 +1,1 @@
+import"./entry.D5UbSBlD.js";const o=""+globalThis.__publicAssetsURL("images/resource/float-img-1.png"),i=""+globalThis.__publicAssetsURL("images/resource/about-1.jpg"),t=""+globalThis.__publicAssetsURL("images/resource/about-2.jpg");export{o as _,i as a,t as b};

@@ -1,0 +1,214 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/elements/CounterUp.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <span class=\"count-text\" ref=\"counterRef\">\r\n        {{ count }}\r\n    </span>\r\n</template>\r\n<script>\r\nexport default {\r\n    data() {\r\n        return {\r\n            count: 0,\r\n            inViewport: false\r\n        };\r\n    },\r\n    props: {\r\n        start: {\r\n            type: Number,\r\n            default: 0\r\n        },\r\n        end: {\r\n            type: Number,\r\n            required: true\r\n        },\r\n        duration: {\r\n            type: Number,\r\n            default: 1000 // In milliseconds\r\n        }\r\n    },\r\n    mounted() {\r\n        this.observer = new IntersectionObserver(this.handleIntersection, {\r\n            threshold: 0.2 // 20% of the element is visible\r\n        });\r\n        this.observer.observe(this.$refs.counterRef);\r\n    },\r\n    beforeUnmount() {\r\n        this.observer.disconnect();\r\n    },\r\n    methods: {\r\n        handleIntersection(entries) {\r\n            entries.forEach((entry) => {\r\n                if (entry.isIntersecting && !this.inViewport) {\r\n                    this.inViewport = true;\r\n                    this.startCounter();\r\n                }\r\n            });\r\n        },\r\n        startCounter() {\r\n            let startTime;\r\n            const step = (timestamp) => {\r\n                if (!startTime) startTime = timestamp;\r\n                const progress = timestamp - startTime;\r\n                this.count = Math.floor((this.end - this.start) * (progress / this.duration) + this.start);\r\n                if (progress < this.duration && this.inViewport) {\r\n                    requestAnimationFrame(step);\r\n                }\r\n            };\r\n            requestAnimationFrame(step);\r\n        }\r\n    }\r\n};\r\n</script>\r\n",
+      "start": 1758152097890,
+      "end": 1758152098376,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152098376,
+      "end": 1758152098376,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152098376,
+      "end": 1758152098376,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1758152098376,
+      "end": 1758152098376,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1758152098376,
+      "end": 1758152098376,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1758152098376,
+      "end": 1758152098376,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1758152098376,
+      "end": 1758152098376,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1758152098376,
+      "end": 1758152098376,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\nconst _sfc_main = {\r\n    data() {\r\n        return {\r\n            count: 0,\r\n            inViewport: false\r\n        };\r\n    },\r\n    props: {\r\n        start: {\r\n            type: Number,\r\n            default: 0\r\n        },\r\n        end: {\r\n            type: Number,\r\n            required: true\r\n        },\r\n        duration: {\r\n            type: Number,\r\n            default: 1000 // In milliseconds\r\n        }\r\n    },\r\n    mounted() {\r\n        this.observer = new IntersectionObserver(this.handleIntersection, {\r\n            threshold: 0.2 // 20% of the element is visible\r\n        });\r\n        this.observer.observe(this.$refs.counterRef);\r\n    },\r\n    beforeUnmount() {\r\n        this.observer.disconnect();\r\n    },\r\n    methods: {\r\n        handleIntersection(entries) {\r\n            entries.forEach((entry) => {\r\n                if (entry.isIntersecting && !this.inViewport) {\r\n                    this.inViewport = true;\r\n                    this.startCounter();\r\n                }\r\n            });\r\n        },\r\n        startCounter() {\r\n            let startTime;\r\n            const step = (timestamp) => {\r\n                if (!startTime) startTime = timestamp;\r\n                const progress = timestamp - startTime;\r\n                this.count = Math.floor((this.end - this.start) * (progress / this.duration) + this.start);\r\n                if (progress < this.duration && this.inViewport) {\r\n                    requestAnimationFrame(step);\r\n                }\r\n            };\r\n            requestAnimationFrame(step);\r\n        }\r\n    }\r\n};\r\n\nimport { toDisplayString as _toDisplayString, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (_openBlock(), _createElementBlock(\"span\", {\n    class: \"count-text\",\n    ref: \"counterRef\"\n  }, _toDisplayString($data.count), 513))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1758152098376,
+      "end": 1758152098384,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1758152098384,
+      "end": 1758152098384,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152098384,
+      "end": 1758152098384,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152098384,
+      "end": 1758152098384,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1758152098384,
+      "end": 1758152098384,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1758152098384,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1758152098385,
+      "end": 1758152098385,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152098385,
+      "end": 1758152098386,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152098386,
+      "end": 1758152098387,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152098387,
+      "end": 1758152098387,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152098387,
+      "end": 1758152098387,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1758152098387,
+      "end": 1758152098387,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1758152098387,
+      "end": 1758152098387,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1758152098387,
+      "end": 1758152098387,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1758152098387,
+      "end": 1758152098387,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1758152098387,
+      "end": 1758152098388,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1758152098388,
+      "end": 1758152098388,
+      "order": "normal"
+    }
+  ]
+}

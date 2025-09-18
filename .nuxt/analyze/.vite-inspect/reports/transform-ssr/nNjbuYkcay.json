@@ -1,0 +1,259 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/home2/Section9.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <section class=\"testimonial-section-two\">\r\n        <div class=\"bg-image\" style=\"background-image: url(./images/background/7.jpg)\"></div>\r\n        <div class=\"anim-icons\">\r\n            <span class=\"icon icon-plane-1 bounce-y\"></span>\r\n            <div class=\"icon float-image wow fadeInRight\"><img src=\"/images/resource/delivery-boy.png\" alt=\"\"></div>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <!-- Testimonial Column -->\r\n                <div class=\"testimonial-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <div class=\"sec-title\">\r\n                            <span class=\"sub-title\">Our Testimonial</span>\r\n                            <h2>What they’re talking <br>about company</h2>\r\n                        </div>\r\n\r\n                        <!-- Testimonial Carousel -->\r\n                        <swiper :slides-per-view=\"1\" :space-between=\"30\" :loop=\"true\" :autoplay=\"{\r\n                            delay: 8000,\r\n                            disableOnInteraction: true,\r\n                        }\" class=\"testimonial-carousel-two owl-carousel owl-theme default-dots\">\r\n                            <!-- Testimonial Block Two -->\r\n                            <swiper-slide class=\"testimonial-block-two\">\r\n                                <div class=\"inner-box\">\r\n                                    <i class=\"icon icon-quote\"></i>\r\n                                    <div class=\"text\">This is due to their excellent service, and augue homero consectetuer\r\n                                        nam. Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</div>\r\n                                    <div class=\"info-box\">\r\n                                        <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-4.jpg\" alt=\"\"></div>\r\n                                        <h4 class=\"name\">Jessica Brown</h4>\r\n                                        <span class=\"designation\">Customer</span>\r\n                                    </div>\r\n                                </div>\r\n                            </swiper-slide>\r\n\r\n                            <!-- Testimonial Block Two -->\r\n                            <swiper-slide class=\"testimonial-block-two\">\r\n                                <div class=\"inner-box\">\r\n                                    <i class=\"icon icon-quote\"></i>\r\n                                    <div class=\"text\">propriae, malis exerci habemus has vocent persius eum ea. This is due\r\n                                        to their excellent service, and augue homero consectetuer nam. Eu quo</div>\r\n                                    <div class=\"info-box\">\r\n                                        <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-3.jpg\" alt=\"\"></div>\r\n                                        <h4 class=\"name\">Jessica Brown</h4>\r\n                                        <span class=\"designation\">Customer</span>\r\n                                    </div>\r\n                                </div>\r\n                            </swiper-slide>\r\n\r\n                            <!-- Testimonial Block Two -->\r\n                            <swiper-slide class=\"testimonial-block-two\">\r\n                                <div class=\"inner-box\">\r\n                                    <i class=\"icon icon-quote\"></i>\r\n                                    <div class=\"text\">This is due to their excellent service, propriae, malis exerci habemus\r\n                                        has vocent persius eum ea. and augue homero consectetuer nam. Eu quo</div>\r\n                                    <div class=\"info-box\">\r\n                                        <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-2.jpg\" alt=\"\"></div>\r\n                                        <h4 class=\"name\">Jessica Brown</h4>\r\n                                        <span class=\"designation\">Customer</span>\r\n                                    </div>\r\n                                </div>\r\n                            </swiper-slide>\r\n\r\n                        </swiper>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- form Column -->\r\n                <div class=\"form-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <!-- Contact Form -->\r\n                        <div class=\"contact-form\">\r\n                            <h4 class=\"title\">Request a quote</h4>\r\n                            <!--Contact Form-->\r\n                            <form method=\"post\" action=\"get\" id=\"contact-form\">\r\n                                <div class=\"row\">\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <label>Your Name:</label>\r\n                                        <input type=\"text\" name=\"full_name\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Your Email:</label>\r\n                                        <input type=\"text\" name=\"Email\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Phone No::</label>\r\n                                        <input type=\"text\" name=\"Phone\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <label>DIST (Miles):</label>\r\n                                        <div class=\"range-slider-one\">\r\n                                            <input type=\"text\" class=\"range-amount\" name=\"field-name\">\r\n                                            <div\r\n                                                class=\"distance-range-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all\">\r\n                                                <div class=\"ui-slider-range ui-widget-header ui-corner-all\"\r\n                                                    style=\"width: 40.15%; left: 0%;\"></div><span\r\n                                                    class=\"ui-slider-handle ui-state-default ui-corner-all\" tabindex=\"0\"\r\n                                                    style=\"left: 0%;\"></span><span\r\n                                                    class=\"ui-slider-handle ui-state-default ui-corner-all\" tabindex=\"0\"\r\n                                                    style=\"left: 40.15%;\"></span>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Freight type:</label>\r\n                                        <select class=\"custom-select\">\r\n                                            <option value=\"\">Select</option>\r\n                                            <option value=\"\">Air Freight</option>\r\n                                            <option value=\"\">Ocean Freight</option>\r\n                                            <option value=\"\">Rail transport</option>\r\n                                            <option value=\"\">Cargo ship</option>\r\n                                            <option value=\"\">Bulk cargo</option>\r\n                                        </select>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Load:</label>\r\n                                        <select class=\"custom-select\">\r\n                                            <option value=\"\">Select</option>\r\n                                            <option value=\"\">Door to Door</option>\r\n                                            <option value=\"\">International shipping</option>\r\n                                            <option value=\"\">Multi Modal</option>\r\n                                        </select>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <button class=\"theme-btn btn-style-two hvr-light\" type=\"submit\"\r\n                                            name=\"submit-form\"><span class=\"btn-title\">Submit Request</span></button>\r\n                                    </div>\r\n                                </div>\r\n                            </form>\r\n                        </div>\r\n                        <!--End Contact Form -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>\r\n<script>\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nexport default {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n</script>",
+      "start": 1758152125657,
+      "end": 1758152126339,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1758152126339,
+      "end": 1758152126339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nconst _sfc_main = {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/delivery-boy.png'\nimport _imports_1 from '/images/resource/testi-thumb-4.jpg'\nimport _imports_2 from '/images/resource/testi-thumb-3.jpg'\nimport _imports_3 from '/images/resource/testi-thumb-2.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {\n  const _component_swiper = _resolveComponent(\"swiper\")\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"testimonial-section-two\" }, _attrs))\n  }><div class=\"bg-image\" style=\"${\n    _ssrRenderStyle({\"background-image\":\"url(./images/background/7.jpg)\"})\n  }\"></div><div class=\"anim-icons\"><span class=\"icon icon-plane-1 bounce-y\"></span><div class=\"icon float-image wow fadeInRight\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"></div></div><div class=\"auto-container\"><div class=\"row\"><div class=\"testimonial-column col-lg-6 col-md-12 col-sm-12\"><div class=\"inner-column\"><div class=\"sec-title\"><span class=\"sub-title\">Our Testimonial</span><h2>What they’re talking <br>about company</h2></div>`)\n  _push(_ssrRenderComponent(_component_swiper, {\n    \"slides-per-view\": 1,\n    \"space-between\": 30,\n    loop: true,\n    autoplay: {\r\n                            delay: 8000,\r\n                            disableOnInteraction: true,\r\n                        },\n    class: \"testimonial-carousel-two owl-carousel owl-theme default-dots\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_swiper_slide, { class: \"testimonial-block-two\" }, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(`<div class=\"inner-box\"${\n                _scopeId\n              }><i class=\"icon icon-quote\"${\n                _scopeId\n              }></i><div class=\"text\"${\n                _scopeId\n              }>This is due to their excellent service, and augue homero consectetuer nam. Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</div><div class=\"info-box\"${\n                _scopeId\n              }><div class=\"thumb\"${\n                _scopeId\n              }><img${\n                _ssrRenderAttr(\"src\", _imports_1)\n              } alt=\"\"${\n                _scopeId\n              }></div><h4 class=\"name\"${\n                _scopeId\n              }>Jessica Brown</h4><span class=\"designation\"${\n                _scopeId\n              }>Customer</span></div></div>`)\n            } else {\n              return [\n                _createVNode(\"div\", { class: \"inner-box\" }, [\n                  _createVNode(\"i\", { class: \"icon icon-quote\" }),\n                  _createVNode(\"div\", { class: \"text\" }, \"This is due to their excellent service, and augue homero consectetuer nam. Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.\"),\n                  _createVNode(\"div\", { class: \"info-box\" }, [\n                    _createVNode(\"div\", { class: \"thumb\" }, [\n                      _createVNode(\"img\", {\n                        src: _imports_1,\n                        alt: \"\"\n                      })\n                    ]),\n                    _createVNode(\"h4\", { class: \"name\" }, \"Jessica Brown\"),\n                    _createVNode(\"span\", { class: \"designation\" }, \"Customer\")\n                  ])\n                ])\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n        _push(_ssrRenderComponent(_component_swiper_slide, { class: \"testimonial-block-two\" }, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(`<div class=\"inner-box\"${\n                _scopeId\n              }><i class=\"icon icon-quote\"${\n                _scopeId\n              }></i><div class=\"text\"${\n                _scopeId\n              }>propriae, malis exerci habemus has vocent persius eum ea. This is due to their excellent service, and augue homero consectetuer nam. Eu quo</div><div class=\"info-box\"${\n                _scopeId\n              }><div class=\"thumb\"${\n                _scopeId\n              }><img${\n                _ssrRenderAttr(\"src\", _imports_2)\n              } alt=\"\"${\n                _scopeId\n              }></div><h4 class=\"name\"${\n                _scopeId\n              }>Jessica Brown</h4><span class=\"designation\"${\n                _scopeId\n              }>Customer</span></div></div>`)\n            } else {\n              return [\n                _createVNode(\"div\", { class: \"inner-box\" }, [\n                  _createVNode(\"i\", { class: \"icon icon-quote\" }),\n                  _createVNode(\"div\", { class: \"text\" }, \"propriae, malis exerci habemus has vocent persius eum ea. This is due to their excellent service, and augue homero consectetuer nam. Eu quo\"),\n                  _createVNode(\"div\", { class: \"info-box\" }, [\n                    _createVNode(\"div\", { class: \"thumb\" }, [\n                      _createVNode(\"img\", {\n                        src: _imports_2,\n                        alt: \"\"\n                      })\n                    ]),\n                    _createVNode(\"h4\", { class: \"name\" }, \"Jessica Brown\"),\n                    _createVNode(\"span\", { class: \"designation\" }, \"Customer\")\n                  ])\n                ])\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n        _push(_ssrRenderComponent(_component_swiper_slide, { class: \"testimonial-block-two\" }, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(`<div class=\"inner-box\"${\n                _scopeId\n              }><i class=\"icon icon-quote\"${\n                _scopeId\n              }></i><div class=\"text\"${\n                _scopeId\n              }>This is due to their excellent service, propriae, malis exerci habemus has vocent persius eum ea. and augue homero consectetuer nam. Eu quo</div><div class=\"info-box\"${\n                _scopeId\n              }><div class=\"thumb\"${\n                _scopeId\n              }><img${\n                _ssrRenderAttr(\"src\", _imports_3)\n              } alt=\"\"${\n                _scopeId\n              }></div><h4 class=\"name\"${\n                _scopeId\n              }>Jessica Brown</h4><span class=\"designation\"${\n                _scopeId\n              }>Customer</span></div></div>`)\n            } else {\n              return [\n                _createVNode(\"div\", { class: \"inner-box\" }, [\n                  _createVNode(\"i\", { class: \"icon icon-quote\" }),\n                  _createVNode(\"div\", { class: \"text\" }, \"This is due to their excellent service, propriae, malis exerci habemus has vocent persius eum ea. and augue homero consectetuer nam. Eu quo\"),\n                  _createVNode(\"div\", { class: \"info-box\" }, [\n                    _createVNode(\"div\", { class: \"thumb\" }, [\n                      _createVNode(\"img\", {\n                        src: _imports_3,\n                        alt: \"\"\n                      })\n                    ]),\n                    _createVNode(\"h4\", { class: \"name\" }, \"Jessica Brown\"),\n                    _createVNode(\"span\", { class: \"designation\" }, \"Customer\")\n                  ])\n                ])\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_swiper_slide, { class: \"testimonial-block-two\" }, {\n            default: _withCtx(() => [\n              _createVNode(\"div\", { class: \"inner-box\" }, [\n                _createVNode(\"i\", { class: \"icon icon-quote\" }),\n                _createVNode(\"div\", { class: \"text\" }, \"This is due to their excellent service, and augue homero consectetuer nam. Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.\"),\n                _createVNode(\"div\", { class: \"info-box\" }, [\n                  _createVNode(\"div\", { class: \"thumb\" }, [\n                    _createVNode(\"img\", {\n                      src: _imports_1,\n                      alt: \"\"\n                    })\n                  ]),\n                  _createVNode(\"h4\", { class: \"name\" }, \"Jessica Brown\"),\n                  _createVNode(\"span\", { class: \"designation\" }, \"Customer\")\n                ])\n              ])\n            ]),\n            _: 1\n          }),\n          _createVNode(_component_swiper_slide, { class: \"testimonial-block-two\" }, {\n            default: _withCtx(() => [\n              _createVNode(\"div\", { class: \"inner-box\" }, [\n                _createVNode(\"i\", { class: \"icon icon-quote\" }),\n                _createVNode(\"div\", { class: \"text\" }, \"propriae, malis exerci habemus has vocent persius eum ea. This is due to their excellent service, and augue homero consectetuer nam. Eu quo\"),\n                _createVNode(\"div\", { class: \"info-box\" }, [\n                  _createVNode(\"div\", { class: \"thumb\" }, [\n                    _createVNode(\"img\", {\n                      src: _imports_2,\n                      alt: \"\"\n                    })\n                  ]),\n                  _createVNode(\"h4\", { class: \"name\" }, \"Jessica Brown\"),\n                  _createVNode(\"span\", { class: \"designation\" }, \"Customer\")\n                ])\n              ])\n            ]),\n            _: 1\n          }),\n          _createVNode(_component_swiper_slide, { class: \"testimonial-block-two\" }, {\n            default: _withCtx(() => [\n              _createVNode(\"div\", { class: \"inner-box\" }, [\n                _createVNode(\"i\", { class: \"icon icon-quote\" }),\n                _createVNode(\"div\", { class: \"text\" }, \"This is due to their excellent service, propriae, malis exerci habemus has vocent persius eum ea. and augue homero consectetuer nam. Eu quo\"),\n                _createVNode(\"div\", { class: \"info-box\" }, [\n                  _createVNode(\"div\", { class: \"thumb\" }, [\n                    _createVNode(\"img\", {\n                      src: _imports_3,\n                      alt: \"\"\n                    })\n                  ]),\n                  _createVNode(\"h4\", { class: \"name\" }, \"Jessica Brown\"),\n                  _createVNode(\"span\", { class: \"designation\" }, \"Customer\")\n                ])\n              ])\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div><div class=\"form-column col-lg-6 col-md-12 col-sm-12\"><div class=\"inner-column\"><div class=\"contact-form\"><h4 class=\"title\">Request a quote</h4><form method=\"post\" action=\"get\" id=\"contact-form\"><div class=\"row\"><div class=\"col-lg-12 col-md-12 col-sm-12 form-group\"><label>Your Name:</label><input type=\"text\" name=\"full_name\" placeholder=\"\" required></div><div class=\"col-lg-6 col-md-6 col-sm-12 form-group\"><label>Your Email:</label><input type=\"text\" name=\"Email\" placeholder=\"\" required></div><div class=\"col-lg-6 col-md-6 col-sm-12 form-group\"><label>Phone No::</label><input type=\"text\" name=\"Phone\" placeholder=\"\" required></div><div class=\"col-lg-12 col-md-12 col-sm-12 form-group\"><label>DIST (Miles):</label><div class=\"range-slider-one\"><input type=\"text\" class=\"range-amount\" name=\"field-name\"><div class=\"distance-range-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all\"><div class=\"ui-slider-range ui-widget-header ui-corner-all\" style=\"${\n    _ssrRenderStyle({\"width\":\"40.15%\",\"left\":\"0%\"})\n  }\"></div><span class=\"ui-slider-handle ui-state-default ui-corner-all\" tabindex=\"0\" style=\"${\n    _ssrRenderStyle({\"left\":\"0%\"})\n  }\"></span><span class=\"ui-slider-handle ui-state-default ui-corner-all\" tabindex=\"0\" style=\"${\n    _ssrRenderStyle({\"left\":\"40.15%\"})\n  }\"></span></div></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 form-group\"><label>Freight type:</label><select class=\"custom-select\"><option value=\"\">Select</option><option value=\"\">Air Freight</option><option value=\"\">Ocean Freight</option><option value=\"\">Rail transport</option><option value=\"\">Cargo ship</option><option value=\"\">Bulk cargo</option></select></div><div class=\"col-lg-6 col-md-6 col-sm-12 form-group\"><label>Load:</label><select class=\"custom-select\"><option value=\"\">Select</option><option value=\"\">Door to Door</option><option value=\"\">International shipping</option><option value=\"\">Multi Modal</option></select></div><div class=\"col-lg-12 col-md-12 col-sm-12 form-group\"><button class=\"theme-btn btn-style-two hvr-light\" type=\"submit\" name=\"submit-form\"><span class=\"btn-title\">Submit Request</span></button></div></div></form></div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home2/Section9.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1758152126339,
+      "end": 1758152126359,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "file": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/home2/Section9.vue",
+        "names": [],
+        "sources": [
+          "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/home2/Section9.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n    <section class=\"testimonial-section-two\">\r\n        <div class=\"bg-image\" style=\"background-image: url(./images/background/7.jpg)\"></div>\r\n        <div class=\"anim-icons\">\r\n            <span class=\"icon icon-plane-1 bounce-y\"></span>\r\n            <div class=\"icon float-image wow fadeInRight\"><img src=\"/images/resource/delivery-boy.png\" alt=\"\"></div>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <!-- Testimonial Column -->\r\n                <div class=\"testimonial-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <div class=\"sec-title\">\r\n                            <span class=\"sub-title\">Our Testimonial</span>\r\n                            <h2>What they’re talking <br>about company</h2>\r\n                        </div>\r\n\r\n                        <!-- Testimonial Carousel -->\r\n                        <swiper :slides-per-view=\"1\" :space-between=\"30\" :loop=\"true\" :autoplay=\"{\r\n                            delay: 8000,\r\n                            disableOnInteraction: true,\r\n                        }\" class=\"testimonial-carousel-two owl-carousel owl-theme default-dots\">\r\n                            <!-- Testimonial Block Two -->\r\n                            <swiper-slide class=\"testimonial-block-two\">\r\n                                <div class=\"inner-box\">\r\n                                    <i class=\"icon icon-quote\"></i>\r\n                                    <div class=\"text\">This is due to their excellent service, and augue homero consectetuer\r\n                                        nam. Eu quo laoreet propriae, malis exerci habemus has vocent persius eum ea.</div>\r\n                                    <div class=\"info-box\">\r\n                                        <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-4.jpg\" alt=\"\"></div>\r\n                                        <h4 class=\"name\">Jessica Brown</h4>\r\n                                        <span class=\"designation\">Customer</span>\r\n                                    </div>\r\n                                </div>\r\n                            </swiper-slide>\r\n\r\n                            <!-- Testimonial Block Two -->\r\n                            <swiper-slide class=\"testimonial-block-two\">\r\n                                <div class=\"inner-box\">\r\n                                    <i class=\"icon icon-quote\"></i>\r\n                                    <div class=\"text\">propriae, malis exerci habemus has vocent persius eum ea. This is due\r\n                                        to their excellent service, and augue homero consectetuer nam. Eu quo</div>\r\n                                    <div class=\"info-box\">\r\n                                        <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-3.jpg\" alt=\"\"></div>\r\n                                        <h4 class=\"name\">Jessica Brown</h4>\r\n                                        <span class=\"designation\">Customer</span>\r\n                                    </div>\r\n                                </div>\r\n                            </swiper-slide>\r\n\r\n                            <!-- Testimonial Block Two -->\r\n                            <swiper-slide class=\"testimonial-block-two\">\r\n                                <div class=\"inner-box\">\r\n                                    <i class=\"icon icon-quote\"></i>\r\n                                    <div class=\"text\">This is due to their excellent service, propriae, malis exerci habemus\r\n                                        has vocent persius eum ea. and augue homero consectetuer nam. Eu quo</div>\r\n                                    <div class=\"info-box\">\r\n                                        <div class=\"thumb\"><img src=\"/images/resource/testi-thumb-2.jpg\" alt=\"\"></div>\r\n                                        <h4 class=\"name\">Jessica Brown</h4>\r\n                                        <span class=\"designation\">Customer</span>\r\n                                    </div>\r\n                                </div>\r\n                            </swiper-slide>\r\n\r\n                        </swiper>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- form Column -->\r\n                <div class=\"form-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <!-- Contact Form -->\r\n                        <div class=\"contact-form\">\r\n                            <h4 class=\"title\">Request a quote</h4>\r\n                            <!--Contact Form-->\r\n                            <form method=\"post\" action=\"get\" id=\"contact-form\">\r\n                                <div class=\"row\">\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <label>Your Name:</label>\r\n                                        <input type=\"text\" name=\"full_name\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Your Email:</label>\r\n                                        <input type=\"text\" name=\"Email\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Phone No::</label>\r\n                                        <input type=\"text\" name=\"Phone\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <label>DIST (Miles):</label>\r\n                                        <div class=\"range-slider-one\">\r\n                                            <input type=\"text\" class=\"range-amount\" name=\"field-name\">\r\n                                            <div\r\n                                                class=\"distance-range-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all\">\r\n                                                <div class=\"ui-slider-range ui-widget-header ui-corner-all\"\r\n                                                    style=\"width: 40.15%; left: 0%;\"></div><span\r\n                                                    class=\"ui-slider-handle ui-state-default ui-corner-all\" tabindex=\"0\"\r\n                                                    style=\"left: 0%;\"></span><span\r\n                                                    class=\"ui-slider-handle ui-state-default ui-corner-all\" tabindex=\"0\"\r\n                                                    style=\"left: 40.15%;\"></span>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Freight type:</label>\r\n                                        <select class=\"custom-select\">\r\n                                            <option value=\"\">Select</option>\r\n                                            <option value=\"\">Air Freight</option>\r\n                                            <option value=\"\">Ocean Freight</option>\r\n                                            <option value=\"\">Rail transport</option>\r\n                                            <option value=\"\">Cargo ship</option>\r\n                                            <option value=\"\">Bulk cargo</option>\r\n                                        </select>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Load:</label>\r\n                                        <select class=\"custom-select\">\r\n                                            <option value=\"\">Select</option>\r\n                                            <option value=\"\">Door to Door</option>\r\n                                            <option value=\"\">International shipping</option>\r\n                                            <option value=\"\">Multi Modal</option>\r\n                                        </select>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <button class=\"theme-btn btn-style-two hvr-light\" type=\"submit\"\r\n                                            name=\"submit-form\"><span class=\"btn-title\">Submit Request</span></button>\r\n                                    </div>\r\n                                </div>\r\n                            </form>\r\n                        </div>\r\n                        <!--End Contact Form -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>\r\n<script>\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nexport default {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n</script>"
+        ],
+        "mappings": "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"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1758152126359,
+      "end": 1758152126359,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152126359,
+      "end": 1758152126359,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152126359,
+      "end": 1758152126359,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152126359,
+      "end": 1758152126359,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1758152126359,
+      "end": 1758152126359,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1758152126359,
+      "end": 1758152126359,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1758152126359,
+      "end": 1758152126359,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1758152126359,
+      "end": 1758152126359,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1758152126359,
+      "end": 1758152126360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1758152126360,
+      "end": 1758152126360,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152126360,
+      "end": 1758152126363,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1758152126360,
+      "end": 1758152126363,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152126363,
+      "end": 1758152126363,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1758152126363,
+      "end": 1758152126363,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152126363,
+      "end": 1758152126363,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1758152126363,
+      "end": 1758152126363,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1758152126363,
+      "end": 1758152126364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1758152126364,
+      "end": 1758152126364,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1758152126364,
+      "end": 1758152126364,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1758152126364,
+      "end": 1758152126364,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1758152126364,
+      "end": 1758152126364,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<template>
+    <SectionsDemoSection1/>
+    <SectionsDemoSection2/>
+    <SectionsDemoSection3/>
+    <SectionsDemoSection4/>
+    <SectionsDemoSection5/>
+    <SectionsDemoSection7/>
+    <SectionsDemoSection8/>
+</template>

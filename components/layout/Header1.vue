@@ -8,10 +8,25 @@
             <div class="top-left">
                 <!-- Info List -->
                 <ul class="list-style-one">
-                    <li><i class="fa fa-map-marker-alt"></i> AKS Hatchobori Bldg 5floor</li>
-                    <li><i class="fa fa-clock"></i> Mon - Sat: 8am - 5pm</li>
+                    <!-- <li><i class="fa fa-map-marker-alt"></i> AKS Hatchobori Bldg 5floor</li> -->
                     <li><i class="fa fa-phone-volume"></i>
                         <NuxtLink to="tel:+81-3-6262-8600">+81-3-6262-8600</NuxtLink>
+                    </li>
+                    <li><i class="fa fa-user"></i>
+                        <NuxtLink to="">login</NuxtLink>
+                    </li>
+                    <li><i class="fa fa-search"></i>
+                        <NuxtLink to="">Track your Shipment</NuxtLink>
+                    </li>
+                     <li>Select Language
+                        <NuxtLink to=""><span class="flag-icon flag-icon-us"></span></NuxtLink>
+                        <NuxtLink to=""><span class="flag-icon flag-icon-jp"></span></NuxtLink>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-globe"></i>
+                        <NuxtLink to=""><span class="flag-icon flag-icon-us"></span> Eng</NuxtLink>
+                        <NuxtLink to=""><span class="flag-icon flag-icon-jp"></span> Jpn</NuxtLink>
                     </li>
                 </ul>
             </div>
@@ -19,16 +34,16 @@
             <div class="top-right">
                 <ul class="social-icon-one">
                     <li>
-                        <NuxtLink to="#"><span class="fab fa-facebook-square"></span></NuxtLink>
+                        <NuxtLink to="https://web.facebook.com/m3logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="#"><span class="fab fa-twitter"></span></NuxtLink>
+                        <NuxtLink to="https://twitter.com/m3logi"><span class="fab fa-twitter"></span></NuxtLink>
                     </li>
-                    <li>
+                    <!-- <li>
                         <NuxtLink to="#"><span class="fab fa-pinterest-p"></span></NuxtLink>
-                    </li>
+                    </li> -->
                     <li>
-                        <NuxtLink to="#"><span class="fab fa-instagram"></span></NuxtLink>
+                        <NuxtLink to="https://www.instagram.com/m3.logi/"><span class="fab fa-instagram"></span></NuxtLink>
                     </li>
                 </ul>
             </div>
@@ -110,24 +125,23 @@
                         <div class="contact-info-box">
                             <span class="icon lnr-icon-clock"></span>
                             <span class="title">Send Email</span>
-                            Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+                            Mon - Fri 9:00 - 5:00, Saturday, Sunday - CLOSED
                         </div>
                     </li>
                 </ul>
 
-
-                <ul class="social-links">
+            <ul class="social-icon-one">
                     <li>
-                        <NuxtLink to="#"><i class="fab fa-twitter"></i></NuxtLink>
+                        <NuxtLink to="https://web.facebook.com/m3logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="#"><i class="fab fa-facebook-f"></i></NuxtLink>
+                        <NuxtLink to="https://twitter.com/m3logi"><span class="fab fa-twitter"></span></NuxtLink>
                     </li>
+                    <!-- <li>
+                        <NuxtLink to="#"><span class="fab fa-pinterest-p"></span></NuxtLink>
+                    </li> -->
                     <li>
-                        <NuxtLink to="#"><i class="fab fa-pinterest"></i></NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="#"><i class="fab fa-instagram"></i></NuxtLink>
+                        <NuxtLink to="https://www.instagram.com/m3.logi/"><span class="fab fa-instagram"></span></NuxtLink>
                     </li>
                 </ul>
             </nav>

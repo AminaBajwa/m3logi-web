@@ -1,4 +1,4 @@
 <template>
-    <LayoutPageTitle title="News Grid" />
+    <LayoutPageTitle title="Locations" />
     <SectionsNewsNewsgrid/>
 </template>

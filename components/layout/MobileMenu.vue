@@ -60,7 +60,7 @@
             <NuxtLink to="/#">News</NuxtLink>
             <ul :class="{ 'd-block': isActive.key === 6 }">
                 <li>
-                    <NuxtLink to="/news-grid">News Grid</NuxtLink>
+                    <NuxtLink to="/news-grid">Location</NuxtLink>
                 </li>
                 <li>
                     <NuxtLink to="/news-details">News Details</NuxtLink>

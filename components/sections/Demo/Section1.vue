@@ -33,7 +33,7 @@
                                         <ElementsCounterUp :end="4890" />
                                     </div>
                                 </div>
-                                <figure class="image animate-5 animate-x"><img src="/images/resource/truck.png" alt="">
+                                <figure class="image animate-5 animate-x"><img src="/images/resource/ship1.png" alt="">
                                 </figure>
                             </div>
                         </div>

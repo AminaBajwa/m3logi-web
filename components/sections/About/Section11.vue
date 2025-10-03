@@ -1,5 +1,5 @@
 <template>
-    <section class="about-section-two">
+    <section class="about-section-two" id="mission">
         <div class="auto-container">
             <div class="row">
                 <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">

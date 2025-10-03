@@ -7,8 +7,8 @@
 
         <div class="auto-container">
             <div class="sec-title text-center">
-                <span class="sub-title">SPECIALISE IN THE TRANSPORTATION</span>
-                <h2>Specialist logistics services</h2>
+                <span class="sub-title">Services by M3Logi</span>
+                <h2>We provide services to take your goods <br> where they need to go.</h2>
             </div>
 
             <div class="row">
@@ -17,7 +17,7 @@
                     <div class="inner-box ">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to="/page-service-details"><img src="/images/resource/service-1.jpg" alt="">
+                                <NuxtLink to="/page-service-details"><img src="/images/yardImg.jpeg" alt="">
                                 </NuxtLink>
                             </figure>
                         </div>
@@ -38,7 +38,7 @@
                     <div class="inner-box ">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to="/page-service-details"><img src="/images/resource/service-2.jpg" alt="">
+                                <NuxtLink to="/page-service-details"><img src="/images/Air-freight.jpg" alt="">
                                 </NuxtLink>
                             </figure>
                         </div>
@@ -59,14 +59,14 @@
                     <div class="inner-box ">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to="/page-service-details"><img src="/images/resource/service-4.jpg" alt="">
+                                <NuxtLink to="/page-service-details"><img src="/images/VehicleInspection.jpg" alt="">
                                 </NuxtLink>
                             </figure>
                         </div>
                         <div class="content-box">
                             <!-- <i class="icon flaticon-delivery-box-4"></i> -->
                              <i class="icon flaticon-wrench"></i>
-                            <span class="sub-title">06 Service</span>
+                            <span class="sub-title">03 Service</span>
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Vehicle Inspection</NuxtLink>
                             </h4>
@@ -80,14 +80,14 @@
                     <div class="inner-box ">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to="/page-service-details"><img src="/images/resource/service-4.jpg" alt="">
+                                <NuxtLink to="/page-service-details"><img src="/images/DrayageServices.jpeg" alt="">
                                 </NuxtLink>
                             </figure>
                         </div>
                         <div class="content-box">
                             <!-- <i class="icon flaticon-delivery-box-4"></i> -->
-                              <i class="icon flaticon-container-truck"></i>
-                            <span class="sub-title">08 Service</span>
+                              <i class="icon flaticon-truck"></i>
+                            <span class="sub-title">04 Service</span>
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Drayage Services</NuxtLink>
                             </h4>
@@ -101,13 +101,13 @@
                     <div class="inner-box ">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to="/page-service-details"><img src="/images/resource/service-3.jpg" alt="">
+                                <NuxtLink to="/page-service-details"><img src="/images/LandTransportation.jpeg" alt="">
                                 </NuxtLink>
                             </figure>
                         </div>
                         <div class="content-box">
                             <i class="icon flaticon-delivery-truck-3"></i>
-                            <span class="sub-title">03 Service</span>
+                            <span class="sub-title">05 Service</span>
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Land Transportation</NuxtLink>
                             </h4>
@@ -121,14 +121,14 @@
                     <div class="inner-box ">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to="/page-service-details"><img src="/images/resource/service-4.jpg" alt="">
+                                <NuxtLink to="/page-service-details"><img src="/images/OceanTransportation.jpeg" alt="">
                                 </NuxtLink>
                             </figure>
                         </div>
                         <div class="content-box">
                             <!-- <i class="icon flaticon-delivery-box-4"></i> -->
                             <i class="icon flaticon-cargo-boat"></i>
-                            <span class="sub-title">04 Service</span>
+                            <span class="sub-title">06 Service</span>
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Ocean Transportation</NuxtLink>
                             </h4>
@@ -142,14 +142,14 @@
                     <div class="inner-box ">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to="/page-service-details"><img src="/images/resource/service-4.jpg" alt="">
+                                <NuxtLink to="/page-service-details"><img src="/images/VehicleMaintenance.jpg" alt="">
                                 </NuxtLink>
                             </figure>
                         </div>
                         <div class="content-box">
                             <!-- <i class="icon flaticon-delivery-box-4"></i> -->
                              <i class="icon flaticon-wrench"></i>
-                            <span class="sub-title">05 Service</span>
+                            <span class="sub-title">07 Service</span>
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Vehicle Maintenance</NuxtLink>
                             </h4>
@@ -165,14 +165,14 @@
                     <div class="inner-box ">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to="/page-service-details"><img src="/images/resource/service-4.jpg" alt="">
+                                <NuxtLink to="/page-service-details"><img src="/images/Custom-Clearance.jpg" alt="">
                                 </NuxtLink>
                             </figure>
                         </div>
                         <div class="content-box">
                             <!-- <i class="icon flaticon-delivery-box-4"></i> -->
-                             <i class="icon flaticon-checkmark"></i>
-                            <span class="sub-title">07 Service</span>
+                             <i class="icon fas fa-check"></i>
+                            <span class="sub-title">08 Service</span>
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Customer Clearance</NuxtLink>
                             </h4>

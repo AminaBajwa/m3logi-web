@@ -12,7 +12,7 @@
                     <div class="inner-column">
                         <div class="sec-title light">
                             <span class="sub-title">Why Choose Us</span>
-                            <h2>We create opportunity to reach potential</h2>
+                            <h2>Simple Online Booking, Full Carrier Responsibility.</h2>
                         </div>
 
                         <!-- Feature Block -->
@@ -20,8 +20,7 @@
                             <div class="inner-box">
                                 <i class="icon flaticon-delivery-box-4"></i>
                                 <h4 class="title">Safety and reliability</h4>
-                                <p class="text">Aenean placerat ut lacus nec pulvinar. Donec eu leo,
-                                    ante at, commodo diam.</p>
+                                <p class="text">As a licensed NVOCC, we legally act as your carrier and take end‑to‑end responsibility with compliant, secure handling.</p>
                             </div>
                         </div>
 
@@ -30,8 +29,7 @@
                             <div class="inner-box">
                                 <i class="icon flaticon-international-shipping-3"></i>
                                 <h4 class="title">Shipping worldwide</h4>
-                                <p class="text">Interdum et malesuada fames ac ante ipsum primis in faucibus donec tempor
-                                    nisi neque.</p>
+                                <p class="text">Global coverage across major ports with flexible sailing schedules—pick the route and timing that suit your plan.</p>
                             </div>
                         </div>
                     </div>

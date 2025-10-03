@@ -4,7 +4,7 @@
 
         <div class="auto-container">
             <div class="sec-title text-center">
-                <span class="sub-title">SPECIALISE IN THE TRANSPORTATION</span>
+                <span class="sub-title">OUR SERVICES</span>
                 <h2>Specialist logistics services</h2>
             </div>
 

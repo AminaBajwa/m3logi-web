@@ -1,4 +1,4 @@
 <template>
-    <LayoutPageTitle title="News Details" />
+    <LayoutPageTitle title="Contact Us" />
     <SectionsContactForm/>
 </template>

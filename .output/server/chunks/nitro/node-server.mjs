@@ -5380,12 +5380,12 @@ const assets = {
     "size": 3380,
     "path": "../public/images/logo.png"
   },
-  "/images/logoM3Logi-.png": {
+  "/images/logom3Logi-.png": {
     "type": "image/png",
     "etag": "\"3022-vkcJqyL/7sqnyGgPEToGy0eVMMc\"",
     "mtime": "2025-09-15T14:17:43.303Z",
     "size": 12322,
-    "path": "../public/images/logoM3Logi-.png"
+    "path": "../public/images/logom3Logi-.png"
   },
   "/images/mozambique-of.jpg": {
     "type": "image/jpeg",

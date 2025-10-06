@@ -8,7 +8,7 @@
 						<div class="sec-title">
 							<span class="sub-title">Need any help?</span>
 							<h2>Get in touch with us</h2>
-							<div class="text">You can contact us for any kind of query or request, you can get information regarding any business you want to do with us and you can also demand any offer you wish to avail from ourservices. We value your feedback on the services we provide at M3LOGI, share your thoughts with us.</div>
+							<div class="text">You can contact us for any kind of query or request, you can get information regarding any business you want to do with us and you can also demand any offer you wish to avail from ourservices. We value your feedback on the services we provide at m3Logi, share your thoughts with us.</div>
 						</div>
 						<ul class="list-unstyled contact-details__info">
 							<li>
@@ -26,7 +26,7 @@
 								</div>
 								<div class="text">
 									<h6>Write email</h6>
-									<NuxtLink to="mailto:sales@m3logi.com ">sales@m3logi.com </NuxtLink>
+									<NuxtLink to="mailto:sales@m3Logi.com ">sales@m3Logi.com </NuxtLink>
 								</div>
 							</li>
 							<li>
@@ -109,14 +109,14 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 cntc">
           <p class="jpn-lochd">DURBAN OFFICE</p>
-          <p class="jpnparag">M3LOGI 1 (PTY) LTD OFFICE: 403, 4TH FLOOR CORPORATE PLACE, 9 DOROTHY NYEMBE STREET, DURBAN, 4001 SOUTH AFRICA</p>
+          <p class="jpnparag">m3Logi 1 (PTY) LTD OFFICE: 403, 4TH FLOOR CORPORATE PLACE, 9 DOROTHY NYEMBE STREET, DURBAN, 4001 SOUTH AFRICA</p>
           <a href="tel:+0027313010504" class="locphn">
             <i class="icon-phone-icon"></i>
             <span>+0027 31 3010504</span>
           </a>
-          <a href="mailto:sales@m3logi.com" class="locemail">
+          <a href="mailto:sales@m3Logi.com" class="locemail">
             <i class="icon-info-icon"></i>
-            <span class="eml">sales@m3logi.com</span>
+            <span class="eml">sales@m3Logi.com</span>
           </a>
         </div>
 
@@ -128,14 +128,14 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 cntc">
           <p class="jpn-lochd">CHILE OFFICE</p>
-          <p class="jpnparag">M3LOGI SHIPPING CHILE LTD. OFICINA 1101, AV. BOLÍVAR 202, EDIFICIO FINANZAS, IQUIQUE, CHILE</p>
+          <p class="jpnparag">m3Logi SHIPPING CHILE LTD. OFICINA 1101, AV. BOLÍVAR 202, EDIFICIO FINANZAS, IQUIQUE, CHILE</p>
           <a href="tel:coming-soon" class="locphn">
             <i class="icon-phone-icon"></i>
             <span>Coming Soon</span>
           </a>
-          <a href="mailto:chile@m3logi.com" class="locemail">
+          <a href="mailto:chile@m3Logi.com" class="locemail">
             <i class="icon-info-icon"></i>
-            <span class="eml">chile@m3logi.com</span>
+            <span class="eml">chile@m3Logi.com</span>
           </a>
         </div>
       </div>
@@ -149,14 +149,14 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 cntc">
           <p class="jpn-lochd">MOZAMBIQUE OFFICE</p>
-          <p class="jpnparag">M3LOGI SHIPPING MOZAMBIQUE AFRICA PARK AVENIDA ACORDOS DE LUSAKA NO 95 MAPUTO MOZAMBIQUE</p>
+          <p class="jpnparag">m3Logi SHIPPING MOZAMBIQUE AFRICA PARK AVENIDA ACORDOS DE LUSAKA NO 95 MAPUTO MOZAMBIQUE</p>
           <a href="tel:coming-soon" class="locphn">
             <i class="icon-phone-icon"></i>
             <span>Coming Soon</span>
           </a>
-          <a href="mailto:mozambique@m3logi.com" class="locemail">
+          <a href="mailto:mozambique@m3Logi.com" class="locemail">
             <i class="icon-info-icon"></i>
-            <span class="eml">mozambique@m3logi.com</span>
+            <span class="eml">mozambique@m3Logi.com</span>
           </a>
         </div>
 
@@ -168,14 +168,14 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 cntc pad-mmb">
           <p class="jpn-lochd">PAKISTAN OFFICE</p>
-          <p class="jpnparag">M3LOGI SHIPPING PAKISTAN ROOM#204&205, 2ND FLOOR, SKY CENTER, AGHA KAMAL HAIDER ROAD, SIALKOT CANTT 51310 PAKISTAN</p>
+          <p class="jpnparag">m3Logi SHIPPING PAKISTAN ROOM#204&205, 2ND FLOOR, SKY CENTER, AGHA KAMAL HAIDER ROAD, SIALKOT CANTT 51310 PAKISTAN</p>
           <a href="tel:coming-soon" class="locphn">
             <i class="icon-phone-icon"></i>
             <span>Coming Soon</span>
           </a>
-          <a href="mailto:pakistan@m3logi.com" class="locemail">
+          <a href="mailto:pakistan@m3Logi.com" class="locemail">
             <i class="icon-info-icon"></i>
-            <span class="eml">pakistan@m3logi.com</span>
+            <span class="eml">pakistan@m3Logi.com</span>
           </a>
         </div>
       </div>
@@ -191,7 +191,7 @@
 			<div class="row">
 				<!-- Google Map HTML Codes -->
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0776758261786!2d139.77559331474592!3d35.67508933791724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601896eb159fc48d%3A0x447a25745837bed8!2sM3LOGI!5e0!3m2!1sen!2s!4v1539855483649"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0776758261786!2d139.77559331474592!3d35.67508933791724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601896eb159fc48d%3A0x447a25745837bed8!2sm3Logi!5e0!3m2!1sen!2s!4v1539855483649"
 					data-tm-width="100%"
 					height="500"
 					frameborder="0"

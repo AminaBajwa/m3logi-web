@@ -27,7 +27,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Air freight</NuxtLink>
                             </h4>
-                            <div class="text">M3LOGI provides comprehensive air freight solutions with tracking and customs support.</div>
+                            <div class="text">m3Logi provides comprehensive air freight solutions with tracking and customs support.</div>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Sea freight</NuxtLink>
                             </h4>
-                            <div class="text">M3LOGI offers ocean transportation to ports like Karachi, and more via Container and RORO shipping.</div>
+                            <div class="text">m3Logi offers ocean transportation to ports like Karachi, and more via Container and RORO shipping.</div>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Road service</NuxtLink>
                             </h4>
-                            <div class="text">M3LOGI handles container drayage and vehicle transportation from auctions to yards/ports.</div>
+                            <div class="text">m3Logi handles container drayage and vehicle transportation from auctions to yards/ports.</div>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Other solution</NuxtLink>
                             </h4>
-                            <div class="text">M3LOGI offers custom brokerage, yard services, and vehicle maintenance with pre-export inspections.</div>
+                            <div class="text">m3Logi offers custom brokerage, yard services, and vehicle maintenance with pre-export inspections.</div>
                         </div>
                     </div>
                 </div>

@@ -1,1 +1,1 @@
-# m3logi-nuxt
+# m3Logi-nuxt

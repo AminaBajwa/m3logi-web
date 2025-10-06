@@ -349,7 +349,7 @@ function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3Logi offers tailored, safe shipping solutions including RORO.</div></div></div></div><div class="feature-block col-lg-4 col-md-6 col-sm-12"><div class="inner-box"><div class="icon-box"><i class="icon flaticon-fast-delivery-1"></i><span class="count">02</span></div><div class="content-box"><h4 class="title">`);
+  _push(`</h4><div class="text">m3Logi offers tailored, safe shipping solutions including RORO.</div></div></div></div><div class="feature-block col-lg-4 col-md-6 col-sm-12"><div class="inner-box"><div class="icon-box"><i class="icon flaticon-fast-delivery-1"></i><span class="count">02</span></div><div class="content-box"><h4 class="title">`);
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/page-about" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -364,7 +364,7 @@ function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3Logi provides safe, customized container shipping.</div></div></div></div><div class="feature-block col-lg-4 col-md-6 col-sm-12"><div class="inner-box"><div class="icon-box"><i class="icon flaticon-container-2"></i><span class="count">03</span></div><div class="content-box"><h4 class="title">`);
+  _push(`</h4><div class="text">m3Logi provides safe, customized container shipping.</div></div></div></div><div class="feature-block col-lg-4 col-md-6 col-sm-12"><div class="inner-box"><div class="icon-box"><i class="icon flaticon-container-2"></i><span class="count">03</span></div><div class="content-box"><h4 class="title">`);
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/page-about" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -377,7 +377,7 @@ function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3Logi ensures hassle-free land transport services.</div></div></div></div></div></div></section>`);
+  _push(`</h4><div class="text">m3Logi ensures hassle-free land transport services.</div></div></div></div></div></div></section>`);
 }
 const _sfc_setup$f = _sfc_main$f.setup;
 _sfc_main$f.setup = (props, ctx) => {
@@ -1712,7 +1712,7 @@ const _sfc_main$4 = {};
 function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __nuxt_component_0$1;
   const _component_ElementsCounterUp = __nuxt_component_0$2;
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "offer-section" }, _attrs))}><div class="auto-container"><div class="row"><div class="content-column col-lg-5 col-md-12"><div class="inner-column"><div class="sec-title light"><span class="sub-title">Special Logistics</span><h2>Best services for businesses</h2><div class="text">TM3LOGI is your trusted NVOCC and freight forwarder, delivering seamless ocean transportation, custom brokerage, and vehicle logistics worldwide. From container drayage to RORO shipping, we handle every step with precision.</div></div><ul class="list-style-two"><li><i class="fa fa-plane"></i> Urgent Transport Solutions</li><li><i class="fa fa-plane"></i> Top quality services with reasonable price</li><li><i class="fa fa-plane"></i> Reliable &amp; Experienced Team of 110+ Experts</li></ul>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "offer-section" }, _attrs))}><div class="auto-container"><div class="row"><div class="content-column col-lg-5 col-md-12"><div class="inner-column"><div class="sec-title light"><span class="sub-title">Special Logistics</span><h2>Best services for businesses</h2><div class="text">Tm3Logi is your trusted NVOCC and freight forwarder, delivering seamless ocean transportation, custom brokerage, and vehicle logistics worldwide. From container drayage to RORO shipping, we handle every step with precision.</div></div><ul class="list-style-two"><li><i class="fa fa-plane"></i> Urgent Transport Solutions</li><li><i class="fa fa-plane"></i> Top quality services with reasonable price</li><li><i class="fa fa-plane"></i> Reliable &amp; Experienced Team of 110+ Experts</li></ul>`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     to: "/page-services",
     class: "theme-btn btn-style-two hvr-light"

@@ -103,13 +103,13 @@ const _sfc_main$2 = {
       _push(ssrRenderComponent(_component_NuxtLink, { to: "/" }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<img${ssrRenderAttr("src", _imports_0)} alt="" title="m3logi"${_scopeId}>`);
+            _push2(`<img${ssrRenderAttr("src", _imports_0)} alt="" title="m3Logi"${_scopeId}>`);
           } else {
             return [
               createVNode("img", {
                 src: _imports_0,
                 alt: "",
-                title: "m3logi"
+                title: "m3Logi"
               })
             ];
           }
@@ -767,13 +767,13 @@ const _sfc_main$1 = {
       _push(ssrRenderComponent(_component_NuxtLink, { to: "/" }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<img${ssrRenderAttr("src", _imports_0)} alt="" title="m3logi"${_scopeId}>`);
+            _push2(`<img${ssrRenderAttr("src", _imports_0)} alt="" title="m3Logi"${_scopeId}>`);
           } else {
             return [
               createVNode("img", {
                 src: _imports_0,
                 alt: "",
-                title: "m3logi"
+                title: "m3Logi"
               })
             ];
           }
@@ -849,10 +849,10 @@ const _sfc_main$1 = {
       _push(ssrRenderComponent(_component_NuxtLink, { to: "/mailto:help@company.com" }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`sales@m3logi.com`);
+            _push2(`sales@m3Logi.com`);
           } else {
             return [
-              createTextVNode("sales@m3logi.com")
+              createTextVNode("sales@m3Logi.com")
             ];
           }
         }),

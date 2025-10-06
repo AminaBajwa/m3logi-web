@@ -41,7 +41,7 @@
             <div class="main-box">
                 <div class="logo-box">
                     <div class="logo">
-                        <NuxtLink to="/"><img src="/images/logo-3.png" alt="" title="m3logi"></NuxtLink>
+                        <NuxtLink to="/"><img src="/images/logo-3.png" alt="" title="m3Logi"></NuxtLink>
                     </div>
                 </div>
 

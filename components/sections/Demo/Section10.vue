@@ -7,13 +7,17 @@
 
         <div class="auto-container">
             <div class="row">
+                  <div class="sec-title light">
+                            <span class="sub-title">Why Choose Us</span>
+                            <h2>Simple Online Booking, <br>Full Carrier Responsibility.</h2>
+                        </div>
                 <!-- Content Column -->
                 <div class="content-column col-lg-6 col-md-12 col-sm-12 ">
                     <div class="inner-column">
-                        <div class="sec-title light">
+                        <!-- <div class="sec-title light">
                             <span class="sub-title">Why Choose Us</span>
                             <h2>Simple Online Booking, Full Carrier Responsibility.</h2>
-                        </div>
+                        </div> -->
 
                         <!-- Feature Block -->
                         <div class="feature-block-two">
@@ -27,7 +31,8 @@
                         <!-- Feature Block -->
                         <div class="feature-block-two">
                             <div class="inner-box">
-                                <i class="icon flaticon-international-shipping-3"></i>
+                                <!-- <i class="icon flaticon-international-shipping-3"></i> -->
+                                <i class="icon flaticon-worldwide-shipping"></i>
                                 <h4 class="title">Shipping worldwide</h4>
                                 <p class="text">Global coverage across major ports with flexible sailing schedules—pick the route and timing that suit your plan.</p>
                             </div>
@@ -36,65 +41,24 @@
                 </div>
 
                 <!-- form Column -->
-                <div class="form-column col-lg-6 col-md-12 col-sm-12">
+                <div class="form-column col-lg-5 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <!-- Contact Form -->
-                        <div class="contact-form wow fadeInLeft">
-                            <!--Contact Form-->
-                            <form method="post" action="get" id="contact-form">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <label>Your Name:</label>
-                                        <input type="text" name="full_name" placeholder="" required>
-                                    </div>
+                          <div class="feature-block-two">
+                            <div class="inner-box">
+                                <i class="icon flaticon-logistics"></i>
+                                <h4 class="title">Total Logistics Solutions</h4>
+                                <p class="text">From pickup to customs clearance and final delivery, we provide seamless logistics solutions under one integrated platform</p>
+                            </div>
+                        </div>
 
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <label>Your Email:</label>
-                                        <input type="text" name="Email" placeholder="" required>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <label>Phone No::</label>
-                                        <input type="text" name="Phone" placeholder="" required>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <label>DIST (Miles):</label>
-                                        <div class="range-slider-one">
-                                            <input type="text" class="range-amount" name="field-name">
-                                            <div class="distance-range-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all" style="width: 40.15%; left: 0%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 40.15%;"></span></div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <label>Freight type:</label>
-                                        <select class="custom-select">
-                                            <option value="">Select</option>
-                                            <option value="">Air Freight</option>
-                                            <option value="">Ocean Freight</option>
-                                            <option value="">Rail transport</option>
-                                            <option value="">Cargo ship</option>
-                                            <option value="">Bulk cargo</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                        <label>Load:</label>
-                                        <select class="custom-select">
-                                            <option value="">Select</option>
-                                            <option value="">Door to Door</option>
-                                            <option value="">International shipping</option>
-                                            <option value="">Multi Modal</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <button class="theme-btn btn-style-two hvr-light" type="submit"
-                                            name="submit-form"><span class="btn-title">Submit Request</span></button>
-                                    </div>
-
-                                </div>
-                            </form>
+                        <!-- Feature Block -->
+                        <div class="feature-block-two">
+                            <div class="inner-box">
+                                <i class="icon flaticon-international-shipping-3"></i>
+                                <h4 class="title">Vehicle Handling Expertise</h4>
+                                <p class="text">We manage inspection, maintenance, and transport with precision, ensuring every vehicle is shipped safely and on time.</p>
+                            </div>
                         </div>
                         <!--End Contact Form -->
                     </div>

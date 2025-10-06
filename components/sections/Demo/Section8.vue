@@ -3,7 +3,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title">Our Brands</span>
-                <h2>Specialist units delivering end‑to‑end logistics by M3LOGI</h2>
+                <h2>Specialist units delivering <br>end‑to‑end logistics by m3Logi</h2>
             </div>
 
             <div class="row">
@@ -74,7 +74,7 @@
                         </div>
                          <div class="info-box">
                             <h4 class="name">
-                                <NuxtLink to="">AUTO MECHANIC M3LOGI — Maintenance & PEI</NuxtLink>
+                                <NuxtLink to="">AUTO MECHANIC m3Logi — Maintenance & PEI</NuxtLink>
                             </h4>
                             <span class="">Certified Repairs & Pre‑Export Inspection</span>
                         </div>
@@ -99,7 +99,7 @@
                          <div class="info-box">
                             
                             <h4 class="name">
-                                <NuxtLink to="">WAREHOUSE M3LOGI — Yard Services</NuxtLink>
+                                <NuxtLink to="">WAREHOUSE m3Logi — Yard Services</NuxtLink>
                             </h4>
                             <span class="">Secure Yard & Warehouse Operations</span>
                         </div>
@@ -124,7 +124,7 @@
                          <div class="info-box">
                             
                             <h4 class="name">
-                                <NuxtLink to="">DRAYAGE M3LOGI — Container Drayage</NuxtLink>
+                                <NuxtLink to="">DRAYAGE m3Logi — Container Drayage</NuxtLink>
                             </h4>
                             <span class="">On‑Time Container Drayage Services</span>
                         </div>
@@ -149,7 +149,7 @@
                          <div class="info-box">
                             
                             <h4 class="name">
-                                <NuxtLink to="">CUSTOM BROKER M3LOGI — Customs Brokerage</NuxtLink>
+                                <NuxtLink to="">CUSTOM BROKER m3Logi — Customs Brokerage</NuxtLink>
                             </h4>
                             <span class="">Fast, Compliant Customs Clearance</span>
                         </div>

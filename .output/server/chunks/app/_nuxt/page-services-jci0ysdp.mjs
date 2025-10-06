@@ -22,7 +22,7 @@ import 'vue-router';
 
 const _sfc_main$2 = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
-  _push(`<section${ssrRenderAttrs(mergeProps({ class: "about-section-two style-two" }, _attrs))}><div class="anim-icons"><div class="float-text wow zoomInRight">m3logi</div></div><div class="auto-container" style="${ssrRenderStyle({ "margin-top": "52px" })}"><div class="row"><div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms"><div class="inner-column"><div class="sec-title"><span class="sub-title">Our Services</span><h2>Services We Provide</h2><h4>At M3Logi we ensure to connect the world through our unparalleled transport services.</h4><div class="text">We are a 360-degree cargo freight service provider with extensive facilities to transport your vehicles and other goods. As being the pioneers in the industry we are equipped to provide complete cargo and logistics arrangements from domestic deliveries to worldwide transport.</div></div></div></div><div class="image-column col-lg-6 col-md-12 col-sm-12"><div class="inner-column"><figure class="image-1"><img${ssrRenderAttr("src", _imports_0)} alt=""></figure><figure class="image-2"><img${ssrRenderAttr("src", _imports_1)} alt=""><div class="icon-box"><i class="icon flaticon-delivery-box-4"></i></div></figure></div></div></div></div></section>`);
+  _push(`<section${ssrRenderAttrs(mergeProps({ class: "about-section-two style-two" }, _attrs))}><div class="anim-icons"><div class="float-text wow zoomInRight">m3Logi</div></div><div class="auto-container" style="${ssrRenderStyle({ "margin-top": "52px" })}"><div class="row"><div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms"><div class="inner-column"><div class="sec-title"><span class="sub-title">Our Services</span><h2>Services We Provide</h2><h4>At m3Logi we ensure to connect the world through our unparalleled transport services.</h4><div class="text">We are a 360-degree cargo freight service provider with extensive facilities to transport your vehicles and other goods. As being the pioneers in the industry we are equipped to provide complete cargo and logistics arrangements from domestic deliveries to worldwide transport.</div></div></div></div><div class="image-column col-lg-6 col-md-12 col-sm-12"><div class="inner-column"><figure class="image-1"><img${ssrRenderAttr("src", _imports_0)} alt=""></figure><figure class="image-2"><img${ssrRenderAttr("src", _imports_1)} alt=""><div class="icon-box"><i class="icon flaticon-delivery-box-4"></i></div></figure></div></div></div></div></section>`);
 }
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {
@@ -121,7 +121,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3Logi has a vision to facilitate its customers at every level. To assist our customers with the complexities of customs rules and regulations, we offer customs clearance services through expert clearance agents. We strive to simplify every aspect of the trade for our customers.</div></div></div></div><div class="service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="600ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
+  _push(`</h4><div class="text">m3Logi has a vision to facilitate its customers at every level. To assist our customers with the complexities of customs rules and regulations, we offer customs clearance services through expert clearance agents. We strive to simplify every aspect of the trade for our customers.</div></div></div></div><div class="service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="600ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/page-service-details" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -150,7 +150,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3Logi provides its customers with easy Supply Chain Management System to cater to the complete process from the beginning till the end. As we aim to serve our customers comprehensively, we save them from all kinds of hassle and responsibility.</div></div></div></div><div class="service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="1200ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
+  _push(`</h4><div class="text">m3Logi provides its customers with easy Supply Chain Management System to cater to the complete process from the beginning till the end. As we aim to serve our customers comprehensively, we save them from all kinds of hassle and responsibility.</div></div></div></div><div class="service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="1200ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/page-service-details" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -179,7 +179,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3Logi has yards located at strategic locations all over Japan for the safe and secure storage of the vehicle. Additionally, we have trained staff at the yards for the up-keep of the goods stored.</div></div></div></div><div class="service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="1500ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
+  _push(`</h4><div class="text">m3Logi has yards located at strategic locations all over Japan for the safe and secure storage of the vehicle. Additionally, we have trained staff at the yards for the up-keep of the goods stored.</div></div></div></div><div class="service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="1500ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/page-service-details" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -208,7 +208,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3LOGI offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support.</div></div></div></div></div></div></section>`);
+  _push(`</h4><div class="text">m3Logi offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support.</div></div></div></div></div></div></section>`);
 }
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {

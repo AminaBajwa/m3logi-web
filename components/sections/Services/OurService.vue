@@ -2,7 +2,7 @@
     <section class="about-section-two style-two">
         <div class="anim-icons">
             <!-- <div class="float-image wow fadeInRight"><img src="/images/resource/float-img-4.png" alt=""></div> -->
-            <div class="float-text wow zoomInRight">m3logi</div>
+            <div class="float-text wow zoomInRight">m3Logi</div>
         </div>
 
         <div class="auto-container" style="margin-top: 52px;">
@@ -12,7 +12,7 @@
                         <div class="sec-title">
                             <span class="sub-title">Our Services</span>
                             <h2>Services We Provide</h2>
-                            <h4>At M3Logi we ensure to connect the world through our unparalleled transport services.</h4>
+                            <h4>At m3Logi we ensure to connect the world through our unparalleled transport services.</h4>
                             <div class="text">We are a 360-degree cargo freight service provider with extensive facilities to transport your vehicles and other goods. As being the pioneers in the industry we are equipped to provide complete cargo and logistics arrangements from domestic deliveries to worldwide transport.</div>
                         </div>
                     </div>

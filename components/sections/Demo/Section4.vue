@@ -7,7 +7,7 @@
 
         <div class="auto-container">
             <div class="sec-title text-center">
-                <span class="sub-title">Services by M3Logi</span>
+                <span class="sub-title">Services by m3Logi</span>
                 <h2>We provide services to take your goods <br> where they need to go.</h2>
             </div>
 

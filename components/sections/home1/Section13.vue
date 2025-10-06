@@ -8,7 +8,7 @@
                         <div class="sec-title light">
                             <span class="sub-title">Special Logistics</span>
                             <h2>Best services for businesses</h2>
-                            <div class="text">TM3LOGI is your trusted NVOCC and freight forwarder, delivering seamless ocean transportation, 
+                            <div class="text">Tm3Logi is your trusted NVOCC and freight forwarder, delivering seamless ocean transportation, 
                                 custom brokerage, and vehicle logistics worldwide. From container drayage to RORO shipping, we handle every step with precision.</div>
                         </div>
                         <ul class="list-style-two">

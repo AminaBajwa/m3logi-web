@@ -8,7 +8,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title">How It Work</span>
-                <h2>Ship with M3LOGI in 3 Easy Steps</h2>
+                <h2>Ship with m3Logi in 3 Easy Steps</h2>
                 <!-- <P>Online booking with a licensed NVOCC—fast, compliant, and trackable.</P> -->
             </div>
 

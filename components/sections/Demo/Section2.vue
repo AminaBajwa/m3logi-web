@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="title-column col-lg-6 col-md-12">
                     <div class="title-box">
-                        <h4 class="title">M3Logi prides itself <br>on core values that shape our business.</h4>
+                        <h4 class="title">m3Logi prides itself <br>on core values that shape our business.</h4>
                     </div>
                 </div>
 

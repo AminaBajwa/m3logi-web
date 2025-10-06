@@ -25,7 +25,7 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
                             <div class="icon-box"><i class="icon flaticon-stock-1"></i></div>
                             <h4 class="title">Contact</h4>
                             <div class="text">
-                                <NuxtLink to="mailto:sales@m3logi.com ">sales@m3logi.com </NuxtLink>
+                                <NuxtLink to="mailto:sales@m3Logi.com ">sales@m3Logi.com </NuxtLink>
                                 <NuxtLink to="tel:+92(8800)48720">+81-3-6262-8600</NuxtLink>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
                             <div class="logo">
                                 <NuxtLink to="/"><img src="/images/logoM3Logi-.png" alt=""></NuxtLink>
                             </div>
-                            <div class="text">m3logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>
+                            <div class="text">m3Logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>
                             <NuxtLink to="/page-about" class="theme-btn btn-style-one hvr-light small"><span
                                     class="btn-title">About</span></NuxtLink>
                         </div>
@@ -154,7 +154,7 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
             <div class="auto-container">
                 <div class="inner-container">
                     <div class="copyright-text">
-                        <p>&copy; Copyright 2025 by <NuxtLink to="/">m3logi.com</NuxtLink>
+                        <p>&copy; Copyright 2025 by <NuxtLink to="/">m3Logi.com</NuxtLink>
                         </p>
                     </div>
 

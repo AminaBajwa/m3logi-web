@@ -85,7 +85,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3LOGI provides comprehensive air freight solutions with tracking and customs support.</div></div></div></div><div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
+  _push(`</h4><div class="text">m3Logi provides comprehensive air freight solutions with tracking and customs support.</div></div></div></div><div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/page-service-details" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -114,7 +114,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3LOGI offers ocean transportation to ports like Karachi, and more via Container and RORO shipping.</div></div></div></div><div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
+  _push(`</h4><div class="text">m3Logi offers ocean transportation to ports like Karachi, and more via Container and RORO shipping.</div></div></div></div><div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/page-service-details" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -143,7 +143,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3LOGI handles container drayage and vehicle transportation from auctions to yards/ports.</div></div></div></div><div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
+  _push(`</h4><div class="text">m3Logi handles container drayage and vehicle transportation from auctions to yards/ports.</div></div></div></div><div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="900ms"><div class="inner-box"><div class="image-box"><figure class="image">`);
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/page-service-details" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
@@ -172,7 +172,7 @@ function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</h4><div class="text">M3LOGI offers custom brokerage, yard services, and vehicle maintenance with pre-export inspections.</div></div></div></div></div></div></section>`);
+  _push(`</h4><div class="text">m3Logi offers custom brokerage, yard services, and vehicle maintenance with pre-export inspections.</div></div></div></div></div></div></section>`);
 }
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {

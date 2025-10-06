@@ -39,7 +39,7 @@ Hatchobori, Chuo-ku, Tokyo-to Japan 104-0032</li>
             <div class="main-box">
                 <div class="logo-box">
                     <div class="logo">
-                        <NuxtLink to="/"><img src="/images/logo-3.png" alt="" title="m3logi"></NuxtLink>
+                        <NuxtLink to="/"><img src="/images/logo-3.png" alt="" title="m3Logi"></NuxtLink>
                     </div>
                 </div>
 
@@ -99,7 +99,7 @@ Hatchobori, Chuo-ku, Tokyo-to Japan 104-0032</li>
                         <div class="contact-info-box">
                             <span class="icon lnr-icon-envelope1"></span>
                             <span class="title">Send Email</span>
-                            <NuxtLink to="/mailto:help@company.com">sales@m3logi.com</NuxtLink>
+                            <NuxtLink to="/mailto:help@company.com">sales@m3Logi.com</NuxtLink>
                         </div>
                     </li>
                     <li>

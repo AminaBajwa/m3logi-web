@@ -7,7 +7,7 @@
                         <div class="sec-title">
                             <span class="sub-title">Our Mission</span>
                             <h2>Your Destination Is Our Mission</h2>
-                            <h4>Since 2012, M3LOGI has been simplifying global freight and logistics.</h4>
+                            <h4>Since 2012, m3Logi has been simplifying global freight and logistics.</h4>
                             <div class="text">We provide a single-window system that seamlessly integrates transporters, port yards, customs, and shipping lines—making logistics management easier than ever.
                                 <br><br>
                                 With our easy-to-use online platform, you can book shipments instantly and choose from a wide range of flexible shipping schedules that best fit your needs. Our digital tools help you manage, monitor, and create shipments online, ensuring transparency and full control over your cargo journey.

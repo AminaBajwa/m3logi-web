@@ -18,7 +18,7 @@ import 'unhead';
 import '@unhead/shared';
 import 'vue-router';
 
-const _imports_0 = "" + publicAssetsURL("images/logoM3Logi-.png");
+const _imports_0 = "" + publicAssetsURL("images/logom3Logi-.png");
 const _sfc_main$2 = {
   __name: "Header1",
   __ssrInlineRender: true,
@@ -110,13 +110,13 @@ const _sfc_main$2 = {
       _push(ssrRenderComponent(_component_NuxtLink, { to: "/" }, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<img${ssrRenderAttr("src", _imports_0)} alt="" title="m3logi"${_scopeId}>`);
+            _push2(`<img${ssrRenderAttr("src", _imports_0)} alt="" title="m3Logi"${_scopeId}>`);
           } else {
             return [
               createVNode("img", {
                 src: _imports_0,
                 alt: "",
-                title: "m3logi"
+                title: "m3Logi"
               })
             ];
           }
@@ -281,13 +281,13 @@ const _sfc_main$1 = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLink = __nuxt_component_0$1;
   _push(`<footer${ssrRenderAttrs(mergeProps({ class: "main-footer" }, _attrs))}><div class="bg-image" style="${ssrRenderStyle({ "background-image": "url(./images/background/5.jpg)" })}"></div><div class="anim-icons"><span class="icon icon-plane-3 bounce-x"></span></div><div class="contacts-outer"><div class="auto-container"><div class="row"><div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight"><div class="inner-box"><div class="icon-box"><i class="icon flaticon-international-shipping-2"></i></div><h4 class="title">Address</h4><div class="text">Aks Hatchobori Bldg 5 Floor, 2 Chome 27-6, Hatchobori, Chuo-ku, Tokyo-to Japan</div></div></div><div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms"><div class="inner-box"><div class="icon-box"><i class="icon flaticon-stock-1"></i></div><h4 class="title">Contact</h4><div class="text">`);
-  _push(ssrRenderComponent(_component_NuxtLink, { to: "mailto:sales@m3logi.com " }, {
+  _push(ssrRenderComponent(_component_NuxtLink, { to: "mailto:sales@m3Logi.com " }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
-        _push2(`sales@m3logi.com `);
+        _push2(`sales@m3Logi.com `);
       } else {
         return [
-          createTextVNode("sales@m3logi.com ")
+          createTextVNode("sales@m3Logi.com ")
         ];
       }
     }),
@@ -321,7 +321,7 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
     }),
     _: 1
   }, _parent));
-  _push(`</div><div class="text">m3logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>`);
+  _push(`</div><div class="text">m3Logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>`);
   _push(ssrRenderComponent(_component_NuxtLink, {
     to: "/page-about",
     class: "theme-btn btn-style-one hvr-light small"
@@ -502,10 +502,10 @@ function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
   _push(ssrRenderComponent(_component_NuxtLink, { to: "/" }, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
-        _push2(`m3logi.com`);
+        _push2(`m3Logi.com`);
       } else {
         return [
-          createTextVNode("m3logi.com")
+          createTextVNode("m3Logi.com")
         ];
       }
     }),

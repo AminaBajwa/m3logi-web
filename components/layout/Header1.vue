@@ -34,10 +34,10 @@
             <div class="top-right">
                 <ul class="social-icon-one">
                     <li>
-                        <NuxtLink to="https://web.facebook.com/m3logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
+                        <NuxtLink to="https://web.facebook.com/m3Logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://twitter.com/m3logi"><span class="fab fa-twitter"></span></NuxtLink>
+                        <NuxtLink to="https://twitter.com/m3Logi"><span class="fab fa-twitter"></span></NuxtLink>
                     </li>
                     <!-- <li>
                         <NuxtLink to="#"><span class="fab fa-pinterest-p"></span></NuxtLink>
@@ -56,7 +56,7 @@
             <div class="main-box">
                 <div class="logo-box">
                     <div class="logo">
-                        <NuxtLink to="/"><img src="/images/logoM3Logi-.png" alt="" title="m3logi"></NuxtLink>
+                        <NuxtLink to="/"><img src="/images/logoM3Logi-.png" alt="" title="m3Logi"></NuxtLink>
                     </div>
                 </div>
 
@@ -132,10 +132,10 @@
 
             <ul class="social-icon-one">
                     <li>
-                        <NuxtLink to="https://web.facebook.com/m3logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
+                        <NuxtLink to="https://web.facebook.com/m3Logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://twitter.com/m3logi"><span class="fab fa-twitter"></span></NuxtLink>
+                        <NuxtLink to="https://twitter.com/m3Logi"><span class="fab fa-twitter"></span></NuxtLink>
                     </li>
                     <!-- <li>
                         <NuxtLink to="#"><span class="fab fa-pinterest-p"></span></NuxtLink>

@@ -17,14 +17,14 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 cntc">
           <p class="jpn-lochd">DURBAN OFFICE</p>
-          <p class="jpnparag">M3LOGI 1 (PTY) LTD OFFICE: 403, 4TH FLOOR CORPORATE PLACE, 9 DOROTHY NYEMBE STREET, DURBAN, 4001 SOUTH AFRICA</p>
+          <p class="jpnparag">m3Logi 1 (PTY) LTD OFFICE: 403, 4TH FLOOR CORPORATE PLACE, 9 DOROTHY NYEMBE STREET, DURBAN, 4001 SOUTH AFRICA</p>
           <a href="tel:+0027313010504" class="locphn">
             <i class="icon-phone-icon"></i>
             <span>+0027 31 3010504</span>
           </a>
-          <a href="mailto:sales@m3logi.com" class="locemail">
+          <a href="mailto:sales@m3Logi.com" class="locemail">
             <i class="icon-info-icon"></i>
-            <span class="eml">sales@m3logi.com</span>
+            <span class="eml">sales@m3Logi.com</span>
           </a>
         </div>
 
@@ -36,14 +36,14 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 cntc">
           <p class="jpn-lochd">CHILE OFFICE</p>
-          <p class="jpnparag">M3LOGI SHIPPING CHILE LTD. OFICINA 1101, AV. BOLÍVAR 202, EDIFICIO FINANZAS, IQUIQUE, CHILE</p>
+          <p class="jpnparag">m3Logi SHIPPING CHILE LTD. OFICINA 1101, AV. BOLÍVAR 202, EDIFICIO FINANZAS, IQUIQUE, CHILE</p>
           <a href="tel:coming-soon" class="locphn">
             <i class="icon-phone-icon"></i>
             <span>Coming Soon</span>
           </a>
-          <a href="mailto:chile@m3logi.com" class="locemail">
+          <a href="mailto:chile@m3Logi.com" class="locemail">
             <i class="icon-info-icon"></i>
-            <span class="eml">chile@m3logi.com</span>
+            <span class="eml">chile@m3Logi.com</span>
           </a>
         </div>
       </div>
@@ -57,14 +57,14 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 cntc">
           <p class="jpn-lochd">MOZAMBIQUE OFFICE</p>
-          <p class="jpnparag">M3LOGI SHIPPING MOZAMBIQUE AFRICA PARK AVENIDA ACORDOS DE LUSAKA NO 95 MAPUTO MOZAMBIQUE</p>
+          <p class="jpnparag">m3Logi SHIPPING MOZAMBIQUE AFRICA PARK AVENIDA ACORDOS DE LUSAKA NO 95 MAPUTO MOZAMBIQUE</p>
           <a href="tel:coming-soon" class="locphn">
             <i class="icon-phone-icon"></i>
             <span>Coming Soon</span>
           </a>
-          <a href="mailto:mozambique@m3logi.com" class="locemail">
+          <a href="mailto:mozambique@m3Logi.com" class="locemail">
             <i class="icon-info-icon"></i>
-            <span class="eml">mozambique@m3logi.com</span>
+            <span class="eml">mozambique@m3Logi.com</span>
           </a>
         </div>
 
@@ -76,14 +76,14 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 cntc pad-mmb">
           <p class="jpn-lochd">PAKISTAN OFFICE</p>
-          <p class="jpnparag">M3LOGI SHIPPING PAKISTAN ROOM#204&205, 2ND FLOOR, SKY CENTER, AGHA KAMAL HAIDER ROAD, SIALKOT CANTT 51310 PAKISTAN</p>
+          <p class="jpnparag">m3Logi SHIPPING PAKISTAN ROOM#204&205, 2ND FLOOR, SKY CENTER, AGHA KAMAL HAIDER ROAD, SIALKOT CANTT 51310 PAKISTAN</p>
           <a href="tel:coming-soon" class="locphn">
             <i class="icon-phone-icon"></i>
             <span>Coming Soon</span>
           </a>
-          <a href="mailto:pakistan@m3logi.com" class="locemail">
+          <a href="mailto:pakistan@m3Logi.com" class="locemail">
             <i class="icon-info-icon"></i>
-            <span class="eml">pakistan@m3logi.com</span>
+            <span class="eml">pakistan@m3Logi.com</span>
           </a>
         </div>
       </div>

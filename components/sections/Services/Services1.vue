@@ -55,7 +55,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Customs Clearance</NuxtLink>
                             </h4>
-                            <div class="text">M3Logi has a vision to facilitate its customers at every level. To assist our customers with the complexities of customs rules and regulations, we offer customs clearance services through expert clearance agents. We strive to simplify every aspect of the trade for our customers.</div>
+                            <div class="text">m3Logi has a vision to facilitate its customers at every level. To assist our customers with the complexities of customs rules and regulations, we offer customs clearance services through expert clearance agents. We strive to simplify every aspect of the trade for our customers.</div>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">SCM Consulting</NuxtLink>
                             </h4>
-                            <div class="text">M3Logi provides its customers with easy Supply Chain Management System to cater to the complete process from the beginning till the end. As we aim to serve our customers comprehensively, we save them from all kinds of hassle and responsibility.</div>
+                            <div class="text">m3Logi provides its customers with easy Supply Chain Management System to cater to the complete process from the beginning till the end. As we aim to serve our customers comprehensively, we save them from all kinds of hassle and responsibility.</div>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Yard Services</NuxtLink>
                             </h4>
-                            <div class="text">M3Logi has yards located at strategic locations all over Japan for the safe and secure storage of the vehicle. Additionally, we have trained staff at the yards for the up-keep of the goods stored.</div>
+                            <div class="text">m3Logi has yards located at strategic locations all over Japan for the safe and secure storage of the vehicle. Additionally, we have trained staff at the yards for the up-keep of the goods stored.</div>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-service-details">Air Freight</NuxtLink>
                             </h4>
-                            <div class="text">M3LOGI offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support.</div>
+                            <div class="text">m3Logi offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support.</div>
                         </div>
                     </div>
                 </div>

@@ -1532,7 +1532,8 @@ textarea.form-control {
     height: 100%;
     width: 100%;
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0px auto;
+    margin-left: 80px;
 }
 
 .anim-icons.full-width {

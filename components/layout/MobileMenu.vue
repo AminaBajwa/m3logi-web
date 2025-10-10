@@ -5,7 +5,7 @@
         <li class="dropdown" :class="{ 'current': isActive.key === 1 }">
             <NuxtLink to="/">Home</NuxtLink>
             <ul :class="{ 'd-block': isActive.key === 1 }">
-                <li>
+                <!-- <li>
                     <NuxtLink to="/">Home page 01</NuxtLink>
                 </li>
                 <li>
@@ -13,7 +13,7 @@
                 </li>
                 <li>
                     <NuxtLink to="/index-3">Home page 03</NuxtLink>
-                </li>
+                </li> -->
             </ul>
             <div class="dropdown-btn" :class="{ 'active': isActive.key === 1 }" @click="handleClick(1)"><i class="fa fa-angle-down"></i></div>
         </li>

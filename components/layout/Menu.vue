@@ -82,7 +82,7 @@
         </li> -->
         
         <li>
-            <NuxtLink to="/index-3">Home</NuxtLink>
+            <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li>
             <NuxtLink to="/page-about">About</NuxtLink>

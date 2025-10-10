@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"fun-fact-section p-0\">\r\n        <div class=\"auto-container\">\r\n            <div class=\"outer-box\">\r\n                <div class=\"bg-image\" style=\"background-image: url(./images/background/bg-3.1.png)\"></div>\r\n\r\n                <div class=\"row\">\r\n                    <!-- Content Column -->\r\n                    <div class=\"content-column col-lg-7 col-md-12 col-sm-12 order-2\">\r\n                        <div class=\"inner-column\">\r\n                            <div class=\"sec-title light\">\r\n                                <span class=\"sub-title\">We Deliver on time</span>\r\n                                <h2>Total Coverage & Flexibility in Exports & Imports</h2>\r\n                                <div class=\"text\">Long established fact that a reader will be distracted by the readable\r\n                                    content of a page when looking at its layout.</div>\r\n                            </div>\r\n\r\n                            <div class=\"fact-counter\">\r\n                                <div class=\"row\">\r\n                                    <!--Column-->\r\n                                    <div class=\"counter-column col-lg-4 col-md-6 col-sm-12\">\r\n                                        <div class=\"inner\">\r\n                                            <div class=\"count-box\"><ElementsCounterUp :end=\"869\"/></div>\r\n                                            <h4 class=\"counter-title\">Projects <br>Completed</h4>\r\n                                            <i class=\"icon flaticon-delivery-8\"></i>\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                    <!--Column-->\r\n                                    <div class=\"counter-column col-lg-4 col-md-6 col-sm-12\">\r\n                                        <div class=\"inner\">\r\n                                            <div class=\"count-box\"><ElementsCounterUp :end=\"683\"/></div>\r\n                                            <h4 class=\"counter-title\">Satisfied <br>Customers</h4>\r\n                                            <i class=\"icon flaticon-team\"></i>\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                    <!--Column-->\r\n                                    <div class=\"counter-column col-lg-4 col-md-6 col-sm-12\">\r\n                                        <div class=\"inner\">\r\n                                            <div class=\"count-box\"><ElementsCounterUp :end=\"975\"/></div>\r\n                                            <h4 class=\"counter-title\">Delivered<br> on Time</h4>\r\n                                            <i class=\"icon flaticon-delivery-box-3\"></i>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <div class=\"image-column col-lg-5 col-md-12 col-sm-12\">\r\n                        <div class=\"inner-column\">\r\n                            <figure class=\"image\"><img src=\"/images/resource/image-1.png\" alt=\"\"></figure>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n    </div>\r\n</section></template>",
-      "start": 1759905611705,
-      "end": 1759905611862,
+      "start": 1760093887574,
+      "end": 1760093887958,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887958,
+      "end": 1760093887958,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887958,
+      "end": 1760093887958,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887958,
+      "end": 1760093887958,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887958,
+      "end": 1760093887958,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887958,
+      "end": 1760093887958,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887958,
+      "end": 1760093887958,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887958,
+      "end": 1760093887958,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/image-1.png'\n\n\nconst _hoisted_1 = { class: \"fun-fact-section p-0\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = { class: \"outer-box\" }\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"bg-image\",\n  style: {\"background-image\":\"url(./images/background/bg-3.1.png)\"}\n}, null, -1)\nconst _hoisted_5 = { class: \"row\" }\nconst _hoisted_6 = { class: \"content-column col-lg-7 col-md-12 col-sm-12 order-2\" }\nconst _hoisted_7 = { class: \"inner-column\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title light\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"We Deliver on time\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, \"Total Coverage & Flexibility in Exports & Imports\"),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Long established fact that a reader will be distracted by the readable content of a page when looking at its layout.\")\n], -1)\nconst _hoisted_9 = { class: \"fact-counter\" }\nconst _hoisted_10 = { class: \"row\" }\nconst _hoisted_11 = { class: \"counter-column col-lg-4 col-md-6 col-sm-12\" }\nconst _hoisted_12 = { class: \"inner\" }\nconst _hoisted_13 = { class: \"count-box\" }\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, [\n  /*#__PURE__*/_createTextVNode(\"Projects \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Completed\")\n], -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-8\" }, null, -1)\nconst _hoisted_16 = { class: \"counter-column col-lg-4 col-md-6 col-sm-12\" }\nconst _hoisted_17 = { class: \"inner\" }\nconst _hoisted_18 = { class: \"count-box\" }\nconst _hoisted_19 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, [\n  /*#__PURE__*/_createTextVNode(\"Satisfied \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Customers\")\n], -1)\nconst _hoisted_20 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-team\" }, null, -1)\nconst _hoisted_21 = { class: \"counter-column col-lg-4 col-md-6 col-sm-12\" }\nconst _hoisted_22 = { class: \"inner\" }\nconst _hoisted_23 = { class: \"count-box\" }\nconst _hoisted_24 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, [\n  /*#__PURE__*/_createTextVNode(\"Delivered\"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\" on Time\")\n], -1)\nconst _hoisted_25 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-box-3\" }, null, -1)\nconst _hoisted_26 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"image-column col-lg-5 col-md-12 col-sm-12\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-column\" }, [\n    /*#__PURE__*/_createElementVNode(\"figure\", { class: \"image\" }, [\n      /*#__PURE__*/_createElementVNode(\"img\", {\n        src: _imports_0,\n        alt: \"\"\n      })\n    ])\n  ])\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_ElementsCounterUp = _resolveComponent(\"ElementsCounterUp\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _hoisted_4,\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"div\", _hoisted_6, [\n            _createElementVNode(\"div\", _hoisted_7, [\n              _hoisted_8,\n              _createElementVNode(\"div\", _hoisted_9, [\n                _createElementVNode(\"div\", _hoisted_10, [\n                  _createElementVNode(\"div\", _hoisted_11, [\n                    _createElementVNode(\"div\", _hoisted_12, [\n                      _createElementVNode(\"div\", _hoisted_13, [\n                        _createVNode(_component_ElementsCounterUp, { end: 869 })\n                      ]),\n                      _hoisted_14,\n                      _hoisted_15\n                    ])\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_16, [\n                    _createElementVNode(\"div\", _hoisted_17, [\n                      _createElementVNode(\"div\", _hoisted_18, [\n                        _createVNode(_component_ElementsCounterUp, { end: 683 })\n                      ]),\n                      _hoisted_19,\n                      _hoisted_20\n                    ])\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_21, [\n                    _createElementVNode(\"div\", _hoisted_22, [\n                      _createElementVNode(\"div\", _hoisted_23, [\n                        _createVNode(_component_ElementsCounterUp, { end: 975 })\n                      ]),\n                      _hoisted_24,\n                      _hoisted_25\n                    ])\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _hoisted_26\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1759905611862,
-      "end": 1759905611864,
+      "start": 1760093887958,
+      "end": 1760093887963,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905611864,
-      "end": 1759905611864,
+      "start": 1760093887963,
+      "end": 1760093887963,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905611864,
-      "end": 1759905611865,
+      "start": 1760093887963,
+      "end": 1760093887965,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905611865,
-      "end": 1759905611865,
+      "start": 1760093887965,
+      "end": 1760093887965,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905611865,
-      "end": 1759905611865,
+      "start": 1760093887965,
+      "end": 1760093887965,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1759905611865,
-      "end": 1759905611865,
+      "start": 1760093887965,
+      "end": 1760093887965,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1759905611865,
-      "end": 1759905611865,
+      "start": 1760093887965,
+      "end": 1760093887965,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/elements/CounterUp.vue\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/image-1.png'\n\n\nconst _hoisted_1 = { class: \"fun-fact-section p-0\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = { class: \"outer-box\" }\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"bg-image\",\n  style: {\"background-image\":\"url(./images/background/bg-3.1.png)\"}\n}, null, -1)\nconst _hoisted_5 = { class: \"row\" }\nconst _hoisted_6 = { class: \"content-column col-lg-7 col-md-12 col-sm-12 order-2\" }\nconst _hoisted_7 = { class: \"inner-column\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title light\" }, [\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"We Deliver on time\"),\n  /*#__PURE__*/_createElementVNode(\"h2\", null, \"Total Coverage & Flexibility in Exports & Imports\"),\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"Long established fact that a reader will be distracted by the readable content of a page when looking at its layout.\")\n], -1)\nconst _hoisted_9 = { class: \"fact-counter\" }\nconst _hoisted_10 = { class: \"row\" }\nconst _hoisted_11 = { class: \"counter-column col-lg-4 col-md-6 col-sm-12\" }\nconst _hoisted_12 = { class: \"inner\" }\nconst _hoisted_13 = { class: \"count-box\" }\nconst _hoisted_14 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, [\n  /*#__PURE__*/_createTextVNode(\"Projects \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Completed\")\n], -1)\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-8\" }, null, -1)\nconst _hoisted_16 = { class: \"counter-column col-lg-4 col-md-6 col-sm-12\" }\nconst _hoisted_17 = { class: \"inner\" }\nconst _hoisted_18 = { class: \"count-box\" }\nconst _hoisted_19 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, [\n  /*#__PURE__*/_createTextVNode(\"Satisfied \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Customers\")\n], -1)\nconst _hoisted_20 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-team\" }, null, -1)\nconst _hoisted_21 = { class: \"counter-column col-lg-4 col-md-6 col-sm-12\" }\nconst _hoisted_22 = { class: \"inner\" }\nconst _hoisted_23 = { class: \"count-box\" }\nconst _hoisted_24 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, [\n  /*#__PURE__*/_createTextVNode(\"Delivered\"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\" on Time\")\n], -1)\nconst _hoisted_25 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-box-3\" }, null, -1)\nconst _hoisted_26 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"image-column col-lg-5 col-md-12 col-sm-12\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-column\" }, [\n    /*#__PURE__*/_createElementVNode(\"figure\", { class: \"image\" }, [\n      /*#__PURE__*/_createElementVNode(\"img\", {\n        src: _imports_0,\n        alt: \"\"\n      })\n    ])\n  ])\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_ElementsCounterUp = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _hoisted_4,\n        _createElementVNode(\"div\", _hoisted_5, [\n          _createElementVNode(\"div\", _hoisted_6, [\n            _createElementVNode(\"div\", _hoisted_7, [\n              _hoisted_8,\n              _createElementVNode(\"div\", _hoisted_9, [\n                _createElementVNode(\"div\", _hoisted_10, [\n                  _createElementVNode(\"div\", _hoisted_11, [\n                    _createElementVNode(\"div\", _hoisted_12, [\n                      _createElementVNode(\"div\", _hoisted_13, [\n                        _createVNode(_component_ElementsCounterUp, { end: 869 })\n                      ]),\n                      _hoisted_14,\n                      _hoisted_15\n                    ])\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_16, [\n                    _createElementVNode(\"div\", _hoisted_17, [\n                      _createElementVNode(\"div\", _hoisted_18, [\n                        _createVNode(_component_ElementsCounterUp, { end: 683 })\n                      ]),\n                      _hoisted_19,\n                      _hoisted_20\n                    ])\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_21, [\n                    _createElementVNode(\"div\", _hoisted_22, [\n                      _createElementVNode(\"div\", _hoisted_23, [\n                        _createVNode(_component_ElementsCounterUp, { end: 975 })\n                      ]),\n                      _hoisted_24,\n                      _hoisted_25\n                    ])\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _hoisted_26\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1759905611865,
-      "end": 1759905611865,
+      "start": 1760093887965,
+      "end": 1760093887965,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905611865,
-      "end": 1759905611865,
+      "start": 1760093887965,
+      "end": 1760093887965,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905611865,
-      "end": 1759905611865,
+      "start": 1760093887965,
+      "end": 1760093887965,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905611865,
-      "end": 1759905611865,
+      "start": 1760093887965,
+      "end": 1760093887965,
       "order": "normal"
     }
   ]

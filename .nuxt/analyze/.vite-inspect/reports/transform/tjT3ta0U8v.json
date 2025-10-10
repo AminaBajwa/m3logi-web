@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<template>\r\n    <section class=\"about-section-two\">\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <div class=\"content-column col-lg-6 col-md-12 col-sm-12 order-2\">\r\n                    <div class=\"inner-column\">\r\n                        <div class=\"sec-title\">\r\n                            <span class=\"sub-title\">Get to know us</span>\r\n                            <h2>Global Logistics Solution Provider</h2>\r\n                            <h4>Simplify your freight and logistics needs with a personal approch.</h4>\r\n                            <h3>Message from CEO</h3>\r\n\r\n                            <blockquote class=\"ceo-quote\">\r\n                            We support our customers in all aspects of their cargo from storage, transportation, and \r\n                            delivery, and strive for their benefit.\r\n                            If you are considering importing or exporting, please contact us and we will be happy to \r\n                            assist you.\r\n                            </blockquote>\r\n                            <cite class=\"ceo-cite\">— Muzammal Majeed, CEO & Founder</cite>\r\n                       \r\n                        </div>\r\n\r\n                        <!-- <div class=\"row\">\r\n                           \r\n                            <div class=\"feature-block-three col-lg-4 col-md-4 col-sm-12\">\r\n                                <div class=\"inner\">\r\n                                    <i class=\"icon flaticon-delivery-courier\"></i>\r\n                                    <h4 class=\"title\">Cost Optimisation</h4>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <div class=\"feature-block-three col-lg-4 col-md-4 col-sm-12\">\r\n                                <div class=\"inner\">\r\n                                    <i class=\"icon flaticon-delivery-insurance-3\"></i>\r\n                                    <h4 class=\"title\">Reduced <br>Transit Time</h4>\r\n                                </div>\r\n                            </div>\r\n\r\n                        \r\n                            <div class=\"feature-block-three col-lg-4 col-md-4 col-sm-12\">\r\n                                <div class=\"inner\">\r\n                                    <i class=\"icon flaticon-delivery-box-3\"></i>\r\n                                    <h4 class=\"title\">Delivery <br>on Time</h4>\r\n                                </div>\r\n                            </div>\r\n                        </div> -->\r\n\r\n                        <div class=\"founder-info\">\r\n                            <div class=\"thumb\"><img src=\"/images/CEO.png\" alt=\"\"></div>\r\n                            <h5 class=\"name\">Muzammal Majeed</h5>\r\n                            <span class=\"designation\">CEO & Founder of Company</span>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Image Column -->\r\n                <div class=\"image-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <figure class=\"image-1 wow fadeInUp\"><img src=\"/images/m3logiOffice.jpeg\" alt=\"\"></figure>\r\n                        <figure class=\"image-2 wow fadeInRight\">\r\n                            <!-- <img src=\"/images/resource/about-4.jpg\" alt=\"\"> -->\r\n                              <img src=\"/images/resource/about-4.jpg\" alt=\"\">\r\n                            <div class=\"icon-box\"><i class=\"icon flaticon-delivery-box-4\"></i></div>\r\n                        </figure>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
-      "start": 1759905611575,
-      "end": 1759905611779,
+      "result": "<template>\r\n    <section class=\"about-section-two\">\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <div class=\"content-column col-lg-6 col-md-12 col-sm-12 order-2\">\r\n                    <div class=\"inner-column\">\r\n                        <div class=\"sec-title\">\r\n                            <span class=\"sub-title\">Get to know us</span>\r\n                            <h2>Global Logistics Solution Provider</h2>\r\n                            <h4>Simplify your freight and logistics needs with a personal approch.</h4>\r\n                            <h3>Message from CEO</h3>\r\n\r\n                            <blockquote class=\"ceo-quote\">\r\n                            We support our customers in all aspects of their cargo from storage, transportation, and \r\n                            delivery, and strive for their benefit.\r\n                            If you are considering importing or exporting, please contact us and we will be happy to \r\n                            assist you.\r\n                            </blockquote>\r\n                            <cite class=\"ceo-cite\">— Muzammal Majeed, CEO & Founder</cite>\r\n                       \r\n                        </div>\r\n\r\n                        <!-- <div class=\"row\">\r\n                           \r\n                            <div class=\"feature-block-three col-lg-4 col-md-4 col-sm-12\">\r\n                                <div class=\"inner\">\r\n                                    <i class=\"icon flaticon-delivery-courier\"></i>\r\n                                    <h4 class=\"title\">Cost Optimisation</h4>\r\n                                </div>\r\n                            </div>\r\n\r\n                            <div class=\"feature-block-three col-lg-4 col-md-4 col-sm-12\">\r\n                                <div class=\"inner\">\r\n                                    <i class=\"icon flaticon-delivery-insurance-3\"></i>\r\n                                    <h4 class=\"title\">Reduced <br>Transit Time</h4>\r\n                                </div>\r\n                            </div>\r\n\r\n                        \r\n                            <div class=\"feature-block-three col-lg-4 col-md-4 col-sm-12\">\r\n                                <div class=\"inner\">\r\n                                    <i class=\"icon flaticon-delivery-box-3\"></i>\r\n                                    <h4 class=\"title\">Delivery <br>on Time</h4>\r\n                                </div>\r\n                            </div>\r\n                        </div> -->\r\n\r\n                        <div class=\"founder-info\">\r\n                            <div class=\"thumb\"><img src=\"/images/CEO.png\" alt=\"\"></div>\r\n                            <h5 class=\"name\">Muzammal Majeed</h5>\r\n                            <span class=\"designation\">CEO & Founder of Company</span>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Image Column -->\r\n                <div class=\"image-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <figure class=\"image-1 wow fadeInUp\"><img src=\"/images/m3logiOffice.jpeg\" alt=\"\"></figure>\r\n                        <figure class=\"image-2 wow fadeInRight\">\r\n                            <!-- <img src=\"/images/resource/about-4.jpg\" alt=\"\"> -->\r\n                              <img src=\"/images/gallery-3.jpg\" alt=\"\">\r\n                            <!-- <div class=\"icon-box\"><i class=\"icon flaticon-delivery-box-4\"></i></div> -->\r\n                        </figure>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
+      "start": 1760093887250,
+      "end": 1760093887443,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905611779,
-      "end": 1759905611779,
+      "start": 1760093887443,
+      "end": 1760093887443,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905611779,
-      "end": 1759905611779,
+      "start": 1760093887443,
+      "end": 1760093887443,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905611779,
-      "end": 1759905611779,
+      "start": 1760093887443,
+      "end": 1760093887443,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905611779,
-      "end": 1759905611779,
+      "start": 1760093887443,
+      "end": 1760093887443,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905611779,
-      "end": 1759905611779,
+      "start": 1760093887443,
+      "end": 1760093887443,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905611779,
-      "end": 1759905611779,
+      "start": 1760093887443,
+      "end": 1760093887443,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905611779,
-      "end": 1759905611779,
+      "start": 1760093887443,
+      "end": 1760093887443,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/CEO.png'\nimport _imports_1 from '/images/m3logiOffice.jpeg'\nimport _imports_2 from '/images/resource/about-4.jpg'\n\n\nconst _hoisted_1 = { class: \"about-section-two\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"auto-container\\\"><div class=\\\"row\\\"><div class=\\\"content-column col-lg-6 col-md-12 col-sm-12 order-2\\\"><div class=\\\"inner-column\\\"><div class=\\\"sec-title\\\"><span class=\\\"sub-title\\\">Get to know us</span><h2>Global Logistics Solution Provider</h2><h4>Simplify your freight and logistics needs with a personal approch.</h4><h3>Message from CEO</h3><blockquote class=\\\"ceo-quote\\\"> We support our customers in all aspects of their cargo from storage, transportation, and delivery, and strive for their benefit. If you are considering importing or exporting, please contact us and we will be happy to assist you. </blockquote><cite class=\\\"ceo-cite\\\">— Muzammal Majeed, CEO &amp; Founder</cite></div><div class=\\\"founder-info\\\"><div class=\\\"thumb\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></div><h5 class=\\\"name\\\">Muzammal Majeed</h5><span class=\\\"designation\\\">CEO &amp; Founder of Company</span></div></div></div><div class=\\\"image-column col-lg-6 col-md-12 col-sm-12\\\"><div class=\\\"inner-column\\\"><figure class=\\\"image-1 wow fadeInUp\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></figure><figure class=\\\"image-2 wow fadeInRight\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"\\\"><div class=\\\"icon-box\\\"><i class=\\\"icon flaticon-delivery-box-4\\\"></i></div></figure></div></div></div></div>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, _hoisted_3))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1759905611779,
-      "end": 1759905611780,
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/CEO.png'\nimport _imports_1 from '/images/m3logiOffice.jpeg'\nimport _imports_2 from '/images/gallery-3.jpg'\n\n\nconst _hoisted_1 = { class: \"about-section-two\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"auto-container\\\"><div class=\\\"row\\\"><div class=\\\"content-column col-lg-6 col-md-12 col-sm-12 order-2\\\"><div class=\\\"inner-column\\\"><div class=\\\"sec-title\\\"><span class=\\\"sub-title\\\">Get to know us</span><h2>Global Logistics Solution Provider</h2><h4>Simplify your freight and logistics needs with a personal approch.</h4><h3>Message from CEO</h3><blockquote class=\\\"ceo-quote\\\"> We support our customers in all aspects of their cargo from storage, transportation, and delivery, and strive for their benefit. If you are considering importing or exporting, please contact us and we will be happy to assist you. </blockquote><cite class=\\\"ceo-cite\\\">— Muzammal Majeed, CEO &amp; Founder</cite></div><div class=\\\"founder-info\\\"><div class=\\\"thumb\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></div><h5 class=\\\"name\\\">Muzammal Majeed</h5><span class=\\\"designation\\\">CEO &amp; Founder of Company</span></div></div></div><div class=\\\"image-column col-lg-6 col-md-12 col-sm-12\\\"><div class=\\\"inner-column\\\"><figure class=\\\"image-1 wow fadeInUp\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></figure><figure class=\\\"image-2 wow fadeInRight\\\"><img src=\\\"\" + _imports_2 + \"\\\" alt=\\\"\\\"></figure></div></div></div></div>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, _hoisted_3))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1760093887443,
+      "end": 1760093887445,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905611780,
-      "end": 1759905611780,
+      "start": 1760093887445,
+      "end": 1760093887445,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905611780,
-      "end": 1759905611781,
+      "start": 1760093887445,
+      "end": 1760093887446,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905611781,
-      "end": 1759905611781,
+      "start": 1760093887446,
+      "end": 1760093887446,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905611781,
-      "end": 1759905611781,
+      "start": 1760093887446,
+      "end": 1760093887446,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1759905611781,
-      "end": 1759905611781,
+      "start": 1760093887446,
+      "end": 1760093887446,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1759905611781,
-      "end": 1759905611781,
+      "start": 1760093887446,
+      "end": 1760093887446,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1759905611781,
-      "end": 1759905611781,
+      "start": 1760093887446,
+      "end": 1760093887446,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905611781,
-      "end": 1759905611781,
+      "start": 1760093887446,
+      "end": 1760093887446,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905611781,
-      "end": 1759905611781,
+      "start": 1760093887446,
+      "end": 1760093887446,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905611781,
-      "end": 1759905611781,
+      "start": 1760093887446,
+      "end": 1760093887446,
       "order": "normal"
     }
   ]

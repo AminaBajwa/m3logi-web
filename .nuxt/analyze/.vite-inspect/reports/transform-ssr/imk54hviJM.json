@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n\t<!--Team Details Start-->\r\n\t<section class=\"team-details\">\r\n\t\t<div class=\"container pb-100\">\r\n\t\t\t<div class=\"team-details__top pb-70\">\r\n\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-6\">\r\n\t\t\t\t\t\t<div class=\"team-details__top-left\">\r\n\t\t\t\t\t\t\t<div class=\"team-details__top-img\"> <img src=\"/images/resource/team-details.jpg\" alt=\"\">\r\n\t\t\t\t\t\t\t\t<div class=\"team-details__big-text\">Richerd</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-6\">\r\n\t\t\t\t\t\t<div class=\"team-details__top-right\">\r\n\t\t\t\t\t\t\t<div class=\"team-details__top-content\">\r\n\t\t\t\t\t\t\t\t<h3 class=\"team-details__top-name\">Richerd Fred</h3>\r\n\t\t\t\t\t\t\t\t<p class=\"team-details__top-title\">Managing Director & CEO</p>\r\n\t\t\t\t\t\t\t\t<div class=\"team-details__social\"> <a href=\"#\"><i class=\"fab fa-twitter\"></i></a> <a href=\"#\"><i class=\"fab fa-facebook\"></i></a> <a href=\"#\"><i class=\"fab fa-pinterest-p\"></i></a> <a href=\"#\"><i class=\"fab fa-instagram\"></i></a> </div>\r\n\t\t\t\t\t\t\t\t<p class=\"team-details__top-text-1\">I help my clients stand out and <br> they help me grow.</p>\r\n\t\t\t\t\t\t\t\t<p class=\"team-details__top-text-3\">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae </p>\r\n\t\t\t\t\t\t\t\t<p class=\"team-details__top-text-2\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto</p>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"team-details__bottom pt-100\">\r\n\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-6\">\r\n\t\t\t\t\t\t<div class=\"team-details__bottom-left\">\r\n\t\t\t\t\t\t\t<h4 class=\"team-details__bottom-left-title\">Personal Experience</h4>\r\n\t\t\t\t\t\t\t<p class=\"team-details__bottom-left-text\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto dolorem ipsum quia</p>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-6\">\r\n                        <div class=\"skills\">\r\n                            <!--Skill Item-->\r\n                            <div class=\"skill-item\">\r\n                                <div class=\"skill-header\">\r\n                                    <h6 class=\"skill-title\">Marketing</h6>\r\n                                </div>\r\n                                <div class=\"skill-bar\">\r\n                                    <div class=\"bar-inner\">\r\n                                        <div class=\"bar progress-line\" data-width=\"77\" style=\"width: 77%;\">\r\n                                            <div class=\"skill-percentage\">\r\n                                                <div class=\"count-box\"><ElementsCounterUp :end=\"77\"/>% </div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!--Skill Item-->\r\n                            \r\n                            <!--Skill Item-->\r\n                            <div class=\"skill-item\">\r\n                                <div class=\"skill-header\">\r\n                                    <h6 class=\"skill-title\">HVAC</h6>\r\n                                </div>\r\n                                <div class=\"skill-bar\">\r\n                                    <div class=\"bar-inner\">\r\n                                        <div class=\"bar progress-line\" data-width=\"57\" style=\"width: 57%;\">\r\n                                            <div class=\"skill-percentage\">\r\n                                                <div class=\"count-box\"><ElementsCounterUp :end=\"57\"/>% </div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!--Skill Item-->\r\n                            \r\n                            <!--Skill Item-->\r\n                            <div class=\"skill-item\">\r\n                                <div class=\"skill-header\">\r\n                                    <h6 class=\"skill-title\">HVAC</h6>\r\n                                </div>\r\n                                <div class=\"skill-bar\">\r\n                                    <div class=\"bar-inner\">\r\n                                        <div class=\"bar progress-line\" data-width=\"92\" style=\"width: 92%;\">\r\n                                            <div class=\"skill-percentage\">\r\n                                                <div class=\"count-box\"><ElementsCounterUp :end=\"92\"/>% </div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!--Skill Item-->\r\n                        </div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n\t<!--Team Details End-->\r\n\r\n\t<!--Contact Details Start-->\r\n\t<section class=\"team-contact-form\">\r\n\t\t<div class=\"container pb-100\">\r\n\t\t\t<div class=\"sec-title text-center\">\r\n\t\t\t\t<span class=\"sub-title\">Contact With Us Now</span>\r\n\t\t\t\t<h2 class=\"section-title__title\">Feel Free to Write Our <br> Service Experts</h2>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"row justify-content-center\">\r\n\t\t\t\t<div class=\"col-lg-8\">\r\n\t\t\t\t\t<!-- Contact Form -->\r\n\t\t\t\t\t<form id=\"contact_form\" name=\"contact_form\" class=\"\" action=\"includes/sendmail.php\" method=\"post\">\r\n\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\r\n\t\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t\t<label>Name <small>*</small></label>\r\n\t\t\t\t\t\t\t\t\t<input name=\"form_name\" class=\"form-control\" type=\"text\" placeholder=\"Enter Name\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\r\n\t\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t\t<label>Email <small>*</small></label>\r\n\t\t\t\t\t\t\t\t\t<input name=\"form_email\" class=\"form-control required email\" type=\"email\" placeholder=\"Enter Email\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\r\n\t\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t\t<label>Subject <small>*</small></label>\r\n\t\t\t\t\t\t\t\t\t<input name=\"form_subject\" class=\"form-control required\" type=\"text\" placeholder=\"Enter Subject\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\r\n\t\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t\t<label>Phone</label>\r\n\t\t\t\t\t\t\t\t\t<input name=\"form_phone\" class=\"form-control\" type=\"text\" placeholder=\"Enter Phone\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t<label>Message</label>\r\n\t\t\t\t\t\t\t<textarea name=\"form_message\" class=\"form-control required\" rows=\"5\" placeholder=\"Enter Message\"></textarea>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"mb-3 text-center\">\r\n\t\t\t\t\t\t\t<input name=\"form_botcheck\" class=\"form-control\" type=\"hidden\" value=\"\" />\r\n\t\t\t\t\t\t\t<button type=\"submit\" class=\"theme-btn btn-style-one me-3\" data-loading-text=\"Please wait...\"><span class=\"btn-title\">Send message</span></button>\r\n\t\t\t\t\t\t\t<button type=\"reset\" class=\"theme-btn btn-style-one\"><span class=\"btn-title\">Reset</span></button>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</form>\r\n\t\t\t\t\t<!-- Contact Form Validation-->\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n\t<!--Contact Details End-->\r\n</template>",
-      "start": 1759905620992,
-      "end": 1759905621209,
+      "start": 1760093905040,
+      "end": 1760093905335,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905621209,
-      "end": 1759905621209,
+      "start": 1760093905335,
+      "end": 1760093905335,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/team-details.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_ElementsCounterUp = _resolveComponent(\"ElementsCounterUp\")\n\n  _push(`<!--[--><section class=\"team-details\"><div class=\"container pb-100\"><div class=\"team-details__top pb-70\"><div class=\"row\"><div class=\"col-xl-6 col-lg-6\"><div class=\"team-details__top-left\"><div class=\"team-details__top-img\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"><div class=\"team-details__big-text\">Richerd</div></div></div></div><div class=\"col-xl-6 col-lg-6\"><div class=\"team-details__top-right\"><div class=\"team-details__top-content\"><h3 class=\"team-details__top-name\">Richerd Fred</h3><p class=\"team-details__top-title\">Managing Director &amp; CEO</p><div class=\"team-details__social\"><a href=\"#\"><i class=\"fab fa-twitter\"></i></a> <a href=\"#\"><i class=\"fab fa-facebook\"></i></a> <a href=\"#\"><i class=\"fab fa-pinterest-p\"></i></a> <a href=\"#\"><i class=\"fab fa-instagram\"></i></a></div><p class=\"team-details__top-text-1\">I help my clients stand out and <br> they help me grow.</p><p class=\"team-details__top-text-3\">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae </p><p class=\"team-details__top-text-2\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto</p></div></div></div></div></div><div class=\"team-details__bottom pt-100\"><div class=\"row\"><div class=\"col-xl-6 col-lg-6\"><div class=\"team-details__bottom-left\"><h4 class=\"team-details__bottom-left-title\">Personal Experience</h4><p class=\"team-details__bottom-left-text\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto dolorem ipsum quia</p></div></div><div class=\"col-xl-6 col-lg-6\"><div class=\"skills\"><div class=\"skill-item\"><div class=\"skill-header\"><h6 class=\"skill-title\">Marketing</h6></div><div class=\"skill-bar\"><div class=\"bar-inner\"><div class=\"bar progress-line\" data-width=\"77\" style=\"${\n    _ssrRenderStyle({\"width\":\"77%\"})\n  }\"><div class=\"skill-percentage\"><div class=\"count-box\">`)\n  _push(_ssrRenderComponent(_component_ElementsCounterUp, { end: 77 }, null, _parent))\n  _push(`% </div></div></div></div></div></div><div class=\"skill-item\"><div class=\"skill-header\"><h6 class=\"skill-title\">HVAC</h6></div><div class=\"skill-bar\"><div class=\"bar-inner\"><div class=\"bar progress-line\" data-width=\"57\" style=\"${_ssrRenderStyle({\"width\":\"57%\"})}\"><div class=\"skill-percentage\"><div class=\"count-box\">`)\n  _push(_ssrRenderComponent(_component_ElementsCounterUp, { end: 57 }, null, _parent))\n  _push(`% </div></div></div></div></div></div><div class=\"skill-item\"><div class=\"skill-header\"><h6 class=\"skill-title\">HVAC</h6></div><div class=\"skill-bar\"><div class=\"bar-inner\"><div class=\"bar progress-line\" data-width=\"92\" style=\"${_ssrRenderStyle({\"width\":\"92%\"})}\"><div class=\"skill-percentage\"><div class=\"count-box\">`)\n  _push(_ssrRenderComponent(_component_ElementsCounterUp, { end: 92 }, null, _parent))\n  _push(`% </div></div></div></div></div></div></div></div></div></div></div></section><section class=\"team-contact-form\"><div class=\"container pb-100\"><div class=\"sec-title text-center\"><span class=\"sub-title\">Contact With Us Now</span><h2 class=\"section-title__title\">Feel Free to Write Our <br> Service Experts</h2></div><div class=\"row justify-content-center\"><div class=\"col-lg-8\"><form id=\"contact_form\" name=\"contact_form\" class=\"\" action=\"includes/sendmail.php\" method=\"post\"><div class=\"row\"><div class=\"col-sm-6\"><div class=\"mb-3\"><label>Name <small>*</small></label><input name=\"form_name\" class=\"form-control\" type=\"text\" placeholder=\"Enter Name\"></div></div><div class=\"col-sm-6\"><div class=\"mb-3\"><label>Email <small>*</small></label><input name=\"form_email\" class=\"form-control required email\" type=\"email\" placeholder=\"Enter Email\"></div></div></div><div class=\"row\"><div class=\"col-sm-6\"><div class=\"mb-3\"><label>Subject <small>*</small></label><input name=\"form_subject\" class=\"form-control required\" type=\"text\" placeholder=\"Enter Subject\"></div></div><div class=\"col-sm-6\"><div class=\"mb-3\"><label>Phone</label><input name=\"form_phone\" class=\"form-control\" type=\"text\" placeholder=\"Enter Phone\"></div></div></div><div class=\"mb-3\"><label>Message</label><textarea name=\"form_message\" class=\"form-control required\" rows=\"5\" placeholder=\"Enter Message\"></textarea></div><div class=\"mb-3 text-center\"><input name=\"form_botcheck\" class=\"form-control\" type=\"hidden\" value=\"\"><button type=\"submit\" class=\"theme-btn btn-style-one me-3\" data-loading-text=\"Please wait...\"><span class=\"btn-title\">Send message</span></button><button type=\"reset\" class=\"theme-btn btn-style-one\"><span class=\"btn-title\">Reset</span></button></div></form></div></div></div></section><!--]-->`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/Team/Details.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905621209,
-      "end": 1759905621211,
+      "start": 1760093905335,
+      "end": 1760093905338,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905621211,
-      "end": 1759905621211,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905621211,
-      "end": 1759905621214,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905338,
+      "end": 1760093905338,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905338,
+      "end": 1760093905339,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905338,
+      "end": 1760093905339,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905339,
+      "end": 1760093905339,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905339,
+      "end": 1760093905339,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905339,
+      "end": 1760093905339,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905339,
+      "end": 1760093905339,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905621214,
-      "end": 1759905621214,
+      "start": 1760093905339,
+      "end": 1760093905339,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/elements/CounterUp.vue\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/team-details.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_ElementsCounterUp = __nuxt_component_0\n\n  _push(`<!--[--><section class=\"team-details\"><div class=\"container pb-100\"><div class=\"team-details__top pb-70\"><div class=\"row\"><div class=\"col-xl-6 col-lg-6\"><div class=\"team-details__top-left\"><div class=\"team-details__top-img\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"><div class=\"team-details__big-text\">Richerd</div></div></div></div><div class=\"col-xl-6 col-lg-6\"><div class=\"team-details__top-right\"><div class=\"team-details__top-content\"><h3 class=\"team-details__top-name\">Richerd Fred</h3><p class=\"team-details__top-title\">Managing Director &amp; CEO</p><div class=\"team-details__social\"><a href=\"#\"><i class=\"fab fa-twitter\"></i></a> <a href=\"#\"><i class=\"fab fa-facebook\"></i></a> <a href=\"#\"><i class=\"fab fa-pinterest-p\"></i></a> <a href=\"#\"><i class=\"fab fa-instagram\"></i></a></div><p class=\"team-details__top-text-1\">I help my clients stand out and <br> they help me grow.</p><p class=\"team-details__top-text-3\">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae </p><p class=\"team-details__top-text-2\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto</p></div></div></div></div></div><div class=\"team-details__bottom pt-100\"><div class=\"row\"><div class=\"col-xl-6 col-lg-6\"><div class=\"team-details__bottom-left\"><h4 class=\"team-details__bottom-left-title\">Personal Experience</h4><p class=\"team-details__bottom-left-text\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto dolorem ipsum quia</p></div></div><div class=\"col-xl-6 col-lg-6\"><div class=\"skills\"><div class=\"skill-item\"><div class=\"skill-header\"><h6 class=\"skill-title\">Marketing</h6></div><div class=\"skill-bar\"><div class=\"bar-inner\"><div class=\"bar progress-line\" data-width=\"77\" style=\"${\n    _ssrRenderStyle({\"width\":\"77%\"})\n  }\"><div class=\"skill-percentage\"><div class=\"count-box\">`)\n  _push(_ssrRenderComponent(_component_ElementsCounterUp, { end: 77 }, null, _parent))\n  _push(`% </div></div></div></div></div></div><div class=\"skill-item\"><div class=\"skill-header\"><h6 class=\"skill-title\">HVAC</h6></div><div class=\"skill-bar\"><div class=\"bar-inner\"><div class=\"bar progress-line\" data-width=\"57\" style=\"${_ssrRenderStyle({\"width\":\"57%\"})}\"><div class=\"skill-percentage\"><div class=\"count-box\">`)\n  _push(_ssrRenderComponent(_component_ElementsCounterUp, { end: 57 }, null, _parent))\n  _push(`% </div></div></div></div></div></div><div class=\"skill-item\"><div class=\"skill-header\"><h6 class=\"skill-title\">HVAC</h6></div><div class=\"skill-bar\"><div class=\"bar-inner\"><div class=\"bar progress-line\" data-width=\"92\" style=\"${_ssrRenderStyle({\"width\":\"92%\"})}\"><div class=\"skill-percentage\"><div class=\"count-box\">`)\n  _push(_ssrRenderComponent(_component_ElementsCounterUp, { end: 92 }, null, _parent))\n  _push(`% </div></div></div></div></div></div></div></div></div></div></div></section><section class=\"team-contact-form\"><div class=\"container pb-100\"><div class=\"sec-title text-center\"><span class=\"sub-title\">Contact With Us Now</span><h2 class=\"section-title__title\">Feel Free to Write Our <br> Service Experts</h2></div><div class=\"row justify-content-center\"><div class=\"col-lg-8\"><form id=\"contact_form\" name=\"contact_form\" class=\"\" action=\"includes/sendmail.php\" method=\"post\"><div class=\"row\"><div class=\"col-sm-6\"><div class=\"mb-3\"><label>Name <small>*</small></label><input name=\"form_name\" class=\"form-control\" type=\"text\" placeholder=\"Enter Name\"></div></div><div class=\"col-sm-6\"><div class=\"mb-3\"><label>Email <small>*</small></label><input name=\"form_email\" class=\"form-control required email\" type=\"email\" placeholder=\"Enter Email\"></div></div></div><div class=\"row\"><div class=\"col-sm-6\"><div class=\"mb-3\"><label>Subject <small>*</small></label><input name=\"form_subject\" class=\"form-control required\" type=\"text\" placeholder=\"Enter Subject\"></div></div><div class=\"col-sm-6\"><div class=\"mb-3\"><label>Phone</label><input name=\"form_phone\" class=\"form-control\" type=\"text\" placeholder=\"Enter Phone\"></div></div></div><div class=\"mb-3\"><label>Message</label><textarea name=\"form_message\" class=\"form-control required\" rows=\"5\" placeholder=\"Enter Message\"></textarea></div><div class=\"mb-3 text-center\"><input name=\"form_botcheck\" class=\"form-control\" type=\"hidden\" value=\"\"><button type=\"submit\" class=\"theme-btn btn-style-one me-3\" data-loading-text=\"Please wait...\"><span class=\"btn-title\">Send message</span></button><button type=\"reset\" class=\"theme-btn btn-style-one\"><span class=\"btn-title\">Reset</span></button></div></form></div></div></div></section><!--]-->`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/Team/Details.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905621214,
-      "end": 1759905621215,
+      "start": 1760093905339,
+      "end": 1760093905339,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905621215,
-      "end": 1759905621215,
+      "start": 1760093905339,
+      "end": 1760093905339,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905621215,
-      "end": 1759905621215,
+      "start": 1760093905339,
+      "end": 1760093905340,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905621215,
-      "end": 1759905621215,
+      "start": 1760093905340,
+      "end": 1760093905340,
       "order": "normal"
     }
   ]

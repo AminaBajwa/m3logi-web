@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<!-- <template>\r\n    <ul class=\"navigation\">\r\n        <li class=\"current dropdown\">\r\n            <NuxtLink to=\"/\">Home</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/\">Home page 01</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/index-2\">Home page 02</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            <NuxtLink to=\"/page-about\">About</NuxtLink>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Services</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-services\">Services List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-service-details\">Service Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Projects</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-projects\">Projects List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-project-details\">Project Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Team</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team\">Team List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team-details\">Team Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">News</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/news-grid\">News Grid</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/news-details\">News Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            <NuxtLink to=\"/page-contact\">Contact</NuxtLink>\r\n        </li>\r\n    </ul>\r\n</template> -->\r\n\r\n<template>\r\n    <ul class=\"navigation\">\r\n        <li class=\"current dropdown\">\r\n            <NuxtLink to=\"/\">Home</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/\">Home page 01</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/index-2\">Home page 02</NuxtLink>\r\n                </li>\r\n                 <li>\r\n                    <NuxtLink to=\"/index-3\">Home page 03</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            <NuxtLink to=\"/page-about\">About</NuxtLink>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Services</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-services\">Services List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-service-details\">Service Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <!-- <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Projects</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-projects\">Projects List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-project-details\">Project Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li> -->\r\n        <!-- <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Team</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team\">Team List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team-details\">Team Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li> -->\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Locations</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/news-grid\">International Location</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/news-details\">News Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            <NuxtLink to=\"/page-contact\">Contact</NuxtLink>\r\n        </li>\r\n    </ul>\r\n</template>\r\n",
-      "start": 1759905612238,
-      "end": 1759905612314,
+      "result": "<!-- <template>\r\n    <ul class=\"navigation\">\r\n        <li class=\"current dropdown\">\r\n            <NuxtLink to=\"/\">Home</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/\">Home page 01</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/index-2\">Home page 02</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            <NuxtLink to=\"/page-about\">About</NuxtLink>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Services</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-services\">Services List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-service-details\">Service Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Projects</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-projects\">Projects List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-project-details\">Project Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Team</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team\">Team List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team-details\">Team Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">News</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/news-grid\">News Grid</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/news-details\">News Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            <NuxtLink to=\"/page-contact\">Contact</NuxtLink>\r\n        </li>\r\n    </ul>\r\n</template> -->\r\n\r\n<template>\r\n    <ul class=\"navigation\">\r\n        <!-- <li class=\"current dropdown\">\r\n            <NuxtLink to=\"/index-3\">Home</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/\">Home page 01</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/index-2\">Home page 02</NuxtLink>\r\n                </li>\r\n                 <li>\r\n                    <NuxtLink to=\"/index-3\">Home page 03</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li> -->\r\n        \r\n        <li>\r\n            <NuxtLink to=\"/index-3\">Home</NuxtLink>\r\n        </li>\r\n        <li>\r\n            <NuxtLink to=\"/page-about\">About</NuxtLink>\r\n        </li>\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Services</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-services\">Services List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-service-details\">Service Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <!-- <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Projects</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-projects\">Projects List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-project-details\">Project Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li> -->\r\n        <!-- <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Team</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team\">Team List</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/page-team-details\">Team Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li> -->\r\n        <li class=\"dropdown\">\r\n            <NuxtLink to=\"#\">Locations</NuxtLink>\r\n            <ul>\r\n                <li>\r\n                    <NuxtLink to=\"/news-grid\">International Location</NuxtLink>\r\n                </li>\r\n                <li>\r\n                    <NuxtLink to=\"/news-details\">News Details</NuxtLink>\r\n                </li>\r\n            </ul>\r\n        </li>\r\n        <li>\r\n            <NuxtLink to=\"/page-contact\">Contact</NuxtLink>\r\n        </li>\r\n    </ul>\r\n</template>\r\n",
+      "start": 1760093888910,
+      "end": 1760093889071,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905612314,
-      "end": 1759905612314,
+      "start": 1760093889071,
+      "end": 1760093889071,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905612314,
-      "end": 1759905612314,
+      "start": 1760093889071,
+      "end": 1760093889071,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905612314,
-      "end": 1759905612314,
+      "start": 1760093889071,
+      "end": 1760093889071,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905612314,
-      "end": 1759905612314,
+      "start": 1760093889071,
+      "end": 1760093889071,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905612314,
-      "end": 1759905612314,
+      "start": 1760093889071,
+      "end": 1760093889071,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905612314,
-      "end": 1759905612314,
+      "start": 1760093889071,
+      "end": 1760093889071,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905612314,
-      "end": 1759905612314,
+      "start": 1760093889071,
+      "end": 1760093889071,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"navigation\" }\nconst _hoisted_2 = { class: \"current dropdown\" }\nconst _hoisted_3 = { class: \"dropdown\" }\nconst _hoisted_4 = { class: \"dropdown\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"ul\", _hoisted_1, [\n    _createElementVNode(\"li\", _hoisted_2, [\n      _createVNode(_component_NuxtLink, { to: \"/\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Home\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home page 01\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/index-2\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home page 02\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/index-3\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home page 03\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/page-about\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"About\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", _hoisted_3, [\n      _createVNode(_component_NuxtLink, { to: \"#\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Services\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/page-services\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Services List\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Service Details\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", _hoisted_4, [\n      _createVNode(_component_NuxtLink, { to: \"#\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Locations\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/news-grid\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"International Location\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"News Details\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/page-contact\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Contact\")\n        ]),\n        _: 1\n      })\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1759905612314,
-      "end": 1759905612316,
+      "result": "const _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"navigation\" }\nconst _hoisted_2 = { class: \"dropdown\" }\nconst _hoisted_3 = { class: \"dropdown\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"ul\", _hoisted_1, [\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/index-3\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Home\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/page-about\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"About\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", _hoisted_2, [\n      _createVNode(_component_NuxtLink, { to: \"#\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Services\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/page-services\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Services List\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Service Details\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", _hoisted_3, [\n      _createVNode(_component_NuxtLink, { to: \"#\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Locations\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/news-grid\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"International Location\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"News Details\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/page-contact\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Contact\")\n        ]),\n        _: 1\n      })\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1760093889071,
+      "end": 1760093889076,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905612316,
-      "end": 1759905612316,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905612316,
-      "end": 1759905612316,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905612316,
-      "end": 1759905612316,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1759905612316,
-      "end": 1759905612316,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905612316,
-      "end": 1759905612316,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905612316,
-      "end": 1759905612316,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905612316,
-      "end": 1759905612316,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905612316,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889076,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889076,
+      "end": 1760093889077,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889077,
+      "end": 1760093889077,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889077,
+      "end": 1760093889077,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889077,
+      "end": 1760093889077,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1759905612317,
-      "end": 1759905612317,
+      "start": 1760093889077,
+      "end": 1760093889077,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"navigation\" }\nconst _hoisted_2 = { class: \"current dropdown\" }\nconst _hoisted_3 = { class: \"dropdown\" }\nconst _hoisted_4 = { class: \"dropdown\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"ul\", _hoisted_1, [\n    _createElementVNode(\"li\", _hoisted_2, [\n      _createVNode(_component_NuxtLink, { to: \"/\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Home\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home page 01\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/index-2\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home page 02\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/index-3\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Home page 03\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/page-about\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"About\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", _hoisted_3, [\n      _createVNode(_component_NuxtLink, { to: \"#\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Services\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/page-services\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Services List\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Service Details\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", _hoisted_4, [\n      _createVNode(_component_NuxtLink, { to: \"#\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Locations\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/news-grid\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"International Location\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"News Details\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/page-contact\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Contact\")\n        ]),\n        _: 1\n      })\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1759905612317,
-      "end": 1759905612318,
+      "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"navigation\" }\nconst _hoisted_2 = { class: \"dropdown\" }\nconst _hoisted_3 = { class: \"dropdown\" }\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"ul\", _hoisted_1, [\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/index-3\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Home\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/page-about\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"About\")\n        ]),\n        _: 1\n      })\n    ]),\n    _createElementVNode(\"li\", _hoisted_2, [\n      _createVNode(_component_NuxtLink, { to: \"#\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Services\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/page-services\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Services List\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"Service Details\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", _hoisted_3, [\n      _createVNode(_component_NuxtLink, { to: \"#\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Locations\")\n        ]),\n        _: 1\n      }),\n      _createElementVNode(\"ul\", null, [\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/news-grid\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"International Location\")\n            ]),\n            _: 1\n          })\n        ]),\n        _createElementVNode(\"li\", null, [\n          _createVNode(_component_NuxtLink, { to: \"/news-details\" }, {\n            default: _withCtx(() => [\n              _createTextVNode(\"News Details\")\n            ]),\n            _: 1\n          })\n        ])\n      ])\n    ]),\n    _createElementVNode(\"li\", null, [\n      _createVNode(_component_NuxtLink, { to: \"/page-contact\" }, {\n        default: _withCtx(() => [\n          _createTextVNode(\"Contact\")\n        ]),\n        _: 1\n      })\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1760093889077,
+      "end": 1760093889077,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905612318,
-      "end": 1759905612318,
+      "start": 1760093889077,
+      "end": 1760093889077,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905612318,
-      "end": 1759905612318,
+      "start": 1760093889077,
+      "end": 1760093889077,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905612318,
-      "end": 1759905612318,
+      "start": 1760093889077,
+      "end": 1760093889077,
       "order": "normal"
     }
   ]

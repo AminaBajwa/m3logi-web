@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"call-to-action-two pt-0\">\r\n        <div class=\"auto-container\">\r\n            <div class=\"outer-box wow fadeIn\" style=\"background-image: url(./images/background/8.jpg)\">\r\n                <div class=\"title-box\">\r\n                    <h3 class=\"title\">We’re Optimists Who Love to <br>Work Together</h3>\r\n                </div>\r\n                <div class=\"btn-box\">\r\n                    <NuxtLink to=\"/page-services\" class=\"theme-btn btn-style-two hvr-light\"><span class=\"btn-title\">More\r\n                            Services</span></NuxtLink>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
-      "start": 1759905620713,
-      "end": 1759905620899,
+      "start": 1760093904495,
+      "end": 1760093904826,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905620899,
-      "end": 1759905620899,
+      "start": 1760093904826,
+      "end": 1760093904826,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"call-to-action-two pt-0\" }, _attrs))\n  }><div class=\"auto-container\"><div class=\"outer-box wow fadeIn\" style=\"${\n    _ssrRenderStyle({\"background-image\":\"url(./images/background/8.jpg)\"})\n  }\"><div class=\"title-box\"><h3 class=\"title\">We’re Optimists Who Love to <br>Work Together</h3></div><div class=\"btn-box\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-services\",\n    class: \"theme-btn btn-style-two hvr-light\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<span class=\"btn-title\"${_scopeId}>More Services</span>`)\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, \"More Services\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home2/Section11.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905620899,
-      "end": 1759905620900,
+      "start": 1760093904826,
+      "end": 1760093904827,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904827,
+      "end": 1760093904827,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904827,
+      "end": 1760093904827,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904827,
+      "end": 1760093904827,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904827,
+      "end": 1760093904827,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904827,
+      "end": 1760093904827,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905620900,
-      "end": 1759905620900,
+      "start": 1760093904828,
+      "end": 1760093904828,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905620900,
-      "end": 1759905620901,
+      "start": 1760093904828,
+      "end": 1760093904829,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905620900,
-      "end": 1759905620901,
+      "start": 1760093904828,
+      "end": 1760093904829,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"call-to-action-two pt-0\" }, _attrs))\n  }><div class=\"auto-container\"><div class=\"outer-box wow fadeIn\" style=\"${\n    _ssrRenderStyle({\"background-image\":\"url(./images/background/8.jpg)\"})\n  }\"><div class=\"title-box\"><h3 class=\"title\">We’re Optimists Who Love to <br>Work Together</h3></div><div class=\"btn-box\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-services\",\n    class: \"theme-btn btn-style-two hvr-light\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<span class=\"btn-title\"${_scopeId}>More Services</span>`)\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, \"More Services\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home2/Section11.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905620901,
-      "end": 1759905620901,
+      "start": 1760093904829,
+      "end": 1760093904829,
       "order": "normal"
     }
   ]

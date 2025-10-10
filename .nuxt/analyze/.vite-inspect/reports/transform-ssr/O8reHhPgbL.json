@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<script setup lang=\"ts\">\r\nimport { ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue'\r\n\r\ntype GalleryImage = {\r\n  pathname: string\r\n  alt?: string\r\n  caption?: string\r\n}\r\n\r\n// Your images in /public/images\r\nconst images: GalleryImage[] = [\r\n  { pathname: 'gallery-0.jpeg', caption: 'gallery' },\r\n    { pathname: 'gallery-13.jpeg', caption: 'gallery' },\r\n  { pathname: 'gallery-3.jpg', caption: 'gallery' },\r\n  { pathname: 'gallery-5.jpg', caption: 'gallery' },\r\n  { pathname: 'gallery-6.jpg', caption: 'gallery' },\r\n   { pathname: 'gallery-14.jpeg', caption: 'gallery' },\r\n  { pathname: 'gallery-11.jpeg', caption: 'gallery' },\r\n  { pathname: 'gallery-12.jpeg', caption: 'gallery' },\r\n { pathname: 'gallery-2.jpg', caption: 'gallery' },\r\n  { pathname: 'gallery-4.jpg', caption: 'gallery' },\r\n  { pathname: 'gallery-15.jpeg', caption: 'gallery' },\r\n  { pathname: 'gallery-16.jpeg', caption: 'gallery' },\r\n \r\n]\r\n\r\n// How many to show per page (set to 6 or 9)\r\nconst pageSize = ref(6)\r\n\r\nconst pages = computed(() => {\r\n  const res: GalleryImage[][] = []\r\n  for (let i = 0; i < images.length; i += pageSize.value) {\r\n    res.push(images.slice(i, i + pageSize.value))\r\n  }\r\n  return res\r\n})\r\n\r\nconst currentPage = ref(0)\r\nconst trackRef = ref<HTMLDivElement | null>(null)\r\n\r\nfunction goToPage(index: number) {\r\n  const el = trackRef.value\r\n  if (!el) return\r\n  const totalPages = pages.value.length\r\n  currentPage.value = Math.max(0, Math.min(index, totalPages - 1))\r\n  el.scrollTo({ left: currentPage.value * el.clientWidth, behavior: 'smooth' })\r\n}\r\nfunction nextPage() { goToPage(currentPage.value + 1) }\r\nfunction prevPage() { goToPage(currentPage.value - 1) }\r\nfunction onScroll() {\r\n  const el = trackRef.value\r\n  if (!el) return\r\n  currentPage.value = Math.round(el.scrollLeft / el.clientWidth)\r\n}\r\nfunction handleResize() { nextTick(() => goToPage(currentPage.value)) }\r\nfunction handleKeys(e: KeyboardEvent) {\r\n  if (e.key === 'ArrowRight') nextPage()\r\n  if (e.key === 'ArrowLeft') prevPage()\r\n}\r\n\r\n// Compact variable heights (clean look)\r\nconst spansPattern = [20, 24, 22, 28, 24, 20, 26, 22, 24]\r\nfunction spanFor(globalIndex: number) { return spansPattern[globalIndex % spansPattern.length] }\r\n\r\n// Lightbox\r\nlet lightbox: any | null = null\r\nonMounted(async () => {\r\n  const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0\r\n  document.documentElement.classList.toggle('touch', isTouch)\r\n\r\n  const { default: GLightbox } = await import('glightbox')\r\n  lightbox = GLightbox({\r\n    selector: '.gallery-link',\r\n    skin: 'clean',\r\n    loop: true,\r\n    touchNavigation: true,\r\n    openEffect: 'zoom',\r\n    closeEffect: 'zoom',\r\n    slideEffect: 'fade',\r\n    draggable: true,\r\n    width: '90vw',\r\n    height: 'auto'\r\n  })\r\n\r\n  window.addEventListener('resize', handleResize)\r\n  window.addEventListener('keydown', handleKeys)\r\n})\r\nonBeforeUnmount(() => {\r\n  if (lightbox && typeof lightbox.destroy === 'function') lightbox.destroy()\r\n  window.removeEventListener('resize', handleResize)\r\n  window.removeEventListener('keydown', handleKeys)\r\n})\r\n</script>\r\n\r\n<template>\r\n  <section class=\"gallery-carousel\">\r\n    <!-- Controls (no count) -->\r\n    <header class=\"carousel-header\">\r\n      <div class=\"auto-container\">\r\n        <div class=\"controls\">\r\n        <button class=\"nav-btn\" @click=\"prevPage\" :disabled=\"currentPage === 0\" aria-label=\"Previous\">\r\n          <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M15 18l-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\r\n        </button>\r\n        <button class=\"nav-btn\" @click=\"nextPage\" :disabled=\"currentPage >= pages.length - 1\" aria-label=\"Next\">\r\n          <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M9 6l6 6-6 6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\r\n        </button>\r\n      </div>\r\n      </div>\r\n    </header>\r\n\r\n    <!-- Track -->\r\n   <div class=\"auto-container\">\r\n     <div ref=\"trackRef\" class=\"carousel-track\" @scroll.passive=\"onScroll\">\r\n      <div v-for=\"(page, pIdx) in pages\" :key=\"'page-' + pIdx\" class=\"slide\">\r\n        <article class=\"masonry-grid\">\r\n          <a\r\n            v-for=\"(img, idx) in page\"\r\n            :key=\"'img-' + pIdx + '-' + idx\"\r\n            class=\"gallery-link\"\r\n            :style=\"{ gridRowEnd: `span ${spanFor(pIdx * pageSize + idx)}` }\"\r\n            :href=\"`/images/${img.pathname}`\"\r\n            :title=\"img.caption || img.alt || 'Photo caption'\"\r\n            data-gallery=\"mican-gallery\"\r\n            :data-glightbox=\"`title: ${img.caption || 'Photo caption'}`\"\r\n          >\r\n            <figure class=\"gallery-image\">\r\n              <img :src=\"`/images/${img.pathname}`\" :alt=\"img.alt || img.caption || 'Photo'\" />\r\n              <figcaption>{{ img.caption || 'Photo caption' }}</figcaption>\r\n            </figure>\r\n          </a>\r\n        </article>\r\n      </div>\r\n    </div>\r\n   </div>\r\n\r\n    <!-- Dots -->\r\n    <div class=\"dots\" v-if=\"pages.length > 1\">\r\n      <button\r\n        v-for=\"(_, i) in pages\"\r\n        :key=\"'dot-' + i\"\r\n        class=\"dot\"\r\n        :class=\"{ active: i === currentPage }\"\r\n        @click=\"goToPage(i)\"\r\n        :aria-label=\"`Go to page ${i + 1}`\"\r\n      />\r\n    </div>\r\n  </section>\r\n</template>\r\n\r\n<style>\r\n:root {\r\n  /* Responsive gap/size via clamp for better mobile feel */\r\n  --gallery-gap: clamp(8px, 2.6vw, 14px);\r\n  --row-height: clamp(5px, 1.2vw, 6px);\r\n  --arrow-bg: rgba(255,255,255,0.95);\r\n  --arrow-color: #111;\r\n  --arrow-size: clamp(44px, 9vw, 46px); /* mobile-friendly tap size */\r\n}\r\n\r\n.gallery-carousel { position: relative; }\r\n\r\n/* Header: right-aligned on desktop; becomes floating bottom-right on mobile */\r\n.carousel-header {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: flex-end;\r\n  gap: 12px;\r\n  margin: 12px 0 10px;\r\n}\r\n.controls { display: flex; gap: 8px; }\r\n.nav-btn {\r\n  width: var(--arrow-size);\r\n  height: var(--arrow-size);\r\n  border-radius: 999px;\r\n  background: var(--arrow-bg);\r\n  color: var(--arrow-color);\r\n  border: 0;\r\n  display: grid;\r\n  place-items: center;\r\n  box-shadow: 0 8px 24px rgba(0,0,0,.18);\r\n  cursor: pointer;\r\n  transition: transform .15s ease, background .15s ease, opacity .15s ease;\r\n}\r\n.nav-btn:hover { transform: translateY(-1px); background: #fff; }\r\n.nav-btn:disabled { opacity: .4; cursor: not-allowed; }\r\n\r\n/* Track */\r\n.carousel-track {\r\n  display: flex;\r\n  overflow-x: auto;\r\n  scroll-snap-type: x mandatory;\r\n  -webkit-overflow-scrolling: touch;\r\n  scrollbar-width: none;\r\n}\r\n.carousel-track::-webkit-scrollbar { display: none; }\r\n.slide {\r\n  flex: 0 0 100%;\r\n  scroll-snap-align: start;\r\n  padding: 4px 0;\r\n}\r\n\r\n/* Dots */\r\n.dots {\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 8px;\r\n  margin-top: 10px;\r\n  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 4px);\r\n}\r\n.dot {\r\n  width: 8px; height: 8px; border-radius: 999px;\r\n  background: rgba(0,0,0,.25);\r\n  border: none; cursor: pointer;\r\n  transition: transform .15s ease, background .15s ease;\r\n}\r\n.dot.active { background: rgba(0,0,0,.6); transform: scale(1.1); }\r\n\r\n/* Masonry grid (per page) */\r\n.masonry-grid {\r\n  display: grid;\r\n  grid-template-columns: 1fr;\r\n  grid-auto-rows: var(--row-height);\r\n  gap: var(--gallery-gap);\r\n  padding: 0 2px;\r\n}\r\n\r\n/* Small phones: 2 columns for denser layout */\r\n@media (min-width: 380px) {\r\n  .masonry-grid { grid-template-columns: repeat(2, 1fr); }\r\n}\r\n/* Tablets and up: 3 columns */\r\n@media (min-width: 900px) {\r\n  .masonry-grid { grid-template-columns: repeat(3, 1fr); }\r\n}\r\n\r\n/* Mobile-specific: float controls bottom-right inside the carousel */\r\n@media (max-width: 640px) {\r\n  .carousel-header {\r\n    position: absolute;\r\n    right: calc(var(--gallery-gap) + 2px);\r\n    bottom: calc(env(safe-area-inset-bottom, 0px) + var(--gallery-gap) + 28px);\r\n    margin: 0;\r\n    z-index: 5;\r\n    background: rgba(255,255,255,0.88);\r\n    border-radius: 999px;\r\n    padding: 6px;\r\n    box-shadow: 0 8px 24px rgba(0,0,0,.15);\r\n    backdrop-filter: blur(4px);\r\n  }\r\n}\r\n\r\n/* Cards + hover effect */\r\n.gallery-link { display: block; width: 100%; color: inherit; text-decoration: none; }\r\n\r\n.gallery-image {\r\n  position: relative;\r\n  margin: 0;\r\n  padding: 0;\r\n  border-radius: 12px;\r\n  overflow: hidden;\r\n  height: 100%;\r\n  background: #0e0e0e;\r\n}\r\n.gallery-image img {\r\n  display: block;\r\n  width: 100%;\r\n  height: 100%;\r\n  object-fit: cover;\r\n  object-position: center;\r\n}\r\n/* Border layers */\r\n.gallery-image::before,\r\n.gallery-image::after {\r\n  content: '';\r\n  position: absolute;\r\n  inset: 0;\r\n  border: 12px solid rgba(0, 0, 0, 0.1);\r\n  transition: all .2s;\r\n  will-change: border;\r\n  pointer-events: none;\r\n}\r\n.gallery-image::after { border-width: 0; }\r\n\r\n/* Caption + sliding translucent panels */\r\n.gallery-image figcaption {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%,-50%);\r\n  font-size: 14px;\r\n  color: rgba(255,255,255,0);\r\n  padding: 0.9em;\r\n  transition: all .2s ease;\r\n  font-weight: 600;\r\n  max-width: calc(100% - 8em);\r\n  line-height: 1.25;\r\n  text-align: center;\r\n  box-sizing: border-box;\r\n  z-index: 1;\r\n}\r\n.gallery-image figcaption::before,\r\n.gallery-image figcaption::after {\r\n  content: '';\r\n  position: absolute;\r\n  background: rgba(0,0,0,.18);\r\n  width: 100%;\r\n  height: 100%;\r\n  padding: 0.9em;\r\n  transition: all .3s ease-in-out;\r\n  opacity: 0;\r\n  z-index: -1;\r\n}\r\n.gallery-image figcaption::before,\r\n.gallery-image figcaption::after { right: 100%; bottom: 100%; }\r\n.gallery-image figcaption::after { left: 100%; top: 100%; }\r\n\r\n/* Hover (non-touch) */\r\nhtml:not(.touch) .gallery-image:hover::before { border-width: 12px; }\r\nhtml:not(.touch) .gallery-image:hover::after  { border-width: 24px; }\r\nhtml:not(.touch) .gallery-image:hover figcaption {\r\n  color: rgba(255,255,255,1);\r\n  text-shadow: 0 0 1px rgba(0,0,0,.2);\r\n  transition: all .2s ease .25s;\r\n}\r\nhtml:not(.touch) .gallery-image:hover figcaption::before,\r\nhtml:not(.touch) .gallery-image:hover figcaption::after { opacity: 1; }\r\nhtml:not(.touch) .gallery-image:hover figcaption::before { right: -1.2em; bottom: -1.2em; }\r\nhtml:not(.touch) .gallery-image:hover figcaption::after  { left:  -1.2em; top:    -1.2em; }\r\n\r\n/* Touch devices */\r\nhtml.touch .gallery-image figcaption {\r\n  color: rgba(255,255,255,1);\r\n  text-shadow: 0 0 1px rgba(0,0,0,.2);\r\n  top: auto; bottom: 1.5em; left: 50%; transform: translateX(-50%);\r\n}\r\nhtml.touch .gallery-image figcaption::before,\r\nhtml.touch .gallery-image figcaption::after { opacity: 1; right: -1.2em; bottom: -1.2em; }\r\nhtml.touch .gallery-image figcaption::after { left: -1.2em; top: -1.2em; }\r\n\r\n/* Lightbox polish */\r\n.goverlay { background: rgba(10,10,12,0.92); backdrop-filter: blur(2px); }\r\n.glightbox-container .gbtn {\r\n  background: rgba(255,255,255,0.9);\r\n  color: #111;\r\n  width: 42px; height: 42px;\r\n  border-radius: 999px;\r\n  box-shadow: 0 6px 18px rgba(0,0,0,.25);\r\n  transition: transform .15s ease, background .15s ease;\r\n}\r\n.glightbox-container .gbtn:hover { background: #fff; transform: translateY(-1px); }\r\n.glightbox-clean .gdesc-inner { font-size: 14px; font-weight: 600; color: #fff; }\r\n\r\n/* Reduce motion */\r\n@media (prefers-reduced-motion: reduce) {\r\n  .nav-btn, .dot, .gallery-image::before, .gallery-image::after,\r\n  .gallery-image figcaption, .gallery-image figcaption::before, .gallery-image figcaption::after {\r\n    transition: none !important;\r\n  }\r\n}\r\n</style>",
-      "start": 1759905620927,
-      "end": 1759905621133,
+      "start": 1760093904933,
+      "end": 1760093905185,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905621133,
-      "end": 1759905621133,
+      "start": 1760093905185,
+      "end": 1760093905185,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import _sfc_main from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section6.vue?vue&type=script&setup=true&lang.ts\";\nexport * from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section6.vue?vue&type=script&setup=true&lang.ts\";\nimport \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section6.vue?vue&type=style&index=0&lang.css\";\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/sections/About/Section6.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nexport default _sfc_main;\n",
-      "start": 1759905621133,
-      "end": 1759905621218,
+      "start": 1760093905185,
+      "end": 1760093905317,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -74,176 +74,176 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905318,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905621219,
-      "end": 1759905621219,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905621219,
-      "end": 1759905621219,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905621219,
-      "end": 1759905621219,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905621219,
-      "end": 1759905621219,
+      "start": 1760093905318,
+      "end": 1760093905319,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905321,
+      "end": 1760093905322,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621221,
-      "end": 1759905621221,
+      "start": 1760093905325,
+      "end": 1760093905325,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621221,
-      "end": 1759905621221,
+      "start": 1760093905325,
+      "end": 1760093905325,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621221,
-      "end": 1759905621222,
+      "start": 1760093905328,
+      "end": 1760093905329,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621221,
-      "end": 1759905621222,
+      "start": 1760093905328,
+      "end": 1760093905329,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621222,
-      "end": 1759905621222,
+      "start": 1760093905329,
+      "end": 1760093905329,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621222,
-      "end": 1759905621222,
+      "start": 1760093905329,
+      "end": 1760093905331,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621223,
-      "end": 1759905621223,
+      "start": 1760093905333,
+      "end": 1760093905333,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621223,
-      "end": 1759905621223,
+      "start": 1760093905333,
+      "end": 1760093905333,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905621223,
-      "end": 1759905621223,
+      "start": 1760093905333,
+      "end": 1760093905333,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1759905621223,
-      "end": 1759905621223,
+      "start": 1760093905333,
+      "end": 1760093905333,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905621223,
-      "end": 1759905621223,
+      "start": 1760093905333,
+      "end": 1760093905333,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905621223,
-      "end": 1759905621223,
+      "start": 1760093905333,
+      "end": 1760093905333,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905621223,
-      "end": 1759905621223,
+      "start": 1760093905333,
+      "end": 1760093905333,
       "order": "normal"
     }
   ]

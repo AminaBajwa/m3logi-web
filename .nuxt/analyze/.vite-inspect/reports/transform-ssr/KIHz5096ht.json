@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <footer class=\"main-footer\">\r\n        <div class=\"bg-image\" style=\"background-image: url(./images/background/5.jpg)\"></div>\r\n        <div class=\"anim-icons\">\r\n            <span class=\"icon icon-plane-3 bounce-x\"></span>\r\n        </div>\r\n\r\n        <!-- Contact info -->\r\n        <div class=\"contacts-outer\">\r\n            <div class=\"auto-container\">\r\n                <div class=\"row\">\r\n                    <!-- Contact Info Block -->\r\n                    <div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"icon-box\"><i class=\"icon flaticon-international-shipping-2\"></i></div>\r\n                            <h4 class=\"title\">Address</h4>\r\n                            <div class=\"text\">Aks Hatchobori Bldg 5 Floor, 2 Chome 27-6,\r\nHatchobori, Chuo-ku, Tokyo-to Japan</div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- Contact Info Block -->\r\n                    <div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\" data-wow-delay=\"300ms\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"icon-box\"><i class=\"icon flaticon-stock-1\"></i></div>\r\n                            <h4 class=\"title\">Contact</h4>\r\n                            <div class=\"text\">\r\n                                <NuxtLink to=\"mailto:sales@m3Logi.com \">sales@m3Logi.com </NuxtLink>\r\n                                <NuxtLink to=\"tel:+92(8800)48720\">+81-3-6262-8600</NuxtLink>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!-- Contact Info Block -->\r\n                    <div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\" data-wow-delay=\"600ms\">\r\n                        <div class=\"inner-box\">\r\n                            <div class=\"icon-box\"><i class=\"icon flaticon-24-hours-2\"></i></div>\r\n                            <h4 class=\"title\">Timing</h4>\r\n                            <div class=\"text\">Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <!-- End Contact info -->\r\n\r\n        <!--Widgets Section-->\r\n        <div class=\"widgets-section\">\r\n            <div class=\"auto-container\">\r\n                <div class=\"row\">\r\n                    <!--Footer Column-->\r\n                    <div class=\"footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12\">\r\n                        <div class=\"footer-widget about-widget\">\r\n                            <div class=\"logo\">\r\n                                <NuxtLink to=\"/\"><img src=\"/images/logoM3Logi-.png\" alt=\"\"></NuxtLink>\r\n                            </div>\r\n                            <div class=\"text\">m3Logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>\r\n                            <NuxtLink to=\"/page-about\" class=\"theme-btn btn-style-one hvr-light small\"><span\r\n                                    class=\"btn-title\">About</span></NuxtLink>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!--Footer Column-->\r\n                    <div class=\"footer-column col-xl-3 col-lg-3 col-md-6 col-sm-12\">\r\n                        <div class=\"footer-widget\">\r\n                            <h3 class=\"widget-title\">Service</h3>\r\n                            <ul class=\"user-links\">\r\n                                <li>\r\n                                    <NuxtLink to=\"#\">Reliability & Punctuality</NuxtLink>\r\n                                </li>\r\n                                <li>\r\n                                    <NuxtLink to=\"#\">Trusted Franchise</NuxtLink>\r\n                                </li>\r\n                                <li>\r\n                                    <NuxtLink to=\"#\">Warehoues Storage</NuxtLink>\r\n                                </li>\r\n                                <li>\r\n                                    <NuxtLink to=\"#\">Real Time Tracking</NuxtLink>\r\n                                </li>\r\n                                <li>\r\n                                    <NuxtLink to=\"#\">Transparent Pricing</NuxtLink>\r\n                                </li>\r\n                            </ul>\r\n                        </div>\r\n                    </div>\r\n\r\n\r\n                    <!--Footer Column-->\r\n                    <div class=\"footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12\">\r\n                        <div class=\"footer-widget gallery-widget\">\r\n                            <h3 class=\"widget-title\">Projects</h3>\r\n                            <div class=\"widget-content\">\r\n                                <div class=\"outer clearfix\">\r\n                                    <figure class=\"image\">\r\n                                        <NuxtLink to=\"#\"><img src=\"/images/resource/project-thumb-1.jpg\" alt=\"\">\r\n                                        </NuxtLink>\r\n                                    </figure>\r\n\r\n                                    <figure class=\"image\">\r\n                                        <NuxtLink to=\"#\"><img src=\"/images/resource/project-thumb-2.jpg\" alt=\"\">\r\n                                        </NuxtLink>\r\n                                    </figure>\r\n\r\n                                    <figure class=\"image\">\r\n                                        <NuxtLink to=\"#\"><img src=\"/images/resource/project-thumb-3.jpg\" alt=\"\">\r\n                                        </NuxtLink>\r\n                                    </figure>\r\n\r\n                                    <figure class=\"image\">\r\n                                        <NuxtLink to=\"#\"><img src=\"/images/resource/project-thumb-4.jpg\" alt=\"\">\r\n                                        </NuxtLink>\r\n                                    </figure>\r\n\r\n                                    <figure class=\"image\">\r\n                                        <NuxtLink to=\"#\"><img src=\"/images/resource/project-thumb-5.jpg\" alt=\"\">\r\n                                        </NuxtLink>\r\n                                    </figure>\r\n\r\n                                    <figure class=\"image\">\r\n                                        <NuxtLink to=\"#\"><img src=\"/images/resource/project-thumb-6.jpg\" alt=\"\">\r\n                                        </NuxtLink>\r\n                                    </figure>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                    <!--Footer Column-->\r\n                    <div class=\"footer-column col-xl-3 col-lg-5 col-md-6 col-sm-12\">\r\n                        <div class=\"footer-widget\">\r\n                            <h3 class=\"widget-title\">Newsletter</h3>\r\n                            <div class=\"widget-content\">\r\n                                <div class=\"subscribe-form\">\r\n                                    <div class=\"text\">Subscribe our newsletter to get our latest update & news</div>\r\n                                    <form method=\"post\">\r\n                                        <div class=\"form-group\">\r\n                                            <input type=\"email\" name=\"email\" class=\"email\" value=\"\"\r\n                                                placeholder=\"Email Address\" />\r\n                                            <button type=\"button\" class=\"theme-btn btn-style-one\"><span class=\"btn-title\"><i\r\n                                                        class=\"fa fa-paper-plane\"></i></span></button>\r\n                                        </div>\r\n                                    </form>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n        <!--Footer Bottom-->\r\n        <div class=\"footer-bottom\">\r\n            <div class=\"auto-container\">\r\n                <div class=\"inner-container\">\r\n                    <div class=\"copyright-text\">\r\n                        <p>&copy; Copyright 2025 by <NuxtLink to=\"/\">m3Logi.com</NuxtLink>\r\n                        </p>\r\n                    </div>\r\n\r\n                    <ul class=\"social-icon-two\">\r\n                        <li>\r\n                            <NuxtLink to=\"#\"><i class=\"fab fa-facebook\"></i></NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"#\"><i class=\"fab fa-twitter\"></i></NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"#\"><i class=\"fab fa-pinterest\"></i></NuxtLink>\r\n                        </li>\r\n                        <li>\r\n                            <NuxtLink to=\"#\"><i class=\"fab fa-instagram\"></i></NuxtLink>\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </footer>\r\n</template>",
-      "start": 1759905621304,
-      "end": 1759905621353,
+      "start": 1760093905638,
+      "end": 1760093905737,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905621353,
-      "end": 1759905621353,
+      "start": 1760093905737,
+      "end": 1760093905737,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/logoM3Logi-.png'\nimport _imports_1 from '/images/resource/project-thumb-1.jpg'\nimport _imports_2 from '/images/resource/project-thumb-2.jpg'\nimport _imports_3 from '/images/resource/project-thumb-3.jpg'\nimport _imports_4 from '/images/resource/project-thumb-4.jpg'\nimport _imports_5 from '/images/resource/project-thumb-5.jpg'\nimport _imports_6 from '/images/resource/project-thumb-6.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<footer${\n    _ssrRenderAttrs(_mergeProps({ class: \"main-footer\" }, _attrs))\n  }><div class=\"bg-image\" style=\"${\n    _ssrRenderStyle({\"background-image\":\"url(./images/background/5.jpg)\"})\n  }\"></div><div class=\"anim-icons\"><span class=\"icon icon-plane-3 bounce-x\"></span></div><div class=\"contacts-outer\"><div class=\"auto-container\"><div class=\"row\"><div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\"><div class=\"inner-box\"><div class=\"icon-box\"><i class=\"icon flaticon-international-shipping-2\"></i></div><h4 class=\"title\">Address</h4><div class=\"text\">Aks Hatchobori Bldg 5 Floor, 2 Chome 27-6, Hatchobori, Chuo-ku, Tokyo-to Japan</div></div></div><div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\" data-wow-delay=\"300ms\"><div class=\"inner-box\"><div class=\"icon-box\"><i class=\"icon flaticon-stock-1\"></i></div><h4 class=\"title\">Contact</h4><div class=\"text\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"mailto:sales@m3Logi.com \" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`sales@m3Logi.com `)\n      } else {\n        return [\n          _createTextVNode(\"sales@m3Logi.com \")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"tel:+92(8800)48720\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`+81-3-6262-8600`)\n      } else {\n        return [\n          _createTextVNode(\"+81-3-6262-8600\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\" data-wow-delay=\"600ms\"><div class=\"inner-box\"><div class=\"icon-box\"><i class=\"icon flaticon-24-hours-2\"></i></div><h4 class=\"title\">Timing</h4><div class=\"text\">Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</div></div></div></div></div></div><div class=\"widgets-section\"><div class=\"auto-container\"><div class=\"row\"><div class=\"footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12\"><div class=\"footer-widget about-widget\"><div class=\"logo\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_0,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"text\">m3Logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-about\",\n    class: \"theme-btn btn-style-one hvr-light small\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<span class=\"btn-title\"${_scopeId}>About</span>`)\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, \"About\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div><div class=\"footer-column col-xl-3 col-lg-3 col-md-6 col-sm-12\"><div class=\"footer-widget\"><h3 class=\"widget-title\">Service</h3><ul class=\"user-links\"><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Reliability &amp; Punctuality`)\n      } else {\n        return [\n          _createTextVNode(\"Reliability & Punctuality\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Trusted Franchise`)\n      } else {\n        return [\n          _createTextVNode(\"Trusted Franchise\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Warehoues Storage`)\n      } else {\n        return [\n          _createTextVNode(\"Warehoues Storage\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Real Time Tracking`)\n      } else {\n        return [\n          _createTextVNode(\"Real Time Tracking\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Transparent Pricing`)\n      } else {\n        return [\n          _createTextVNode(\"Transparent Pricing\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></div></div><div class=\"footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12\"><div class=\"footer-widget gallery-widget\"><h3 class=\"widget-title\">Projects</h3><div class=\"widget-content\"><div class=\"outer clearfix\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_1)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_1,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_2)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_2,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_3)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_3,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_4)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_4,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_5)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_5,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_6)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_6,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure></div></div></div></div><div class=\"footer-column col-xl-3 col-lg-5 col-md-6 col-sm-12\"><div class=\"footer-widget\"><h3 class=\"widget-title\">Newsletter</h3><div class=\"widget-content\"><div class=\"subscribe-form\"><div class=\"text\">Subscribe our newsletter to get our latest update &amp; news</div><form method=\"post\"><div class=\"form-group\"><input type=\"email\" name=\"email\" class=\"email\" value=\"\" placeholder=\"Email Address\"><button type=\"button\" class=\"theme-btn btn-style-one\"><span class=\"btn-title\"><i class=\"fa fa-paper-plane\"></i></span></button></div></form></div></div></div></div></div></div></div><div class=\"footer-bottom\"><div class=\"auto-container\"><div class=\"inner-container\"><div class=\"copyright-text\"><p>© Copyright 2025 by `)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`m3Logi.com`)\n      } else {\n        return [\n          _createTextVNode(\"m3Logi.com\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</p></div><ul class=\"social-icon-two\"><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fab fa-facebook\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fab fa-facebook\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fab fa-twitter\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fab fa-twitter\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fab fa-pinterest\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fab fa-pinterest\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fab fa-instagram\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fab fa-instagram\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></div></div></div></footer>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/layout/Footer1.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905621353,
-      "end": 1759905621355,
+      "start": 1760093905737,
+      "end": 1760093905741,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905621355,
-      "end": 1759905621355,
+      "start": 1760093905741,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621355,
-      "end": 1759905621355,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621355,
-      "end": 1759905621355,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621355,
-      "end": 1759905621355,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621355,
-      "end": 1759905621355,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905621355,
-      "end": 1759905621355,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621355,
-      "end": 1759905621355,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905621355,
-      "end": 1759905621355,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621356,
-      "end": 1759905621356,
+      "start": 1760093905742,
+      "end": 1760093905742,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621356,
-      "end": 1759905621357,
+      "start": 1760093905742,
+      "end": 1760093905745,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621356,
-      "end": 1759905621357,
+      "start": 1760093905742,
+      "end": 1760093905745,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621357,
-      "end": 1759905621357,
+      "start": 1760093905745,
+      "end": 1760093905745,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621357,
-      "end": 1759905621357,
+      "start": 1760093905745,
+      "end": 1760093905745,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621357,
-      "end": 1759905621357,
+      "start": 1760093905745,
+      "end": 1760093905745,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621357,
-      "end": 1759905621357,
+      "start": 1760093905745,
+      "end": 1760093905745,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905621357,
-      "end": 1759905621357,
+      "start": 1760093905745,
+      "end": 1760093905745,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createTextVNode as _createTextVNode, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderStyle as _ssrRenderStyle, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/logoM3Logi-.png'\nimport _imports_1 from '/images/resource/project-thumb-1.jpg'\nimport _imports_2 from '/images/resource/project-thumb-2.jpg'\nimport _imports_3 from '/images/resource/project-thumb-3.jpg'\nimport _imports_4 from '/images/resource/project-thumb-4.jpg'\nimport _imports_5 from '/images/resource/project-thumb-5.jpg'\nimport _imports_6 from '/images/resource/project-thumb-6.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<footer${\n    _ssrRenderAttrs(_mergeProps({ class: \"main-footer\" }, _attrs))\n  }><div class=\"bg-image\" style=\"${\n    _ssrRenderStyle({\"background-image\":\"url(./images/background/5.jpg)\"})\n  }\"></div><div class=\"anim-icons\"><span class=\"icon icon-plane-3 bounce-x\"></span></div><div class=\"contacts-outer\"><div class=\"auto-container\"><div class=\"row\"><div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\"><div class=\"inner-box\"><div class=\"icon-box\"><i class=\"icon flaticon-international-shipping-2\"></i></div><h4 class=\"title\">Address</h4><div class=\"text\">Aks Hatchobori Bldg 5 Floor, 2 Chome 27-6, Hatchobori, Chuo-ku, Tokyo-to Japan</div></div></div><div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\" data-wow-delay=\"300ms\"><div class=\"inner-box\"><div class=\"icon-box\"><i class=\"icon flaticon-stock-1\"></i></div><h4 class=\"title\">Contact</h4><div class=\"text\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"mailto:sales@m3Logi.com \" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`sales@m3Logi.com `)\n      } else {\n        return [\n          _createTextVNode(\"sales@m3Logi.com \")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"tel:+92(8800)48720\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`+81-3-6262-8600`)\n      } else {\n        return [\n          _createTextVNode(\"+81-3-6262-8600\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\" data-wow-delay=\"600ms\"><div class=\"inner-box\"><div class=\"icon-box\"><i class=\"icon flaticon-24-hours-2\"></i></div><h4 class=\"title\">Timing</h4><div class=\"text\">Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</div></div></div></div></div></div><div class=\"widgets-section\"><div class=\"auto-container\"><div class=\"row\"><div class=\"footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12\"><div class=\"footer-widget about-widget\"><div class=\"logo\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_0,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"text\">m3Logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-about\",\n    class: \"theme-btn btn-style-one hvr-light small\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<span class=\"btn-title\"${_scopeId}>About</span>`)\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, \"About\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div><div class=\"footer-column col-xl-3 col-lg-3 col-md-6 col-sm-12\"><div class=\"footer-widget\"><h3 class=\"widget-title\">Service</h3><ul class=\"user-links\"><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Reliability &amp; Punctuality`)\n      } else {\n        return [\n          _createTextVNode(\"Reliability & Punctuality\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Trusted Franchise`)\n      } else {\n        return [\n          _createTextVNode(\"Trusted Franchise\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Warehoues Storage`)\n      } else {\n        return [\n          _createTextVNode(\"Warehoues Storage\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Real Time Tracking`)\n      } else {\n        return [\n          _createTextVNode(\"Real Time Tracking\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Transparent Pricing`)\n      } else {\n        return [\n          _createTextVNode(\"Transparent Pricing\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></div></div><div class=\"footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12\"><div class=\"footer-widget gallery-widget\"><h3 class=\"widget-title\">Projects</h3><div class=\"widget-content\"><div class=\"outer clearfix\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_1)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_1,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_2)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_2,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_3)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_3,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_4)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_4,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_5)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_5,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_6)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_6,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure></div></div></div></div><div class=\"footer-column col-xl-3 col-lg-5 col-md-6 col-sm-12\"><div class=\"footer-widget\"><h3 class=\"widget-title\">Newsletter</h3><div class=\"widget-content\"><div class=\"subscribe-form\"><div class=\"text\">Subscribe our newsletter to get our latest update &amp; news</div><form method=\"post\"><div class=\"form-group\"><input type=\"email\" name=\"email\" class=\"email\" value=\"\" placeholder=\"Email Address\"><button type=\"button\" class=\"theme-btn btn-style-one\"><span class=\"btn-title\"><i class=\"fa fa-paper-plane\"></i></span></button></div></form></div></div></div></div></div></div></div><div class=\"footer-bottom\"><div class=\"auto-container\"><div class=\"inner-container\"><div class=\"copyright-text\"><p>© Copyright 2025 by `)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`m3Logi.com`)\n      } else {\n        return [\n          _createTextVNode(\"m3Logi.com\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</p></div><ul class=\"social-icon-two\"><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fab fa-facebook\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fab fa-facebook\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fab fa-twitter\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fab fa-twitter\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fab fa-pinterest\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fab fa-pinterest\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"#\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fab fa-instagram\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fab fa-instagram\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></div></div></div></footer>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/layout/Footer1.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905621357,
-      "end": 1759905621358,
+      "start": 1760093905745,
+      "end": 1760093905747,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905621358,
-      "end": 1759905621358,
+      "start": 1760093905747,
+      "end": 1760093905747,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905621358,
-      "end": 1759905621358,
+      "start": 1760093905747,
+      "end": 1760093905747,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905621358,
-      "end": 1759905621359,
+      "start": 1760093905747,
+      "end": 1760093905748,
       "order": "normal"
     }
   ]

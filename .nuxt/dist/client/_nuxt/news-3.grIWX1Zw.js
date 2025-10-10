@@ -1,1 +1,0 @@
-import"./entry.gkIplG0H.js";const e=""+globalThis.__publicAssetsURL("images/resource/testi-thumb-2.jpg"),i=""+globalThis.__publicAssetsURL("images/resource/news-1.jpg"),o=""+globalThis.__publicAssetsURL("images/resource/news-2.jpg"),t=""+globalThis.__publicAssetsURL("images/resource/news-3.jpg");export{e as _,i as a,o as b,t as c};

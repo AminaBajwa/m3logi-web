@@ -4893,9 +4893,9 @@ Section Title
 
 .fact-counter .counter-title {
     display: inline-block;
-    font-size: 16px;
-    line-height: 21px;
-    color: #767676;
+    /* font-size: 16px; */
+    /* line-height: 21px; */
+    color: #060606;
     margin-top: 5px;
 }
 
@@ -6524,7 +6524,7 @@ Section Title
 ====================================================================
 
 ***/
-/* .clients-section {
+.clients-section {
     position: relative;
     z-index: 1;
     background-color: #f8f5f1;
@@ -6613,42 +6613,6 @@ Section Title
     display: none;
 }
 
- */
-
-
-
-
-/* Adjust once here */
-:root { --logo-box-height: 90px; } /* 70–110px try kar sakte ho */
-
-.clients-section .clients-carousel .swiper-slide {
-  height: var(--logo-box-height);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 16px;         /* optional breathing space */
-  box-sizing: border-box;
-}
-
-.clients-section .clients-carousel .swiper-slide a,
-.clients-section .clients-carousel .swiper-slide > * {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Make all images fit the same box without distortion */
-.clients-section .clients-carousel .swiper-slide img {
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;       /* no crop, letterbox allowed */
-  object-position: center;
-  display: block;
-}
 /***
 
 ====================================================================
@@ -11624,4 +11588,10 @@ ul.sections li.section a {
   color: #fff;
   text-transform: uppercase;
   border: 0;
+}
+
+#subtitle{
+    font-size: large;
+    color: white;
+    margin-bottom: 30px;
 }

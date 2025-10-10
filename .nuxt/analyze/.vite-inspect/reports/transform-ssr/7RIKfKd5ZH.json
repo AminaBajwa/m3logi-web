@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n  <div class=\"organization-chart\">\r\n    <ul class=\"org-root\">\r\n      <OrgNode \r\n        v-for=\"(node, idx) in model\" \r\n        :key=\"node.id ?? idx\" \r\n        :node=\"node\" \r\n      />\r\n    </ul>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nimport { defineProps } from 'vue';\r\nimport OrgNode from './OrgNode.vue';\r\n\r\nconst props = defineProps({\r\n  model: {\r\n    type: Array,\r\n    required: true\r\n  }\r\n});\r\n\r\n\r\nconst classes = {\r\n    root: 'p-organizationchart p-component',\r\n    table: 'p-organizationchart-table',\r\n    node: ({ instance }) => ['p-organizationchart-node', { 'p-organizationchart-node-selectable': instance.selectable, 'p-organizationchart-node-selected': instance.selected }],\r\n    nodeToggleButton: ({ instance }) => ['p-organizationchart-node-toggle-button', { 'p-disabled': !instance.selectable }],\r\n    nodeToggleButtonIcon: 'p-organizationchart-node-toggle-button-icon',\r\n    connectors: 'p-organizationchart-connectors',\r\n    connectorDown: 'p-organizationchart-connector-down',\r\n    connectorLeft: ({ index }) => ['p-organizationchart-connector-left', { 'p-organizationchart-connector-top': !(index === 0) }],\r\n    connectorRight: ({ props, index }) => ['p-organizationchart-connector-right', { 'p-organizationchart-connector-top': !(index === props.node.children.length - 1) }],\r\n    nodeChildren: 'p-organizationchart-node-children'\r\n};\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n.organization-chart {\r\n  /* basic container styling */\r\n}\r\n\r\n.org-root {\r\n  list-style: none;\r\n  padding-left: 0;\r\n}\r\n\r\n.org-node {\r\n  margin: 0.5rem 0;\r\n  text-align: center;\r\n}\r\n\r\n.org-children {\r\n  list-style: none;\r\n  padding-left: 2rem;\r\n  border-left: 1px solid #ccc;\r\n  margin-top: 0.5rem;\r\n}\r\n</style>\r\n",
-      "start": 1759905620940,
-      "end": 1759905621163,
+      "start": 1760093904950,
+      "end": 1760093905224,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905621163,
-      "end": 1759905621163,
+      "start": 1760093905224,
+      "end": 1760093905224,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\n\r\nimport OrgNode from './OrgNode.vue';\r\n\r\n\nconst _sfc_main = {\n  __name: 'OrganizationChart',\n  __ssrInlineRender: true,\n  props: {\r\n  model: {\r\n    type: Array,\r\n    required: true\r\n  }\r\n},\n  setup(__props) {\n\r\nconst props = __props;\r\n\r\n\r\nconst classes = {\r\n    root: 'p-organizationchart p-component',\r\n    table: 'p-organizationchart-table',\r\n    node: ({ instance }) => ['p-organizationchart-node', { 'p-organizationchart-node-selectable': instance.selectable, 'p-organizationchart-node-selected': instance.selected }],\r\n    nodeToggleButton: ({ instance }) => ['p-organizationchart-node-toggle-button', { 'p-disabled': !instance.selectable }],\r\n    nodeToggleButtonIcon: 'p-organizationchart-node-toggle-button-icon',\r\n    connectors: 'p-organizationchart-connectors',\r\n    connectorDown: 'p-organizationchart-connector-down',\r\n    connectorLeft: ({ index }) => ['p-organizationchart-connector-left', { 'p-organizationchart-connector-top': !(index === 0) }],\r\n    connectorRight: ({ props, index }) => ['p-organizationchart-connector-right', { 'p-organizationchart-connector-top': !(index === props.node.children.length - 1) }],\r\n    nodeChildren: 'p-organizationchart-node-children'\r\n};\r\n\r\n\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"organization-chart\" }, _attrs))} data-v-e88009ec><ul class=\"org-root\" data-v-e88009ec><!--[-->`)\n  _ssrRenderList(__props.model, (node, idx) => {\n    _push(_ssrRenderComponent(OrgNode, {\n      key: node.id ?? idx,\n      node: node\n    }, null, _parent))\n  })\n  _push(`<!--]--></ul></div>`)\n}\n}\n\n}\n\n\nimport \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/OrganizationChart.vue?vue&type=style&index=0&scoped=e88009ec&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/About/OrganizationChart.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-e88009ec\"]])",
-      "start": 1759905621163,
-      "end": 1759905621165,
+      "start": 1760093905224,
+      "end": 1760093905227,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,176 +82,176 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905227,
+      "end": 1760093905227,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905227,
+      "end": 1760093905227,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905227,
+      "end": 1760093905227,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905227,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905227,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905228,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905228,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905621165,
-      "end": 1759905621165,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905621165,
-      "end": 1759905621166,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905621166,
-      "end": 1759905621166,
+      "start": 1760093905229,
+      "end": 1760093905229,
       "order": "normal"
     }
   ]

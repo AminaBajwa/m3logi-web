@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"about-section-two\" id=\"vision\">\r\n        <div class=\"auto-container\">\r\n         <div class=\"row\">\r\n\r\n    <!-- Image Column -->\r\n    <div class=\"image-column col-lg-6 col-md-12 col-sm-12 order-lg-2\">\r\n        <div class=\"inner-column\">\r\n            <figure class=\"image-1 wow fadeInUp\">\r\n                <img src=\"/images/Vision.png\" alt=\"\">\r\n            </figure>\r\n        </div>\r\n    </div>\r\n\r\n    <!-- Content Column -->\r\n    <div class=\"content-column col-lg-6 col-md-12 col-sm-12 order-lg-1\">\r\n        <div class=\"inner-column\">\r\n            <div class=\"sec-title\">\r\n                <span class=\"sub-title\">Our Vision</span>\r\n                <h2>Driving the Future of Global Logistics</h2>\r\n                <h4>Our vision is to redefine the way the world moves cargo.</h4>\r\n                <div class=\"text\">\r\n                    We aim to create a smarter, faster, and more sustainable logistics ecosystem where technology bridges every gap in international trade. <br/><br/>\r\n                    We envision a future where businesses of all sizes—from local exporters to multinational corporations—can access seamless freight solutions \r\n                    at their fingertips. By combining digital innovation with our global expertise, we strive to eliminate complexity, reduce delays, and empower\r\n                    customers with complete visibility over their shipments. <br/><br/>Our goal is to build a connected logistics network that not only simplifies trade but\r\n                    also fosters growth, trust, and opportunity for our partners worldwide.\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n</div>\r\n\r\n        </div>\r\n    </section>\r\n</template>",
-      "start": 1759905620921,
-      "end": 1759905621122,
+      "start": 1760093904916,
+      "end": 1760093905151,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905151,
+      "end": 1760093905151,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905151,
+      "end": 1760093905151,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905151,
+      "end": 1760093905152,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905151,
+      "end": 1760093905152,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905152,
+      "end": 1760093905152,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905152,
+      "end": 1760093905152,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905152,
+      "end": 1760093905152,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905152,
+      "end": 1760093905152,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905152,
+      "end": 1760093905152,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/Vision.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({\n      class: \"about-section-two\",\n      id: \"vision\"\n    }, _attrs))\n  }><div class=\"auto-container\"><div class=\"row\"><div class=\"image-column col-lg-6 col-md-12 col-sm-12 order-lg-2\"><div class=\"inner-column\"><figure class=\"image-1 wow fadeInUp\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"></figure></div></div><div class=\"content-column col-lg-6 col-md-12 col-sm-12 order-lg-1\"><div class=\"inner-column\"><div class=\"sec-title\"><span class=\"sub-title\">Our Vision</span><h2>Driving the Future of Global Logistics</h2><h4>Our vision is to redefine the way the world moves cargo.</h4><div class=\"text\"> We aim to create a smarter, faster, and more sustainable logistics ecosystem where technology bridges every gap in international trade. <br><br> We envision a future where businesses of all sizes—from local exporters to multinational corporations—can access seamless freight solutions at their fingertips. By combining digital innovation with our global expertise, we strive to eliminate complexity, reduce delays, and empower customers with complete visibility over their shipments. <br><br>Our goal is to build a connected logistics network that not only simplifies trade but also fosters growth, trust, and opportunity for our partners worldwide. </div></div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/About/Section5.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905621122,
-      "end": 1759905621123,
+      "start": 1760093905152,
+      "end": 1760093905153,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,176 +82,176 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905153,
+      "end": 1760093905153,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905153,
+      "end": 1760093905153,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905153,
+      "end": 1760093905153,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905153,
+      "end": 1760093905153,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905153,
+      "end": 1760093905153,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905153,
+      "end": 1760093905153,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905153,
+      "end": 1760093905153,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905153,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905154,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905155,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905154,
+      "end": 1760093905155,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905155,
+      "end": 1760093905155,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621123,
-      "end": 1759905621123,
+      "start": 1760093905155,
+      "end": 1760093905155,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621123,
-      "end": 1759905621124,
+      "start": 1760093905155,
+      "end": 1760093905155,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621123,
-      "end": 1759905621124,
+      "start": 1760093905155,
+      "end": 1760093905155,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905621124,
-      "end": 1759905621124,
+      "start": 1760093905155,
+      "end": 1760093905155,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1759905621124,
-      "end": 1759905621124,
+      "start": 1760093905155,
+      "end": 1760093905156,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905621124,
-      "end": 1759905621124,
+      "start": 1760093905156,
+      "end": 1760093905156,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905621124,
-      "end": 1759905621124,
+      "start": 1760093905156,
+      "end": 1760093905156,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905621124,
-      "end": 1759905621124,
+      "start": 1760093905156,
+      "end": 1760093905156,
       "order": "normal"
     }
   ]

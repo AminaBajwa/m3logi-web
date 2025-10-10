@@ -1,0 +1,288 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue?vue&type=style&index=0&scoped=c7382623&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.orgchart-wrapper {\r\n  width: 100%;\r\n  background: #f3f6fb;\r\n  border-radius: 16px;\r\n  padding: 12px;\r\n  box-sizing: border-box;\r\n  overflow: auto;        /* scroll se dekho; drag/zoom off */\r\n}\r\n\r\n.orgchart-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  cursor: default;\r\n  user-select: none;\r\n  -webkit-user-drag: none;\r\n  touch-action: pan-x pan-y; /* touch drag = normal scroll only */\r\n}\r\n",
+      "start": 1760093905412,
+      "end": 1760093905412,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue"
+        ],
+        "names": [],
+        "mappings": ";AA8QA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EAChB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACnB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,SAAS,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC;AAC5D;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EAClB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;EACvB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC;AACjE",
+        "file": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<!-- <template>\r\n  <div class=\"wrap\">\r\n    <div ref=\"el\" class=\"orgchart-container\" />\r\n  </div>\r\n</template>\r\n\r\n<script setup lang=\"ts\">\r\nimport { ref, onMounted, onBeforeUnmount } from 'vue'\r\nimport * as d3 from 'd3'\r\nimport { OrgChart } from 'd3-org-chart'\r\n\r\ntype Id = string | number\r\ninterface OrgNode {\r\n  id: Id\r\n  parentId?: Id | null\r\n  name: string\r\n  title?: string\r\n  avatar?: string\r\n}\r\n\r\nconst el = ref<HTMLElement | null>(null)\r\nlet chart: any\r\n\r\n// Sample data (replace with yours)\r\nconst data: OrgNode[] = [\r\n  { id: 1, name: 'Alex Johnson', title: 'Chief Executive Officer' },\r\n  { id: 2, parentId: 1, name: 'Taylor Reed', title: 'VP, Marketing' },\r\n  { id: 3, parentId: 1, name: 'Jordan Kim', title: 'VP, Operations' },\r\n  { id: 4, parentId: 1, name: 'Morgan Blake', title: 'VP, Finance' },\r\n  { id: 5, parentId: 2, name: 'Riley Chen', title: 'Director, Brand' },\r\n  { id: 6, parentId: 2, name: 'Avery Shah', title: 'Director, Growth' },\r\n  { id: 7, parentId: 3, name: 'Casey Lin', title: 'Director, Supply Chain' },\r\n  { id: 8, parentId: 4, name: 'Jamie Park', title: 'Controller' }\r\n]\r\n\r\nonMounted(() => {\r\n  if (!el.value) return\r\n\r\n  chart = new OrgChart()\r\n    .container(d3.select(el.value))\r\n    .data(data as any)\r\n    .nodeWidth(() => 260)\r\n    .nodeHeight(() => 110)\r\n    .childrenMargin(() => 40)\r\n    .compact(false)\r\n    .initialZoom(0.9)\r\n    .nodeContent((d: any) => {\r\n      const p = d.data as OrgNode\r\n      const avatar = p.avatar || 'https://placehold.co/96x96?text=%20'\r\n      return `\r\n        <div class=\"org-node\">\r\n          <div class=\"avatar\" style=\"background-image:url('${avatar}')\"></div>\r\n          <div class=\"meta\">\r\n            <div class=\"name\">${p.name || ''}</div>\r\n            <div class=\"title\">${p.title || ''}</div>\r\n          </div>\r\n        </div>\r\n      `\r\n    })\r\n    .render()\r\n\r\n  // Ensure it fits the viewport after first layout\r\n  setTimeout(() => chart.fit?.(), 0)\r\n})\r\n\r\nonBeforeUnmount(() => {\r\n  if (chart?.destroy) chart.destroy()\r\n})\r\n</script>\r\n\r\n<style scoped>\r\n.wrap { width: 100%; height: 100%; }\r\n.orgchart-container {\r\n  width: 100%;\r\n  height: calc(100vh - 2rem);\r\n  background: #f7f8fb;\r\n  border: 1px solid #eef0f4;\r\n  border-radius: 8px;\r\n  overflow: hidden;\r\n}\r\n.org-node {\r\n  width: 260px;\r\n  height: 110px;\r\n  box-sizing: border-box;\r\n  padding: 12px;\r\n  display: flex;\r\n  gap: 12px;\r\n  align-items: center;\r\n  background: #fff;\r\n  border-radius: 8px;\r\n  box-shadow: 0 1px 2px rgba(0,0,0,.06);\r\n  border-left: 4px solid #4ade80;\r\n}\r\n.avatar {\r\n  width: 56px;\r\n  height: 56px;\r\n  border-radius: 50%;\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-color: #e5e7eb;\r\n}\r\n.name { font-weight: 600; line-height: 1.2; }\r\n.title { color: #6b7280; font-size: 12px; }\r\n.meta { display: flex; flex-direction: column; gap: 4px; }\r\n</style> -->\r\n\r\n\r\n\r\n<template>\r\n  <div class=\"orgchart-wrapper\" :style=\"wrapperStyle\">\r\n    <div ref=\"el\" class=\"orgchart-container\"></div>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nimport { ref, onMounted, onBeforeUnmount, watch, computed } from 'vue'\r\n\r\nconst props = defineProps({\r\n  // Agar props se nodes pass na karo, to niche M3 data use hoga\r\n  nodes: { type: Array, default: () => [] },\r\n  height: { type: [Number, String], default: '75vh' },\r\n  // 'vertical' (default, pehle jaisa) | 'horizontal'\r\n  orientation: { type: String, default: 'vertical' },\r\n  // movement OFF (static)\r\n  interactive: { type: Boolean, default: false },\r\n  linkColor: { type: String, default: '#cbd5e1' },\r\n  linkWidth: { type: Number, default: 1.25 }\r\n})\r\n\r\nconst wrapperStyle = computed(() => ({\r\n  height: typeof props.height === 'number' ? `${props.height}px` : props.height\r\n}))\r\n\r\nconst el = ref(null)\r\nlet chart = null\r\nlet ro = null\r\nlet d3 = null\r\n\r\n// ============== M3LOGI DATA (design same, sirf data replace) ==============\r\nconst m3Nodes = [\r\n  // Exec\r\n  { id: 'CEO', name: 'CEO' },\r\n  { id: 'CFO', parentId: 'CEO', name: 'CFO' },\r\n  { id: 'COO', parentId: 'CEO', name: 'COO' },\r\n\r\n  // Divisions under CEO\r\n  { id: 'Domestic',       parentId: 'CEO', name: 'Domestic Division' },\r\n  { id: 'OverseasMarine', parentId: 'CEO', name: 'Overseas Division - Marine Cargo' },\r\n  { id: 'OverseasAir',    parentId: 'CEO', name: 'Overseas Division - Air Cargo' },\r\n  { id: 'Transportation', parentId: 'CEO', name: 'Transportation Division' },\r\n  { id: 'Automotive',     parentId: 'CEO', name: 'Automotive Mngt. Division' },\r\n  { id: 'GeneralAffairs', parentId: 'CEO', name: 'General Affairs Division' },\r\n  { id: 'InfoSystem',     parentId: 'CEO', name: 'Information System Division' },\r\n\r\n  // Domestic Division\r\n  { id: 'Domestic-Advertising', parentId: 'Domestic', name: 'Advertising Planning' },\r\n  { id: 'Domestic-Marketing',   parentId: 'Domestic', name: 'Marketing' },\r\n  { id: 'Domestic-Product',     parentId: 'Domestic', name: 'Domestic Product Planning' },\r\n\r\n  // Overseas Division - Marine Cargo\r\n  { id: 'Marine-Export',              parentId: 'OverseasMarine', name: 'Export section' },\r\n  { id: 'Marine-Import',              parentId: 'OverseasMarine', name: 'Import section' },\r\n  { id: 'Marine-OverseasProductPlan', parentId: 'OverseasMarine', name: 'Overseas Product Planning' },\r\n  { id: 'Marine-Custom',              parentId: 'OverseasMarine', name: 'Custom Section' },\r\n\r\n  // Overseas Division - Air Cargo\r\n  { id: 'Air-Export',                 parentId: 'OverseasAir', name: 'Export section' },\r\n  { id: 'Air-Import',                 parentId: 'OverseasAir', name: 'Import section' },\r\n  { id: 'Air-OverseasProductPlan',    parentId: 'OverseasAir', name: 'Overseas Product Planning' },\r\n  { id: 'Air-Custom',                 parentId: 'OverseasAir', name: 'Custom Section' },\r\n\r\n  // Transportation Division\r\n  { id: 'Transportation-Shipping', parentId: 'Transportation', name: 'Shipping Administration' },\r\n  { id: 'Transportation-Land',     parentId: 'Transportation', name: 'Land Transport Administration' },\r\n\r\n  // Automotive Mngt. Division\r\n  { id: 'Automotive-Inspection', parentId: 'Automotive', name: 'Inspection Management' },\r\n  { id: 'Automotive-Inventory',  parentId: 'Automotive', name: 'Inventory Management' },\r\n\r\n  // General Affairs Division\r\n  { id: 'GA-Accounting', parentId: 'GeneralAffairs', name: 'Accounting' },\r\n  { id: 'GA-HRM',        parentId: 'GeneralAffairs', name: 'HRM' },\r\n  { id: 'GA-Legal',      parentId: 'GeneralAffairs', name: 'Legal Affairs' },\r\n\r\n  // Information System Division\r\n  { id: 'IS-Software',     parentId: 'InfoSystem', name: 'Software Section' },\r\n  { id: 'IS-Network',      parentId: 'InfoSystem', name: 'Network Section' },\r\n  { id: 'IS-Information',  parentId: 'InfoSystem', name: 'Information Management' },\r\n]\r\n// ==========================================================================\r\n\r\nconst getData = () => (props.nodes && props.nodes.length ? props.nodes : m3Nodes)\r\nconst getLayout = () => (props.orientation === 'horizontal' ? 'left' : 'top')\r\n\r\nonMounted(async () => {\r\n  const { OrgChart } = await import('d3-org-chart')\r\n  d3 = await import('d3')\r\n\r\n  // Zoom off for static feel\r\n  const zoomDisabled = d3.zoom().filter(() => false)\r\n  const zoomEnabled = d3.zoom().scaleExtent([0.6, 2])\r\n\r\n  chart = new OrgChart()\r\n    .container(el.value)\r\n    .data(getData())\r\n    .layout(getLayout())\r\n    .initialZoom(1)\r\n    .duration(props.interactive ? 350 : 0)\r\n    .zoomBehavior(props.interactive ? zoomEnabled : zoomDisabled)\r\n    .nodeWidth(() => 320)\r\n    .nodeHeight(() => 130)\r\n    .childrenMargin(() => 60)\r\n    .neighbourMargin(() => 40)\r\n    .compact(false)\r\n    .linkUpdate(function () {\r\n      d3.select(this).attr('stroke', props.linkColor).attr('stroke-width', props.linkWidth).attr('fill', 'none')\r\n    })\r\n    .nodeContent(d => {\r\n      const { name, title, image } = d.data\r\n      const w = d.width, h = d.height\r\n      // SAME CARD DESIGN (white card + green top bar + avatar)\r\n      return `\r\n        <div style=\"width:${w}px;height:${h}px;background:#fff;border-radius:12px;\r\n                    box-shadow:0 4px 24px rgba(0,0,0,0.08);overflow:hidden;border:1px solid #e6e8eb;\">\r\n          <div style=\"height:6px;background:#39a845;\"></div>\r\n          <div style=\"display:flex;gap:12px;align-items:center;padding:14px;\">\r\n            <img src=\"${image || 'https://i.pravatar.cc/100'}\"\r\n                 style=\"width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #eaeaea;\" />\r\n            <div style=\"display:flex;flex-direction:column;\">\r\n              <div style=\"font-weight:600;color:#0f172a;font-size:15px;line-height:1.2\">${name || ''}</div>\r\n              <div style=\"color:#64748b;font-size:12px;line-height:1.3;margin-top:4px\">${title || ''}</div>\r\n            </div>\r\n          </div>\r\n        </div>`\r\n    })\r\n    .onNodeClick(d => {\r\n      d.data._expanded = !d.data._expanded\r\n      chart.updateNodesState()\r\n    })\r\n    .render()\r\n\r\n  // No fit() — static position\r\n  if ('ResizeObserver' in window) {\r\n    ro = new ResizeObserver(() => {})\r\n    ro.observe(el.value)\r\n  }\r\n})\r\n\r\nonBeforeUnmount(() => {\r\n  ro?.disconnect?.()\r\n  chart?.destroy?.()\r\n})\r\n\r\nwatch(\r\n  () => [props.nodes, props.orientation, props.interactive, props.linkColor, props.linkWidth],\r\n  () => {\r\n    if (!chart) return\r\n    const zoom = props.interactive ? d3.zoom().scaleExtent([0.6, 2]) : d3.zoom().filter(() => false)\r\n    chart\r\n      .data(getData())\r\n      .layout(getLayout())\r\n      .duration(props.interactive ? 350 : 0)\r\n      .zoomBehavior(zoom)\r\n      .render()\r\n  },\r\n  { deep: true }\r\n)\r\n</script>\r\n\r\n<style scoped>\r\n.orgchart-wrapper {\r\n  width: 100%;\r\n  background: #f3f6fb;\r\n  border-radius: 16px;\r\n  padding: 12px;\r\n  box-sizing: border-box;\r\n  overflow: auto;        /* scroll se dekho; drag/zoom off */\r\n}\r\n\r\n.orgchart-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  cursor: default;\r\n  user-select: none;\r\n  -webkit-user-drag: none;\r\n  touch-action: pan-x pan-y; /* touch drag = normal scroll only */\r\n}\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1760093905412,
+      "end": 1760093905412,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1760093905412,
+      "end": 1760093905412,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1760093905412,
+      "end": 1760093905412,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1760093905412,
+      "end": 1760093905412,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1760093905412,
+      "end": 1760093905412,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".orgchart-wrapper{background:#f3f6fb;border-radius:16px;box-sizing:border-box;overflow:auto;padding:12px;width:100%}.orgchart-container{cursor:default;height:100%;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:100%;-webkit-user-drag:none;touch-action:pan-x pan-y}",
+      "start": 1760093905412,
+      "end": 1760093905415,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue",
+        "mappings": "AACA,kBAEE,kBAAmB,CACnB,kBAAmB,CAEnB,qBAAsB,CACtB,aAAc,CAFd,YAAa,CAHb,UAMF,CAEA,oBAGE,cAAe,CADf,WAAY,CAEZ,wBAAiB,CAAjB,qBAAiB,CAAjB,gBAAiB,CAHjB,UAAW,CAIX,sBAAuB,CACvB,wBACF",
+        "names": [],
+        "sources": [
+          "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.orgchart-wrapper {\r\n  width: 100%;\r\n  background: #f3f6fb;\r\n  border-radius: 16px;\r\n  padding: 12px;\r\n  box-sizing: border-box;\r\n  overflow: auto;        /* scroll se dekho; drag/zoom off */\r\n}\r\n\r\n.orgchart-container {\r\n  width: 100%;\r\n  height: 100%;\r\n  cursor: default;\r\n  user-select: none;\r\n  -webkit-user-drag: none;\r\n  touch-action: pan-x pan-y; /* touch drag = normal scroll only */\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1760093905415,
+      "end": 1760093905415,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1760093905415,
+      "end": 1760093905415,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1760093905415,
+      "end": 1760093905415,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".orgchart-wrapper[data-v-c7382623]{background:#f3f6fb;border-radius:16px;box-sizing:border-box;overflow:auto;padding:12px;width:100%}.orgchart-container[data-v-c7382623]{cursor:default;height:100%;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:100%;-webkit-user-drag:none;touch-action:pan-x pan-y}",
+      "start": 1760093905415,
+      "end": 1760093905416,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue",
+        "mappings": "AAAA,mCAAkB,kBAAkB,CAAC,kBAAkB,CAAC,qBAAqB,CAAC,aAAa,CAAC,YAAY,CAAC,UAAU,CAAC,qCAAoB,cAAc,CAAC,WAAW,CAAC,wBAAwB,CAAC,qBAAqB,CAAC,gBAAgB,CAAC,UAAU,CAAC,sBAAsB,CAAC,wBAAwB",
+        "names": [],
+        "sources": [
+          "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1760093905416,
+      "end": 1760093905416,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-import"./entry.gkIplG0H.js";const o=""+globalThis.__publicAssetsURL("images/resource/project-1.jpg"),e=""+globalThis.__publicAssetsURL("images/resource/project-2.jpg"),p=""+globalThis.__publicAssetsURL("images/resource/project-3.jpg"),r=""+globalThis.__publicAssetsURL("images/resource/project-4.jpg");export{o as _,e as a,p as b,r as c};

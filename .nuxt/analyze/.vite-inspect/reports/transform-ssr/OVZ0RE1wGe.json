@@ -4,8 +4,8 @@
     {
       "name": "vite:vue",
       "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrIncludeBooleanAttr as _ssrIncludeBooleanAttr, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nimport { ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue'\r\n\r\ntype GalleryImage = {\r\n  pathname: string\r\n  alt?: string\r\n  caption?: string\r\n}\r\n\r\n// Your images in /public/images\r\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Section6',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst images: GalleryImage[] = [\r\n  { pathname: 'gallery-0.jpeg', caption: 'gallery' },\r\n    { pathname: 'gallery-13.jpeg', caption: 'gallery' },\r\n  { pathname: 'gallery-3.jpg', caption: 'gallery' },\r\n  { pathname: 'gallery-5.jpg', caption: 'gallery' },\r\n  { pathname: 'gallery-6.jpg', caption: 'gallery' },\r\n   { pathname: 'gallery-14.jpeg', caption: 'gallery' },\r\n  { pathname: 'gallery-11.jpeg', caption: 'gallery' },\r\n  { pathname: 'gallery-12.jpeg', caption: 'gallery' },\r\n { pathname: 'gallery-2.jpg', caption: 'gallery' },\r\n  { pathname: 'gallery-4.jpg', caption: 'gallery' },\r\n  { pathname: 'gallery-15.jpeg', caption: 'gallery' },\r\n  { pathname: 'gallery-16.jpeg', caption: 'gallery' },\r\n \r\n]\r\n\r\n// How many to show per page (set to 6 or 9)\r\nconst pageSize = ref(6)\r\n\r\nconst pages = computed(() => {\r\n  const res: GalleryImage[][] = []\r\n  for (let i = 0; i < images.length; i += pageSize.value) {\r\n    res.push(images.slice(i, i + pageSize.value))\r\n  }\r\n  return res\r\n})\r\n\r\nconst currentPage = ref(0)\r\nconst trackRef = ref<HTMLDivElement | null>(null)\r\n\r\nfunction goToPage(index: number) {\r\n  const el = trackRef.value\r\n  if (!el) return\r\n  const totalPages = pages.value.length\r\n  currentPage.value = Math.max(0, Math.min(index, totalPages - 1))\r\n  el.scrollTo({ left: currentPage.value * el.clientWidth, behavior: 'smooth' })\r\n}\r\nfunction nextPage() { goToPage(currentPage.value + 1) }\r\nfunction prevPage() { goToPage(currentPage.value - 1) }\r\nfunction onScroll() {\r\n  const el = trackRef.value\r\n  if (!el) return\r\n  currentPage.value = Math.round(el.scrollLeft / el.clientWidth)\r\n}\r\nfunction handleResize() { nextTick(() => goToPage(currentPage.value)) }\r\nfunction handleKeys(e: KeyboardEvent) {\r\n  if (e.key === 'ArrowRight') nextPage()\r\n  if (e.key === 'ArrowLeft') prevPage()\r\n}\r\n\r\n// Compact variable heights (clean look)\r\nconst spansPattern = [20, 24, 22, 28, 24, 20, 26, 22, 24]\r\nfunction spanFor(globalIndex: number) { return spansPattern[globalIndex % spansPattern.length] }\r\n\r\n// Lightbox\r\nlet lightbox: any | null = null\r\nonMounted(async () => {\r\n  const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0\r\n  document.documentElement.classList.toggle('touch', isTouch)\r\n\r\n  const { default: GLightbox } = await import('glightbox')\r\n  lightbox = GLightbox({\r\n    selector: '.gallery-link',\r\n    skin: 'clean',\r\n    loop: true,\r\n    touchNavigation: true,\r\n    openEffect: 'zoom',\r\n    closeEffect: 'zoom',\r\n    slideEffect: 'fade',\r\n    draggable: true,\r\n    width: '90vw',\r\n    height: 'auto'\r\n  })\r\n\r\n  window.addEventListener('resize', handleResize)\r\n  window.addEventListener('keydown', handleKeys)\r\n})\r\nonBeforeUnmount(() => {\r\n  if (lightbox && typeof lightbox.destroy === 'function') lightbox.destroy()\r\n  window.removeEventListener('resize', handleResize)\r\n  window.removeEventListener('keydown', handleKeys)\r\n})\r\n\nreturn (_ctx: any,_push: any,_parent: any,_attrs: any) => {\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"gallery-carousel\" }, _attrs))\n  }><header class=\"carousel-header\"><div class=\"auto-container\"><div class=\"controls\"><button class=\"nav-btn\"${\n    (_ssrIncludeBooleanAttr(currentPage.value === 0)) ? \" disabled\" : \"\"\n  } aria-label=\"Previous\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M15 18l-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></button><button class=\"nav-btn\"${\n    (_ssrIncludeBooleanAttr(currentPage.value >= pages.value.length - 1)) ? \" disabled\" : \"\"\n  } aria-label=\"Next\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M9 6l6 6-6 6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></button></div></div></header><div class=\"auto-container\"><div class=\"carousel-track\"><!--[-->`)\n  _ssrRenderList(pages.value, (page, pIdx) => {\n    _push(`<div class=\"slide\"><article class=\"masonry-grid\"><!--[-->`)\n    _ssrRenderList(page, (img, idx) => {\n      _push(`<a class=\"gallery-link\" style=\"${\n        _ssrRenderStyle({ gridRowEnd: `span ${spanFor(pIdx * pageSize.value + idx)}` })\n      }\"${\n        _ssrRenderAttr(\"href\", `/images/${img.pathname}`)\n      }${\n        _ssrRenderAttr(\"title\", img.caption || img.alt || 'Photo caption')\n      } data-gallery=\"mican-gallery\"${\n        _ssrRenderAttr(\"data-glightbox\", `title: ${img.caption || 'Photo caption'}`)\n      }><figure class=\"gallery-image\"><img${\n        _ssrRenderAttr(\"src\", `/images/${img.pathname}`)\n      }${\n        _ssrRenderAttr(\"alt\", img.alt || img.caption || 'Photo')\n      }><figcaption>${\n        _ssrInterpolate(img.caption || 'Photo caption')\n      }</figcaption></figure></a>`)\n    })\n    _push(`<!--]--></article></div>`)\n  })\n  _push(`<!--]--></div></div>`)\n  if (pages.value.length > 1) {\n    _push(`<div class=\"dots\"><!--[-->`)\n    _ssrRenderList(pages.value, (_, i) => {\n      _push(`<button class=\"${\n        _ssrRenderClass([{ active: i === currentPage.value }, \"dot\"])\n      }\"${\n        _ssrRenderAttr(\"aria-label\", `Go to page ${i + 1}`)\n      }></button>`)\n    })\n    _push(`<!--]--></div>`)\n  } else {\n    _push(`<!---->`)\n  }\n  _push(`</section>`)\n}\n}\n\n})",
-      "start": 1759905621267,
-      "end": 1759905621267,
+      "start": 1760093905383,
+      "end": 1760093905383,
       "sourcemaps": {
         "version": 3,
         "sources": [
@@ -20,45 +20,45 @@
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621267,
-      "end": 1759905621267,
+      "start": 1760093905383,
+      "end": 1760093905383,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621267,
-      "end": 1759905621267,
+      "start": 1760093905383,
+      "end": 1760093905383,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621267,
-      "end": 1759905621267,
+      "start": 1760093905383,
+      "end": 1760093905383,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621267,
-      "end": 1759905621267,
+      "start": 1760093905383,
+      "end": 1760093905383,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905621267,
-      "end": 1759905621267,
+      "start": 1760093905383,
+      "end": 1760093905383,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905621267,
-      "end": 1759905621267,
+      "start": 1760093905383,
+      "end": 1760093905383,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { mergeProps as _mergeProps } from \"vue\";\nimport { ssrIncludeBooleanAttr as _ssrIncludeBooleanAttr, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nimport { ref, computed, onMounted, onBeforeUnmount, nextTick } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Section6\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const images = [\n      { pathname: \"gallery-0.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-13.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-3.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-5.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-6.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-14.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-11.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-12.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-2.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-4.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-15.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-16.jpeg\", caption: \"gallery\" }\n    ];\n    const pageSize = ref(6);\n    const pages = computed(() => {\n      const res = [];\n      for (let i = 0; i < images.length; i += pageSize.value) {\n        res.push(images.slice(i, i + pageSize.value));\n      }\n      return res;\n    });\n    const currentPage = ref(0);\n    const trackRef = ref(null);\n    function goToPage(index) {\n      const el = trackRef.value;\n      if (!el)\n        return;\n      const totalPages = pages.value.length;\n      currentPage.value = Math.max(0, Math.min(index, totalPages - 1));\n      el.scrollTo({ left: currentPage.value * el.clientWidth, behavior: \"smooth\" });\n    }\n    function nextPage() {\n      goToPage(currentPage.value + 1);\n    }\n    function prevPage() {\n      goToPage(currentPage.value - 1);\n    }\n    function onScroll() {\n      const el = trackRef.value;\n      if (!el)\n        return;\n      currentPage.value = Math.round(el.scrollLeft / el.clientWidth);\n    }\n    function handleResize() {\n      nextTick(() => goToPage(currentPage.value));\n    }\n    function handleKeys(e) {\n      if (e.key === \"ArrowRight\")\n        nextPage();\n      if (e.key === \"ArrowLeft\")\n        prevPage();\n    }\n    const spansPattern = [20, 24, 22, 28, 24, 20, 26, 22, 24];\n    function spanFor(globalIndex) {\n      return spansPattern[globalIndex % spansPattern.length];\n    }\n    let lightbox = null;\n    onMounted(async () => {\n      const isTouch = \"ontouchstart\" in window || navigator.maxTouchPoints > 0;\n      document.documentElement.classList.toggle(\"touch\", isTouch);\n      const { default: GLightbox } = await import(\"glightbox\");\n      lightbox = GLightbox({\n        selector: \".gallery-link\",\n        skin: \"clean\",\n        loop: true,\n        touchNavigation: true,\n        openEffect: \"zoom\",\n        closeEffect: \"zoom\",\n        slideEffect: \"fade\",\n        draggable: true,\n        width: \"90vw\",\n        height: \"auto\"\n      });\n      window.addEventListener(\"resize\", handleResize);\n      window.addEventListener(\"keydown\", handleKeys);\n    });\n    onBeforeUnmount(() => {\n      if (lightbox && typeof lightbox.destroy === \"function\")\n        lightbox.destroy();\n      window.removeEventListener(\"resize\", handleResize);\n      window.removeEventListener(\"keydown\", handleKeys);\n    });\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"gallery-carousel\" }, _attrs))}><header class=\"carousel-header\"><div class=\"auto-container\"><div class=\"controls\"><button class=\"nav-btn\"${_ssrIncludeBooleanAttr(currentPage.value === 0) ? \" disabled\" : \"\"} aria-label=\"Previous\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M15 18l-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></button><button class=\"nav-btn\"${_ssrIncludeBooleanAttr(currentPage.value >= pages.value.length - 1) ? \" disabled\" : \"\"} aria-label=\"Next\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M9 6l6 6-6 6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></button></div></div></header><div class=\"auto-container\"><div class=\"carousel-track\"><!--[-->`);\n      _ssrRenderList(pages.value, (page, pIdx) => {\n        _push(`<div class=\"slide\"><article class=\"masonry-grid\"><!--[-->`);\n        _ssrRenderList(page, (img, idx) => {\n          _push(`<a class=\"gallery-link\" style=\"${_ssrRenderStyle({ gridRowEnd: `span ${spanFor(pIdx * pageSize.value + idx)}` })}\"${_ssrRenderAttr(\"href\", `/images/${img.pathname}`)}${_ssrRenderAttr(\"title\", img.caption || img.alt || \"Photo caption\")} data-gallery=\"mican-gallery\"${_ssrRenderAttr(\"data-glightbox\", `title: ${img.caption || \"Photo caption\"}`)}><figure class=\"gallery-image\"><img${_ssrRenderAttr(\"src\", `/images/${img.pathname}`)}${_ssrRenderAttr(\"alt\", img.alt || img.caption || \"Photo\")}><figcaption>${_ssrInterpolate(img.caption || \"Photo caption\")}</figcaption></figure></a>`);\n        });\n        _push(`<!--]--></article></div>`);\n      });\n      _push(`<!--]--></div></div>`);\n      if (pages.value.length > 1) {\n        _push(`<div class=\"dots\"><!--[-->`);\n        _ssrRenderList(pages.value, (_, i) => {\n          _push(`<button class=\"${_ssrRenderClass([{ active: i === currentPage.value }, \"dot\"])}\"${_ssrRenderAttr(\"aria-label\", `Go to page ${i + 1}`)}></button>`);\n        });\n        _push(`<!--]--></div>`);\n      } else {\n        _push(`<!---->`);\n      }\n      _push(`</section>`);\n    };\n  }\n});\n",
-      "start": 1759905621269,
-      "end": 1759905621311,
+      "start": 1760093905385,
+      "end": 1760093905561,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -74,185 +74,185 @@
     },
     {
       "name": "vite:json",
-      "start": 1759905621311,
-      "end": 1759905621311,
+      "start": 1760093905561,
+      "end": 1760093905561,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905621311,
-      "end": 1759905621311,
+      "start": 1760093905561,
+      "end": 1760093905561,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "start": 1759905621311,
-      "end": 1759905621311,
+      "start": 1760093905561,
+      "end": 1760093905561,
       "order": "normal"
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905621311,
-      "end": 1759905621311,
+      "start": 1760093905561,
+      "end": 1760093905561,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621311,
-      "end": 1759905621311,
+      "start": 1760093905561,
+      "end": 1760093905562,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621311,
-      "end": 1759905621311,
+      "start": 1760093905561,
+      "end": 1760093905562,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621311,
-      "end": 1759905621312,
+      "start": 1760093905562,
+      "end": 1760093905562,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621311,
-      "end": 1759905621312,
+      "start": 1760093905562,
+      "end": 1760093905562,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905621312,
-      "end": 1759905621312,
+      "start": 1760093905562,
+      "end": 1760093905562,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621312,
-      "end": 1759905621312,
+      "start": 1760093905562,
+      "end": 1760093905562,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905621312,
-      "end": 1759905621312,
+      "start": 1760093905562,
+      "end": 1760093905562,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { mergeProps as _mergeProps } from \"vue\";\nimport { ssrIncludeBooleanAttr as _ssrIncludeBooleanAttr, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nimport { ref, computed, onMounted, onBeforeUnmount, nextTick } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Section6\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const images = [\n      { pathname: \"gallery-0.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-13.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-3.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-5.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-6.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-14.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-11.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-12.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-2.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-4.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-15.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-16.jpeg\", caption: \"gallery\" }\n    ];\n    const pageSize = ref(6);\n    const pages = computed(() => {\n      const res = [];\n      for (let i = 0; i < images.length; i += pageSize.value) {\n        res.push(images.slice(i, i + pageSize.value));\n      }\n      return res;\n    });\n    const currentPage = ref(0);\n    const trackRef = ref(null);\n    function goToPage(index) {\n      const el = trackRef.value;\n      if (!el)\n        return;\n      const totalPages = pages.value.length;\n      currentPage.value = Math.max(0, Math.min(index, totalPages - 1));\n      el.scrollTo({ left: currentPage.value * el.clientWidth, behavior: \"smooth\" });\n    }\n    function nextPage() {\n      goToPage(currentPage.value + 1);\n    }\n    function prevPage() {\n      goToPage(currentPage.value - 1);\n    }\n    function onScroll() {\n      const el = trackRef.value;\n      if (!el)\n        return;\n      currentPage.value = Math.round(el.scrollLeft / el.clientWidth);\n    }\n    function handleResize() {\n      nextTick(() => goToPage(currentPage.value));\n    }\n    function handleKeys(e) {\n      if (e.key === \"ArrowRight\")\n        nextPage();\n      if (e.key === \"ArrowLeft\")\n        prevPage();\n    }\n    const spansPattern = [20, 24, 22, 28, 24, 20, 26, 22, 24];\n    function spanFor(globalIndex) {\n      return spansPattern[globalIndex % spansPattern.length];\n    }\n    let lightbox = null;\n    onMounted(async () => {\n      const isTouch = \"ontouchstart\" in void 0 || (void 0).maxTouchPoints > 0;\n      (void 0).documentElement.classList.toggle(\"touch\", isTouch);\n      const { default: GLightbox } = await import(\"glightbox\");\n      lightbox = GLightbox({\n        selector: \".gallery-link\",\n        skin: \"clean\",\n        loop: true,\n        touchNavigation: true,\n        openEffect: \"zoom\",\n        closeEffect: \"zoom\",\n        slideEffect: \"fade\",\n        draggable: true,\n        width: \"90vw\",\n        height: \"auto\"\n      });\n      (void 0).addEventListener(\"resize\", handleResize);\n      (void 0).addEventListener(\"keydown\", handleKeys);\n    });\n    onBeforeUnmount(() => {\n      if (lightbox && typeof lightbox.destroy === \"function\")\n        lightbox.destroy();\n      (void 0).removeEventListener(\"resize\", handleResize);\n      (void 0).removeEventListener(\"keydown\", handleKeys);\n    });\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"gallery-carousel\" }, _attrs))}><header class=\"carousel-header\"><div class=\"auto-container\"><div class=\"controls\"><button class=\"nav-btn\"${_ssrIncludeBooleanAttr(currentPage.value === 0) ? \" disabled\" : \"\"} aria-label=\"Previous\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M15 18l-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></button><button class=\"nav-btn\"${_ssrIncludeBooleanAttr(currentPage.value >= pages.value.length - 1) ? \" disabled\" : \"\"} aria-label=\"Next\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M9 6l6 6-6 6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></button></div></div></header><div class=\"auto-container\"><div class=\"carousel-track\"><!--[-->`);\n      _ssrRenderList(pages.value, (page, pIdx) => {\n        _push(`<div class=\"slide\"><article class=\"masonry-grid\"><!--[-->`);\n        _ssrRenderList(page, (img, idx) => {\n          _push(`<a class=\"gallery-link\" style=\"${_ssrRenderStyle({ gridRowEnd: `span ${spanFor(pIdx * pageSize.value + idx)}` })}\"${_ssrRenderAttr(\"href\", `/images/${img.pathname}`)}${_ssrRenderAttr(\"title\", img.caption || img.alt || \"Photo caption\")} data-gallery=\"mican-gallery\"${_ssrRenderAttr(\"data-glightbox\", `title: ${img.caption || \"Photo caption\"}`)}><figure class=\"gallery-image\"><img${_ssrRenderAttr(\"src\", `/images/${img.pathname}`)}${_ssrRenderAttr(\"alt\", img.alt || img.caption || \"Photo\")}><figcaption>${_ssrInterpolate(img.caption || \"Photo caption\")}</figcaption></figure></a>`);\n        });\n        _push(`<!--]--></article></div>`);\n      });\n      _push(`<!--]--></div></div>`);\n      if (pages.value.length > 1) {\n        _push(`<div class=\"dots\"><!--[-->`);\n        _ssrRenderList(pages.value, (_, i) => {\n          _push(`<button class=\"${_ssrRenderClass([{ active: i === currentPage.value }, \"dot\"])}\"${_ssrRenderAttr(\"aria-label\", `Go to page ${i + 1}`)}></button>`);\n        });\n        _push(`<!--]--></div>`);\n      } else {\n        _push(`<!---->`);\n      }\n      _push(`</section>`);\n    };\n  }\n});\n",
-      "start": 1759905621312,
-      "end": 1759905621320,
+      "start": 1760093905562,
+      "end": 1760093905586,
       "order": "normal",
       "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section6.vue?vue&type=script&setup=true&lang.ts\"],\n  \"sourcesContent\": [\"import { defineComponent as _defineComponent } from \\\"vue\\\";\\nimport { mergeProps as _mergeProps } from \\\"vue\\\";\\nimport { ssrIncludeBooleanAttr as _ssrIncludeBooleanAttr, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \\\"vue/server-renderer\\\";\\nimport { ref, computed, onMounted, onBeforeUnmount, nextTick } from \\\"vue\\\";\\nexport default /* @__PURE__ */ _defineComponent({\\n  __name: \\\"Section6\\\",\\n  __ssrInlineRender: true,\\n  setup(__props) {\\n    const images = [\\n      { pathname: \\\"gallery-0.jpeg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-13.jpeg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-3.jpg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-5.jpg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-6.jpg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-14.jpeg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-11.jpeg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-12.jpeg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-2.jpg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-4.jpg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-15.jpeg\\\", caption: \\\"gallery\\\" },\\n      { pathname: \\\"gallery-16.jpeg\\\", caption: \\\"gallery\\\" }\\n    ];\\n    const pageSize = ref(6);\\n    const pages = computed(() => {\\n      const res = [];\\n      for (let i = 0; i < images.length; i += pageSize.value) {\\n        res.push(images.slice(i, i + pageSize.value));\\n      }\\n      return res;\\n    });\\n    const currentPage = ref(0);\\n    const trackRef = ref(null);\\n    function goToPage(index) {\\n      const el = trackRef.value;\\n      if (!el)\\n        return;\\n      const totalPages = pages.value.length;\\n      currentPage.value = Math.max(0, Math.min(index, totalPages - 1));\\n      el.scrollTo({ left: currentPage.value * el.clientWidth, behavior: \\\"smooth\\\" });\\n    }\\n    function nextPage() {\\n      goToPage(currentPage.value + 1);\\n    }\\n    function prevPage() {\\n      goToPage(currentPage.value - 1);\\n    }\\n    function onScroll() {\\n      const el = trackRef.value;\\n      if (!el)\\n        return;\\n      currentPage.value = Math.round(el.scrollLeft / el.clientWidth);\\n    }\\n    function handleResize() {\\n      nextTick(() => goToPage(currentPage.value));\\n    }\\n    function handleKeys(e) {\\n      if (e.key === \\\"ArrowRight\\\")\\n        nextPage();\\n      if (e.key === \\\"ArrowLeft\\\")\\n        prevPage();\\n    }\\n    const spansPattern = [20, 24, 22, 28, 24, 20, 26, 22, 24];\\n    function spanFor(globalIndex) {\\n      return spansPattern[globalIndex % spansPattern.length];\\n    }\\n    let lightbox = null;\\n    onMounted(async () => {\\n      const isTouch = \\\"ontouchstart\\\" in window || navigator.maxTouchPoints > 0;\\n      document.documentElement.classList.toggle(\\\"touch\\\", isTouch);\\n      const { default: GLightbox } = await import(\\\"glightbox\\\");\\n      lightbox = GLightbox({\\n        selector: \\\".gallery-link\\\",\\n        skin: \\\"clean\\\",\\n        loop: true,\\n        touchNavigation: true,\\n        openEffect: \\\"zoom\\\",\\n        closeEffect: \\\"zoom\\\",\\n        slideEffect: \\\"fade\\\",\\n        draggable: true,\\n        width: \\\"90vw\\\",\\n        height: \\\"auto\\\"\\n      });\\n      window.addEventListener(\\\"resize\\\", handleResize);\\n      window.addEventListener(\\\"keydown\\\", handleKeys);\\n    });\\n    onBeforeUnmount(() => {\\n      if (lightbox && typeof lightbox.destroy === \\\"function\\\")\\n        lightbox.destroy();\\n      window.removeEventListener(\\\"resize\\\", handleResize);\\n      window.removeEventListener(\\\"keydown\\\", handleKeys);\\n    });\\n    return (_ctx, _push, _parent, _attrs) => {\\n      _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \\\"gallery-carousel\\\" }, _attrs))}><header class=\\\"carousel-header\\\"><div class=\\\"auto-container\\\"><div class=\\\"controls\\\"><button class=\\\"nav-btn\\\"${_ssrIncludeBooleanAttr(currentPage.value === 0) ? \\\" disabled\\\" : \\\"\\\"} aria-label=\\\"Previous\\\"><svg viewBox=\\\"0 0 24 24\\\" width=\\\"18\\\" height=\\\"18\\\"><path d=\\\"M15 18l-6-6 6-6\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" fill=\\\"none\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"></path></svg></button><button class=\\\"nav-btn\\\"${_ssrIncludeBooleanAttr(currentPage.value >= pages.value.length - 1) ? \\\" disabled\\\" : \\\"\\\"} aria-label=\\\"Next\\\"><svg viewBox=\\\"0 0 24 24\\\" width=\\\"18\\\" height=\\\"18\\\"><path d=\\\"M9 6l6 6-6 6\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" fill=\\\"none\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\"></path></svg></button></div></div></header><div class=\\\"auto-container\\\"><div class=\\\"carousel-track\\\"><!--[-->`);\\n      _ssrRenderList(pages.value, (page, pIdx) => {\\n        _push(`<div class=\\\"slide\\\"><article class=\\\"masonry-grid\\\"><!--[-->`);\\n        _ssrRenderList(page, (img, idx) => {\\n          _push(`<a class=\\\"gallery-link\\\" style=\\\"${_ssrRenderStyle({ gridRowEnd: `span ${spanFor(pIdx * pageSize.value + idx)}` })}\\\"${_ssrRenderAttr(\\\"href\\\", `/images/${img.pathname}`)}${_ssrRenderAttr(\\\"title\\\", img.caption || img.alt || \\\"Photo caption\\\")} data-gallery=\\\"mican-gallery\\\"${_ssrRenderAttr(\\\"data-glightbox\\\", `title: ${img.caption || \\\"Photo caption\\\"}`)}><figure class=\\\"gallery-image\\\"><img${_ssrRenderAttr(\\\"src\\\", `/images/${img.pathname}`)}${_ssrRenderAttr(\\\"alt\\\", img.alt || img.caption || \\\"Photo\\\")}><figcaption>${_ssrInterpolate(img.caption || \\\"Photo caption\\\")}</figcaption></figure></a>`);\\n        });\\n        _push(`<!--]--></article></div>`);\\n      });\\n      _push(`<!--]--></div></div>`);\\n      if (pages.value.length > 1) {\\n        _push(`<div class=\\\"dots\\\"><!--[-->`);\\n        _ssrRenderList(pages.value, (_, i) => {\\n          _push(`<button class=\\\"${_ssrRenderClass([{ active: i === currentPage.value }, \\\"dot\\\"])}\\\"${_ssrRenderAttr(\\\"aria-label\\\", `Go to page ${i + 1}`)}></button>`);\\n        });\\n        _push(`<!--]--></div>`);\\n      } else {\\n        _push(`<!---->`);\\n      }\\n      _push(`</section>`);\\n    };\\n  }\\n});\\n\"],\n  \"mappings\": \"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\",\n  \"names\": []\n}\n"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905621320,
-      "end": 1759905621320,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905621320,
-      "end": 1759905621320,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905621320,
-      "end": 1759905621320,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905621320,
-      "end": 1759905621320,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905621320,
-      "end": 1759905621320,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905621320,
-      "end": 1759905621320,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905621320,
-      "end": 1759905621320,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621320,
-      "end": 1759905621321,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621320,
-      "end": 1759905621321,
+      "start": 1760093905586,
+      "end": 1760093905586,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621321,
-      "end": 1759905621322,
+      "start": 1760093905586,
+      "end": 1760093905589,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621321,
-      "end": 1759905621322,
+      "start": 1760093905586,
+      "end": 1760093905589,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621322,
-      "end": 1759905621322,
+      "start": 1760093905589,
+      "end": 1760093905589,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621322,
-      "end": 1759905621322,
+      "start": 1760093905589,
+      "end": 1760093905589,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621322,
-      "end": 1759905621322,
+      "start": 1760093905589,
+      "end": 1760093905589,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621322,
-      "end": 1759905621322,
+      "start": 1760093905589,
+      "end": 1760093905589,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905621322,
-      "end": 1759905621322,
+      "start": 1760093905589,
+      "end": 1760093905589,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1759905621322,
-      "end": 1759905621322,
+      "start": 1760093905589,
+      "end": 1760093905589,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
       "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { mergeProps as _mergeProps } from \"vue\";\nimport { ssrIncludeBooleanAttr as _ssrIncludeBooleanAttr, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderClass as _ssrRenderClass, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\";\nimport { ref, computed, onMounted, onBeforeUnmount, nextTick } from \"vue\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Section6\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const images = [\n      { pathname: \"gallery-0.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-13.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-3.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-5.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-6.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-14.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-11.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-12.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-2.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-4.jpg\", caption: \"gallery\" },\n      { pathname: \"gallery-15.jpeg\", caption: \"gallery\" },\n      { pathname: \"gallery-16.jpeg\", caption: \"gallery\" }\n    ];\n    const pageSize = ref(6);\n    const pages = computed(() => {\n      const res = [];\n      for (let i = 0; i < images.length; i += pageSize.value) {\n        res.push(images.slice(i, i + pageSize.value));\n      }\n      return res;\n    });\n    const currentPage = ref(0);\n    const trackRef = ref(null);\n    function goToPage(index) {\n      const el = trackRef.value;\n      if (!el)\n        return;\n      const totalPages = pages.value.length;\n      currentPage.value = Math.max(0, Math.min(index, totalPages - 1));\n      el.scrollTo({ left: currentPage.value * el.clientWidth, behavior: \"smooth\" });\n    }\n    function nextPage() {\n      goToPage(currentPage.value + 1);\n    }\n    function prevPage() {\n      goToPage(currentPage.value - 1);\n    }\n    function onScroll() {\n      const el = trackRef.value;\n      if (!el)\n        return;\n      currentPage.value = Math.round(el.scrollLeft / el.clientWidth);\n    }\n    function handleResize() {\n      nextTick(() => goToPage(currentPage.value));\n    }\n    function handleKeys(e) {\n      if (e.key === \"ArrowRight\")\n        nextPage();\n      if (e.key === \"ArrowLeft\")\n        prevPage();\n    }\n    const spansPattern = [20, 24, 22, 28, 24, 20, 26, 22, 24];\n    function spanFor(globalIndex) {\n      return spansPattern[globalIndex % spansPattern.length];\n    }\n    let lightbox = null;\n     false && /*@__PURE__*/ onMounted(async () => {\n      const isTouch = \"ontouchstart\" in void 0 || (void 0).maxTouchPoints > 0;\n      (void 0).documentElement.classList.toggle(\"touch\", isTouch);\n      const { default: GLightbox } = await import(\"glightbox\");\n      lightbox = GLightbox({\n        selector: \".gallery-link\",\n        skin: \"clean\",\n        loop: true,\n        touchNavigation: true,\n        openEffect: \"zoom\",\n        closeEffect: \"zoom\",\n        slideEffect: \"fade\",\n        draggable: true,\n        width: \"90vw\",\n        height: \"auto\"\n      });\n      (void 0).addEventListener(\"resize\", handleResize);\n      (void 0).addEventListener(\"keydown\", handleKeys);\n    });\n     false && /*@__PURE__*/ onBeforeUnmount(() => {\n      if (lightbox && typeof lightbox.destroy === \"function\")\n        lightbox.destroy();\n      (void 0).removeEventListener(\"resize\", handleResize);\n      (void 0).removeEventListener(\"keydown\", handleKeys);\n    });\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"gallery-carousel\" }, _attrs))}><header class=\"carousel-header\"><div class=\"auto-container\"><div class=\"controls\"><button class=\"nav-btn\"${_ssrIncludeBooleanAttr(currentPage.value === 0) ? \" disabled\" : \"\"} aria-label=\"Previous\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M15 18l-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></button><button class=\"nav-btn\"${_ssrIncludeBooleanAttr(currentPage.value >= pages.value.length - 1) ? \" disabled\" : \"\"} aria-label=\"Next\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M9 6l6 6-6 6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg></button></div></div></header><div class=\"auto-container\"><div class=\"carousel-track\"><!--[-->`);\n      _ssrRenderList(pages.value, (page, pIdx) => {\n        _push(`<div class=\"slide\"><article class=\"masonry-grid\"><!--[-->`);\n        _ssrRenderList(page, (img, idx) => {\n          _push(`<a class=\"gallery-link\" style=\"${_ssrRenderStyle({ gridRowEnd: `span ${spanFor(pIdx * pageSize.value + idx)}` })}\"${_ssrRenderAttr(\"href\", `/images/${img.pathname}`)}${_ssrRenderAttr(\"title\", img.caption || img.alt || \"Photo caption\")} data-gallery=\"mican-gallery\"${_ssrRenderAttr(\"data-glightbox\", `title: ${img.caption || \"Photo caption\"}`)}><figure class=\"gallery-image\"><img${_ssrRenderAttr(\"src\", `/images/${img.pathname}`)}${_ssrRenderAttr(\"alt\", img.alt || img.caption || \"Photo\")}><figcaption>${_ssrInterpolate(img.caption || \"Photo caption\")}</figcaption></figure></a>`);\n        });\n        _push(`<!--]--></article></div>`);\n      });\n      _push(`<!--]--></div></div>`);\n      if (pages.value.length > 1) {\n        _push(`<div class=\"dots\"><!--[-->`);\n        _ssrRenderList(pages.value, (_, i) => {\n          _push(`<button class=\"${_ssrRenderClass([{ active: i === currentPage.value }, \"dot\"])}\"${_ssrRenderAttr(\"aria-label\", `Go to page ${i + 1}`)}></button>`);\n        });\n        _push(`<!--]--></div>`);\n      } else {\n        _push(`<!---->`);\n      }\n      _push(`</section>`);\n    };\n  }\n});\n",
-      "start": 1759905621322,
-      "end": 1759905621323,
+      "start": 1760093905589,
+      "end": 1760093905591,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -265,14 +265,14 @@
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905621323,
-      "end": 1759905621323,
+      "start": 1760093905591,
+      "end": 1760093905591,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905621323,
-      "end": 1759905621323,
+      "start": 1760093905591,
+      "end": 1760093905591,
       "order": "normal"
     }
   ]

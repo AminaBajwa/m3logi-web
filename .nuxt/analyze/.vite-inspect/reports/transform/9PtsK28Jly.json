@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"work-section\">\r\n        <div class=\"anim-icons\">\r\n            <span class=\"icon icon-dotted-map-2 zoom-one\"></span>\r\n            <span class=\"icon icon-plane-1 bounce-y\"></span>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"sec-title text-center\">\r\n                <span class=\"sub-title\">How It Work</span>\r\n                <h2>3 easy step to task</h2>\r\n            </div>\r\n\r\n            <div class=\"row\">\r\n                <!-- Work Block -->\r\n                <div class=\"work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"icon-box\">\r\n                            <span class=\"count\">01</span>\r\n                            <i class=\"icon flaticon-delivery-box-4\"></i>\r\n                        </div>\r\n                        <h4 class=\"title\">Enter your <br>& product details</h4>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Work Block -->\r\n                <div class=\"work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\" data-wow-delay=\"300ms\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"icon-box\">\r\n                            <span class=\"count\">02</span>\r\n                            <i class=\"icon flaticon-stock-1\"></i>\r\n                        </div>\r\n                        <h4 class=\"title\">Pay your service <br>charges</h4>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Work Block -->\r\n                <div class=\"work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\" data-wow-delay=\"600ms\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"icon-box\">\r\n                            <span class=\"count\">03</span>\r\n                            <i class=\"icon flaticon-delivery-box-3\"></i>\r\n                        </div>\r\n                        <h4 class=\"title\">Ready to send <br>your goods</h4>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
-      "start": 1759905611702,
-      "end": 1759905611859,
+      "start": 1760093887564,
+      "end": 1760093887948,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905611859,
-      "end": 1759905611859,
+      "start": 1760093887948,
+      "end": 1760093887948,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905611859,
-      "end": 1759905611859,
+      "start": 1760093887948,
+      "end": 1760093887948,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905611859,
-      "end": 1759905611859,
+      "start": 1760093887948,
+      "end": 1760093887948,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905611859,
-      "end": 1759905611859,
+      "start": 1760093887949,
+      "end": 1760093887949,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905611859,
-      "end": 1759905611859,
+      "start": 1760093887949,
+      "end": 1760093887949,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905611859,
-      "end": 1759905611859,
+      "start": 1760093887949,
+      "end": 1760093887949,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905611859,
-      "end": 1759905611859,
+      "start": 1760093887949,
+      "end": 1760093887949,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"work-section\" }\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"anim-icons\\\"><span class=\\\"icon icon-dotted-map-2 zoom-one\\\"></span><span class=\\\"icon icon-plane-1 bounce-y\\\"></span></div><div class=\\\"auto-container\\\"><div class=\\\"sec-title text-center\\\"><span class=\\\"sub-title\\\">How It Work</span><h2>3 easy step to task</h2></div><div class=\\\"row\\\"><div class=\\\"work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\\\"><div class=\\\"inner-box\\\"><div class=\\\"icon-box\\\"><span class=\\\"count\\\">01</span><i class=\\\"icon flaticon-delivery-box-4\\\"></i></div><h4 class=\\\"title\\\">Enter your <br>&amp; product details</h4></div></div><div class=\\\"work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\\\" data-wow-delay=\\\"300ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"icon-box\\\"><span class=\\\"count\\\">02</span><i class=\\\"icon flaticon-stock-1\\\"></i></div><h4 class=\\\"title\\\">Pay your service <br>charges</h4></div></div><div class=\\\"work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight\\\" data-wow-delay=\\\"600ms\\\"><div class=\\\"inner-box\\\"><div class=\\\"icon-box\\\"><span class=\\\"count\\\">03</span><i class=\\\"icon flaticon-delivery-box-3\\\"></i></div><h4 class=\\\"title\\\">Ready to send <br>your goods</h4></div></div></div></div>\", 2)\nconst _hoisted_4 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, _hoisted_4))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1759905611859,
-      "end": 1759905611861,
+      "start": 1760093887949,
+      "end": 1760093887956,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887956,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887956,
+      "end": 1760093887957,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887957,
+      "end": 1760093887957,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887957,
+      "end": 1760093887957,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887957,
+      "end": 1760093887957,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1759905611861,
-      "end": 1759905611861,
+      "start": 1760093887957,
+      "end": 1760093887957,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1759905611861,
-      "end": 1759905611862,
+      "start": 1760093887957,
+      "end": 1760093887957,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887957,
+      "end": 1760093887957,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887957,
+      "end": 1760093887958,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905611862,
-      "end": 1759905611862,
+      "start": 1760093887958,
+      "end": 1760093887958,
       "order": "normal"
     }
   ]

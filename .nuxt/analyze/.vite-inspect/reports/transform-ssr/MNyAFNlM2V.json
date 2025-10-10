@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n\t<!-- Project Section -->\r\n\t<section class=\"project-section\">\r\n\t\t<div class=\"large-container\">\r\n\t\t\t<div class=\"row\">\r\n\t\t\t\t<!-- Project Block -->\r\n\t\t\t\t<div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/images/resource/project-1.jpg\" class=\"lightbox-image\"><img src=\"/images/resource/project-1.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"/page-project-details\" class=\"icon\"><i class=\"fa fa-plus\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<span class=\"sub-title\">Logistics</span>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/page-project-details\">Special transport</NuxtLink></h4>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Project Block -->\r\n\t\t\t\t<div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/images/resource/project-2.jpg\" class=\"lightbox-image\"><img src=\"/images/resource/project-2.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"/page-project-details\" class=\"icon\"><i class=\"fa fa-plus\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<span class=\"sub-title\">Cargo</span>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/page-project-details\">Special transport</NuxtLink></h4>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Project Block -->\r\n\t\t\t\t<div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/images/resource/project-3.jpg\" class=\"lightbox-image\"><img src=\"/images/resource/project-3.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"/page-project-details\" class=\"icon\"><i class=\"fa fa-plus\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<span class=\"sub-title\">Logistics</span>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/page-project-details\">Special transport</NuxtLink></h4>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\r\n\t\t\t\t<!-- Project Block -->\r\n\t\t\t\t<div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\">\r\n\t\t\t\t\t<div class=\"inner-box\">\r\n\t\t\t\t\t\t<div class=\"image-box\">\r\n\t\t\t\t\t\t\t<figure class=\"image\"><NuxtLink to=\"/images/resource/project-4.jpg\" class=\"lightbox-image\"><img src=\"/images/resource/project-4.jpg\" alt=\"\"></NuxtLink></figure>\r\n\t\t\t\t\t\t\t<NuxtLink to=\"/page-project-details\" class=\"icon\"><i class=\"fa fa-plus\"></i></NuxtLink>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"content-box\">\r\n\t\t\t\t\t\t\t<span class=\"sub-title\">Logistics</span>\r\n\t\t\t\t\t\t\t<h4 class=\"title\"><NuxtLink to=\"/page-project-details\">Special transport</NuxtLink></h4>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n\t<!--End Project Section -->\r\n</template>",
-      "start": 1759905620960,
-      "end": 1759905621181,
+      "start": 1760093904960,
+      "end": 1760093905237,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905621181,
-      "end": 1759905621181,
+      "start": 1760093905237,
+      "end": 1760093905237,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/project-1.jpg'\nimport _imports_1 from '/images/resource/project-2.jpg'\nimport _imports_2 from '/images/resource/project-3.jpg'\nimport _imports_3 from '/images/resource/project-4.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"project-section\" }, _attrs))}><div class=\"large-container\"><div class=\"row\"><div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/images/resource/project-1.jpg\",\n    class: \"lightbox-image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_0,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-project-details\",\n    class: \"icon\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fa fa-plus\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fa fa-plus\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"content-box\"><span class=\"sub-title\">Logistics</span><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-project-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Special transport`)\n      } else {\n        return [\n          _createTextVNode(\"Special transport\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4></div></div></div><div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/images/resource/project-2.jpg\",\n    class: \"lightbox-image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_1)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_1,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-project-details\",\n    class: \"icon\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fa fa-plus\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fa fa-plus\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"content-box\"><span class=\"sub-title\">Cargo</span><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-project-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Special transport`)\n      } else {\n        return [\n          _createTextVNode(\"Special transport\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4></div></div></div><div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/images/resource/project-3.jpg\",\n    class: \"lightbox-image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_2)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_2,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-project-details\",\n    class: \"icon\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fa fa-plus\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fa fa-plus\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"content-box\"><span class=\"sub-title\">Logistics</span><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-project-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Special transport`)\n      } else {\n        return [\n          _createTextVNode(\"Special transport\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4></div></div></div><div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/images/resource/project-4.jpg\",\n    class: \"lightbox-image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_3)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_3,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-project-details\",\n    class: \"icon\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fa fa-plus\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fa fa-plus\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"content-box\"><span class=\"sub-title\">Logistics</span><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-project-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Special transport`)\n      } else {\n        return [\n          _createTextVNode(\"Special transport\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4></div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/Projects/Project.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905621181,
-      "end": 1759905621182,
+      "start": 1760093905237,
+      "end": 1760093905239,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905621182,
-      "end": 1759905621182,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621182,
-      "end": 1759905621183,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621182,
-      "end": 1759905621183,
+      "start": 1760093905239,
+      "end": 1760093905239,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621183,
-      "end": 1759905621184,
+      "start": 1760093905239,
+      "end": 1760093905241,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621183,
-      "end": 1759905621184,
+      "start": 1760093905239,
+      "end": 1760093905241,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905241,
+      "end": 1760093905241,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905241,
+      "end": 1760093905241,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905241,
+      "end": 1760093905241,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905241,
+      "end": 1760093905241,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905241,
+      "end": 1760093905241,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/project-1.jpg'\nimport _imports_1 from '/images/resource/project-2.jpg'\nimport _imports_2 from '/images/resource/project-3.jpg'\nimport _imports_3 from '/images/resource/project-4.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<section${_ssrRenderAttrs(_mergeProps({ class: \"project-section\" }, _attrs))}><div class=\"large-container\"><div class=\"row\"><div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/images/resource/project-1.jpg\",\n    class: \"lightbox-image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_0)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_0,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-project-details\",\n    class: \"icon\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fa fa-plus\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fa fa-plus\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"content-box\"><span class=\"sub-title\">Logistics</span><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-project-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Special transport`)\n      } else {\n        return [\n          _createTextVNode(\"Special transport\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4></div></div></div><div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/images/resource/project-2.jpg\",\n    class: \"lightbox-image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_1)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_1,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-project-details\",\n    class: \"icon\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fa fa-plus\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fa fa-plus\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"content-box\"><span class=\"sub-title\">Cargo</span><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-project-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Special transport`)\n      } else {\n        return [\n          _createTextVNode(\"Special transport\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4></div></div></div><div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/images/resource/project-3.jpg\",\n    class: \"lightbox-image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_2)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_2,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-project-details\",\n    class: \"icon\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fa fa-plus\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fa fa-plus\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"content-box\"><span class=\"sub-title\">Logistics</span><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-project-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Special transport`)\n      } else {\n        return [\n          _createTextVNode(\"Special transport\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4></div></div></div><div class=\"project-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/images/resource/project-4.jpg\",\n    class: \"lightbox-image\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_3)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_3,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-project-details\",\n    class: \"icon\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<i class=\"fa fa-plus\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createVNode(\"i\", { class: \"fa fa-plus\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div><div class=\"content-box\"><span class=\"sub-title\">Logistics</span><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-project-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Special transport`)\n      } else {\n        return [\n          _createTextVNode(\"Special transport\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4></div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/Projects/Project.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905241,
+      "end": 1760093905242,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905242,
+      "end": 1760093905242,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905242,
+      "end": 1760093905242,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905621184,
-      "end": 1759905621184,
+      "start": 1760093905242,
+      "end": 1760093905242,
       "order": "normal"
     }
   ]

@@ -421,7 +421,9 @@
 	.why-choose-us-two{
 		padding-bottom: 0;
 	}
-
+.bg-shape .shape{
+	margin-left: 100px;
+}
 	.why-choose-us-two .image-column .image-box.hide-desktop{
 		display: block;
 	}

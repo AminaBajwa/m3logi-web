@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"services-section\">\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <!-- Service Block -->\r\n                <div class=\"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/page-service-details\"><img src=\"/images/resource/service-3.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                        </div>\r\n                        <div class=\"content-box\">\r\n                            <i class=\"icon flaticon-delivery-truck-3\"></i>\r\n                            <span class=\"sub-title\">01 Service</span>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/page-service-details\">Land Transportation</NuxtLink>\r\n                            </h4>\r\n                            <div class=\"text\">We offer our customers the matchless land transport services to transport your vehicles from any Auction or Stock-Yard to your required port. We ensure safe and swift vehicle delivery in collaboration with trusted drivers and vendors with a simplified process.</div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Service Block -->\r\n                <div class=\"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\" data-wow-delay=\"300ms\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/page-service-details\"><img src=\"/images/resource/service-2.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                        </div>\r\n                        <div class=\"content-box\">\r\n                            <i class=\"icon flaticon-cargo-boat\"></i>\r\n                            <span class=\"sub-title\">02 Service</span>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/page-service-details\">Ocean Transport</NuxtLink>\r\n                            </h4>\r\n                            <div class=\"text\">We offer our customers prime ocean transport services with the association of top of the line shipping companies worldwide to ensure the efficient delivery of the vehicle to any port of the world. Our skilled team simplifies the process for our customers for a hassle free delivery.</div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n\r\n                <!-- Service Block -->\r\n                <div class=\"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\" data-wow-delay=\"900ms\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/page-service-details\"><img src=\"/images/resource/service-4.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                        </div>\r\n                        <div class=\"content-box\">\r\n                            <i class=\"icon flaticon-delivery-box-4\"></i>\r\n                            <span class=\"sub-title\">03 Service</span>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/page-service-details\">Customs Clearance</NuxtLink>\r\n                            </h4>\r\n                            <div class=\"text\">m3Logi has a vision to facilitate its customers at every level. To assist our customers with the complexities of customs rules and regulations, we offer customs clearance services through expert clearance agents. We strive to simplify every aspect of the trade for our customers.</div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                  <!-- Service Block -->\r\n                <div class=\"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\" data-wow-delay=\"600ms\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/page-service-details\"><img src=\"/images/resource/service-4.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                        </div>\r\n                        <div class=\"content-box\">\r\n                            <i class=\"icon flaticon-delivery-box-4\"></i>\r\n                            <span class=\"sub-title\">04 Service</span>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/page-service-details\">SCM Consulting</NuxtLink>\r\n                            </h4>\r\n                            <div class=\"text\">m3Logi provides its customers with easy Supply Chain Management System to cater to the complete process from the beginning till the end. As we aim to serve our customers comprehensively, we save them from all kinds of hassle and responsibility.</div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Service Block -->\r\n                <div class=\"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\" data-wow-delay=\"1200ms\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/page-service-details\"><img src=\"/images/resource/service-3.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                        </div>\r\n                        <div class=\"content-box\">\r\n                            <i class=\"icon flaticon-delivery-truck-3\"></i>\r\n                            <span class=\"sub-title\">05 Service</span>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/page-service-details\">Yard Services</NuxtLink>\r\n                            </h4>\r\n                            <div class=\"text\">m3Logi has yards located at strategic locations all over Japan for the safe and secure storage of the vehicle. Additionally, we have trained staff at the yards for the up-keep of the goods stored.</div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Service Block -->\r\n                <div class=\"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\" data-wow-delay=\"1500ms\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/page-service-details\"><img src=\"/images/resource/service-1.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                        </div>\r\n                        <div class=\"content-box\">\r\n                            <i class=\"icon flaticon-airplane-2\"></i>\r\n                            <span class=\"sub-title\">06 Service</span>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/page-service-details\">Air Freight</NuxtLink>\r\n                            </h4>\r\n                            <div class=\"text\">m3Logi offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support.</div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
-      "start": 1759905611914,
-      "end": 1759905612107,
+      "start": 1760093888059,
+      "end": 1760093888437,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905612107,
-      "end": 1759905612107,
+      "start": 1760093888437,
+      "end": 1760093888437,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905612107,
-      "end": 1759905612107,
+      "start": 1760093888437,
+      "end": 1760093888437,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905612107,
-      "end": 1759905612107,
+      "start": 1760093888437,
+      "end": 1760093888437,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905612107,
-      "end": 1759905612107,
+      "start": 1760093888437,
+      "end": 1760093888437,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905612107,
-      "end": 1759905612107,
+      "start": 1760093888437,
+      "end": 1760093888437,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905612107,
-      "end": 1759905612107,
+      "start": 1760093888437,
+      "end": 1760093888437,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905612107,
-      "end": 1759905612107,
+      "start": 1760093888437,
+      "end": 1760093888437,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/service-3.jpg'\nimport _imports_1 from '/images/resource/service-2.jpg'\nimport _imports_2 from '/images/resource/service-4.jpg'\nimport _imports_3 from '/images/resource/service-1.jpg'\n\n\nconst _hoisted_1 = { class: \"services-section\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\" }\nconst _hoisted_5 = { class: \"inner-box\" }\nconst _hoisted_6 = { class: \"image-box\" }\nconst _hoisted_7 = { class: \"image\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_9 = { class: \"content-box\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-truck-3\" }, null, -1)\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"01 Service\", -1)\nconst _hoisted_12 = { class: \"title\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"We offer our customers the matchless land transport services to transport your vehicles from any Auction or Stock-Yard to your required port. We ensure safe and swift vehicle delivery in collaboration with trusted drivers and vendors with a simplified process.\", -1)\nconst _hoisted_14 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"300ms\"\n}\nconst _hoisted_15 = { class: \"inner-box\" }\nconst _hoisted_16 = { class: \"image-box\" }\nconst _hoisted_17 = { class: \"image\" }\nconst _hoisted_18 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_19 = { class: \"content-box\" }\nconst _hoisted_20 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-cargo-boat\" }, null, -1)\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"02 Service\", -1)\nconst _hoisted_22 = { class: \"title\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"We offer our customers prime ocean transport services with the association of top of the line shipping companies worldwide to ensure the efficient delivery of the vehicle to any port of the world. Our skilled team simplifies the process for our customers for a hassle free delivery.\", -1)\nconst _hoisted_24 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"900ms\"\n}\nconst _hoisted_25 = { class: \"inner-box\" }\nconst _hoisted_26 = { class: \"image-box\" }\nconst _hoisted_27 = { class: \"image\" }\nconst _hoisted_28 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_2,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_29 = { class: \"content-box\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-box-4\" }, null, -1)\nconst _hoisted_31 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"03 Service\", -1)\nconst _hoisted_32 = { class: \"title\" }\nconst _hoisted_33 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"m3Logi has a vision to facilitate its customers at every level. To assist our customers with the complexities of customs rules and regulations, we offer customs clearance services through expert clearance agents. We strive to simplify every aspect of the trade for our customers.\", -1)\nconst _hoisted_34 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"600ms\"\n}\nconst _hoisted_35 = { class: \"inner-box\" }\nconst _hoisted_36 = { class: \"image-box\" }\nconst _hoisted_37 = { class: \"image\" }\nconst _hoisted_38 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_2,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_39 = { class: \"content-box\" }\nconst _hoisted_40 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-box-4\" }, null, -1)\nconst _hoisted_41 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"04 Service\", -1)\nconst _hoisted_42 = { class: \"title\" }\nconst _hoisted_43 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"m3Logi provides its customers with easy Supply Chain Management System to cater to the complete process from the beginning till the end. As we aim to serve our customers comprehensively, we save them from all kinds of hassle and responsibility.\", -1)\nconst _hoisted_44 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"1200ms\"\n}\nconst _hoisted_45 = { class: \"inner-box\" }\nconst _hoisted_46 = { class: \"image-box\" }\nconst _hoisted_47 = { class: \"image\" }\nconst _hoisted_48 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_49 = { class: \"content-box\" }\nconst _hoisted_50 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-truck-3\" }, null, -1)\nconst _hoisted_51 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"05 Service\", -1)\nconst _hoisted_52 = { class: \"title\" }\nconst _hoisted_53 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"m3Logi has yards located at strategic locations all over Japan for the safe and secure storage of the vehicle. Additionally, we have trained staff at the yards for the up-keep of the goods stored.\", -1)\nconst _hoisted_54 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"1500ms\"\n}\nconst _hoisted_55 = { class: \"inner-box\" }\nconst _hoisted_56 = { class: \"image-box\" }\nconst _hoisted_57 = { class: \"image\" }\nconst _hoisted_58 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_3,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_59 = { class: \"content-box\" }\nconst _hoisted_60 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-airplane-2\" }, null, -1)\nconst _hoisted_61 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"06 Service\", -1)\nconst _hoisted_62 = { class: \"title\" }\nconst _hoisted_63 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"m3Logi offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support.\", -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"figure\", _hoisted_7, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_8\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_9, [\n              _hoisted_10,\n              _hoisted_11,\n              _createElementVNode(\"h4\", _hoisted_12, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Land Transportation\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_13\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_14, [\n          _createElementVNode(\"div\", _hoisted_15, [\n            _createElementVNode(\"div\", _hoisted_16, [\n              _createElementVNode(\"figure\", _hoisted_17, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_18\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_19, [\n              _hoisted_20,\n              _hoisted_21,\n              _createElementVNode(\"h4\", _hoisted_22, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Ocean Transport\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_23\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_24, [\n          _createElementVNode(\"div\", _hoisted_25, [\n            _createElementVNode(\"div\", _hoisted_26, [\n              _createElementVNode(\"figure\", _hoisted_27, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_28\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_29, [\n              _hoisted_30,\n              _hoisted_31,\n              _createElementVNode(\"h4\", _hoisted_32, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Customs Clearance\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_33\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_34, [\n          _createElementVNode(\"div\", _hoisted_35, [\n            _createElementVNode(\"div\", _hoisted_36, [\n              _createElementVNode(\"figure\", _hoisted_37, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_38\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_39, [\n              _hoisted_40,\n              _hoisted_41,\n              _createElementVNode(\"h4\", _hoisted_42, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"SCM Consulting\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_43\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_44, [\n          _createElementVNode(\"div\", _hoisted_45, [\n            _createElementVNode(\"div\", _hoisted_46, [\n              _createElementVNode(\"figure\", _hoisted_47, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_48\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_49, [\n              _hoisted_50,\n              _hoisted_51,\n              _createElementVNode(\"h4\", _hoisted_52, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Yard Services\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_53\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_54, [\n          _createElementVNode(\"div\", _hoisted_55, [\n            _createElementVNode(\"div\", _hoisted_56, [\n              _createElementVNode(\"figure\", _hoisted_57, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_58\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_59, [\n              _hoisted_60,\n              _hoisted_61,\n              _createElementVNode(\"h4\", _hoisted_62, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Air Freight\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_63\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1759905612107,
-      "end": 1759905612109,
+      "start": 1760093888437,
+      "end": 1760093888441,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905612109,
-      "end": 1759905612109,
+      "start": 1760093888441,
+      "end": 1760093888441,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905612109,
-      "end": 1759905612109,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905612109,
-      "end": 1759905612109,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1759905612109,
-      "end": 1759905612109,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888443,
+      "end": 1760093888443,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888444,
+      "end": 1760093888444,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888444,
+      "end": 1760093888444,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888444,
+      "end": 1760093888444,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888444,
+      "end": 1760093888444,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905612110,
-      "end": 1759905612110,
+      "start": 1760093888444,
+      "end": 1760093888444,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905612110,
-      "end": 1759905612112,
+      "start": 1760093888444,
+      "end": 1760093888447,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905612112,
-      "end": 1759905612112,
+      "start": 1760093888447,
+      "end": 1760093888447,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905612112,
-      "end": 1759905612112,
+      "start": 1760093888447,
+      "end": 1760093888447,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1759905612112,
-      "end": 1759905612112,
+      "start": 1760093888447,
+      "end": 1760093888447,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1759905612113,
-      "end": 1759905612113,
+      "start": 1760093888447,
+      "end": 1760093888447,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/service-3.jpg'\nimport _imports_1 from '/images/resource/service-2.jpg'\nimport _imports_2 from '/images/resource/service-4.jpg'\nimport _imports_3 from '/images/resource/service-1.jpg'\n\n\nconst _hoisted_1 = { class: \"services-section\" }\nconst _hoisted_2 = { class: \"auto-container\" }\nconst _hoisted_3 = { class: \"row\" }\nconst _hoisted_4 = { class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\" }\nconst _hoisted_5 = { class: \"inner-box\" }\nconst _hoisted_6 = { class: \"image-box\" }\nconst _hoisted_7 = { class: \"image\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_9 = { class: \"content-box\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-truck-3\" }, null, -1)\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"01 Service\", -1)\nconst _hoisted_12 = { class: \"title\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"We offer our customers the matchless land transport services to transport your vehicles from any Auction or Stock-Yard to your required port. We ensure safe and swift vehicle delivery in collaboration with trusted drivers and vendors with a simplified process.\", -1)\nconst _hoisted_14 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"300ms\"\n}\nconst _hoisted_15 = { class: \"inner-box\" }\nconst _hoisted_16 = { class: \"image-box\" }\nconst _hoisted_17 = { class: \"image\" }\nconst _hoisted_18 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_1,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_19 = { class: \"content-box\" }\nconst _hoisted_20 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-cargo-boat\" }, null, -1)\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"02 Service\", -1)\nconst _hoisted_22 = { class: \"title\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"We offer our customers prime ocean transport services with the association of top of the line shipping companies worldwide to ensure the efficient delivery of the vehicle to any port of the world. Our skilled team simplifies the process for our customers for a hassle free delivery.\", -1)\nconst _hoisted_24 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"900ms\"\n}\nconst _hoisted_25 = { class: \"inner-box\" }\nconst _hoisted_26 = { class: \"image-box\" }\nconst _hoisted_27 = { class: \"image\" }\nconst _hoisted_28 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_2,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_29 = { class: \"content-box\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-box-4\" }, null, -1)\nconst _hoisted_31 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"03 Service\", -1)\nconst _hoisted_32 = { class: \"title\" }\nconst _hoisted_33 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"m3Logi has a vision to facilitate its customers at every level. To assist our customers with the complexities of customs rules and regulations, we offer customs clearance services through expert clearance agents. We strive to simplify every aspect of the trade for our customers.\", -1)\nconst _hoisted_34 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"600ms\"\n}\nconst _hoisted_35 = { class: \"inner-box\" }\nconst _hoisted_36 = { class: \"image-box\" }\nconst _hoisted_37 = { class: \"image\" }\nconst _hoisted_38 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_2,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_39 = { class: \"content-box\" }\nconst _hoisted_40 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-box-4\" }, null, -1)\nconst _hoisted_41 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"04 Service\", -1)\nconst _hoisted_42 = { class: \"title\" }\nconst _hoisted_43 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"m3Logi provides its customers with easy Supply Chain Management System to cater to the complete process from the beginning till the end. As we aim to serve our customers comprehensively, we save them from all kinds of hassle and responsibility.\", -1)\nconst _hoisted_44 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"1200ms\"\n}\nconst _hoisted_45 = { class: \"inner-box\" }\nconst _hoisted_46 = { class: \"image-box\" }\nconst _hoisted_47 = { class: \"image\" }\nconst _hoisted_48 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_0,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_49 = { class: \"content-box\" }\nconst _hoisted_50 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-truck-3\" }, null, -1)\nconst _hoisted_51 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"05 Service\", -1)\nconst _hoisted_52 = { class: \"title\" }\nconst _hoisted_53 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"m3Logi has yards located at strategic locations all over Japan for the safe and secure storage of the vehicle. Additionally, we have trained staff at the yards for the up-keep of the goods stored.\", -1)\nconst _hoisted_54 = {\n  class: \"service-block col-xl-4 col-lg-6 col-md-12 col-sm-12 wow fadeInUp\",\n  \"data-wow-delay\": \"1500ms\"\n}\nconst _hoisted_55 = { class: \"inner-box\" }\nconst _hoisted_56 = { class: \"image-box\" }\nconst _hoisted_57 = { class: \"image\" }\nconst _hoisted_58 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: _imports_3,\n  alt: \"\"\n}, null, -1)\nconst _hoisted_59 = { class: \"content-box\" }\nconst _hoisted_60 = /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-airplane-2\" }, null, -1)\nconst _hoisted_61 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"06 Service\", -1)\nconst _hoisted_62 = { class: \"title\" }\nconst _hoisted_63 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"text\" }, \"m3Logi offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support.\", -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _createElementVNode(\"div\", _hoisted_6, [\n              _createElementVNode(\"figure\", _hoisted_7, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_8\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_9, [\n              _hoisted_10,\n              _hoisted_11,\n              _createElementVNode(\"h4\", _hoisted_12, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Land Transportation\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_13\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_14, [\n          _createElementVNode(\"div\", _hoisted_15, [\n            _createElementVNode(\"div\", _hoisted_16, [\n              _createElementVNode(\"figure\", _hoisted_17, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_18\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_19, [\n              _hoisted_20,\n              _hoisted_21,\n              _createElementVNode(\"h4\", _hoisted_22, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Ocean Transport\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_23\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_24, [\n          _createElementVNode(\"div\", _hoisted_25, [\n            _createElementVNode(\"div\", _hoisted_26, [\n              _createElementVNode(\"figure\", _hoisted_27, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_28\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_29, [\n              _hoisted_30,\n              _hoisted_31,\n              _createElementVNode(\"h4\", _hoisted_32, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Customs Clearance\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_33\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_34, [\n          _createElementVNode(\"div\", _hoisted_35, [\n            _createElementVNode(\"div\", _hoisted_36, [\n              _createElementVNode(\"figure\", _hoisted_37, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_38\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_39, [\n              _hoisted_40,\n              _hoisted_41,\n              _createElementVNode(\"h4\", _hoisted_42, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"SCM Consulting\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_43\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_44, [\n          _createElementVNode(\"div\", _hoisted_45, [\n            _createElementVNode(\"div\", _hoisted_46, [\n              _createElementVNode(\"figure\", _hoisted_47, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_48\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_49, [\n              _hoisted_50,\n              _hoisted_51,\n              _createElementVNode(\"h4\", _hoisted_52, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Yard Services\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_53\n            ])\n          ])\n        ]),\n        _createElementVNode(\"div\", _hoisted_54, [\n          _createElementVNode(\"div\", _hoisted_55, [\n            _createElementVNode(\"div\", _hoisted_56, [\n              _createElementVNode(\"figure\", _hoisted_57, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _hoisted_58\n                  ]),\n                  _: 1\n                })\n              ])\n            ]),\n            _createElementVNode(\"div\", _hoisted_59, [\n              _hoisted_60,\n              _hoisted_61,\n              _createElementVNode(\"h4\", _hoisted_62, [\n                _createVNode(_component_NuxtLink, { to: \"/page-service-details\" }, {\n                  default: _withCtx(() => [\n                    _createTextVNode(\"Air Freight\")\n                  ]),\n                  _: 1\n                })\n              ]),\n              _hoisted_63\n            ])\n          ])\n        ])\n      ])\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1759905612113,
-      "end": 1759905612113,
+      "start": 1760093888447,
+      "end": 1760093888447,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905612113,
-      "end": 1759905612113,
+      "start": 1760093888447,
+      "end": 1760093888448,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905612113,
-      "end": 1759905612113,
+      "start": 1760093888448,
+      "end": 1760093888448,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905612113,
-      "end": 1759905612113,
+      "start": 1760093888448,
+      "end": 1760093888449,
       "order": "normal"
     }
   ]

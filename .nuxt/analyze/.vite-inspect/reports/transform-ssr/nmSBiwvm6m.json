@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"offer-section\" id=\"#offerr-sec\">\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <!-- Content Column -->\r\n                <div class=\"content-column col-lg-7 col-md-12\">\r\n                    <div class=\"inner-column\">\r\n                        <!-- <div class=\"sec-title light\"> -->\r\n                            <div class=\"\">\r\n                            <!-- <span class=\"sub-title\">Company Profile</span> -->\r\n                            <h2>Company Profile</h2>\r\n                            <h4>M3Logi, a single window approach for transporters, ports, customs and shipping lines.</h4>\r\n                            <div class=\"text\">M3Logi is an ideal solution, to acquire combined services provided by transporters, port yards, customs and shipping lines. \r\n                                One of the most convenient shipping services of the world, M3Logi offers online booking amenities with a variety of shipping schedules \r\n                                according to our clients’ requirements.<br> <br> With competitive rates and being a non-vessel operating common carrier (NVOCC), M3Logi is able \r\n                                to provide its customers comprehensive services including shipment tracking, and bill of lading. We envision to provide our customers \r\n                                all inclusive services of ‘carrier to shipper’ and ‘shipper to carrier’ and target clients all over the globe.</div>\r\n                        </div>\r\n                        <!-- <ul class=\"list-style-two\">\r\n                            <li><i class=\"fa fa-plane\"></i> Urgent Transport Solutions</li>\r\n                            <li><i class=\"fa fa-plane\"></i> Top quality services with reasonable price</li>\r\n                            <li><i class=\"fa fa-plane\"></i> Reliable & Experienced Team of 110+ Experts</li>\r\n                        </ul> -->\r\n                        <NuxtLink to=\"/page-services\" class=\"theme-btn btn-style-two hvr-light\"><span\r\n                                class=\"btn-title\">Explore More</span></NuxtLink>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Content Column -->\r\n                <div class=\"image-column col-lg-4 col-md-8 col-sm-8\">\r\n                    <div class=\"inner-column\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\"><img src=\"/images/m3logiOffice.jpeg\" alt=\"\"></figure>\r\n                            <figure class=\"image\"><img src=\"/images/gallery-14.jpeg\" alt=\"\"></figure>\r\n                            <!-- <div class=\"fact-counter-one bounce-y\">\r\n                                <h4 class=\"counter-title\">Trusted by</h4>\r\n                                <div class=\"count-box\">\r\n                                    <ElementsCounterUp :end=\"4890\" />\r\n                                </div>\r\n                            </div> -->\r\n                            <!-- <div class=\"caption-box wow fadeIn\">\r\n                                <div class=\"inner\">\r\n                                    <i class=\"icon flaticon-logistics-3\"></i>\r\n                                    <h4 class=\"title\">Moving your <br>products across borders</h4>\r\n                                </div>\r\n                            </div> -->\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>\r\n",
-      "start": 1759905620914,
-      "end": 1759905621121,
+      "start": 1760093904889,
+      "end": 1760093905128,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1759905621121,
-      "end": 1759905621121,
+      "start": 1760093905128,
+      "end": 1760093905128,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/m3logiOffice.jpeg'\nimport _imports_1 from '/images/gallery-14.jpeg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<section${_ssrRenderAttrs(_mergeProps({\n    class: \"offer-section\",\n    id: \"#offerr-sec\"\n  }, _attrs))}><div class=\"auto-container\"><div class=\"row\"><div class=\"content-column col-lg-7 col-md-12\"><div class=\"inner-column\"><div class=\"\"><h2>Company Profile</h2><h4>M3Logi, a single window approach for transporters, ports, customs and shipping lines.</h4><div class=\"text\">M3Logi is an ideal solution, to acquire combined services provided by transporters, port yards, customs and shipping lines. One of the most convenient shipping services of the world, M3Logi offers online booking amenities with a variety of shipping schedules according to our clients’ requirements.<br> <br> With competitive rates and being a non-vessel operating common carrier (NVOCC), M3Logi is able to provide its customers comprehensive services including shipment tracking, and bill of lading. We envision to provide our customers all inclusive services of ‘carrier to shipper’ and ‘shipper to carrier’ and target clients all over the globe.</div></div>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-services\",\n    class: \"theme-btn btn-style-two hvr-light\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<span class=\"btn-title\"${_scopeId}>Explore More</span>`)\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, \"Explore More\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div><div class=\"image-column col-lg-4 col-md-8 col-sm-8\"><div class=\"inner-column\"><div class=\"image-box\"><figure class=\"image\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"></figure><figure class=\"image\"><img${\n    _ssrRenderAttr(\"src\", _imports_1)\n  } alt=\"\"></figure></div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/About/Section1.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1759905621121,
-      "end": 1759905621122,
+      "start": 1760093905129,
+      "end": 1760093905130,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,161 +82,161 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905130,
+      "end": 1760093905130,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905130,
+      "end": 1760093905131,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905130,
+      "end": 1760093905131,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905131,
+      "end": 1760093905131,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905131,
+      "end": 1760093905131,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905131,
+      "end": 1760093905131,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905131,
+      "end": 1760093905131,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1759905621122,
-      "end": 1759905621122,
+      "start": 1760093905131,
+      "end": 1760093905131,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "const _sfc_main = {};\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport _imports_0 from \"/images/m3logiOffice.jpeg\";\nimport _imports_1 from \"/images/gallery-14.jpeg\";\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\");\n  _push(`<section${_ssrRenderAttrs(_mergeProps({\n    class: \"offer-section\",\n    id: \"#offerr-sec\"\n  }, _attrs))}><div class=\"auto-container\"><div class=\"row\"><div class=\"content-column col-lg-7 col-md-12\"><div class=\"inner-column\"><div class=\"\"><h2>Company Profile</h2><h4>M3Logi, a single window approach for transporters, ports, customs and shipping lines.</h4><div class=\"text\">M3Logi is an ideal solution, to acquire combined services provided by transporters, port yards, customs and shipping lines. One of the most convenient shipping services of the world, M3Logi offers online booking amenities with a variety of shipping schedules according to our clients’ requirements.<br> <br> With competitive rates and being a non-vessel operating common carrier (NVOCC), M3Logi is able to provide its customers comprehensive services including shipment tracking, and bill of lading. We envision to provide our customers all inclusive services of ‘carrier to shipper’ and ‘shipper to carrier’ and target clients all over the globe.</div></div>`);\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-services\",\n    class: \"theme-btn btn-style-two hvr-light\"\n  }, {\n    default: _withCtx((_, _push2, _parent2, _scopeId) => {\n      if (_push2) {\n        _push2(`<span class=\"btn-title\"${_scopeId}>Explore More</span>`);\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, \"Explore More\")\n        ];\n      }\n    }),\n    _: 1\n  }, _parent));\n  _push(`</div></div><div class=\"image-column col-lg-4 col-md-8 col-sm-8\"><div class=\"inner-column\"><div class=\"image-box\"><figure class=\"image\"><img${_ssrRenderAttr(\"src\", _imports_0)} alt=\"\"></figure><figure class=\"image\"><img${_ssrRenderAttr(\"src\", _imports_1)} alt=\"\"></figure></div></div></div></div></div></section>`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/sections/About/Section1.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
-      "start": 1759905621122,
-      "end": 1759905621218,
+      "start": 1760093905131,
+      "end": 1760093905317,
       "order": "normal",
       "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section1.vue\"],\n  \"sourcesContent\": [\"const _sfc_main = {}\\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \\\"vue\\\"\\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \\\"vue/server-renderer\\\"\\nimport _imports_0 from '/images/m3logiOffice.jpeg'\\nimport _imports_1 from '/images/gallery-14.jpeg'\\n\\n\\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\\n  const _component_NuxtLink = _resolveComponent(\\\"NuxtLink\\\")\\n\\n  _push(`<section${_ssrRenderAttrs(_mergeProps({\\n    class: \\\"offer-section\\\",\\n    id: \\\"#offerr-sec\\\"\\n  }, _attrs))}><div class=\\\"auto-container\\\"><div class=\\\"row\\\"><div class=\\\"content-column col-lg-7 col-md-12\\\"><div class=\\\"inner-column\\\"><div class=\\\"\\\"><h2>Company Profile</h2><h4>M3Logi, a single window approach for transporters, ports, customs and shipping lines.</h4><div class=\\\"text\\\">M3Logi is an ideal solution, to acquire combined services provided by transporters, port yards, customs and shipping lines. One of the most convenient shipping services of the world, M3Logi offers online booking amenities with a variety of shipping schedules according to our clients’ requirements.<br> <br> With competitive rates and being a non-vessel operating common carrier (NVOCC), M3Logi is able to provide its customers comprehensive services including shipment tracking, and bill of lading. We envision to provide our customers all inclusive services of ‘carrier to shipper’ and ‘shipper to carrier’ and target clients all over the globe.</div></div>`)\\n  _push(_ssrRenderComponent(_component_NuxtLink, {\\n    to: \\\"/page-services\\\",\\n    class: \\\"theme-btn btn-style-two hvr-light\\\"\\n  }, {\\n    default: _withCtx((_, _push, _parent, _scopeId) => {\\n      if (_push) {\\n        _push(`<span class=\\\"btn-title\\\"${_scopeId}>Explore More</span>`)\\n      } else {\\n        return [\\n          _createVNode(\\\"span\\\", { class: \\\"btn-title\\\" }, \\\"Explore More\\\")\\n        ]\\n      }\\n    }),\\n    _: 1\\n  }, _parent))\\n  _push(`</div></div><div class=\\\"image-column col-lg-4 col-md-8 col-sm-8\\\"><div class=\\\"inner-column\\\"><div class=\\\"image-box\\\"><figure class=\\\"image\\\"><img${\\n    _ssrRenderAttr(\\\"src\\\", _imports_0)\\n  } alt=\\\"\\\"></figure><figure class=\\\"image\\\"><img${\\n    _ssrRenderAttr(\\\"src\\\", _imports_1)\\n  } alt=\\\"\\\"></figure></div></div></div></div></div></section>`)\\n}\\n\\n\\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\\nconst _sfc_setup = _sfc_main.setup\\n_sfc_main.setup = (props, ctx) => {\\n  const ssrContext = __vite_useSSRContext()\\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\\\"components/sections/About/Section1.vue\\\")\\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\\n}\\nimport _export_sfc from '\\u0000plugin-vue:export-helper'\\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])\"],\n  \"mappings\": \"AAAA,MAAM,YAAY,CAAC;AACnB,SAAS,oBAAoB,mBAAmB,WAAW,UAAU,eAAe,cAAc,cAAc,mBAAmB;AACnI,SAAS,sBAAsB,qBAAqB,iBAAiB,gBAAgB,kBAAkB,uBAAuB;AAC9H,OAAO,gBAAgB;AACvB,OAAO,gBAAgB;AAGvB,SAAS,eAAe,MAAM,OAAO,SAAS,QAAQ;AACpD,QAAM,sBAAsB,kBAAkB,UAAU;AAExD,QAAM,WAAW,gBAAgB,YAAY;AAAA,IAC3C,OAAO;AAAA,IACP,IAAI;AAAA,EACN,GAAG,MAAM,CAAC,CAAC,k6BAAk6B;AAC76B,QAAM,oBAAoB,qBAAqB;AAAA,IAC7C,IAAI;AAAA,IACJ,OAAO;AAAA,EACT,GAAG;AAAA,IACD,SAAS,SAAS,CAAC,GAAGA,QAAOC,UAAS,aAAa;AACjD,UAAID,QAAO;AACT,QAAAA,OAAM,0BAA0B,QAAQ,sBAAsB;AAAA,MAChE,OAAO;AACL,eAAO;AAAA,UACL,aAAa,QAAQ,EAAE,OAAO,YAAY,GAAG,cAAc;AAAA,QAC7D;AAAA,MACF;AAAA,IACF,CAAC;AAAA,IACD,GAAG;AAAA,EACL,GAAG,OAAO,CAAC;AACX,QAAM,+IACJ,eAAe,OAAO,UAAU,CAClC,8CACE,eAAe,OAAO,UAAU,CAClC,2DAA2D;AAC7D;AAGA,SAAS,iBAAiB,4BAA4B;AACtD,MAAM,aAAa,UAAU;AAC7B,UAAU,QAAQ,CAAC,OAAO,QAAQ;AAChC,QAAM,aAAa,qBAAqB;AACvC,GAAC,WAAW,YAAY,WAAW,UAAU,oBAAI,IAAI,IAAI,IAAI,wCAAwC;AACtG,SAAO,aAAa,WAAW,OAAO,GAAG,IAAI;AAC/C;AACA,OAAO,iBAAiB;AACxB,eAA4B,4BAAY,WAAW,CAAC,CAAC,aAAY,cAAc,CAAC,CAAC;\",\n  \"names\": [\"_push\", \"_parent\"]\n}\n"
     },
     {
       "name": "vite:css-post",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905317,
+      "end": 1760093905317,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1759905621218,
-      "end": 1759905621218,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1759905621219,
-      "end": 1759905621219,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621219,
-      "end": 1759905621219,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1759905621219,
-      "end": 1759905621219,
+      "start": 1760093905318,
+      "end": 1760093905318,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621219,
-      "end": 1759905621220,
+      "start": 1760093905318,
+      "end": 1760093905322,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1759905621219,
-      "end": 1759905621220,
+      "start": 1760093905318,
+      "end": 1760093905323,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1759905621220,
-      "end": 1759905621220,
+      "start": 1760093905324,
+      "end": 1760093905324,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {};\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport _imports_0 from \"/images/m3logiOffice.jpeg\";\nimport _imports_1 from \"/images/gallery-14.jpeg\";\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0;\n  _push(`<section${_ssrRenderAttrs(_mergeProps({\n    class: \"offer-section\",\n    id: \"#offerr-sec\"\n  }, _attrs))}><div class=\"auto-container\"><div class=\"row\"><div class=\"content-column col-lg-7 col-md-12\"><div class=\"inner-column\"><div class=\"\"><h2>Company Profile</h2><h4>M3Logi, a single window approach for transporters, ports, customs and shipping lines.</h4><div class=\"text\">M3Logi is an ideal solution, to acquire combined services provided by transporters, port yards, customs and shipping lines. One of the most convenient shipping services of the world, M3Logi offers online booking amenities with a variety of shipping schedules according to our clients’ requirements.<br> <br> With competitive rates and being a non-vessel operating common carrier (NVOCC), M3Logi is able to provide its customers comprehensive services including shipment tracking, and bill of lading. We envision to provide our customers all inclusive services of ‘carrier to shipper’ and ‘shipper to carrier’ and target clients all over the globe.</div></div>`);\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/page-services\",\n    class: \"theme-btn btn-style-two hvr-light\"\n  }, {\n    default: _withCtx((_, _push2, _parent2, _scopeId) => {\n      if (_push2) {\n        _push2(`<span class=\"btn-title\"${_scopeId}>Explore More</span>`);\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, \"Explore More\")\n        ];\n      }\n    }),\n    _: 1\n  }, _parent));\n  _push(`</div></div><div class=\"image-column col-lg-4 col-md-8 col-sm-8\"><div class=\"inner-column\"><div class=\"image-box\"><figure class=\"image\"><img${_ssrRenderAttr(\"src\", _imports_0)} alt=\"\"></figure><figure class=\"image\"><img${_ssrRenderAttr(\"src\", _imports_1)} alt=\"\"></figure></div></div></div></div></div></section>`);\n}\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/sections/About/Section1.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nimport _export_sfc from \"\\0plugin-vue:export-helper\";\nexport default /* @__PURE__ */ _export_sfc(_sfc_main, [[\"ssrRender\", _sfc_ssrRender]]);\n",
-      "start": 1759905621221,
-      "end": 1759905621221,
+      "start": 1760093905324,
+      "end": 1760093905325,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -249,20 +249,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1759905621221,
-      "end": 1759905621221,
+      "start": 1760093905325,
+      "end": 1760093905325,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1759905621221,
-      "end": 1759905621221,
+      "start": 1760093905328,
+      "end": 1760093905329,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1759905621222,
-      "end": 1759905621222,
+      "start": 1760093905329,
+      "end": 1760093905329,
       "order": "normal"
     }
   ]

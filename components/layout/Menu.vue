@@ -66,8 +66,8 @@
 
 <template>
     <ul class="navigation">
-        <li class="current dropdown">
-            <NuxtLink to="/">Home</NuxtLink>
+        <!-- <li class="current dropdown">
+            <NuxtLink to="/index-3">Home</NuxtLink>
             <ul>
                 <li>
                     <NuxtLink to="/">Home page 01</NuxtLink>
@@ -79,6 +79,10 @@
                     <NuxtLink to="/index-3">Home page 03</NuxtLink>
                 </li>
             </ul>
+        </li> -->
+        
+        <li>
+            <NuxtLink to="/index-3">Home</NuxtLink>
         </li>
         <li>
             <NuxtLink to="/page-about">About</NuxtLink>

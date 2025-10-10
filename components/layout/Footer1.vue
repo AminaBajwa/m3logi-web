@@ -66,20 +66,21 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
                             <h3 class="widget-title">Service</h3>
                             <ul class="user-links">
                                 <li>
-                                    <NuxtLink to="#">Reliability & Punctuality</NuxtLink>
+                                    <NuxtLink to="#">Vehicle Transportation</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Trusted Franchise</NuxtLink>
+                                    <NuxtLink to="#">Ocean Transportation</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Warehoues Storage</NuxtLink>
+                                    <NuxtLink to="#">Yard Services</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Real Time Tracking</NuxtLink>
+                                    <NuxtLink to="#">Air Cargo</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Transparent Pricing</NuxtLink>
+                                    <NuxtLink to="#">Container Drayage Services</NuxtLink>
                                 </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -92,32 +93,32 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
                             <div class="widget-content">
                                 <div class="outer clearfix">
                                     <figure class="image">
-                                        <NuxtLink to="#"><img src="/images/resource/project-thumb-1.jpg" alt="">
+                                        <NuxtLink to="#"><img src="/images/clients/c0.png" alt="">
                                         </NuxtLink>
                                     </figure>
 
                                     <figure class="image">
-                                        <NuxtLink to="#"><img src="/images/resource/project-thumb-2.jpg" alt="">
+                                        <NuxtLink to="#"><img src="/images/clients/c1.png" alt="">
                                         </NuxtLink>
                                     </figure>
 
                                     <figure class="image">
-                                        <NuxtLink to="#"><img src="/images/resource/project-thumb-3.jpg" alt="">
+                                        <NuxtLink to="#"><img src="/images/clients/c2.png" alt="">
                                         </NuxtLink>
                                     </figure>
 
                                     <figure class="image">
-                                        <NuxtLink to="#"><img src="/images/resource/project-thumb-4.jpg" alt="">
+                                        <NuxtLink to="#"><img src="/images/clients/c3.png" alt="">
                                         </NuxtLink>
                                     </figure>
 
                                     <figure class="image">
-                                        <NuxtLink to="#"><img src="/images/resource/project-thumb-5.jpg" alt="">
+                                        <NuxtLink to="#"><img src="/images/clients/c4.png" alt="">
                                         </NuxtLink>
                                     </figure>
 
                                     <figure class="image">
-                                        <NuxtLink to="#"><img src="/images/resource/project-thumb-6.jpg" alt="">
+                                        <NuxtLink to="#"><img src="/images/clients/c5.png" alt="">
                                         </NuxtLink>
                                     </figure>
                                 </div>

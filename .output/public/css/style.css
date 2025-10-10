@@ -3537,7 +3537,6 @@ Section Title
     position: absolute;
     right: 0;
     top: 0;
-    height: 100px;
     width: 70px;
     background-image: url(../images/icons/shape-2.png);
     content: "";

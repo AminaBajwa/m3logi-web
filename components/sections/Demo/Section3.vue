@@ -41,8 +41,8 @@
                 <!-- Image Column -->
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column" id="img">
-                        <figure class="image-1"><img src="/images/resource/about-2.jpg" alt=""></figure>
-                        <figure class="image-2"><img src="/images/resource/about-1.jpg" alt=""></figure>
+                        <figure class="image-1"><img src="/images/resource/img1.png" alt=""></figure>
+                        <figure class="image-2"><img src="/images/resource/img2.png" alt=""></figure>
                         <div class="experience"><strong><i class="icon flaticon-global"></i> 12+<br> Years</strong> Working
                             Exprience</div>
                     </div>

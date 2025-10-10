@@ -622,7 +622,15 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-c9NaRlcJ.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-NM9WTfKo.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "index-3",
+    path: "/index-3",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/index-ihuNMjsi.mjs').then((m) => m.default || m)
   },
   {
     name: "index",
@@ -630,7 +638,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/index-qiVZnNoU.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-9CrteRi-.mjs').then((m) => m.default || m)
   },
   {
     name: "news-details",
@@ -638,7 +646,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/news-details-1eGoqqGe.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/news-details-RbnGq3yl.mjs').then((m) => m.default || m)
   },
   {
     name: "news-grid",
@@ -646,7 +654,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/news-grid-2rtctApt.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/news-grid-6NhjoAUj.mjs').then((m) => m.default || m)
   },
   {
     name: "page-about",
@@ -654,7 +662,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/page-about-psI8rbKZ.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-about-zeWa5xa5.mjs').then((m) => m.default || m)
   },
   {
     name: "page-contact",
@@ -662,7 +670,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/page-contact-iA2IVA2P.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-contact-Okw0M2DV.mjs').then((m) => m.default || m)
   },
   {
     name: "page-project-details",
@@ -694,7 +702,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/page-services-jci0ysdp.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/page-services-mxXtNHdO.mjs').then((m) => m.default || m)
   },
   {
     name: "page-team-details",
@@ -1015,8 +1023,8 @@ const plugins = [
   components_plugin_KR1HBZs4kY
 ];
 const layouts = {
-  default: () => import('./_nuxt/default-hskL6Wxb.mjs').then((m) => m.default || m),
-  layout2: () => import('./_nuxt/layout2-xnWTYtcw.mjs').then((m) => m.default || m)
+  default: () => import('./_nuxt/default-SpC-e1Kf.mjs').then((m) => m.default || m),
+  layout2: () => import('./_nuxt/layout2-74sX_96T.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

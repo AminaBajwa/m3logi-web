@@ -6,7 +6,7 @@
                         class="ripple"></span></NuxtLink>
                 <div class="sec-title light mb-0">
                     <div class="sub-title">Get in touch with us anytime</div>
-                    <h1>Looking for the best <br>logistics transport service?</h1>
+                    <h1>Looking for the best <br>logistics & transport service?</h1>
                     <NuxtLink to="/page-services" class="theme-btn btn-style-one hvr-light"><span class="btn-title">Get
                             A Quote</span></NuxtLink>
                 </div>

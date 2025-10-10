@@ -1,0 +1,214 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section11.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <section class=\"about-section-two\" id=\"mission\">\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <div class=\"content-column col-lg-6 col-md-12 col-sm-12 order-2\">\r\n                    <div class=\"inner-column\">\r\n                        <div class=\"sec-title\">\r\n                            <span class=\"sub-title\">Our Mission</span>\r\n                            <h2>Your Destination Is Our Mission</h2>\r\n                            <h4>Since 2012, m3Logi has been simplifying global freight and logistics.</h4>\r\n                            <div class=\"text\">We provide a single-window system that seamlessly integrates transporters, port yards, customs, and shipping lines—making logistics management easier than ever.\r\n                                <br><br>\r\n                                With our easy-to-use online platform, you can book shipments instantly and choose from a wide range of flexible shipping schedules that best fit your needs. Our digital tools help you manage, monitor, and create shipments online, ensuring transparency and full control over your cargo journey.\r\n                            </div>\r\n                        </div>\r\n\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- Image Column -->\r\n                <div class=\"image-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <figure class=\"image-1 wow fadeInUp\"><img src=\"/images/Mission.png\" alt=\"\"></figure>\r\n                        <!-- <figure class=\"image-2 wow fadeInRight\">\r\n                            <img src=\"/images/resource/about-4.jpg\" alt=\"\">\r\n                            <div class=\"icon-box\"><i class=\"icon flaticon-delivery-box-4\"></i></div>\r\n                        </figure> -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
+      "start": 1759905611851,
+      "end": 1759905611982,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1759905611982,
+      "end": 1759905611982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1759905611982,
+      "end": 1759905611982,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1759905611982,
+      "end": 1759905611982,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1759905611982,
+      "end": 1759905611982,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1759905611982,
+      "end": 1759905611982,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1759905611982,
+      "end": 1759905611982,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1759905611982,
+      "end": 1759905611982,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/Mission.png'\n\n\nconst _hoisted_1 = {\n  class: \"about-section-two\",\n  id: \"mission\"\n}\nconst _hoisted_2 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"auto-container\\\"><div class=\\\"row\\\"><div class=\\\"content-column col-lg-6 col-md-12 col-sm-12 order-2\\\"><div class=\\\"inner-column\\\"><div class=\\\"sec-title\\\"><span class=\\\"sub-title\\\">Our Mission</span><h2>Your Destination Is Our Mission</h2><h4>Since 2012, m3Logi has been simplifying global freight and logistics.</h4><div class=\\\"text\\\">We provide a single-window system that seamlessly integrates transporters, port yards, customs, and shipping lines—making logistics management easier than ever. <br><br> With our easy-to-use online platform, you can book shipments instantly and choose from a wide range of flexible shipping schedules that best fit your needs. Our digital tools help you manage, monitor, and create shipments online, ensuring transparency and full control over your cargo journey. </div></div></div></div><div class=\\\"image-column col-lg-6 col-md-12 col-sm-12\\\"><div class=\\\"inner-column\\\"><figure class=\\\"image-1 wow fadeInUp\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></figure></div></div></div></div>\", 1)\nconst _hoisted_3 = [\n  _hoisted_2\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, _hoisted_3))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1759905611982,
+      "end": 1759905611983,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1759905611983,
+      "end": 1759905611983,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1759905611983,
+      "end": 1759905611984,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1759905611984,
+      "end": 1759905611984,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1759905611984,
+      "end": 1759905611984,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1759905611984,
+      "end": 1759905611984,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1759905611984,
+      "end": 1759905611984,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1759905611984,
+      "end": 1759905611984,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1759905611984,
+      "end": 1759905611984,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1759905611984,
+      "end": 1759905611984,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1759905611984,
+      "end": 1759905611984,
+      "order": "normal"
+    }
+  ]
+}

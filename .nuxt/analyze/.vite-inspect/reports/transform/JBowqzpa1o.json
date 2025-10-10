@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"banner-section\">\r\n        <swiper :slides-per-view=\"1\" :space-between=\"30\" :loop=\"true\" :autoplay=\"{\r\n            delay: 8000,\r\n            disableOnInteraction: true,\r\n        }\" :pagination=\"{\r\n    el: '.swiper-pagination',\r\n    clickable: true,\r\n}\" :navigation=\"{\r\n    nextEl: '.h1n',\r\n    prevEl: '.h1p',\r\n}\" :modules=\"modules\" class=\"banner-carousel owl-carousel owl-theme\">\r\n            <!-- Slide Item -->\r\n            <swiper-slide class=\"slide-item\">\r\n                <div class=\"bg-image\" style=\"background-image: url(images/main-slider/3.jpg);\"></div>\r\n                <div class=\"auto-container\">\r\n                    <div class=\"row\">\r\n                        <div class=\"content-column col-lg-7 col-md-12 col-sm-12\">\r\n                            <div class=\"content-box\">\r\n                                <h2 class=\"title animate-3\">A Single <br/>Platform<span class=\"colored\"> for</span> Global Trade</h2>\r\n                                <div class=\"btn-box animate-4\">\r\n                                    <NuxtLink to=\"/page-about\" class=\"theme-btn btn-style-one alternate\"><span\r\n                                            class=\"btn-title\">Explore\r\n                                            More</span></NuxtLink>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"image-column col-lg-5 col-md-12 col-sm-12\">\r\n                            <div class=\"image-box\">\r\n                                <div class=\"fact-counter-one bounce-y\">\r\n                                    <h4 class=\"counter-title\">Trusted by</h4>\r\n                                    <div class=\"count-box\">\r\n                                        <ElementsCounterUp :end=\"4890\" />\r\n                                    </div>\r\n                                </div>\r\n                                <figure class=\"image animate-5 animate-x\"><img src=\"/images/resource/truck.png\" alt=\"\">\r\n                                </figure>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </swiper-slide>\r\n\r\n            <!-- Slide Item -->\r\n            <swiper-slide class=\"slide-item\">\r\n                <div class=\"bg-image\" style=\"background-image: url(images/main-slider/3.jpg);\"></div>\r\n                <div class=\"auto-container\">\r\n                    <div class=\"row\">\r\n                        <div class=\"content-column col-lg-7 col-md-12 col-sm-12\">\r\n                            <div class=\"content-box\">\r\n                                <h2 class=\"title animate-3\">Most trusted logistics <span class=\"colored\">&</span> delivery\r\n                                    services\r\n                                </h2>\r\n                                <div class=\"btn-box animate-4\">\r\n                                    <NuxtLink to=\"/page-about\" class=\"theme-btn btn-style-one alternate\"><span\r\n                                            class=\"btn-title\">Explore\r\n                                            More</span></NuxtLink>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"image-column col-lg-5 col-md-12 col-sm-12\">\r\n                            <div class=\"image-box\">\r\n                                <div class=\"fact-counter-one bounce-y\">\r\n                                    <h4 class=\"counter-title\">Trusted by</h4>\r\n                                    <div class=\"count-box\">\r\n                                        <ElementsCounterUp :end=\"4890\" />\r\n                                    </div>\r\n                                </div>\r\n                                <figure class=\"image animate-5 animate-x\"><img src=\"/images/resource/truck.png\" alt=\"\">\r\n                                </figure>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </swiper-slide>\r\n        </swiper>\r\n\r\n    </section>\r\n</template>\r\n<script>\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nexport default {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n</script>",
-      "start": 1758152096614,
-      "end": 1758152097071,
+      "start": 1759905611666,
+      "end": 1759905611830,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152097071,
-      "end": 1758152097071,
+      "start": 1759905611830,
+      "end": 1759905611830,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152097071,
-      "end": 1758152097071,
+      "start": 1759905611830,
+      "end": 1759905611830,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1758152097071,
-      "end": 1758152097071,
+      "start": 1759905611830,
+      "end": 1759905611830,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1758152097071,
-      "end": 1758152097071,
+      "start": 1759905611830,
+      "end": 1759905611830,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1758152097071,
-      "end": 1758152097071,
+      "start": 1759905611830,
+      "end": 1759905611830,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1758152097071,
-      "end": 1758152097071,
+      "start": 1759905611830,
+      "end": 1759905611830,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1758152097071,
-      "end": 1758152097071,
+      "start": 1759905611830,
+      "end": 1759905611830,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nconst _sfc_main = {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/truck.png'\n\n\nconst _hoisted_1 = { class: \"banner-section\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"bg-image\",\n  style: {\"background-image\":\"url(images/main-slider/3.jpg)\"}\n}, null, -1)\nconst _hoisted_3 = { class: \"auto-container\" }\nconst _hoisted_4 = { class: \"row\" }\nconst _hoisted_5 = { class: \"content-column col-lg-7 col-md-12 col-sm-12\" }\nconst _hoisted_6 = { class: \"content-box\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title animate-3\" }, [\n  /*#__PURE__*/_createTextVNode(\"A Single \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Platform\"),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"colored\" }, \" for\"),\n  /*#__PURE__*/_createTextVNode(\" Global Trade\")\n], -1)\nconst _hoisted_8 = { class: \"btn-box animate-4\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Explore More\", -1)\nconst _hoisted_10 = { class: \"image-column col-lg-5 col-md-12 col-sm-12\" }\nconst _hoisted_11 = { class: \"image-box\" }\nconst _hoisted_12 = { class: \"fact-counter-one bounce-y\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, \"Trusted by\", -1)\nconst _hoisted_14 = { class: \"count-box\" }\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"figure\", { class: \"image animate-5 animate-x\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"\"\n  })\n], -1)\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"bg-image\",\n  style: {\"background-image\":\"url(images/main-slider/3.jpg)\"}\n}, null, -1)\nconst _hoisted_17 = { class: \"auto-container\" }\nconst _hoisted_18 = { class: \"row\" }\nconst _hoisted_19 = { class: \"content-column col-lg-7 col-md-12 col-sm-12\" }\nconst _hoisted_20 = { class: \"content-box\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title animate-3\" }, [\n  /*#__PURE__*/_createTextVNode(\"Most trusted logistics \"),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"colored\" }, \"&\"),\n  /*#__PURE__*/_createTextVNode(\" delivery services \")\n], -1)\nconst _hoisted_22 = { class: \"btn-box animate-4\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Explore More\", -1)\nconst _hoisted_24 = { class: \"image-column col-lg-5 col-md-12 col-sm-12\" }\nconst _hoisted_25 = { class: \"image-box\" }\nconst _hoisted_26 = { class: \"fact-counter-one bounce-y\" }\nconst _hoisted_27 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, \"Trusted by\", -1)\nconst _hoisted_28 = { class: \"count-box\" }\nconst _hoisted_29 = /*#__PURE__*/_createElementVNode(\"figure\", { class: \"image animate-5 animate-x\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"\"\n  })\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_ElementsCounterUp = _resolveComponent(\"ElementsCounterUp\")\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_swiper = _resolveComponent(\"swiper\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createVNode(_component_swiper, {\n      \"slides-per-view\": 1,\n      \"space-between\": 30,\n      loop: true,\n      autoplay: {\r\n            delay: 8000,\r\n            disableOnInteraction: true,\r\n        },\n      pagination: {\r\n    el: '.swiper-pagination',\r\n    clickable: true,\r\n},\n      navigation: {\r\n    nextEl: '.h1n',\r\n    prevEl: '.h1p',\r\n},\n      modules: $setup.modules,\n      class: \"banner-carousel owl-carousel owl-theme\"\n    }, {\n      default: _withCtx(() => [\n        _createVNode(_component_swiper_slide, { class: \"slide-item\" }, {\n          default: _withCtx(() => [\n            _hoisted_2,\n            _createElementVNode(\"div\", _hoisted_3, [\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"div\", _hoisted_5, [\n                  _createElementVNode(\"div\", _hoisted_6, [\n                    _hoisted_7,\n                    _createElementVNode(\"div\", _hoisted_8, [\n                      _createVNode(_component_NuxtLink, {\n                        to: \"/page-about\",\n                        class: \"theme-btn btn-style-one alternate\"\n                      }, {\n                        default: _withCtx(() => [\n                          _hoisted_9\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"div\", _hoisted_10, [\n                  _createElementVNode(\"div\", _hoisted_11, [\n                    _createElementVNode(\"div\", _hoisted_12, [\n                      _hoisted_13,\n                      _createElementVNode(\"div\", _hoisted_14, [\n                        _createVNode(_component_ElementsCounterUp, { end: 4890 })\n                      ])\n                    ]),\n                    _hoisted_15\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_swiper_slide, { class: \"slide-item\" }, {\n          default: _withCtx(() => [\n            _hoisted_16,\n            _createElementVNode(\"div\", _hoisted_17, [\n              _createElementVNode(\"div\", _hoisted_18, [\n                _createElementVNode(\"div\", _hoisted_19, [\n                  _createElementVNode(\"div\", _hoisted_20, [\n                    _hoisted_21,\n                    _createElementVNode(\"div\", _hoisted_22, [\n                      _createVNode(_component_NuxtLink, {\n                        to: \"/page-about\",\n                        class: \"theme-btn btn-style-one alternate\"\n                      }, {\n                        default: _withCtx(() => [\n                          _hoisted_23\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"div\", _hoisted_24, [\n                  _createElementVNode(\"div\", _hoisted_25, [\n                    _createElementVNode(\"div\", _hoisted_26, [\n                      _hoisted_27,\n                      _createElementVNode(\"div\", _hoisted_28, [\n                        _createVNode(_component_ElementsCounterUp, { end: 4890 })\n                      ])\n                    ]),\n                    _hoisted_29\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }, 8, [\"pagination\", \"navigation\", \"modules\"])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1758152097071,
-      "end": 1758152097078,
+      "start": 1759905611830,
+      "end": 1759905611834,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1758152097078,
-      "end": 1758152097078,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152097078,
-      "end": 1758152097079,
+      "start": 1759905611834,
+      "end": 1759905611834,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152097079,
-      "end": 1758152097081,
+      "start": 1759905611834,
+      "end": 1759905611836,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152097081,
-      "end": 1758152097081,
+      "start": 1759905611836,
+      "end": 1759905611836,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152097081,
-      "end": 1758152097081,
+      "start": 1759905611836,
+      "end": 1759905611836,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1758152097081,
-      "end": 1758152097081,
+      "start": 1759905611836,
+      "end": 1759905611836,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1758152097081,
-      "end": 1758152097081,
+      "start": 1759905611836,
+      "end": 1759905611836,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { default as __nuxt_component_1 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/elements/CounterUp.vue\";\n\r\nimport { Autoplay, Navigation, Pagination } from \"swiper/modules\"\r\nimport { Swiper, SwiperSlide } from \"swiper/vue\"\r\n\r\nconst _sfc_main = {\r\n    components: {\r\n        Swiper,\r\n        SwiperSlide,\r\n    },\r\n    setup() {\r\n        return {\r\n            modules: [Autoplay, Pagination, Navigation],\r\n        }\r\n    },\r\n}\r\n\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/truck.png'\n\n\nconst _hoisted_1 = { class: \"banner-section\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"bg-image\",\n  style: {\"background-image\":\"url(images/main-slider/3.jpg)\"}\n}, null, -1)\nconst _hoisted_3 = { class: \"auto-container\" }\nconst _hoisted_4 = { class: \"row\" }\nconst _hoisted_5 = { class: \"content-column col-lg-7 col-md-12 col-sm-12\" }\nconst _hoisted_6 = { class: \"content-box\" }\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title animate-3\" }, [\n  /*#__PURE__*/_createTextVNode(\"A Single \"),\n  /*#__PURE__*/_createElementVNode(\"br\"),\n  /*#__PURE__*/_createTextVNode(\"Platform\"),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"colored\" }, \" for\"),\n  /*#__PURE__*/_createTextVNode(\" Global Trade\")\n], -1)\nconst _hoisted_8 = { class: \"btn-box animate-4\" }\nconst _hoisted_9 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Explore More\", -1)\nconst _hoisted_10 = { class: \"image-column col-lg-5 col-md-12 col-sm-12\" }\nconst _hoisted_11 = { class: \"image-box\" }\nconst _hoisted_12 = { class: \"fact-counter-one bounce-y\" }\nconst _hoisted_13 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, \"Trusted by\", -1)\nconst _hoisted_14 = { class: \"count-box\" }\nconst _hoisted_15 = /*#__PURE__*/_createElementVNode(\"figure\", { class: \"image animate-5 animate-x\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"\"\n  })\n], -1)\nconst _hoisted_16 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"bg-image\",\n  style: {\"background-image\":\"url(images/main-slider/3.jpg)\"}\n}, null, -1)\nconst _hoisted_17 = { class: \"auto-container\" }\nconst _hoisted_18 = { class: \"row\" }\nconst _hoisted_19 = { class: \"content-column col-lg-7 col-md-12 col-sm-12\" }\nconst _hoisted_20 = { class: \"content-box\" }\nconst _hoisted_21 = /*#__PURE__*/_createElementVNode(\"h2\", { class: \"title animate-3\" }, [\n  /*#__PURE__*/_createTextVNode(\"Most trusted logistics \"),\n  /*#__PURE__*/_createElementVNode(\"span\", { class: \"colored\" }, \"&\"),\n  /*#__PURE__*/_createTextVNode(\" delivery services \")\n], -1)\nconst _hoisted_22 = { class: \"btn-box animate-4\" }\nconst _hoisted_23 = /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Explore More\", -1)\nconst _hoisted_24 = { class: \"image-column col-lg-5 col-md-12 col-sm-12\" }\nconst _hoisted_25 = { class: \"image-box\" }\nconst _hoisted_26 = { class: \"fact-counter-one bounce-y\" }\nconst _hoisted_27 = /*#__PURE__*/_createElementVNode(\"h4\", { class: \"counter-title\" }, \"Trusted by\", -1)\nconst _hoisted_28 = { class: \"count-box\" }\nconst _hoisted_29 = /*#__PURE__*/_createElementVNode(\"figure\", { class: \"image animate-5 animate-x\" }, [\n  /*#__PURE__*/_createElementVNode(\"img\", {\n    src: _imports_0,\n    alt: \"\"\n  })\n], -1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  const _component_NuxtLink = __nuxt_component_0\n  const _component_ElementsCounterUp = __nuxt_component_1\n  const _component_swiper_slide = _resolveComponent(\"swiper-slide\")\n  const _component_swiper = _resolveComponent(\"swiper\")\n\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, [\n    _createVNode(_component_swiper, {\n      \"slides-per-view\": 1,\n      \"space-between\": 30,\n      loop: true,\n      autoplay: {\r\n            delay: 8000,\r\n            disableOnInteraction: true,\r\n        },\n      pagination: {\r\n    el: '.swiper-pagination',\r\n    clickable: true,\r\n},\n      navigation: {\r\n    nextEl: '.h1n',\r\n    prevEl: '.h1p',\r\n},\n      modules: $setup.modules,\n      class: \"banner-carousel owl-carousel owl-theme\"\n    }, {\n      default: _withCtx(() => [\n        _createVNode(_component_swiper_slide, { class: \"slide-item\" }, {\n          default: _withCtx(() => [\n            _hoisted_2,\n            _createElementVNode(\"div\", _hoisted_3, [\n              _createElementVNode(\"div\", _hoisted_4, [\n                _createElementVNode(\"div\", _hoisted_5, [\n                  _createElementVNode(\"div\", _hoisted_6, [\n                    _hoisted_7,\n                    _createElementVNode(\"div\", _hoisted_8, [\n                      _createVNode(_component_NuxtLink, {\n                        to: \"/page-about\",\n                        class: \"theme-btn btn-style-one alternate\"\n                      }, {\n                        default: _withCtx(() => [\n                          _hoisted_9\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"div\", _hoisted_10, [\n                  _createElementVNode(\"div\", _hoisted_11, [\n                    _createElementVNode(\"div\", _hoisted_12, [\n                      _hoisted_13,\n                      _createElementVNode(\"div\", _hoisted_14, [\n                        _createVNode(_component_ElementsCounterUp, { end: 4890 })\n                      ])\n                    ]),\n                    _hoisted_15\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_swiper_slide, { class: \"slide-item\" }, {\n          default: _withCtx(() => [\n            _hoisted_16,\n            _createElementVNode(\"div\", _hoisted_17, [\n              _createElementVNode(\"div\", _hoisted_18, [\n                _createElementVNode(\"div\", _hoisted_19, [\n                  _createElementVNode(\"div\", _hoisted_20, [\n                    _hoisted_21,\n                    _createElementVNode(\"div\", _hoisted_22, [\n                      _createVNode(_component_NuxtLink, {\n                        to: \"/page-about\",\n                        class: \"theme-btn btn-style-one alternate\"\n                      }, {\n                        default: _withCtx(() => [\n                          _hoisted_23\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"div\", _hoisted_24, [\n                  _createElementVNode(\"div\", _hoisted_25, [\n                    _createElementVNode(\"div\", _hoisted_26, [\n                      _hoisted_27,\n                      _createElementVNode(\"div\", _hoisted_28, [\n                        _createVNode(_component_ElementsCounterUp, { end: 4890 })\n                      ])\n                    ]),\n                    _hoisted_29\n                  ])\n                ])\n              ])\n            ])\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }, 8, [\"pagination\", \"navigation\", \"modules\"])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1758152097081,
-      "end": 1758152097081,
+      "start": 1759905611836,
+      "end": 1759905611836,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1758152097081,
-      "end": 1758152097082,
+      "start": 1759905611836,
+      "end": 1759905611836,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1758152097082,
-      "end": 1758152097082,
+      "start": 1759905611836,
+      "end": 1759905611836,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1758152097082,
-      "end": 1758152097082,
+      "start": 1759905611836,
+      "end": 1759905611836,
       "order": "normal"
     }
   ]

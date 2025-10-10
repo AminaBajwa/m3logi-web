@@ -4893,9 +4893,9 @@ Section Title
 
 .fact-counter .counter-title {
     display: inline-block;
-    font-size: 16px;
-    line-height: 21px;
-    color: #767676;
+    /* font-size: 16px; */
+    /* line-height: 21px; */
+    color: #060606;
     margin-top: 5px;
 }
 
@@ -5879,7 +5879,7 @@ Section Title
 ***/
 .offer-section {
     position: relative;
-    background-color: var(--bg-theme-color2-light);
+    /* background-color: var(--bg-theme-color2-light); */
 }
 
 .offer-section:before {
@@ -5897,7 +5897,9 @@ Section Title
 
 .offer-section .content-column {
     position: relative;
+    
 }
+
 
 .offer-section .content-column .inner-column {
     position: relative;
@@ -5916,6 +5918,7 @@ Section Title
 .offer-section .content-column .text {
     font-size: 16px;
     line-height: 34px;
+    color: rgb(57, 57, 57);
 }
 
 .offer-section .content-column .list-style-two {
@@ -11585,4 +11588,10 @@ ul.sections li.section a {
   color: #fff;
   text-transform: uppercase;
   border: 0;
+}
+
+#subtitle{
+    font-size: large;
+    color: white;
+    margin-bottom: 30px;
 }

@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n\t<!--Team Details Start-->\r\n\t<section class=\"team-details\">\r\n\t\t<div class=\"container pb-100\">\r\n\t\t\t<div class=\"team-details__top pb-70\">\r\n\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-6\">\r\n\t\t\t\t\t\t<div class=\"team-details__top-left\">\r\n\t\t\t\t\t\t\t<div class=\"team-details__top-img\"> <img src=\"/images/resource/team-details.jpg\" alt=\"\">\r\n\t\t\t\t\t\t\t\t<div class=\"team-details__big-text\">Richerd</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-6\">\r\n\t\t\t\t\t\t<div class=\"team-details__top-right\">\r\n\t\t\t\t\t\t\t<div class=\"team-details__top-content\">\r\n\t\t\t\t\t\t\t\t<h3 class=\"team-details__top-name\">Richerd Fred</h3>\r\n\t\t\t\t\t\t\t\t<p class=\"team-details__top-title\">Managing Director & CEO</p>\r\n\t\t\t\t\t\t\t\t<div class=\"team-details__social\"> <a href=\"#\"><i class=\"fab fa-twitter\"></i></a> <a href=\"#\"><i class=\"fab fa-facebook\"></i></a> <a href=\"#\"><i class=\"fab fa-pinterest-p\"></i></a> <a href=\"#\"><i class=\"fab fa-instagram\"></i></a> </div>\r\n\t\t\t\t\t\t\t\t<p class=\"team-details__top-text-1\">I help my clients stand out and <br> they help me grow.</p>\r\n\t\t\t\t\t\t\t\t<p class=\"team-details__top-text-3\">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae </p>\r\n\t\t\t\t\t\t\t\t<p class=\"team-details__top-text-2\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto</p>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"team-details__bottom pt-100\">\r\n\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-6\">\r\n\t\t\t\t\t\t<div class=\"team-details__bottom-left\">\r\n\t\t\t\t\t\t\t<h4 class=\"team-details__bottom-left-title\">Personal Experience</h4>\r\n\t\t\t\t\t\t\t<p class=\"team-details__bottom-left-text\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto dolorem ipsum quia</p>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-6\">\r\n                        <div class=\"skills\">\r\n                            <!--Skill Item-->\r\n                            <div class=\"skill-item\">\r\n                                <div class=\"skill-header\">\r\n                                    <h6 class=\"skill-title\">Marketing</h6>\r\n                                </div>\r\n                                <div class=\"skill-bar\">\r\n                                    <div class=\"bar-inner\">\r\n                                        <div class=\"bar progress-line\" data-width=\"77\" style=\"width: 77%;\">\r\n                                            <div class=\"skill-percentage\">\r\n                                                <div class=\"count-box\"><ElementsCounterUp :end=\"77\"/>% </div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!--Skill Item-->\r\n                            \r\n                            <!--Skill Item-->\r\n                            <div class=\"skill-item\">\r\n                                <div class=\"skill-header\">\r\n                                    <h6 class=\"skill-title\">HVAC</h6>\r\n                                </div>\r\n                                <div class=\"skill-bar\">\r\n                                    <div class=\"bar-inner\">\r\n                                        <div class=\"bar progress-line\" data-width=\"57\" style=\"width: 57%;\">\r\n                                            <div class=\"skill-percentage\">\r\n                                                <div class=\"count-box\"><ElementsCounterUp :end=\"57\"/>% </div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!--Skill Item-->\r\n                            \r\n                            <!--Skill Item-->\r\n                            <div class=\"skill-item\">\r\n                                <div class=\"skill-header\">\r\n                                    <h6 class=\"skill-title\">HVAC</h6>\r\n                                </div>\r\n                                <div class=\"skill-bar\">\r\n                                    <div class=\"bar-inner\">\r\n                                        <div class=\"bar progress-line\" data-width=\"92\" style=\"width: 92%;\">\r\n                                            <div class=\"skill-percentage\">\r\n                                                <div class=\"count-box\"><ElementsCounterUp :end=\"92\"/>% </div>\r\n                                            </div>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                            <!--Skill Item-->\r\n                        </div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n\t<!--Team Details End-->\r\n\r\n\t<!--Contact Details Start-->\r\n\t<section class=\"team-contact-form\">\r\n\t\t<div class=\"container pb-100\">\r\n\t\t\t<div class=\"sec-title text-center\">\r\n\t\t\t\t<span class=\"sub-title\">Contact With Us Now</span>\r\n\t\t\t\t<h2 class=\"section-title__title\">Feel Free to Write Our <br> Service Experts</h2>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"row justify-content-center\">\r\n\t\t\t\t<div class=\"col-lg-8\">\r\n\t\t\t\t\t<!-- Contact Form -->\r\n\t\t\t\t\t<form id=\"contact_form\" name=\"contact_form\" class=\"\" action=\"includes/sendmail.php\" method=\"post\">\r\n\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\r\n\t\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t\t<label>Name <small>*</small></label>\r\n\t\t\t\t\t\t\t\t\t<input name=\"form_name\" class=\"form-control\" type=\"text\" placeholder=\"Enter Name\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\r\n\t\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t\t<label>Email <small>*</small></label>\r\n\t\t\t\t\t\t\t\t\t<input name=\"form_email\" class=\"form-control required email\" type=\"email\" placeholder=\"Enter Email\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\r\n\t\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t\t<label>Subject <small>*</small></label>\r\n\t\t\t\t\t\t\t\t\t<input name=\"form_subject\" class=\"form-control required\" type=\"text\" placeholder=\"Enter Subject\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div class=\"col-sm-6\">\r\n\t\t\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t\t\t<label>Phone</label>\r\n\t\t\t\t\t\t\t\t\t<input name=\"form_phone\" class=\"form-control\" type=\"text\" placeholder=\"Enter Phone\">\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"mb-3\">\r\n\t\t\t\t\t\t\t<label>Message</label>\r\n\t\t\t\t\t\t\t<textarea name=\"form_message\" class=\"form-control required\" rows=\"5\" placeholder=\"Enter Message\"></textarea>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<div class=\"mb-3 text-center\">\r\n\t\t\t\t\t\t\t<input name=\"form_botcheck\" class=\"form-control\" type=\"hidden\" value=\"\" />\r\n\t\t\t\t\t\t\t<button type=\"submit\" class=\"theme-btn btn-style-one me-3\" data-loading-text=\"Please wait...\"><span class=\"btn-title\">Send message</span></button>\r\n\t\t\t\t\t\t\t<button type=\"reset\" class=\"theme-btn btn-style-one\"><span class=\"btn-title\">Reset</span></button>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</form>\r\n\t\t\t\t\t<!-- Contact Form Validation-->\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</section>\r\n\t<!--Contact Details End-->\r\n</template>",
-      "start": 1758152097145,
-      "end": 1758152097452,
+      "start": 1759905611885,
+      "end": 1759905612059,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152097452,
-      "end": 1758152097452,
+      "start": 1759905612060,
+      "end": 1759905612060,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152097452,
-      "end": 1758152097452,
+      "start": 1759905612060,
+      "end": 1759905612060,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1758152097452,
-      "end": 1758152097452,
+      "start": 1759905612060,
+      "end": 1759905612060,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1758152097452,
-      "end": 1758152097452,
+      "start": 1759905612060,
+      "end": 1759905612060,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1758152097452,
-      "end": 1758152097452,
+      "start": 1759905612060,
+      "end": 1759905612060,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1758152097452,
-      "end": 1758152097452,
+      "start": 1759905612060,
+      "end": 1759905612060,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1758152097452,
-      "end": 1758152097452,
+      "start": 1759905612060,
+      "end": 1759905612060,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/team-details.jpg'\n\n\nconst _hoisted_1 = { class: \"team-details\" }\nconst _hoisted_2 = { class: \"container pb-100\" }\nconst _hoisted_3 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"team-details__top pb-70\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-6 col-lg-6\\\"><div class=\\\"team-details__top-left\\\"><div class=\\\"team-details__top-img\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"><div class=\\\"team-details__big-text\\\">Richerd</div></div></div></div><div class=\\\"col-xl-6 col-lg-6\\\"><div class=\\\"team-details__top-right\\\"><div class=\\\"team-details__top-content\\\"><h3 class=\\\"team-details__top-name\\\">Richerd Fred</h3><p class=\\\"team-details__top-title\\\">Managing Director &amp; CEO</p><div class=\\\"team-details__social\\\"><a href=\\\"#\\\"><i class=\\\"fab fa-twitter\\\"></i></a> <a href=\\\"#\\\"><i class=\\\"fab fa-facebook\\\"></i></a> <a href=\\\"#\\\"><i class=\\\"fab fa-pinterest-p\\\"></i></a> <a href=\\\"#\\\"><i class=\\\"fab fa-instagram\\\"></i></a></div><p class=\\\"team-details__top-text-1\\\">I help my clients stand out and <br> they help me grow.</p><p class=\\\"team-details__top-text-3\\\">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae </p><p class=\\\"team-details__top-text-2\\\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto</p></div></div></div></div></div>\", 1)\nconst _hoisted_4 = { class: \"team-details__bottom pt-100\" }\nconst _hoisted_5 = { class: \"row\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-xl-6 col-lg-6\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"team-details__bottom-left\" }, [\n    /*#__PURE__*/_createElementVNode(\"h4\", { class: \"team-details__bottom-left-title\" }, \"Personal Experience\"),\n    /*#__PURE__*/_createElementVNode(\"p\", { class: \"team-details__bottom-left-text\" }, \"When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto dolorem ipsum quia\")\n  ])\n], -1)\nconst _hoisted_7 = { class: \"col-xl-6 col-lg-6\" }\nconst _hoisted_8 = { class: \"skills\" }\nconst _hoisted_9 = { class: \"skill-item\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-header\" }, [\n  /*#__PURE__*/_createElementVNode(\"h6\", { class: \"skill-title\" }, \"Marketing\")\n], -1)\nconst _hoisted_11 = { class: \"skill-bar\" }\nconst _hoisted_12 = { class: \"bar-inner\" }\nconst _hoisted_13 = {\n  class: \"bar progress-line\",\n  \"data-width\": \"77\",\n  style: {\"width\":\"77%\"}\n}\nconst _hoisted_14 = { class: \"skill-percentage\" }\nconst _hoisted_15 = { class: \"count-box\" }\nconst _hoisted_16 = { class: \"skill-item\" }\nconst _hoisted_17 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-header\" }, [\n  /*#__PURE__*/_createElementVNode(\"h6\", { class: \"skill-title\" }, \"HVAC\")\n], -1)\nconst _hoisted_18 = { class: \"skill-bar\" }\nconst _hoisted_19 = { class: \"bar-inner\" }\nconst _hoisted_20 = {\n  class: \"bar progress-line\",\n  \"data-width\": \"57\",\n  style: {\"width\":\"57%\"}\n}\nconst _hoisted_21 = { class: \"skill-percentage\" }\nconst _hoisted_22 = { class: \"count-box\" }\nconst _hoisted_23 = { class: \"skill-item\" }\nconst _hoisted_24 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-header\" }, [\n  /*#__PURE__*/_createElementVNode(\"h6\", { class: \"skill-title\" }, \"HVAC\")\n], -1)\nconst _hoisted_25 = { class: \"skill-bar\" }\nconst _hoisted_26 = { class: \"bar-inner\" }\nconst _hoisted_27 = {\n  class: \"bar progress-line\",\n  \"data-width\": \"92\",\n  style: {\"width\":\"92%\"}\n}\nconst _hoisted_28 = { class: \"skill-percentage\" }\nconst _hoisted_29 = { class: \"count-box\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"section\", { class: \"team-contact-form\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"container pb-100\" }, [\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title text-center\" }, [\n      /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"Contact With Us Now\"),\n      /*#__PURE__*/_createElementVNode(\"h2\", { class: \"section-title__title\" }, [\n        /*#__PURE__*/_createTextVNode(\"Feel Free to Write Our \"),\n        /*#__PURE__*/_createElementVNode(\"br\"),\n        /*#__PURE__*/_createTextVNode(\" Service Experts\")\n      ])\n    ]),\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"row justify-content-center\" }, [\n      /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-8\" }, [\n        /*#__PURE__*/_createElementVNode(\"form\", {\n          id: \"contact_form\",\n          name: \"contact_form\",\n          class: \"\",\n          action: \"includes/sendmail.php\",\n          method: \"post\"\n        }, [\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"row\" }, [\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-sm-6\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, [\n                  /*#__PURE__*/_createTextVNode(\"Name \"),\n                  /*#__PURE__*/_createElementVNode(\"small\", null, \"*\")\n                ]),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  name: \"form_name\",\n                  class: \"form-control\",\n                  type: \"text\",\n                  placeholder: \"Enter Name\"\n                })\n              ])\n            ]),\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-sm-6\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, [\n                  /*#__PURE__*/_createTextVNode(\"Email \"),\n                  /*#__PURE__*/_createElementVNode(\"small\", null, \"*\")\n                ]),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  name: \"form_email\",\n                  class: \"form-control required email\",\n                  type: \"email\",\n                  placeholder: \"Enter Email\"\n                })\n              ])\n            ])\n          ]),\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"row\" }, [\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-sm-6\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, [\n                  /*#__PURE__*/_createTextVNode(\"Subject \"),\n                  /*#__PURE__*/_createElementVNode(\"small\", null, \"*\")\n                ]),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  name: \"form_subject\",\n                  class: \"form-control required\",\n                  type: \"text\",\n                  placeholder: \"Enter Subject\"\n                })\n              ])\n            ]),\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-sm-6\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, \"Phone\"),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  name: \"form_phone\",\n                  class: \"form-control\",\n                  type: \"text\",\n                  placeholder: \"Enter Phone\"\n                })\n              ])\n            ])\n          ]),\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n            /*#__PURE__*/_createElementVNode(\"label\", null, \"Message\"),\n            /*#__PURE__*/_createElementVNode(\"textarea\", {\n              name: \"form_message\",\n              class: \"form-control required\",\n              rows: \"5\",\n              placeholder: \"Enter Message\"\n            })\n          ]),\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3 text-center\" }, [\n            /*#__PURE__*/_createElementVNode(\"input\", {\n              name: \"form_botcheck\",\n              class: \"form-control\",\n              type: \"hidden\",\n              value: \"\"\n            }),\n            /*#__PURE__*/_createElementVNode(\"button\", {\n              type: \"submit\",\n              class: \"theme-btn btn-style-one me-3\",\n              \"data-loading-text\": \"Please wait...\"\n            }, [\n              /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Send message\")\n            ]),\n            /*#__PURE__*/_createElementVNode(\"button\", {\n              type: \"reset\",\n              class: \"theme-btn btn-style-one\"\n            }, [\n              /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Reset\")\n            ])\n          ])\n        ])\n      ])\n    ])\n  ])\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_ElementsCounterUp = _resolveComponent(\"ElementsCounterUp\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createElementVNode(\"section\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _hoisted_3,\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createElementVNode(\"div\", _hoisted_7, [\n              _createElementVNode(\"div\", _hoisted_8, [\n                _createElementVNode(\"div\", _hoisted_9, [\n                  _hoisted_10,\n                  _createElementVNode(\"div\", _hoisted_11, [\n                    _createElementVNode(\"div\", _hoisted_12, [\n                      _createElementVNode(\"div\", _hoisted_13, [\n                        _createElementVNode(\"div\", _hoisted_14, [\n                          _createElementVNode(\"div\", _hoisted_15, [\n                            _createVNode(_component_ElementsCounterUp, { end: 77 }),\n                            _createTextVNode(\"% \")\n                          ])\n                        ])\n                      ])\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"div\", _hoisted_16, [\n                  _hoisted_17,\n                  _createElementVNode(\"div\", _hoisted_18, [\n                    _createElementVNode(\"div\", _hoisted_19, [\n                      _createElementVNode(\"div\", _hoisted_20, [\n                        _createElementVNode(\"div\", _hoisted_21, [\n                          _createElementVNode(\"div\", _hoisted_22, [\n                            _createVNode(_component_ElementsCounterUp, { end: 57 }),\n                            _createTextVNode(\"% \")\n                          ])\n                        ])\n                      ])\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"div\", _hoisted_23, [\n                  _hoisted_24,\n                  _createElementVNode(\"div\", _hoisted_25, [\n                    _createElementVNode(\"div\", _hoisted_26, [\n                      _createElementVNode(\"div\", _hoisted_27, [\n                        _createElementVNode(\"div\", _hoisted_28, [\n                          _createElementVNode(\"div\", _hoisted_29, [\n                            _createVNode(_component_ElementsCounterUp, { end: 92 }),\n                            _createTextVNode(\"% \")\n                          ])\n                        ])\n                      ])\n                    ])\n                  ])\n                ])\n              ])\n            ])\n          ])\n        ])\n      ])\n    ]),\n    _hoisted_30\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1758152097453,
-      "end": 1758152097464,
+      "start": 1759905612060,
+      "end": 1759905612063,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,153 +62,153 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1758152097465,
-      "end": 1758152097465,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152097465,
-      "end": 1758152097465,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152097477,
-      "end": 1758152097477,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1758152097482,
-      "end": 1758152097482,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1758152097484,
-      "end": 1758152097484,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152097490,
-      "end": 1758152097490,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1758152097491,
-      "end": 1758152097491,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1758152097491,
-      "end": 1758152097491,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1758152097497,
-      "end": 1758152097497,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1758152097499,
-      "end": 1758152097499,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1758152097518,
-      "end": 1758152097518,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1758152097521,
-      "end": 1758152097521,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1758152097522,
-      "end": 1758152097522,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1758152097522,
-      "end": 1758152097522,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1758152097522,
-      "end": 1758152097527,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152097530,
-      "end": 1758152097531,
+      "start": 1759905612063,
+      "end": 1759905612063,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152097533,
-      "end": 1758152097544,
+      "start": 1759905612063,
+      "end": 1759905612065,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152097545,
-      "end": 1758152097546,
+      "start": 1759905612065,
+      "end": 1759905612065,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152097546,
-      "end": 1758152097546,
+      "start": 1759905612065,
+      "end": 1759905612065,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1758152097546,
-      "end": 1758152097546,
+      "start": 1759905612065,
+      "end": 1759905612065,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1758152097546,
-      "end": 1758152097546,
+      "start": 1759905612065,
+      "end": 1759905612065,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/elements/CounterUp.vue\";\nconst _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, createVNode as _createVNode, createStaticVNode as _createStaticVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/team-details.jpg'\n\n\nconst _hoisted_1 = { class: \"team-details\" }\nconst _hoisted_2 = { class: \"container pb-100\" }\nconst _hoisted_3 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"team-details__top pb-70\\\"><div class=\\\"row\\\"><div class=\\\"col-xl-6 col-lg-6\\\"><div class=\\\"team-details__top-left\\\"><div class=\\\"team-details__top-img\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"><div class=\\\"team-details__big-text\\\">Richerd</div></div></div></div><div class=\\\"col-xl-6 col-lg-6\\\"><div class=\\\"team-details__top-right\\\"><div class=\\\"team-details__top-content\\\"><h3 class=\\\"team-details__top-name\\\">Richerd Fred</h3><p class=\\\"team-details__top-title\\\">Managing Director &amp; CEO</p><div class=\\\"team-details__social\\\"><a href=\\\"#\\\"><i class=\\\"fab fa-twitter\\\"></i></a> <a href=\\\"#\\\"><i class=\\\"fab fa-facebook\\\"></i></a> <a href=\\\"#\\\"><i class=\\\"fab fa-pinterest-p\\\"></i></a> <a href=\\\"#\\\"><i class=\\\"fab fa-instagram\\\"></i></a></div><p class=\\\"team-details__top-text-1\\\">I help my clients stand out and <br> they help me grow.</p><p class=\\\"team-details__top-text-3\\\">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae </p><p class=\\\"team-details__top-text-2\\\">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto</p></div></div></div></div></div>\", 1)\nconst _hoisted_4 = { class: \"team-details__bottom pt-100\" }\nconst _hoisted_5 = { class: \"row\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-xl-6 col-lg-6\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"team-details__bottom-left\" }, [\n    /*#__PURE__*/_createElementVNode(\"h4\", { class: \"team-details__bottom-left-title\" }, \"Personal Experience\"),\n    /*#__PURE__*/_createElementVNode(\"p\", { class: \"team-details__bottom-left-text\" }, \"When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto dolorem ipsum quia\")\n  ])\n], -1)\nconst _hoisted_7 = { class: \"col-xl-6 col-lg-6\" }\nconst _hoisted_8 = { class: \"skills\" }\nconst _hoisted_9 = { class: \"skill-item\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-header\" }, [\n  /*#__PURE__*/_createElementVNode(\"h6\", { class: \"skill-title\" }, \"Marketing\")\n], -1)\nconst _hoisted_11 = { class: \"skill-bar\" }\nconst _hoisted_12 = { class: \"bar-inner\" }\nconst _hoisted_13 = {\n  class: \"bar progress-line\",\n  \"data-width\": \"77\",\n  style: {\"width\":\"77%\"}\n}\nconst _hoisted_14 = { class: \"skill-percentage\" }\nconst _hoisted_15 = { class: \"count-box\" }\nconst _hoisted_16 = { class: \"skill-item\" }\nconst _hoisted_17 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-header\" }, [\n  /*#__PURE__*/_createElementVNode(\"h6\", { class: \"skill-title\" }, \"HVAC\")\n], -1)\nconst _hoisted_18 = { class: \"skill-bar\" }\nconst _hoisted_19 = { class: \"bar-inner\" }\nconst _hoisted_20 = {\n  class: \"bar progress-line\",\n  \"data-width\": \"57\",\n  style: {\"width\":\"57%\"}\n}\nconst _hoisted_21 = { class: \"skill-percentage\" }\nconst _hoisted_22 = { class: \"count-box\" }\nconst _hoisted_23 = { class: \"skill-item\" }\nconst _hoisted_24 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"skill-header\" }, [\n  /*#__PURE__*/_createElementVNode(\"h6\", { class: \"skill-title\" }, \"HVAC\")\n], -1)\nconst _hoisted_25 = { class: \"skill-bar\" }\nconst _hoisted_26 = { class: \"bar-inner\" }\nconst _hoisted_27 = {\n  class: \"bar progress-line\",\n  \"data-width\": \"92\",\n  style: {\"width\":\"92%\"}\n}\nconst _hoisted_28 = { class: \"skill-percentage\" }\nconst _hoisted_29 = { class: \"count-box\" }\nconst _hoisted_30 = /*#__PURE__*/_createElementVNode(\"section\", { class: \"team-contact-form\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"container pb-100\" }, [\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title text-center\" }, [\n      /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"Contact With Us Now\"),\n      /*#__PURE__*/_createElementVNode(\"h2\", { class: \"section-title__title\" }, [\n        /*#__PURE__*/_createTextVNode(\"Feel Free to Write Our \"),\n        /*#__PURE__*/_createElementVNode(\"br\"),\n        /*#__PURE__*/_createTextVNode(\" Service Experts\")\n      ])\n    ]),\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"row justify-content-center\" }, [\n      /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-8\" }, [\n        /*#__PURE__*/_createElementVNode(\"form\", {\n          id: \"contact_form\",\n          name: \"contact_form\",\n          class: \"\",\n          action: \"includes/sendmail.php\",\n          method: \"post\"\n        }, [\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"row\" }, [\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-sm-6\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, [\n                  /*#__PURE__*/_createTextVNode(\"Name \"),\n                  /*#__PURE__*/_createElementVNode(\"small\", null, \"*\")\n                ]),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  name: \"form_name\",\n                  class: \"form-control\",\n                  type: \"text\",\n                  placeholder: \"Enter Name\"\n                })\n              ])\n            ]),\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-sm-6\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, [\n                  /*#__PURE__*/_createTextVNode(\"Email \"),\n                  /*#__PURE__*/_createElementVNode(\"small\", null, \"*\")\n                ]),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  name: \"form_email\",\n                  class: \"form-control required email\",\n                  type: \"email\",\n                  placeholder: \"Enter Email\"\n                })\n              ])\n            ])\n          ]),\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"row\" }, [\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-sm-6\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, [\n                  /*#__PURE__*/_createTextVNode(\"Subject \"),\n                  /*#__PURE__*/_createElementVNode(\"small\", null, \"*\")\n                ]),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  name: \"form_subject\",\n                  class: \"form-control required\",\n                  type: \"text\",\n                  placeholder: \"Enter Subject\"\n                })\n              ])\n            ]),\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-sm-6\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, \"Phone\"),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  name: \"form_phone\",\n                  class: \"form-control\",\n                  type: \"text\",\n                  placeholder: \"Enter Phone\"\n                })\n              ])\n            ])\n          ]),\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3\" }, [\n            /*#__PURE__*/_createElementVNode(\"label\", null, \"Message\"),\n            /*#__PURE__*/_createElementVNode(\"textarea\", {\n              name: \"form_message\",\n              class: \"form-control required\",\n              rows: \"5\",\n              placeholder: \"Enter Message\"\n            })\n          ]),\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"mb-3 text-center\" }, [\n            /*#__PURE__*/_createElementVNode(\"input\", {\n              name: \"form_botcheck\",\n              class: \"form-control\",\n              type: \"hidden\",\n              value: \"\"\n            }),\n            /*#__PURE__*/_createElementVNode(\"button\", {\n              type: \"submit\",\n              class: \"theme-btn btn-style-one me-3\",\n              \"data-loading-text\": \"Please wait...\"\n            }, [\n              /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Send message\")\n            ]),\n            /*#__PURE__*/_createElementVNode(\"button\", {\n              type: \"reset\",\n              class: \"theme-btn btn-style-one\"\n            }, [\n              /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Reset\")\n            ])\n          ])\n        ])\n      ])\n    ])\n  ])\n], -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_ElementsCounterUp = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createElementVNode(\"section\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _hoisted_3,\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"div\", _hoisted_5, [\n            _hoisted_6,\n            _createElementVNode(\"div\", _hoisted_7, [\n              _createElementVNode(\"div\", _hoisted_8, [\n                _createElementVNode(\"div\", _hoisted_9, [\n                  _hoisted_10,\n                  _createElementVNode(\"div\", _hoisted_11, [\n                    _createElementVNode(\"div\", _hoisted_12, [\n                      _createElementVNode(\"div\", _hoisted_13, [\n                        _createElementVNode(\"div\", _hoisted_14, [\n                          _createElementVNode(\"div\", _hoisted_15, [\n                            _createVNode(_component_ElementsCounterUp, { end: 77 }),\n                            _createTextVNode(\"% \")\n                          ])\n                        ])\n                      ])\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"div\", _hoisted_16, [\n                  _hoisted_17,\n                  _createElementVNode(\"div\", _hoisted_18, [\n                    _createElementVNode(\"div\", _hoisted_19, [\n                      _createElementVNode(\"div\", _hoisted_20, [\n                        _createElementVNode(\"div\", _hoisted_21, [\n                          _createElementVNode(\"div\", _hoisted_22, [\n                            _createVNode(_component_ElementsCounterUp, { end: 57 }),\n                            _createTextVNode(\"% \")\n                          ])\n                        ])\n                      ])\n                    ])\n                  ])\n                ]),\n                _createElementVNode(\"div\", _hoisted_23, [\n                  _hoisted_24,\n                  _createElementVNode(\"div\", _hoisted_25, [\n                    _createElementVNode(\"div\", _hoisted_26, [\n                      _createElementVNode(\"div\", _hoisted_27, [\n                        _createElementVNode(\"div\", _hoisted_28, [\n                          _createElementVNode(\"div\", _hoisted_29, [\n                            _createVNode(_component_ElementsCounterUp, { end: 92 }),\n                            _createTextVNode(\"% \")\n                          ])\n                        ])\n                      ])\n                    ])\n                  ])\n                ])\n              ])\n            ])\n          ])\n        ])\n      ])\n    ]),\n    _hoisted_30\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1758152097547,
-      "end": 1758152097547,
+      "start": 1759905612065,
+      "end": 1759905612065,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1758152097551,
-      "end": 1758152097551,
+      "start": 1759905612065,
+      "end": 1759905612065,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1758152097556,
-      "end": 1758152097556,
+      "start": 1759905612065,
+      "end": 1759905612065,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1758152097556,
-      "end": 1758152097556,
+      "start": 1759905612065,
+      "end": 1759905612065,
       "order": "normal"
     }
   ]

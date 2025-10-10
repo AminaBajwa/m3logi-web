@@ -7,7 +7,7 @@
     <div class="image-column col-lg-6 col-md-12 col-sm-12 order-lg-2">
         <div class="inner-column">
             <figure class="image-1 wow fadeInUp">
-                <img src="/images/resource/about-3.jpg" alt="">
+                <img src="/images/Vision.png" alt="">
             </figure>
         </div>
     </div>

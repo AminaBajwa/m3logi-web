@@ -1,0 +1,221 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue?vue&type=script&setup=true&lang.ts",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-7c5cd357\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"wrap\" }\n\nimport { ref, onMounted, onBeforeUnmount } from 'vue'\r\nimport * as d3 from 'd3'\r\nimport { OrgChart } from 'd3-org-chart'\r\n\r\ntype Id = string | number\r\ninterface OrgNode {\r\n  id: Id\r\n  parentId?: Id | null\r\n  name: string\r\n  title?: string\r\n  avatar?: string\r\n}\r\n\r\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Section7',\n  setup(__props) {\n\r\nconst el = ref<HTMLElement | null>(null)\r\nlet chart: any\r\n\r\n// Sample data (replace with yours)\r\nconst data: OrgNode[] = [\r\n  { id: 1, name: 'Alex Johnson', title: 'Chief Executive Officer' },\r\n  { id: 2, parentId: 1, name: 'Taylor Reed', title: 'VP, Marketing' },\r\n  { id: 3, parentId: 1, name: 'Jordan Kim', title: 'VP, Operations' },\r\n  { id: 4, parentId: 1, name: 'Morgan Blake', title: 'VP, Finance' },\r\n  { id: 5, parentId: 2, name: 'Riley Chen', title: 'Director, Brand' },\r\n  { id: 6, parentId: 2, name: 'Avery Shah', title: 'Director, Growth' },\r\n  { id: 7, parentId: 3, name: 'Casey Lin', title: 'Director, Supply Chain' },\r\n  { id: 8, parentId: 4, name: 'Jamie Park', title: 'Controller' }\r\n]\r\n\r\nonMounted(() => {\r\n  if (!el.value) return\r\n\r\n  chart = new OrgChart()\r\n    .container(d3.select(el.value))\r\n    .data(data as any)\r\n    .nodeWidth(() => 260)\r\n    .nodeHeight(() => 110)\r\n    .childrenMargin(() => 40)\r\n    .compact(false)\r\n    .initialZoom(0.9)\r\n    .nodeContent((d: any) => {\r\n      const p = d.data as OrgNode\r\n      const avatar = p.avatar || 'https://placehold.co/96x96?text=%20'\r\n      return `\r\n        <div class=\"org-node\">\r\n          <div class=\"avatar\" style=\"background-image:url('${avatar}')\"></div>\r\n          <div class=\"meta\">\r\n            <div class=\"name\">${p.name || ''}</div>\r\n            <div class=\"title\">${p.title || ''}</div>\r\n          </div>\r\n        </div>\r\n      `\r\n    })\r\n    .render()\r\n\r\n  // Ensure it fits the viewport after first layout\r\n  setTimeout(() => chart.fit?.(), 0)\r\n})\r\n\r\nonBeforeUnmount(() => {\r\n  if (chart?.destroy) chart.destroy()\r\n})\r\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", {\n      ref_key: \"el\",\n      ref: el,\n      class: \"orgchart-container\"\n    }, null, 512)\n  ]))\n}\n}\n\n})",
+      "start": 1759905612503,
+      "end": 1759905612503
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1759905612503,
+      "end": 1759905612503,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1759905612503,
+      "end": 1759905612503,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1759905612503,
+      "end": 1759905612503,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1759905612503,
+      "end": 1759905612503,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { defineComponent as _defineComponent } from \"vue\";\nimport { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\";\nconst _withScopeId = (n) => (_pushScopeId(\"data-v-7c5cd357\"), n = n(), _popScopeId(), n);\nconst _hoisted_1 = { class: \"wrap\" };\nimport { ref, onMounted, onBeforeUnmount } from \"vue\";\nimport * as d3 from \"d3\";\nimport { OrgChart } from \"d3-org-chart\";\nexport default /* @__PURE__ */ _defineComponent({\n  __name: \"Section7\",\n  setup(__props) {\n    const el = ref(null);\n    let chart;\n    const data = [\n      { id: 1, name: \"Alex Johnson\", title: \"Chief Executive Officer\" },\n      { id: 2, parentId: 1, name: \"Taylor Reed\", title: \"VP, Marketing\" },\n      { id: 3, parentId: 1, name: \"Jordan Kim\", title: \"VP, Operations\" },\n      { id: 4, parentId: 1, name: \"Morgan Blake\", title: \"VP, Finance\" },\n      { id: 5, parentId: 2, name: \"Riley Chen\", title: \"Director, Brand\" },\n      { id: 6, parentId: 2, name: \"Avery Shah\", title: \"Director, Growth\" },\n      { id: 7, parentId: 3, name: \"Casey Lin\", title: \"Director, Supply Chain\" },\n      { id: 8, parentId: 4, name: \"Jamie Park\", title: \"Controller\" }\n    ];\n    onMounted(() => {\n      if (!el.value)\n        return;\n      chart = new OrgChart().container(d3.select(el.value)).data(data).nodeWidth(() => 260).nodeHeight(() => 110).childrenMargin(() => 40).compact(false).initialZoom(0.9).nodeContent((d) => {\n        const p = d.data;\n        const avatar = p.avatar || \"https://placehold.co/96x96?text=%20\";\n        return `\n        <div class=\"org-node\">\n          <div class=\"avatar\" style=\"background-image:url('${avatar}')\"></div>\n          <div class=\"meta\">\n            <div class=\"name\">${p.name || \"\"}</div>\n            <div class=\"title\">${p.title || \"\"}</div>\n          </div>\n        </div>\n      `;\n      }).render();\n      setTimeout(() => chart.fit?.(), 0);\n    });\n    onBeforeUnmount(() => {\n      if (chart?.destroy)\n        chart.destroy();\n    });\n    return (_ctx, _cache) => {\n      return _openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", {\n          ref_key: \"el\",\n          ref: el,\n          class: \"orgchart-container\"\n        }, null, 512)\n      ]);\n    };\n  }\n});\n",
+      "start": 1759905612505,
+      "end": 1759905612532,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/sections/About/Section7.vue?vue&type=script&setup=true&lang.ts"
+        ],
+        "sourcesContent": [
+          "import { defineComponent as _defineComponent } from 'vue'\nimport { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-7c5cd357\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"wrap\" }\n\nimport { ref, onMounted, onBeforeUnmount } from 'vue'\r\nimport * as d3 from 'd3'\r\nimport { OrgChart } from 'd3-org-chart'\r\n\r\ntype Id = string | number\r\ninterface OrgNode {\r\n  id: Id\r\n  parentId?: Id | null\r\n  name: string\r\n  title?: string\r\n  avatar?: string\r\n}\r\n\r\n\nexport default /*#__PURE__*/_defineComponent({\n  __name: 'Section7',\n  setup(__props) {\n\r\nconst el = ref<HTMLElement | null>(null)\r\nlet chart: any\r\n\r\n// Sample data (replace with yours)\r\nconst data: OrgNode[] = [\r\n  { id: 1, name: 'Alex Johnson', title: 'Chief Executive Officer' },\r\n  { id: 2, parentId: 1, name: 'Taylor Reed', title: 'VP, Marketing' },\r\n  { id: 3, parentId: 1, name: 'Jordan Kim', title: 'VP, Operations' },\r\n  { id: 4, parentId: 1, name: 'Morgan Blake', title: 'VP, Finance' },\r\n  { id: 5, parentId: 2, name: 'Riley Chen', title: 'Director, Brand' },\r\n  { id: 6, parentId: 2, name: 'Avery Shah', title: 'Director, Growth' },\r\n  { id: 7, parentId: 3, name: 'Casey Lin', title: 'Director, Supply Chain' },\r\n  { id: 8, parentId: 4, name: 'Jamie Park', title: 'Controller' }\r\n]\r\n\r\nonMounted(() => {\r\n  if (!el.value) return\r\n\r\n  chart = new OrgChart()\r\n    .container(d3.select(el.value))\r\n    .data(data as any)\r\n    .nodeWidth(() => 260)\r\n    .nodeHeight(() => 110)\r\n    .childrenMargin(() => 40)\r\n    .compact(false)\r\n    .initialZoom(0.9)\r\n    .nodeContent((d: any) => {\r\n      const p = d.data as OrgNode\r\n      const avatar = p.avatar || 'https://placehold.co/96x96?text=%20'\r\n      return `\r\n        <div class=\"org-node\">\r\n          <div class=\"avatar\" style=\"background-image:url('${avatar}')\"></div>\r\n          <div class=\"meta\">\r\n            <div class=\"name\">${p.name || ''}</div>\r\n            <div class=\"title\">${p.title || ''}</div>\r\n          </div>\r\n        </div>\r\n      `\r\n    })\r\n    .render()\r\n\r\n  // Ensure it fits the viewport after first layout\r\n  setTimeout(() => chart.fit?.(), 0)\r\n})\r\n\r\nonBeforeUnmount(() => {\r\n  if (chart?.destroy) chart.destroy()\r\n})\r\n\nreturn (_ctx: any,_cache: any) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", {\n      ref_key: \"el\",\n      ref: el,\n      class: \"orgchart-container\"\n    }, null, 512)\n  ]))\n}\n}\n\n})"
+        ],
+        "mappings": "AAAA,SAAS,mBAAmB,wBAAwB;AACpD,SAAS,sBAAsB,qBAAqB,aAAa,YAAY,sBAAsB,qBAAqB,eAAe,cAAc,cAAc,mBAAmB;AAEtL,MAAM,eAAe,QAAM,aAAa,iBAAiB,GAAE,IAAE,EAAE,GAAE,YAAY,GAAE;AAC/E,MAAM,aAAa,EAAE,OAAO,OAAO;AAEnC,SAAS,KAAK,WAAW,uBAAuB;AAChD,YAAY,QAAQ;AACpB,SAAS,gBAAgB;AAYzB,eAA4B,iCAAiB;AAAA,EAC3C,QAAQ;AAAA,EACR,MAAM,SAAS;AAEjB,UAAM,KAAK,IAAwB,IAAI;AACvC,QAAI;AAGJ,UAAM,OAAkB;AAAA,MACtB,EAAE,IAAI,GAAG,MAAM,gBAAgB,OAAO,0BAA0B;AAAA,MAChE,EAAE,IAAI,GAAG,UAAU,GAAG,MAAM,eAAe,OAAO,gBAAgB;AAAA,MAClE,EAAE,IAAI,GAAG,UAAU,GAAG,MAAM,cAAc,OAAO,iBAAiB;AAAA,MAClE,EAAE,IAAI,GAAG,UAAU,GAAG,MAAM,gBAAgB,OAAO,cAAc;AAAA,MACjE,EAAE,IAAI,GAAG,UAAU,GAAG,MAAM,cAAc,OAAO,kBAAkB;AAAA,MACnE,EAAE,IAAI,GAAG,UAAU,GAAG,MAAM,cAAc,OAAO,mBAAmB;AAAA,MACpE,EAAE,IAAI,GAAG,UAAU,GAAG,MAAM,aAAa,OAAO,yBAAyB;AAAA,MACzE,EAAE,IAAI,GAAG,UAAU,GAAG,MAAM,cAAc,OAAO,aAAa;AAAA,IAChE;AAEA,cAAU,MAAM;AACd,UAAI,CAAC,GAAG;AAAO;AAEf,cAAQ,IAAI,SAAS,EAClB,UAAU,GAAG,OAAO,GAAG,KAAK,CAAC,EAC7B,KAAK,IAAW,EAChB,UAAU,MAAM,GAAG,EACnB,WAAW,MAAM,GAAG,EACpB,eAAe,MAAM,EAAE,EACvB,QAAQ,KAAK,EACb,YAAY,GAAG,EACf,YAAY,CAAC,MAAW;AACvB,cAAM,IAAI,EAAE;AACZ,cAAM,SAAS,EAAE,UAAU;AAC3B,eAAO;AAAA;AAAA,6DAEgD,MAAM;AAAA;AAAA,gCAEnC,EAAE,QAAQ,EAAE;AAAA,iCACX,EAAE,SAAS,EAAE;AAAA;AAAA;AAAA;AAAA,MAI1C,CAAC,EACA,OAAO;AAGV,iBAAW,MAAM,MAAM,MAAM,GAAG,CAAC;AAAA,IACnC,CAAC;AAED,oBAAgB,MAAM;AACpB,UAAI,OAAO;AAAS,cAAM,QAAQ;AAAA,IACpC,CAAC;AAED,WAAO,CAAC,MAAU,WAAgB;AAChC,aAAQ,WAAW,GAAG,oBAAoB,OAAO,YAAY;AAAA,QAC3D,oBAAoB,OAAO;AAAA,UACzB,SAAS;AAAA,UACT,KAAK;AAAA,UACL,OAAO;AAAA,QACT,GAAG,MAAM,GAAG;AAAA,MACd,CAAC;AAAA,IACH;AAAA,EACA;AAEA,CAAC;",
+        "names": []
+      }
+    },
+    {
+      "name": "vite:json",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1759905612532,
+      "end": 1759905612532,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1759905612532,
+      "end": 1759905612533,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1759905612533,
+      "end": 1759905612533,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1759905612533,
+      "end": 1759905612533,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1759905612533,
+      "end": 1759905612533,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1759905612533,
+      "end": 1759905612533,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1759905612533,
+      "end": 1759905612533,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1759905612533,
+      "end": 1759905612533,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1759905612533,
+      "end": 1759905612533,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1759905612533,
+      "end": 1759905612533,
+      "order": "normal"
+    }
+  ]
+}

@@ -20,7 +20,7 @@
                 <!-- Image Column -->
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
-                        <figure class="image-1 wow fadeInUp"><img src="/images/resource/about-3.jpg" alt=""></figure>
+                        <figure class="image-1 wow fadeInUp"><img src="/images/Mission.png" alt=""></figure>
                         <!-- <figure class="image-2 wow fadeInRight">
                             <img src="/images/resource/about-4.jpg" alt="">
                             <div class="icon-box"><i class="icon flaticon-delivery-box-4"></i></div>

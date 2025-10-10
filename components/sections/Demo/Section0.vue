@@ -13,7 +13,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-about">RORO<br> Booking</NuxtLink>
                             </h4>
-                            <div class="text">m3Logi offers tailored, safe shipping solutions including RORO.</div>
+                            <div class="text">M3Logi offers tailored, safe shipping solutions including RORO.</div>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-about">Container<br> Booking</NuxtLink>
                             </h4>
-                            <div class="text">m3Logi provides safe, customized container shipping.</div>
+                            <div class="text">M3Logi provides safe, customized container shipping.</div>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                             <h4 class="title">
                                 <NuxtLink to="/page-about">Land Transportation</NuxtLink>
                             </h4>
-                            <div class="text">m3Logi ensures hassle-free land transport services.</div>
+                            <div class="text">M3Logi ensures hassle-free land transport services.</div>
                         </div>
                     </div>
                 </div>

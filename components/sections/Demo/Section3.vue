@@ -13,7 +13,7 @@
                         <div class="sec-title">
                             <span class="sub-title">Who We Are </span>
                             <h2>Your Trusted NVOCC & Digital Shipping Partner</h2>
-                            <div class="text">m3Logi is an easy-to-use shipping service with online booking and flexible schedules tailored to your needs.
+                            <div class="text">M3Logi is an easy-to-use shipping service with online booking and flexible schedules tailored to your needs.
                                 <br><br>
                                 As a licensed NVOCC, we legally act as a carrier and assume full carrier responsibilities—delivering end‑to‑end logistics, from real‑time cargo tracking to Bill of Lading (B/L) issuance.
                             </div>

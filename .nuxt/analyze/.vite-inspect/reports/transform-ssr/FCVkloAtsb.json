@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"news-section\">\r\n        <div class=\"anim-icons\">\r\n            <div class=\"float-image wow zoomInLeft\"><img src=\"/images/resource/float-img-2.png\" alt=\"\"></div>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"sec-title text-center\">\r\n                <span class=\"sub-title\">OUR NEWS FROM BLOG</span>\r\n                <h2>Latest news, advices<br> & best posts from the blog</h2>\r\n            </div>\r\n\r\n            <div class=\"row\">\r\n                <!-- News Block -->\r\n                <div class=\"news-block col-lg-4 col-md-6 col-sm-12\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/news-details\"><img src=\"/images/resource/news-1.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                            <span class=\"date\"><b>28</b> SEP</span>\r\n                        </div>\r\n                        <div class=\"lower-content\">\r\n                            <ul class=\"post-info\">\r\n                                <li><i class=\"fa fa-user\"></i> by Admin</li>\r\n                                <li><i class=\"fa fa-comments\"></i> 2 Comments</li>\r\n                            </ul>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/news-details\">We very careful handling the valuable goods</NuxtLink>\r\n                            </h4>\r\n                            <NuxtLink to=\"/news-details\" class=\"read-more\">Read More <i class=\"fa fa-angle-right\"></i>\r\n                            </NuxtLink>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- News Block -->\r\n                <div class=\"news-block col-lg-4 col-md-6 col-sm-12\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/news-details\"><img src=\"/images/resource/news-2.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                            <span class=\"date\"><b>28</b> SEP</span>\r\n                        </div>\r\n                        <div class=\"lower-content\">\r\n                            <ul class=\"post-info\">\r\n                                <li><i class=\"fa fa-user\"></i> by Admin</li>\r\n                                <li><i class=\"fa fa-comments\"></i> 2 Comments</li>\r\n                            </ul>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/news-details\">Why is supply chain visibility so important?</NuxtLink>\r\n                            </h4>\r\n                            <NuxtLink to=\"/news-details\" class=\"read-more\">Read More <i class=\"fa fa-angle-right\"></i>\r\n                            </NuxtLink>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- News Block -->\r\n                <div class=\"news-block col-lg-4 col-md-6 col-sm-12\">\r\n                    <div class=\"inner-box\">\r\n                        <div class=\"image-box\">\r\n                            <figure class=\"image\">\r\n                                <NuxtLink to=\"/news-details\"><img src=\"/images/resource/news-3.jpg\" alt=\"\"></NuxtLink>\r\n                            </figure>\r\n                            <span class=\"date\"><b>28</b> SEP</span>\r\n                        </div>\r\n                        <div class=\"lower-content\">\r\n                            <ul class=\"post-info\">\r\n                                <li><i class=\"fa fa-user\"></i> by Admin</li>\r\n                                <li><i class=\"fa fa-comments\"></i> 2 Comments</li>\r\n                            </ul>\r\n                            <h4 class=\"title\">\r\n                                <NuxtLink to=\"/news-details\">Cargo flow through better supply in UK</NuxtLink>\r\n                            </h4>\r\n                            <NuxtLink to=\"/news-details\" class=\"read-more\">Read More <i class=\"fa fa-angle-right\"></i>\r\n                            </NuxtLink>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
-      "start": 1758152126370,
-      "end": 1758152127291,
+      "start": 1759905620897,
+      "end": 1759905621013,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152127291,
-      "end": 1758152127291,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152127291,
-      "end": 1758152127291,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152127291,
-      "end": 1758152127291,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152127291,
-      "end": 1758152127292,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1758152127292,
-      "end": 1758152127292,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1758152127292,
-      "end": 1758152127292,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1758152127292,
-      "end": 1758152127292,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1758152127292,
-      "end": 1758152127292,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1758152127292,
-      "end": 1758152127292,
+      "start": 1759905621014,
+      "end": 1759905621014,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/float-img-2.png'\nimport _imports_1 from '/images/resource/news-1.jpg'\nimport _imports_2 from '/images/resource/news-2.jpg'\nimport _imports_3 from '/images/resource/news-3.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"news-section\" }, _attrs))\n  }><div class=\"anim-icons\"><div class=\"float-image wow zoomInLeft\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"></div></div><div class=\"auto-container\"><div class=\"sec-title text-center\"><span class=\"sub-title\">OUR NEWS FROM BLOG</span><h2>Latest news, advices<br> &amp; best posts from the blog</h2></div><div class=\"row\"><div class=\"news-block col-lg-4 col-md-6 col-sm-12\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_1)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_1,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><span class=\"date\"><b>28</b> SEP</span></div><div class=\"lower-content\"><ul class=\"post-info\"><li><i class=\"fa fa-user\"></i> by Admin</li><li><i class=\"fa fa-comments\"></i> 2 Comments</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`We very careful handling the valuable goods`)\n      } else {\n        return [\n          _createTextVNode(\"We very careful handling the valuable goods\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/news-details\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"news-block col-lg-4 col-md-6 col-sm-12\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_2)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_2,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><span class=\"date\"><b>28</b> SEP</span></div><div class=\"lower-content\"><ul class=\"post-info\"><li><i class=\"fa fa-user\"></i> by Admin</li><li><i class=\"fa fa-comments\"></i> 2 Comments</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Why is supply chain visibility so important?`)\n      } else {\n        return [\n          _createTextVNode(\"Why is supply chain visibility so important?\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/news-details\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"news-block col-lg-4 col-md-6 col-sm-12\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_3)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_3,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><span class=\"date\"><b>28</b> SEP</span></div><div class=\"lower-content\"><ul class=\"post-info\"><li><i class=\"fa fa-user\"></i> by Admin</li><li><i class=\"fa fa-comments\"></i> 2 Comments</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Cargo flow through better supply in UK`)\n      } else {\n        return [\n          _createTextVNode(\"Cargo flow through better supply in UK\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/news-details\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home1/Section14.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1758152127292,
-      "end": 1758152127311,
+      "start": 1759905621014,
+      "end": 1759905621015,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1758152127311,
-      "end": 1758152127311,
+      "start": 1759905621015,
+      "end": 1759905621015,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152127311,
-      "end": 1758152127311,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152127311,
-      "end": 1758152127311,
+      "start": 1759905621015,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152127311,
-      "end": 1758152127311,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152127311,
-      "end": 1758152127311,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1758152127314,
-      "end": 1758152127314,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1758152127315,
-      "end": 1758152127315,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152127315,
-      "end": 1758152127315,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152127315,
-      "end": 1758152127315,
+      "start": 1759905621016,
+      "end": 1759905621016,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152127315,
-      "end": 1758152127327,
+      "start": 1759905621016,
+      "end": 1759905621017,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152127315,
-      "end": 1758152127327,
+      "start": 1759905621016,
+      "end": 1759905621017,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152127327,
-      "end": 1758152127327,
+      "start": 1759905621017,
+      "end": 1759905621017,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152127327,
-      "end": 1758152127327,
+      "start": 1759905621017,
+      "end": 1759905621017,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152127327,
-      "end": 1758152127327,
+      "start": 1759905621017,
+      "end": 1759905621017,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152127327,
-      "end": 1758152127327,
+      "start": 1759905621017,
+      "end": 1759905621017,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1758152127327,
-      "end": 1758152127327,
+      "start": 1759905621017,
+      "end": 1759905621017,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/float-img-2.png'\nimport _imports_1 from '/images/resource/news-1.jpg'\nimport _imports_2 from '/images/resource/news-2.jpg'\nimport _imports_3 from '/images/resource/news-3.jpg'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"news-section\" }, _attrs))\n  }><div class=\"anim-icons\"><div class=\"float-image wow zoomInLeft\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"></div></div><div class=\"auto-container\"><div class=\"sec-title text-center\"><span class=\"sub-title\">OUR NEWS FROM BLOG</span><h2>Latest news, advices<br> &amp; best posts from the blog</h2></div><div class=\"row\"><div class=\"news-block col-lg-4 col-md-6 col-sm-12\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_1)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_1,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><span class=\"date\"><b>28</b> SEP</span></div><div class=\"lower-content\"><ul class=\"post-info\"><li><i class=\"fa fa-user\"></i> by Admin</li><li><i class=\"fa fa-comments\"></i> 2 Comments</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`We very careful handling the valuable goods`)\n      } else {\n        return [\n          _createTextVNode(\"We very careful handling the valuable goods\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/news-details\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"news-block col-lg-4 col-md-6 col-sm-12\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_2)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_2,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><span class=\"date\"><b>28</b> SEP</span></div><div class=\"lower-content\"><ul class=\"post-info\"><li><i class=\"fa fa-user\"></i> by Admin</li><li><i class=\"fa fa-comments\"></i> 2 Comments</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Why is supply chain visibility so important?`)\n      } else {\n        return [\n          _createTextVNode(\"Why is supply chain visibility so important?\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/news-details\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div><div class=\"news-block col-lg-4 col-md-6 col-sm-12\"><div class=\"inner-box\"><div class=\"image-box\"><figure class=\"image\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<img${\n          _ssrRenderAttr(\"src\", _imports_3)\n        } alt=\"\"${\n          _scopeId\n        }>`)\n      } else {\n        return [\n          _createVNode(\"img\", {\n            src: _imports_3,\n            alt: \"\"\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</figure><span class=\"date\"><b>28</b> SEP</span></div><div class=\"lower-content\"><ul class=\"post-info\"><li><i class=\"fa fa-user\"></i> by Admin</li><li><i class=\"fa fa-comments\"></i> 2 Comments</li></ul><h4 class=\"title\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/news-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Cargo flow through better supply in UK`)\n      } else {\n        return [\n          _createTextVNode(\"Cargo flow through better supply in UK\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</h4>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"/news-details\",\n    class: \"read-more\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Read More <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Read More \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div></section>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/home1/Section14.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
-      "start": 1758152127327,
-      "end": 1758152127328,
+      "start": 1759905621017,
+      "end": 1759905621017,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1758152127328,
-      "end": 1758152127329,
+      "start": 1759905621017,
+      "end": 1759905621017,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1758152127329,
-      "end": 1758152127329,
+      "start": 1759905621017,
+      "end": 1759905621018,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1758152127329,
-      "end": 1758152127370,
+      "start": 1759905621018,
+      "end": 1759905621018,
       "order": "normal"
     }
   ]

@@ -15,7 +15,7 @@
                 <!-- Service Block -->
                 <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box ">
-                        <div class="image-box">
+                        <div class="image-boax">
                             <figure class="image">
                                 <NuxtLink to="/page-service-details"><img src="/images/resource/service-1.jpg" alt="">
                                 </NuxtLink>

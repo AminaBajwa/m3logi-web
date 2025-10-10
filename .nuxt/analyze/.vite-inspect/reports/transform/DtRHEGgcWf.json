@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <div v-if=\"isOpen\">\r\n        <div :class=\"classNames.modalVideo\" tabIndex='-1' role='dialog' :aria-label=\"aria.openMessage\"\r\n            @click=\"$emit('update:isOpen', false)\" @keydown.esc=\"$emit('update:isOpen', false)\">\r\n            <div :class=\"classNames.modalVideoBody\">\r\n                <button :class=\"classNames.modalVideoCloseBtn\" :aria-label=\"aria.dismissBtnMessage\" ref=\"closeBtn\"\r\n                    @click=\"$emit('update:isOpen', false)\" />\r\n                <div :class=\"classNames.modalVideoInner\">\r\n                    <div :class=\"classNames.modalVideoIframeWrap\" :style=\"{ 'padding-bottom': paddingBottom }\">\r\n                        <iframe width='460' height='230' :src=\"fullVideoUrl\" frameBorder='0'\r\n                            :allowFullScreen=\"allowFullScreen\" tabIndex='-1' />\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</template>\r\n<script>\r\nexport default {\r\n    props: {\r\n        videoId: String,\r\n        channel: String,\r\n        isOpen: Boolean,\r\n        youtube: {\r\n            type: Object,\r\n            default: function () {\r\n                return {\r\n                    autoplay: 1,\r\n                    cc_load_policy: 1,\r\n                    color: null,\r\n                    controls: 1,\r\n                    disablekb: 0,\r\n                    enablejsapi: 0,\r\n                    end: null,\r\n                    fs: 1,\r\n                    h1: null,\r\n                    iv_load_policy: 1,\r\n                    list: null,\r\n                    listType: null,\r\n                    loop: 0,\r\n                    modestbranding: null,\r\n                    origin: null,\r\n                    playlist: null,\r\n                    playsinline: null,\r\n                    rel: 0,\r\n                    showinfo: 1,\r\n                    start: 0,\r\n                    wmode: 'transparent',\r\n                    theme: 'dark'\r\n                }\r\n            }\r\n        },\r\n        ratio: {\r\n            type: String,\r\n            default: '16:9'\r\n        },\r\n        vimeo: {\r\n            type: Object,\r\n            default: function () {\r\n                return {\r\n                    api: false,\r\n                    autopause: true,\r\n                    autoplay: true,\r\n                    byline: true,\r\n                    callback: null,\r\n                    color: null,\r\n                    height: null,\r\n                    loop: false,\r\n                    maxheight: null,\r\n                    maxwidth: null,\r\n                    player_id: null,\r\n                    portrait: true,\r\n                    title: true,\r\n                    width: null,\r\n                    xhtml: false\r\n                }\r\n            }\r\n        },\r\n        allowFullScreen: {\r\n            type: Boolean,\r\n            default: true\r\n        },\r\n        animationSpeed: {\r\n            type: Number,\r\n            default: 300\r\n        },\r\n        classNames: {\r\n            type: Object,\r\n            default: function () {\r\n                return {\r\n                    modalVideoEffect: 'modal-video-effect',\r\n                    modalVideo: 'modal-video',\r\n                    modalVideoClose: 'modal-video-close',\r\n                    modalVideoBody: 'modal-video-body',\r\n                    modalVideoInner: 'modal-video-inner',\r\n                    modalVideoIframeWrap: 'modal-video-movie-wrap',\r\n                    modalVideoCloseBtn: 'modal-video-close-btn'\r\n                }\r\n            }\r\n        },\r\n        aria: {\r\n            type: Object,\r\n            default: function () {\r\n                return {\r\n                    openMessage: 'Modal video opened',\r\n                    dismissBtnMessage: 'Close the modal video'\r\n                }\r\n            }\r\n        }\r\n    },\r\n    methods: {\r\n        getQueryString(obj) {\r\n            let url = ''\r\n            for (var key in obj) {\r\n                if (obj.hasOwnProperty(key)) {\r\n                    if (obj[key] !== null) {\r\n                        url += key + '=' + obj[key] + '&'\r\n                    }\r\n                }\r\n            }\r\n            return url.substr(0, url.length - 1)\r\n        },\r\n        getYoutubeUrl(youtube, videoId) {\r\n            const query = this.getQueryString(youtube)\r\n            return '//www.youtube.com/embed/' + videoId + '?' + query\r\n        },\r\n        getVimeoUrl(vimeo, videoId) {\r\n            const query = this.getQueryString(vimeo)\r\n            return '//player.vimeo.com/video/' + videoId + '?' + query\r\n        },\r\n        getPadding(ratio) {\r\n            const arr = ratio.split(':')\r\n            const width = Number(arr[0])\r\n            const height = Number(arr[1])\r\n            const padding = height * 100 / width\r\n            return padding + '%'\r\n        }\r\n    },\r\n    computed: {\r\n        fullVideoUrl() {\r\n            if (this.channel === 'youtube') {\r\n                return this.getYoutubeUrl(this.youtube, this.videoId)\r\n            } else if (this.channel === 'vimeo') {\r\n                return this.getVimeoUrl(this.vimeo, this.videoId)\r\n            }\r\n        },\r\n        paddingBottom() {\r\n            return this.getPadding(this.ratio)\r\n        }\r\n    },\r\n    watch: {\r\n        isOpen: {\r\n            handler: function (val) {\r\n                this.$nextTick(() => {\r\n                    if (typeof this.$refs.closeBtn !== 'undefined') {\r\n                        this.$refs.closeBtn.focus()\r\n                    }\r\n                })\r\n            },\r\n            deep: true\r\n        }\r\n    }\r\n}\r\n</script>\r\n<style scoped>\r\n@keyframes modal-video {\r\n    from {\r\n        opacity: 0;\r\n    }\r\n\r\n    to {\r\n        opacity: 1;\r\n    }\r\n}\r\n\r\n@keyframes modal-video-inner {\r\n    from {\r\n        transform: translate(0, 100px);\r\n    }\r\n\r\n    to {\r\n        transform: translate(0, 0);\r\n    }\r\n}\r\n\r\n.modal-video {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: rgba(0, 0, 0, 0.7);\r\n    z-index: 1000000;\r\n    cursor: pointer;\r\n    opacity: 1;\r\n    animation-timing-function: ease-out;\r\n    animation-duration: 0.3s;\r\n    animation-name: modal-video;\r\n    transition: opacity 0.3s ease-out;\r\n}\r\n\r\n.modal-video-close {\r\n    opacity: 0;\r\n}\r\n\r\n.modal-video-close .modal-video-movie-wrap {\r\n    transform: translate(0, 100px);\r\n}\r\n\r\n.modal-video-body {\r\n    max-width: 1100px;\r\n    width: 100%;\r\n    height: 100%;\r\n    margin: 0 auto;\r\n    display: table;\r\n}\r\n\r\n.modal-video-inner {\r\n    display: table-cell;\r\n    vertical-align: middle;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.modal-video-movie-wrap {\r\n    width: 100%;\r\n    height: 0;\r\n    position: relative;\r\n    padding-bottom: 56.25%;\r\n    background-color: #333;\r\n    animation-timing-function: ease-out;\r\n    animation-duration: 0.3s;\r\n    animation-name: modal-video-inner;\r\n    transform: translate(0, 0);\r\n    transition: transform 0.3s ease-out;\r\n}\r\n\r\n.modal-video-movie-wrap iframe {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.modal-video-close-btn {\r\n    position: absolute;\r\n    z-index: 2;\r\n    top: 50px;\r\n    right: 50px;\r\n    display: inline-block;\r\n    width: 35px;\r\n    height: 35px;\r\n    overflow: hidden;\r\n    border: none;\r\n    background: transparent;\r\n}\r\n\r\n.modal-video-close-btn:before {\r\n    transform: rotate(45deg) translateY(-50%);\r\n}\r\n\r\n.modal-video-close-btn:after {\r\n    transform: rotate(-45deg) translateY(-50%);\r\n}\r\n\r\n.modal-video-close-btn:before,\r\n.modal-video-close-btn:after {\r\n    content: '';\r\n    position: absolute;\r\n    height: 2px;\r\n    width: 100%;\r\n    top: 50%;\r\n    left: 0;\r\n    background: #fff;\r\n    border-radius: 5px;\r\n}</style>",
-      "start": 1758152098526,
-      "end": 1758152098675,
+      "start": 1759905612359,
+      "end": 1759905612444,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152098675,
-      "end": 1758152098675,
+      "start": 1759905612444,
+      "end": 1759905612444,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152098675,
-      "end": 1758152098675,
+      "start": 1759905612444,
+      "end": 1759905612444,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1758152098675,
-      "end": 1758152098675,
+      "start": 1759905612444,
+      "end": 1759905612444,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1758152098675,
-      "end": 1758152098675,
+      "start": 1759905612444,
+      "end": 1759905612444,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1758152098675,
-      "end": 1758152098675,
+      "start": 1759905612444,
+      "end": 1759905612444,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1758152098675,
-      "end": 1758152098675,
+      "start": 1759905612444,
+      "end": 1759905612444,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1758152098675,
-      "end": 1758152098675,
+      "start": 1759905612444,
+      "end": 1759905612444,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "\r\nconst _sfc_main = {\r\n    props: {\r\n        videoId: String,\r\n        channel: String,\r\n        isOpen: Boolean,\r\n        youtube: {\r\n            type: Object,\r\n            default: function () {\r\n                return {\r\n                    autoplay: 1,\r\n                    cc_load_policy: 1,\r\n                    color: null,\r\n                    controls: 1,\r\n                    disablekb: 0,\r\n                    enablejsapi: 0,\r\n                    end: null,\r\n                    fs: 1,\r\n                    h1: null,\r\n                    iv_load_policy: 1,\r\n                    list: null,\r\n                    listType: null,\r\n                    loop: 0,\r\n                    modestbranding: null,\r\n                    origin: null,\r\n                    playlist: null,\r\n                    playsinline: null,\r\n                    rel: 0,\r\n                    showinfo: 1,\r\n                    start: 0,\r\n                    wmode: 'transparent',\r\n                    theme: 'dark'\r\n                }\r\n            }\r\n        },\r\n        ratio: {\r\n            type: String,\r\n            default: '16:9'\r\n        },\r\n        vimeo: {\r\n            type: Object,\r\n            default: function () {\r\n                return {\r\n                    api: false,\r\n                    autopause: true,\r\n                    autoplay: true,\r\n                    byline: true,\r\n                    callback: null,\r\n                    color: null,\r\n                    height: null,\r\n                    loop: false,\r\n                    maxheight: null,\r\n                    maxwidth: null,\r\n                    player_id: null,\r\n                    portrait: true,\r\n                    title: true,\r\n                    width: null,\r\n                    xhtml: false\r\n                }\r\n            }\r\n        },\r\n        allowFullScreen: {\r\n            type: Boolean,\r\n            default: true\r\n        },\r\n        animationSpeed: {\r\n            type: Number,\r\n            default: 300\r\n        },\r\n        classNames: {\r\n            type: Object,\r\n            default: function () {\r\n                return {\r\n                    modalVideoEffect: 'modal-video-effect',\r\n                    modalVideo: 'modal-video',\r\n                    modalVideoClose: 'modal-video-close',\r\n                    modalVideoBody: 'modal-video-body',\r\n                    modalVideoInner: 'modal-video-inner',\r\n                    modalVideoIframeWrap: 'modal-video-movie-wrap',\r\n                    modalVideoCloseBtn: 'modal-video-close-btn'\r\n                }\r\n            }\r\n        },\r\n        aria: {\r\n            type: Object,\r\n            default: function () {\r\n                return {\r\n                    openMessage: 'Modal video opened',\r\n                    dismissBtnMessage: 'Close the modal video'\r\n                }\r\n            }\r\n        }\r\n    },\r\n    methods: {\r\n        getQueryString(obj) {\r\n            let url = ''\r\n            for (var key in obj) {\r\n                if (obj.hasOwnProperty(key)) {\r\n                    if (obj[key] !== null) {\r\n                        url += key + '=' + obj[key] + '&'\r\n                    }\r\n                }\r\n            }\r\n            return url.substr(0, url.length - 1)\r\n        },\r\n        getYoutubeUrl(youtube, videoId) {\r\n            const query = this.getQueryString(youtube)\r\n            return '//www.youtube.com/embed/' + videoId + '?' + query\r\n        },\r\n        getVimeoUrl(vimeo, videoId) {\r\n            const query = this.getQueryString(vimeo)\r\n            return '//player.vimeo.com/video/' + videoId + '?' + query\r\n        },\r\n        getPadding(ratio) {\r\n            const arr = ratio.split(':')\r\n            const width = Number(arr[0])\r\n            const height = Number(arr[1])\r\n            const padding = height * 100 / width\r\n            return padding + '%'\r\n        }\r\n    },\r\n    computed: {\r\n        fullVideoUrl() {\r\n            if (this.channel === 'youtube') {\r\n                return this.getYoutubeUrl(this.youtube, this.videoId)\r\n            } else if (this.channel === 'vimeo') {\r\n                return this.getVimeoUrl(this.vimeo, this.videoId)\r\n            }\r\n        },\r\n        paddingBottom() {\r\n            return this.getPadding(this.ratio)\r\n        }\r\n    },\r\n    watch: {\r\n        isOpen: {\r\n            handler: function (val) {\r\n                this.$nextTick(() => {\r\n                    if (typeof this.$refs.closeBtn !== 'undefined') {\r\n                        this.$refs.closeBtn.focus()\r\n                    }\r\n                })\r\n            },\r\n            deep: true\r\n        }\r\n    }\r\n}\r\n\nimport { normalizeClass as _normalizeClass, createElementVNode as _createElementVNode, normalizeStyle as _normalizeStyle, withKeys as _withKeys, openBlock as _openBlock, createElementBlock as _createElementBlock, createCommentVNode as _createCommentVNode, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-0b52ed44\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { key: 0 }\nconst _hoisted_2 = [\"aria-label\"]\nconst _hoisted_3 = [\"aria-label\"]\nconst _hoisted_4 = [\"src\", \"allowFullScreen\"]\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  return ($props.isOpen)\n    ? (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", {\n          class: _normalizeClass($props.classNames.modalVideo),\n          tabIndex: \"-1\",\n          role: \"dialog\",\n          \"aria-label\": $props.aria.openMessage,\n          onClick: _cache[1] || (_cache[1] = $event => (_ctx.$emit('update:isOpen', false))),\n          onKeydown: _cache[2] || (_cache[2] = _withKeys($event => (_ctx.$emit('update:isOpen', false)), [\"esc\"]))\n        }, [\n          _createElementVNode(\"div\", {\n            class: _normalizeClass($props.classNames.modalVideoBody)\n          }, [\n            _createElementVNode(\"button\", {\n              class: _normalizeClass($props.classNames.modalVideoCloseBtn),\n              \"aria-label\": $props.aria.dismissBtnMessage,\n              ref: \"closeBtn\",\n              onClick: _cache[0] || (_cache[0] = $event => (_ctx.$emit('update:isOpen', false)))\n            }, null, 10, _hoisted_3),\n            _createElementVNode(\"div\", {\n              class: _normalizeClass($props.classNames.modalVideoInner)\n            }, [\n              _createElementVNode(\"div\", {\n                class: _normalizeClass($props.classNames.modalVideoIframeWrap),\n                style: _normalizeStyle({ 'padding-bottom': $options.paddingBottom })\n              }, [\n                _createElementVNode(\"iframe\", {\n                  width: \"460\",\n                  height: \"230\",\n                  src: $options.fullVideoUrl,\n                  frameBorder: \"0\",\n                  allowFullScreen: $props.allowFullScreen,\n                  tabIndex: \"-1\"\n                }, null, 8, _hoisted_4)\n              ], 6)\n            ], 2)\n          ], 2)\n        ], 42, _hoisted_2)\n      ]))\n    : _createCommentVNode(\"\", true)\n}\n\nimport \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/elements/ModalVideo.vue?vue&type=style&index=0&scoped=0b52ed44&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-0b52ed44\"]])",
-      "start": 1758152098675,
-      "end": 1758152098693,
+      "start": 1759905612444,
+      "end": 1759905612448,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152098693,
-      "end": 1758152098693,
+      "start": 1759905612448,
+      "end": 1759905612448,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152098693,
-      "end": 1758152098697,
+      "start": 1759905612448,
+      "end": 1759905612450,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152098697,
-      "end": 1758152098697,
+      "start": 1759905612450,
+      "end": 1759905612450,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152098697,
-      "end": 1758152098697,
+      "start": 1759905612450,
+      "end": 1759905612450,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1758152098697,
-      "end": 1758152098697,
+      "start": 1759905612450,
+      "end": 1759905612450,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1758152098697,
-      "end": 1758152098697,
+      "start": 1759905612450,
+      "end": 1759905612450,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1758152098697,
-      "end": 1758152098697,
+      "start": 1759905612450,
+      "end": 1759905612450,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1758152098697,
-      "end": 1758152098697,
+      "start": 1759905612450,
+      "end": 1759905612450,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1758152098697,
-      "end": 1758152098698,
+      "start": 1759905612450,
+      "end": 1759905612450,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1758152098698,
-      "end": 1758152098698,
+      "start": 1759905612450,
+      "end": 1759905612450,
       "order": "normal"
     }
   ]

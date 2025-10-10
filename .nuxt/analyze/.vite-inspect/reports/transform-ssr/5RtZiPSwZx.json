@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <!--Start Services Details-->\r\n    <section class=\"services-details\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <!--Start Services Details Content-->\r\n                <div class=\"col-xl-8 col-lg-8\">\r\n                    <div class=\"services-details__content\">\r\n                        <img src=\"/images/resource/bg1.jpg\" alt=\"\" />\r\n                        <h2 class=\"mt-4\">Air Freight</h2>\r\n                        <p>\r\n                            Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur\r\n                            turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown took a galley of type and\r\n                            it to make a type specimen book.\r\n                        </p>\r\n\r\n                        <p>When an unknown printer took a galley of type and it to make a type specimen book. It has survived not only five centuries, but also the leap into typesetting, remaining essentially unchanged.</p>\r\n                        <div class=\"content\">\r\n                            <div class=\"text\">\r\n                                <h3>Our Scope of Work</h3>\r\n                                <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\r\n                            </div>\r\n                            <div class=\"feature-list\">\r\n                                <div class=\"row clearfix\">\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                                        <div class=\"single-item\">\r\n                                            <div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div>\r\n                                            <h6 class=\"title\">Fast home delivery</h6>\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                                        <div class=\"single-item\">\r\n                                            <div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div>\r\n                                            <h6 class=\"title\">Secure Payments</h6>\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                                        <div class=\"single-item\">\r\n                                            <div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div>\r\n                                            <h6 class=\"title\">Delivering best products</h6>\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                                        <div class=\"single-item\">\r\n                                            <div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div>\r\n                                            <h6 class=\"title\">Food Inspections</h6>\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                                        <div class=\"single-item\">\r\n                                            <div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div>\r\n                                            <h6 class=\"title\">Generator Systems</h6>\r\n                                        </div>\r\n                                    </div>\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 column\">\r\n                                        <div class=\"single-item\">\r\n                                            <div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div>\r\n                                            <h6 class=\"title\">Assessments</h6>\r\n                                        </div>\r\n                                    </div>\r\n                                </div>\r\n                            </div>\r\n                        </div>\r\n                        <div class=\"\">\r\n                            <h3>FAQ</h3>\r\n                            <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>\r\n                            <ul class=\"accordion-box wow fadeInRight\">\r\n                                <!--Block-->\r\n                                <li class=\"accordion block\" :class=\"{ 'active-block': isActive.key === 1}\">\r\n                                    <div class=\"acc-btn\" :class=\"{ 'active': isActive.key === 1}\" @click=\"handleClick(1)\">Is my technology allowed on tech?\r\n                                        <div class=\"icon fa fa-plus\"></div>\r\n                                    </div>\r\n                                    <div class=\"acc-content\" :class=\"{ 'current': isActive.key === 1}\">\r\n                                        <div class=\"content\">\r\n                                            <div class=\"text\">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>\r\n                                        </div>\r\n                                    </div>\r\n                                </li>\r\n                                <!--Block-->\r\n                                <li class=\"accordion block\" :class=\"{ 'active-block': isActive.key === 2}\">\r\n                                    <div  class=\"acc-btn\" :class=\"{ 'active': isActive.key === 2}\" @click=\"handleClick(2)\">How to soft launch your business\r\n                                        <div class=\"icon fa fa-plus\"></div>\r\n                                    </div>\r\n                                    <div class=\"acc-content\" :class=\"{ 'current': isActive.key === 2}\">\r\n                                        <div class=\"content\">\r\n                                            <div class=\"text\">Sed rhoncus facilisis purus, at accumsan purus sagittis vitae.\r\n                                                Nullam acelit at eros imperdiet. Pellentesque sit.</div>\r\n                                        </div>\r\n                                    </div>\r\n                                </li>\r\n                                <!--Block-->\r\n                                <li class=\"accordion block\" :class=\"{ 'active-block': isActive.key === 3}\">\r\n                                    <div  class=\"acc-btn\" :class=\"{ 'active': isActive.key === 3}\" @click=\"handleClick(2)\">How can i find my solutions?\r\n\r\n                                        <div class=\"icon fa fa-plus\"></div>\r\n                                    </div>\r\n                                    <div class=\"acc-content\" :class=\"{ 'current': isActive.key === 3}\">\r\n                                        <div class=\"content\">\r\n                                            <div class=\"text\">Sed rhoncus facilisis purus, at accumsan purus sagittis vitae.\r\n                                                Nullam acelit at eros imperdiet. Pellentesque sit.</div>\r\n                                        </div>\r\n                                    </div>\r\n                                </li>\r\n                            </ul>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <!--End Services Details Content-->\r\n\r\n                <!--Start Services Details Sidebar-->\r\n                <div class=\"col-xl-4 col-lg-4\">\r\n                    <div class=\"service-sidebar\">\r\n                        <!--Start Services Details Sidebar Single-->\r\n                        <div class=\"sidebar-widget service-sidebar-single\">\r\n                            <div class=\"service-sidebar-single-services wow fadeInUp\" data-wow-delay=\"0.1s\" data-wow-duration=\"1200m\">\r\n                                <div class=\"title\">\r\n                                    <h3>All Services</h3>\r\n                                </div>\r\n                                <ul>\r\n                                    <li class=\"current\">\r\n                                        <NuxtLink to=\"/page-service-details\">Air Freight <i class=\"fa fa-angle-right\"></i></NuxtLink>\r\n                                    </li>\r\n                                    <li>\r\n                                        <NuxtLink to=\"/page-service-details\">Sea freight <i class=\"fa fa-angle-right\"></i></NuxtLink>\r\n                                    </li>\r\n                                    <li>\r\n                                        <NuxtLink to=\"/page-service-details\">Road service <i class=\"fa fa-angle-right\"></i></NuxtLink>\r\n                                    </li>\r\n                                    <li>\r\n                                        <NuxtLink to=\"/page-service-details\">Other solution <i class=\"fa fa-angle-right\"></i></NuxtLink>\r\n                                    </li>\r\n                                </ul>\r\n                            </div>\r\n                        </div>\r\n                        <!--End Services Details Sidebar Single-->\r\n\r\n                        <!--Start Services Details Sidebar Single-->\r\n                        <div class=\"sidebar-widget service-sidebar-single\">\r\n                            <div class=\"service-sidebar-single-contact-box text-center wow fadeInUp\" data-wow-delay=\"0.3s\" data-wow-duration=\"1200m\" style=\"background-image: url(images/resource/news-2.jpg)\">\r\n                                <div class=\"icon\">\r\n                                    <span class=\"lnr lnr-icon-phone\"></span>\r\n                                </div>\r\n                                <div class=\"title\">\r\n                                    <h2>\r\n                                        Best <br />Logistics <br />\r\n                                        Services\r\n                                    </h2>\r\n                                </div>\r\n                                <p class=\"phone\"><NuxtLink to=\"tel:123456789\">666 888 0000</NuxtLink></p>\r\n                                <p>Call Us Anytime</p>\r\n                            </div>\r\n                        </div>\r\n                        <!--End Services Details Sidebar Single-->\r\n\r\n                        <!--Start Services Details Sidebar Single-->\r\n                        <div class=\"sidebar-widget service-sidebar-single mt-3\">\r\n                            <div class=\"service-sidebar-single-btn wow fadeInUp\" data-wow-delay=\"0.5s\" data-wow-duration=\"1200m\">\r\n                                <NuxtLink to=\"#\" class=\"theme-btn btn-style-one d-grid\"\r\n                                    ><span class=\"btn-title\"><span class=\"fas fa-file-pdf\"></span> download pdf file</span></NuxtLink>\r\n                            </div>\r\n                        </div>\r\n                        <!--End Services Details Sidebar Single-->\r\n                    </div>\r\n                </div>\r\n                <!--End Services Details Sidebar-->\r\n            </div>\r\n        </div>\r\n    </section>\r\n    <!--End Services Details-->\r\n</template>\r\n\r\n\r\n<script setup>\r\nimport { ref } from 'vue'\r\n\r\nconst isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n})\r\n\r\nconst handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n        isActive.value.status = false\r\n    } else {\r\n        isActive.value.status = true\r\n        isActive.value.key = key\r\n    }\r\n};\r\n</script>",
-      "start": 1758152127179,
-      "end": 1758152128207,
+      "start": 1759905620979,
+      "end": 1759905621196,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1758152128207,
-      "end": 1758152128207,
+      "start": 1759905621196,
+      "end": 1759905621196,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderClass as _ssrRenderClass, ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/bg1.jpg'\n\n\nimport { ref } from 'vue'\r\n\r\n\nconst _sfc_main = {\n  __name: 'Details',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n})\r\n\r\nconst handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n        isActive.value.status = false\r\n    } else {\r\n        isActive.value.status = true\r\n        isActive.value.key = key\r\n    }\r\n};\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"services-details\" }, _attrs))\n  }><div class=\"container\"><div class=\"row\"><div class=\"col-xl-8 col-lg-8\"><div class=\"services-details__content\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"><h2 class=\"mt-4\">Air Freight</h2><p> Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown took a galley of type and it to make a type specimen book. </p><p>When an unknown printer took a galley of type and it to make a type specimen book. It has survived not only five centuries, but also the leap into typesetting, remaining essentially unchanged.</p><div class=\"content\"><div class=\"text\"><h3>Our Scope of Work</h3><p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p></div><div class=\"feature-list\"><div class=\"row clearfix\"><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Fast home delivery</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Secure Payments</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Delivering best products</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Food Inspections</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Generator Systems</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Assessments</h6></div></div></div></div></div><div class=\"\"><h3>FAQ</h3><p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><ul class=\"accordion-box wow fadeInRight\"><li class=\"${\n    _ssrRenderClass([{ 'active-block': isActive.value.key === 1}, \"accordion block\"])\n  }\"><div class=\"${\n    _ssrRenderClass([{ 'active': isActive.value.key === 1}, \"acc-btn\"])\n  }\">Is my technology allowed on tech? <div class=\"icon fa fa-plus\"></div></div><div class=\"${\n    _ssrRenderClass([{ 'current': isActive.value.key === 1}, \"acc-content\"])\n  }\"><div class=\"content\"><div class=\"text\">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div></div></div></li><li class=\"${\n    _ssrRenderClass([{ 'active-block': isActive.value.key === 2}, \"accordion block\"])\n  }\"><div class=\"${\n    _ssrRenderClass([{ 'active': isActive.value.key === 2}, \"acc-btn\"])\n  }\">How to soft launch your business <div class=\"icon fa fa-plus\"></div></div><div class=\"${\n    _ssrRenderClass([{ 'current': isActive.value.key === 2}, \"acc-content\"])\n  }\"><div class=\"content\"><div class=\"text\">Sed rhoncus facilisis purus, at accumsan purus sagittis vitae. Nullam acelit at eros imperdiet. Pellentesque sit.</div></div></div></li><li class=\"${\n    _ssrRenderClass([{ 'active-block': isActive.value.key === 3}, \"accordion block\"])\n  }\"><div class=\"${\n    _ssrRenderClass([{ 'active': isActive.value.key === 3}, \"acc-btn\"])\n  }\">How can i find my solutions? <div class=\"icon fa fa-plus\"></div></div><div class=\"${\n    _ssrRenderClass([{ 'current': isActive.value.key === 3}, \"acc-content\"])\n  }\"><div class=\"content\"><div class=\"text\">Sed rhoncus facilisis purus, at accumsan purus sagittis vitae. Nullam acelit at eros imperdiet. Pellentesque sit.</div></div></div></li></ul></div></div></div><div class=\"col-xl-4 col-lg-4\"><div class=\"service-sidebar\"><div class=\"sidebar-widget service-sidebar-single\"><div class=\"service-sidebar-single-services wow fadeInUp\" data-wow-delay=\"0.1s\" data-wow-duration=\"1200m\"><div class=\"title\"><h3>All Services</h3></div><ul><li class=\"current\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-service-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Air Freight <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Air Freight \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-service-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Sea freight <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Sea freight \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-service-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Road service <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Road service \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-service-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Other solution <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Other solution \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></div></div><div class=\"sidebar-widget service-sidebar-single\"><div class=\"service-sidebar-single-contact-box text-center wow fadeInUp\" data-wow-delay=\"0.3s\" data-wow-duration=\"1200m\" style=\"${_ssrRenderStyle({\"background-image\":\"url(images/resource/news-2.jpg)\"})}\"><div class=\"icon\"><span class=\"lnr lnr-icon-phone\"></span></div><div class=\"title\"><h2> Best <br>Logistics <br> Services </h2></div><p class=\"phone\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"tel:123456789\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`666 888 0000`)\n      } else {\n        return [\n          _createTextVNode(\"666 888 0000\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</p><p>Call Us Anytime</p></div></div><div class=\"sidebar-widget service-sidebar-single mt-3\"><div class=\"service-sidebar-single-btn wow fadeInUp\" data-wow-delay=\"0.5s\" data-wow-duration=\"1200m\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"#\",\n    class: \"theme-btn btn-style-one d-grid\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<span class=\"btn-title\"${\n          _scopeId\n        }><span class=\"fas fa-file-pdf\"${\n          _scopeId\n        }></span> download pdf file</span>`)\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, [\n            _createVNode(\"span\", { class: \"fas fa-file-pdf\" }),\n            _createTextVNode(\" download pdf file\")\n          ])\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div></div></section>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/Services/Details.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1758152128207,
-      "end": 1758152128217,
+      "start": 1759905621196,
+      "end": 1759905621199,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,159 +82,159 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621199,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621200,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152128217,
-      "end": 1758152128217,
+      "start": 1759905621199,
+      "end": 1759905621200,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152128217,
-      "end": 1758152128220,
+      "start": 1759905621200,
+      "end": 1759905621201,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152128217,
-      "end": 1758152128220,
+      "start": 1759905621200,
+      "end": 1759905621201,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152128220,
-      "end": 1758152128221,
+      "start": 1759905621201,
+      "end": 1759905621201,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152128220,
-      "end": 1758152128221,
+      "start": 1759905621201,
+      "end": 1759905621201,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152128221,
-      "end": 1758152128221,
+      "start": 1759905621201,
+      "end": 1759905621201,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152128221,
-      "end": 1758152128221,
+      "start": 1759905621201,
+      "end": 1759905621201,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1758152128221,
-      "end": 1758152128221,
+      "start": 1759905621201,
+      "end": 1759905621201,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
       "result": "import { default as __nuxt_component_0 } from \"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createTextVNode as _createTextVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderClass as _ssrRenderClass, ssrRenderComponent as _ssrRenderComponent, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/resource/bg1.jpg'\n\n\nimport { ref } from 'vue'\r\n\r\n\nconst _sfc_main = {\n  __name: 'Details',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst isActive = ref({\r\n    status: false,\r\n    key: 1,\r\n})\r\n\r\nconst handleClick = (key) => {\r\n    if (isActive.value.key === key) {\r\n        isActive.value.status = false\r\n    } else {\r\n        isActive.value.status = true\r\n        isActive.value.key = key\r\n    }\r\n};\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_NuxtLink = __nuxt_component_0\n\n  _push(`<section${\n    _ssrRenderAttrs(_mergeProps({ class: \"services-details\" }, _attrs))\n  }><div class=\"container\"><div class=\"row\"><div class=\"col-xl-8 col-lg-8\"><div class=\"services-details__content\"><img${\n    _ssrRenderAttr(\"src\", _imports_0)\n  } alt=\"\"><h2 class=\"mt-4\">Air Freight</h2><p> Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown took a galley of type and it to make a type specimen book. </p><p>When an unknown printer took a galley of type and it to make a type specimen book. It has survived not only five centuries, but also the leap into typesetting, remaining essentially unchanged.</p><div class=\"content\"><div class=\"text\"><h3>Our Scope of Work</h3><p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p></div><div class=\"feature-list\"><div class=\"row clearfix\"><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Fast home delivery</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Secure Payments</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Delivering best products</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Food Inspections</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Generator Systems</h6></div></div><div class=\"col-lg-6 col-md-6 col-sm-12 column\"><div class=\"single-item\"><div class=\"icon-box\"><i class=\"fas fa-check-circle\"></i></div><h6 class=\"title\">Assessments</h6></div></div></div></div></div><div class=\"\"><h3>FAQ</h3><p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><ul class=\"accordion-box wow fadeInRight\"><li class=\"${\n    _ssrRenderClass([{ 'active-block': isActive.value.key === 1}, \"accordion block\"])\n  }\"><div class=\"${\n    _ssrRenderClass([{ 'active': isActive.value.key === 1}, \"acc-btn\"])\n  }\">Is my technology allowed on tech? <div class=\"icon fa fa-plus\"></div></div><div class=\"${\n    _ssrRenderClass([{ 'current': isActive.value.key === 1}, \"acc-content\"])\n  }\"><div class=\"content\"><div class=\"text\">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div></div></div></li><li class=\"${\n    _ssrRenderClass([{ 'active-block': isActive.value.key === 2}, \"accordion block\"])\n  }\"><div class=\"${\n    _ssrRenderClass([{ 'active': isActive.value.key === 2}, \"acc-btn\"])\n  }\">How to soft launch your business <div class=\"icon fa fa-plus\"></div></div><div class=\"${\n    _ssrRenderClass([{ 'current': isActive.value.key === 2}, \"acc-content\"])\n  }\"><div class=\"content\"><div class=\"text\">Sed rhoncus facilisis purus, at accumsan purus sagittis vitae. Nullam acelit at eros imperdiet. Pellentesque sit.</div></div></div></li><li class=\"${\n    _ssrRenderClass([{ 'active-block': isActive.value.key === 3}, \"accordion block\"])\n  }\"><div class=\"${\n    _ssrRenderClass([{ 'active': isActive.value.key === 3}, \"acc-btn\"])\n  }\">How can i find my solutions? <div class=\"icon fa fa-plus\"></div></div><div class=\"${\n    _ssrRenderClass([{ 'current': isActive.value.key === 3}, \"acc-content\"])\n  }\"><div class=\"content\"><div class=\"text\">Sed rhoncus facilisis purus, at accumsan purus sagittis vitae. Nullam acelit at eros imperdiet. Pellentesque sit.</div></div></div></li></ul></div></div></div><div class=\"col-xl-4 col-lg-4\"><div class=\"service-sidebar\"><div class=\"sidebar-widget service-sidebar-single\"><div class=\"service-sidebar-single-services wow fadeInUp\" data-wow-delay=\"0.1s\" data-wow-duration=\"1200m\"><div class=\"title\"><h3>All Services</h3></div><ul><li class=\"current\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-service-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Air Freight <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Air Freight \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-service-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Sea freight <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Sea freight \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-service-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Road service <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Road service \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li><li>`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"/page-service-details\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`Other solution <i class=\"fa fa-angle-right\"${_scopeId}></i>`)\n      } else {\n        return [\n          _createTextVNode(\"Other solution \"),\n          _createVNode(\"i\", { class: \"fa fa-angle-right\" })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</li></ul></div></div><div class=\"sidebar-widget service-sidebar-single\"><div class=\"service-sidebar-single-contact-box text-center wow fadeInUp\" data-wow-delay=\"0.3s\" data-wow-duration=\"1200m\" style=\"${_ssrRenderStyle({\"background-image\":\"url(images/resource/news-2.jpg)\"})}\"><div class=\"icon\"><span class=\"lnr lnr-icon-phone\"></span></div><div class=\"title\"><h2> Best <br>Logistics <br> Services </h2></div><p class=\"phone\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, { to: \"tel:123456789\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`666 888 0000`)\n      } else {\n        return [\n          _createTextVNode(\"666 888 0000\")\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</p><p>Call Us Anytime</p></div></div><div class=\"sidebar-widget service-sidebar-single mt-3\"><div class=\"service-sidebar-single-btn wow fadeInUp\" data-wow-delay=\"0.5s\" data-wow-duration=\"1200m\">`)\n  _push(_ssrRenderComponent(_component_NuxtLink, {\n    to: \"#\",\n    class: \"theme-btn btn-style-one d-grid\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(`<span class=\"btn-title\"${\n          _scopeId\n        }><span class=\"fas fa-file-pdf\"${\n          _scopeId\n        }></span> download pdf file</span>`)\n      } else {\n        return [\n          _createVNode(\"span\", { class: \"btn-title\" }, [\n            _createVNode(\"span\", { class: \"fas fa-file-pdf\" }),\n            _createTextVNode(\" download pdf file\")\n          ])\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div></div></div></div></div></div></section>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/sections/Services/Details.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1758152128221,
-      "end": 1758152128222,
+      "start": 1759905621201,
+      "end": 1759905621201,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -247,20 +247,20 @@
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1758152128222,
-      "end": 1758152128222,
+      "start": 1759905621201,
+      "end": 1759905621201,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1758152128223,
-      "end": 1758152128223,
+      "start": 1759905621201,
+      "end": 1759905621202,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1758152128223,
-      "end": 1758152128223,
+      "start": 1759905621202,
+      "end": 1759905621202,
       "order": "normal"
     }
   ]

@@ -4,57 +4,57 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <section class=\"why-choose-us pull-up pb-0\">\r\n        <div class=\"bg-image\" style=\"background-image: url(./images/background/4.jpg)\"></div>\r\n        <div class=\"anim-icons\">\r\n            <div class=\"float-image\"><img src=\"/images/resource/delivery-boy.png\" alt=\"\"></div>\r\n        </div>\r\n\r\n        <div class=\"auto-container\">\r\n            <div class=\"row\">\r\n                <!-- Content Column -->\r\n                <div class=\"content-column col-lg-6 col-md-12 col-sm-12 \">\r\n                    <div class=\"inner-column\">\r\n                        <div class=\"sec-title light\">\r\n                            <span class=\"sub-title\">Why Choose Us</span>\r\n                            <h2>We create opportunity to reach potential</h2>\r\n                        </div>\r\n\r\n                        <!-- Feature Block -->\r\n                        <div class=\"feature-block-two\">\r\n                            <div class=\"inner-box\">\r\n                                <i class=\"icon flaticon-delivery-box-4\"></i>\r\n                                <h4 class=\"title\">Safety and reliability</h4>\r\n                                <p class=\"text\">Aenean placerat ut lacus nec pulvinar. Donec eu leo,\r\n                                    ante at, commodo diam.</p>\r\n                            </div>\r\n                        </div>\r\n\r\n                        <!-- Feature Block -->\r\n                        <div class=\"feature-block-two\">\r\n                            <div class=\"inner-box\">\r\n                                <i class=\"icon flaticon-international-shipping-3\"></i>\r\n                                <h4 class=\"title\">Shipping worldwide</h4>\r\n                                <p class=\"text\">Interdum et malesuada fames ac ante ipsum primis in faucibus donec tempor\r\n                                    nisi neque.</p>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n\r\n                <!-- form Column -->\r\n                <div class=\"form-column col-lg-6 col-md-12 col-sm-12\">\r\n                    <div class=\"inner-column\">\r\n                        <!-- Contact Form -->\r\n                        <div class=\"contact-form wow fadeInLeft\">\r\n                            <!--Contact Form-->\r\n                            <form method=\"post\" action=\"get\" id=\"contact-form\">\r\n                                <div class=\"row\">\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <label>Your Name:</label>\r\n                                        <input type=\"text\" name=\"full_name\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Your Email:</label>\r\n                                        <input type=\"text\" name=\"Email\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Phone No::</label>\r\n                                        <input type=\"text\" name=\"Phone\" placeholder=\"\" required>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <label>DIST (Miles):</label>\r\n                                        <div class=\"range-slider-one\">\r\n                                            <input type=\"text\" class=\"range-amount\" name=\"field-name\">\r\n                                            <div class=\"distance-range-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all\"><div class=\"ui-slider-range ui-widget-header ui-corner-all\" style=\"width: 40.15%; left: 0%;\"></div><span class=\"ui-slider-handle ui-state-default ui-corner-all\" tabindex=\"0\" style=\"left: 0%;\"></span><span class=\"ui-slider-handle ui-state-default ui-corner-all\" tabindex=\"0\" style=\"left: 40.15%;\"></span></div>\r\n                                        </div>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Freight type:</label>\r\n                                        <select class=\"custom-select\">\r\n                                            <option value=\"\">Select</option>\r\n                                            <option value=\"\">Air Freight</option>\r\n                                            <option value=\"\">Ocean Freight</option>\r\n                                            <option value=\"\">Rail transport</option>\r\n                                            <option value=\"\">Cargo ship</option>\r\n                                            <option value=\"\">Bulk cargo</option>\r\n                                        </select>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-6 col-md-6 col-sm-12 form-group\">\r\n                                        <label>Load:</label>\r\n                                        <select class=\"custom-select\">\r\n                                            <option value=\"\">Select</option>\r\n                                            <option value=\"\">Door to Door</option>\r\n                                            <option value=\"\">International shipping</option>\r\n                                            <option value=\"\">Multi Modal</option>\r\n                                        </select>\r\n                                    </div>\r\n\r\n                                    <div class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\r\n                                        <button class=\"theme-btn btn-style-two hvr-light\" type=\"submit\"\r\n                                            name=\"submit-form\"><span class=\"btn-title\">Submit Request</span></button>\r\n                                    </div>\r\n\r\n                                </div>\r\n                            </form>\r\n                        </div>\r\n                        <!--End Contact Form -->\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n</template>",
-      "start": 1758152096869,
-      "end": 1758152097159,
+      "start": 1759905611711,
+      "end": 1759905611872,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152097159,
-      "end": 1758152097159,
+      "start": 1759905611872,
+      "end": 1759905611872,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152097159,
-      "end": 1758152097159,
+      "start": 1759905611872,
+      "end": 1759905611872,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1758152097159,
-      "end": 1758152097159,
+      "start": 1759905611872,
+      "end": 1759905611872,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1758152097159,
-      "end": 1758152097159,
+      "start": 1759905611872,
+      "end": 1759905611872,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1758152097159,
-      "end": 1758152097159,
+      "start": 1759905611872,
+      "end": 1759905611872,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1758152097159,
-      "end": 1758152097160,
+      "start": 1759905611872,
+      "end": 1759905611872,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1758152097160,
-      "end": 1758152097160,
+      "start": 1759905611872,
+      "end": 1759905611872,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/resource/delivery-boy.png'\n\n\nconst _hoisted_1 = { class: \"why-choose-us pull-up pb-0\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"div\", {\n  class: \"bg-image\",\n  style: {\"background-image\":\"url(./images/background/4.jpg)\"}\n}, null, -1)\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"anim-icons\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"float-image\" }, [\n    /*#__PURE__*/_createElementVNode(\"img\", {\n      src: _imports_0,\n      alt: \"\"\n    })\n  ])\n], -1)\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"auto-container\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"row\" }, [\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"content-column col-lg-6 col-md-12 col-sm-12\" }, [\n      /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-column\" }, [\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"sec-title light\" }, [\n          /*#__PURE__*/_createElementVNode(\"span\", { class: \"sub-title\" }, \"Why Choose Us\"),\n          /*#__PURE__*/_createElementVNode(\"h2\", null, \"We create opportunity to reach potential\")\n        ]),\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"feature-block-two\" }, [\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-box\" }, [\n            /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-delivery-box-4\" }),\n            /*#__PURE__*/_createElementVNode(\"h4\", { class: \"title\" }, \"Safety and reliability\"),\n            /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"Aenean placerat ut lacus nec pulvinar. Donec eu leo, ante at, commodo diam.\")\n          ])\n        ]),\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"feature-block-two\" }, [\n          /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-box\" }, [\n            /*#__PURE__*/_createElementVNode(\"i\", { class: \"icon flaticon-international-shipping-3\" }),\n            /*#__PURE__*/_createElementVNode(\"h4\", { class: \"title\" }, \"Shipping worldwide\"),\n            /*#__PURE__*/_createElementVNode(\"p\", { class: \"text\" }, \"Interdum et malesuada fames ac ante ipsum primis in faucibus donec tempor nisi neque.\")\n          ])\n        ])\n      ])\n    ]),\n    /*#__PURE__*/_createElementVNode(\"div\", { class: \"form-column col-lg-6 col-md-12 col-sm-12\" }, [\n      /*#__PURE__*/_createElementVNode(\"div\", { class: \"inner-column\" }, [\n        /*#__PURE__*/_createElementVNode(\"div\", { class: \"contact-form wow fadeInLeft\" }, [\n          /*#__PURE__*/_createElementVNode(\"form\", {\n            method: \"post\",\n            action: \"get\",\n            id: \"contact-form\"\n          }, [\n            /*#__PURE__*/_createElementVNode(\"div\", { class: \"row\" }, [\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-12 col-md-12 col-sm-12 form-group\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, \"Your Name:\"),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  type: \"text\",\n                  name: \"full_name\",\n                  placeholder: \"\",\n                  required: \"\"\n                })\n              ]),\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-6 col-md-6 col-sm-12 form-group\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, \"Your Email:\"),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  type: \"text\",\n                  name: \"Email\",\n                  placeholder: \"\",\n                  required: \"\"\n                })\n              ]),\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-6 col-md-6 col-sm-12 form-group\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, \"Phone No::\"),\n                /*#__PURE__*/_createElementVNode(\"input\", {\n                  type: \"text\",\n                  name: \"Phone\",\n                  placeholder: \"\",\n                  required: \"\"\n                })\n              ]),\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-12 col-md-12 col-sm-12 form-group\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, \"DIST (Miles):\"),\n                /*#__PURE__*/_createElementVNode(\"div\", { class: \"range-slider-one\" }, [\n                  /*#__PURE__*/_createElementVNode(\"input\", {\n                    type: \"text\",\n                    class: \"range-amount\",\n                    name: \"field-name\"\n                  }),\n                  /*#__PURE__*/_createElementVNode(\"div\", { class: \"distance-range-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all\" }, [\n                    /*#__PURE__*/_createElementVNode(\"div\", {\n                      class: \"ui-slider-range ui-widget-header ui-corner-all\",\n                      style: {\"width\":\"40.15%\",\"left\":\"0%\"}\n                    }),\n                    /*#__PURE__*/_createElementVNode(\"span\", {\n                      class: \"ui-slider-handle ui-state-default ui-corner-all\",\n                      tabindex: \"0\",\n                      style: {\"left\":\"0%\"}\n                    }),\n                    /*#__PURE__*/_createElementVNode(\"span\", {\n                      class: \"ui-slider-handle ui-state-default ui-corner-all\",\n                      tabindex: \"0\",\n                      style: {\"left\":\"40.15%\"}\n                    })\n                  ])\n                ])\n              ]),\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-6 col-md-6 col-sm-12 form-group\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, \"Freight type:\"),\n                /*#__PURE__*/_createElementVNode(\"select\", { class: \"custom-select\" }, [\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Select\"),\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Air Freight\"),\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Ocean Freight\"),\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Rail transport\"),\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Cargo ship\"),\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Bulk cargo\")\n                ])\n              ]),\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-6 col-md-6 col-sm-12 form-group\" }, [\n                /*#__PURE__*/_createElementVNode(\"label\", null, \"Load:\"),\n                /*#__PURE__*/_createElementVNode(\"select\", { class: \"custom-select\" }, [\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Select\"),\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Door to Door\"),\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"International shipping\"),\n                  /*#__PURE__*/_createElementVNode(\"option\", { value: \"\" }, \"Multi Modal\")\n                ])\n              ]),\n              /*#__PURE__*/_createElementVNode(\"div\", { class: \"col-lg-12 col-md-12 col-sm-12 form-group\" }, [\n                /*#__PURE__*/_createElementVNode(\"button\", {\n                  class: \"theme-btn btn-style-two hvr-light\",\n                  type: \"submit\",\n                  name: \"submit-form\"\n                }, [\n                  /*#__PURE__*/_createElementVNode(\"span\", { class: \"btn-title\" }, \"Submit Request\")\n                ])\n              ])\n            ])\n          ])\n        ])\n      ])\n    ])\n  ])\n], -1)\nconst _hoisted_5 = [\n  _hoisted_2,\n  _hoisted_3,\n  _hoisted_4\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"section\", _hoisted_1, _hoisted_5))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1758152097160,
-      "end": 1758152097164,
+      "start": 1759905611872,
+      "end": 1759905611874,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,152 +62,152 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1758152097164,
-      "end": 1758152097164,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1758152097165,
-      "end": 1758152097165,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1758152097165,
-      "end": 1758152097165,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1758152097165,
-      "end": 1758152097165,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152097165,
-      "end": 1758152097165,
+      "start": 1759905611874,
+      "end": 1759905611874,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152097165,
-      "end": 1758152097167,
+      "start": 1759905611874,
+      "end": 1759905611875,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152097167,
-      "end": 1758152097167,
+      "start": 1759905611875,
+      "end": 1759905611875,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152097167,
-      "end": 1758152097167,
+      "start": 1759905611875,
+      "end": 1759905611875,
       "order": "post"
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1758152097167,
-      "end": 1758152097167,
+      "start": 1759905611875,
+      "end": 1759905611875,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1758152097167,
-      "end": 1758152097167,
+      "start": 1759905611875,
+      "end": 1759905611875,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1758152097167,
-      "end": 1758152097168,
+      "start": 1759905611875,
+      "end": 1759905611875,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1758152097168,
-      "end": 1758152097168,
+      "start": 1759905611875,
+      "end": 1759905611875,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1758152097168,
-      "end": 1758152097168,
+      "start": 1759905611875,
+      "end": 1759905611876,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1758152097168,
-      "end": 1758152097170,
+      "start": 1759905611876,
+      "end": 1759905611876,
       "order": "normal"
     }
   ]

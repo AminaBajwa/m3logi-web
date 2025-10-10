@@ -3,58 +3,58 @@
   "transforms": [
     {
       "name": "vite:load-fallback",
-      "result": "<template>\r\n    <LayoutPageTitle title=\"About\" />\r\n    <SectionsAboutSection3/>\r\n    <SectionsAboutSection4/>\r\n    <SectionsAboutSection12/>\r\n</template>",
-      "start": 1758152093602,
-      "end": 1758152095680,
+      "result": "<template>\r\n    <LayoutPageTitle title=\"About\" />\r\n    <SectionsAboutSection1/>\r\n    <!-- <SectionsAboutSection3/> -->\r\n    <SectionsAboutSection11/>\r\n     <SectionsAboutSection5/>\r\n    <!-- <SectionsAboutSection1/> -->\r\n    <!-- <OrganizationChart :model=\"nodes\" /> -->\r\n    <SectionsAboutSection2/>\r\n    <SectionsAboutSection6/>\r\n    <SectionsAboutSection7/>\r\n    <!-- <SectionsAboutSection12/> -->\r\n   \r\n</template>\r\n\r\n<script setup>\r\nimport OrganizationChart from '../components/sections/About/OrganizationChart.vue';\r\n\r\nconst nodes = [\r\n  {\r\n    id: 1,\r\n    label: 'CEO',\r\n    children: [\r\n      {\r\n        id: 2,\r\n        label: 'CTO',\r\n        children: [\r\n          { id: 3, label: 'Dev Team' },\r\n          { id: 4, label: 'QA Team' }\r\n        ]\r\n      },\r\n      {\r\n        id: 5,\r\n        label: 'CFO'\r\n      }\r\n    ]\r\n  }\r\n];\r\n</script>",
+      "start": 1759905609974,
+      "end": 1759905611329,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152095680,
-      "end": 1758152095680,
+      "start": 1759905611329,
+      "end": 1759905611329,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152095680,
-      "end": 1758152095680,
+      "start": 1759905611329,
+      "end": 1759905611329,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1758152095680,
-      "end": 1758152095680,
+      "start": 1759905611329,
+      "end": 1759905611329,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1758152095680,
-      "end": 1758152095680,
+      "start": 1759905611329,
+      "end": 1759905611329,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1758152095680,
-      "end": 1758152095680,
+      "start": 1759905611329,
+      "end": 1759905611329,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1758152095680,
-      "end": 1758152095680,
+      "start": 1759905611329,
+      "end": 1759905611329,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1758152095680,
-      "end": 1758152095680,
+      "start": 1759905611329,
+      "end": 1759905611329,
       "order": "normal"
     },
     {
       "name": "vite:vue",
-      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_LayoutPageTitle = _resolveComponent(\"LayoutPageTitle\")\n  const _component_SectionsAboutSection3 = _resolveComponent(\"SectionsAboutSection3\")\n  const _component_SectionsAboutSection4 = _resolveComponent(\"SectionsAboutSection4\")\n  const _component_SectionsAboutSection12 = _resolveComponent(\"SectionsAboutSection12\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_LayoutPageTitle, { title: \"About\" }),\n    _createVNode(_component_SectionsAboutSection3),\n    _createVNode(_component_SectionsAboutSection4),\n    _createVNode(_component_SectionsAboutSection12)\n  ], 64))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
-      "start": 1758152095680,
-      "end": 1758152095684,
+      "result": "import { resolveComponent as _resolveComponent, createVNode as _createVNode, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nimport OrganizationChart from '../components/sections/About/OrganizationChart.vue';\r\n\r\n\nconst _sfc_main = {\n  __name: 'page-about',\n  setup(__props) {\n\r\nconst nodes = [\r\n  {\r\n    id: 1,\r\n    label: 'CEO',\r\n    children: [\r\n      {\r\n        id: 2,\r\n        label: 'CTO',\r\n        children: [\r\n          { id: 3, label: 'Dev Team' },\r\n          { id: 4, label: 'QA Team' }\r\n        ]\r\n      },\r\n      {\r\n        id: 5,\r\n        label: 'CFO'\r\n      }\r\n    ]\r\n  }\r\n];\r\n\nreturn (_ctx, _cache) => {\n  const _component_LayoutPageTitle = _resolveComponent(\"LayoutPageTitle\")\n  const _component_SectionsAboutSection1 = _resolveComponent(\"SectionsAboutSection1\")\n  const _component_SectionsAboutSection11 = _resolveComponent(\"SectionsAboutSection11\")\n  const _component_SectionsAboutSection5 = _resolveComponent(\"SectionsAboutSection5\")\n  const _component_SectionsAboutSection2 = _resolveComponent(\"SectionsAboutSection2\")\n  const _component_SectionsAboutSection6 = _resolveComponent(\"SectionsAboutSection6\")\n  const _component_SectionsAboutSection7 = _resolveComponent(\"SectionsAboutSection7\")\n\n  return (_openBlock(), _createElementBlock(_Fragment, null, [\n    _createVNode(_component_LayoutPageTitle, { title: \"About\" }),\n    _createVNode(_component_SectionsAboutSection1),\n    _createVNode(_component_SectionsAboutSection11),\n    _createVNode(_component_SectionsAboutSection5),\n    _createVNode(_component_SectionsAboutSection2),\n    _createVNode(_component_SectionsAboutSection6),\n    _createVNode(_component_SectionsAboutSection7)\n  ], 64))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1759905611329,
+      "end": 1759905611334,
       "order": "normal",
       "sourcemaps": {
         "mappings": ""
@@ -62,117 +62,117 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "nuxt:chunk-error",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "vite:define",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "vite:css-post",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152095684,
-      "end": 1758152095684,
+      "start": 1759905611334,
+      "end": 1759905611334,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152095684,
-      "end": 1758152095686,
+      "start": 1759905611334,
+      "end": 1759905611335,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152095686,
-      "end": 1758152095686,
+      "start": 1759905611335,
+      "end": 1759905611335,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
       "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
-      "start": 1758152095686,
-      "end": 1758152095687,
+      "start": 1759905611335,
+      "end": 1759905611336,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -185,38 +185,38 @@
     },
     {
       "name": "nuxt:runtime-paths-dep",
-      "start": 1758152095687,
-      "end": 1758152095687,
+      "start": 1759905611336,
+      "end": 1759905611336,
       "order": "post"
     },
     {
       "name": "nuxt:route-injection-plugin",
-      "start": 1758152095687,
-      "end": 1758152095687,
+      "start": 1759905611336,
+      "end": 1759905611336,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1758152095687,
-      "end": 1758152095687,
+      "start": 1759905611336,
+      "end": 1759905611336,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
-      "start": 1758152095687,
-      "end": 1758152095687,
+      "start": 1759905611336,
+      "end": 1759905611336,
       "order": "post"
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1758152095687,
-      "end": 1758152095687,
+      "start": 1759905611336,
+      "end": 1759905611336,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1758152095687,
-      "end": 1758152095687,
+      "start": 1759905611336,
+      "end": 1759905611336,
       "order": "normal"
     }
   ]

@@ -1,0 +1,210 @@
+{
+  "resolvedId": "C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/node_modules/d3-flextree/node_modules/d3-hierarchy/src/stratify.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import {required} from \"./accessors.js\";\nimport {Node, computeHeight} from \"./hierarchy/index.js\";\n\nvar keyPrefix = \"$\", // Protect against keys like “__proto__”.\n    preroot = {depth: -1},\n    ambiguous = {};\n\nfunction defaultId(d) {\n  return d.id;\n}\n\nfunction defaultParentId(d) {\n  return d.parentId;\n}\n\nexport default function() {\n  var id = defaultId,\n      parentId = defaultParentId;\n\n  function stratify(data) {\n    var d,\n        i,\n        n = data.length,\n        root,\n        parent,\n        node,\n        nodes = new Array(n),\n        nodeId,\n        nodeKey,\n        nodeByKey = {};\n\n    for (i = 0; i < n; ++i) {\n      d = data[i], node = nodes[i] = new Node(d);\n      if ((nodeId = id(d, i, data)) != null && (nodeId += \"\")) {\n        nodeKey = keyPrefix + (node.id = nodeId);\n        nodeByKey[nodeKey] = nodeKey in nodeByKey ? ambiguous : node;\n      }\n    }\n\n    for (i = 0; i < n; ++i) {\n      node = nodes[i], nodeId = parentId(data[i], i, data);\n      if (nodeId == null || !(nodeId += \"\")) {\n        if (root) throw new Error(\"multiple roots\");\n        root = node;\n      } else {\n        parent = nodeByKey[keyPrefix + nodeId];\n        if (!parent) throw new Error(\"missing: \" + nodeId);\n        if (parent === ambiguous) throw new Error(\"ambiguous: \" + nodeId);\n        if (parent.children) parent.children.push(node);\n        else parent.children = [node];\n        node.parent = parent;\n      }\n    }\n\n    if (!root) throw new Error(\"no root\");\n    root.parent = preroot;\n    root.eachBefore(function(node) { node.depth = node.parent.depth + 1; --n; }).eachBefore(computeHeight);\n    root.parent = null;\n    if (n > 0) throw new Error(\"cycle\");\n\n    return root;\n  }\n\n  stratify.id = function(x) {\n    return arguments.length ? (id = required(x), stratify) : id;\n  };\n\n  stratify.parentId = function(x) {\n    return arguments.length ? (parentId = required(x), stratify) : parentId;\n  };\n\n  return stratify;\n}\n",
+      "start": 1759905614579,
+      "end": 1759905614601,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1759905614601,
+      "end": 1759905614601,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1759905614601,
+      "end": 1759905614602,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1759905614602,
+      "end": 1759905614602,
+      "order": "normal"
+    }
+  ]
+}

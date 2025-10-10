@@ -2,7 +2,7 @@
     <section class="why-choose-us-two">
         <div class="bg-image" style="background-image: url(./images/background/6.jpg)"></div>
         <div class="bg-shape">
-            <div class="shape" style="background-image: url(./images/icons/bg-shape.png)"></div>
+            <div class="shape" style="background-image: url(./images/icons/bg-shape1.png)"></div>
         </div>
 
         <div class="anim-icons">
@@ -16,9 +16,8 @@
                     <div class="inner-column wow fadeInLeft">
                         <div class="sec-title light">
                             <span class="sub-title">Why Choose Us</span>
-                            <h2>We create opportunity <br>to reach potential</h2>
-                            <div class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                                eu fugiat nulla pariatur.</div>
+                            <h2>Simple Online Booking, Full Carrier Responsibility.</h2>
+                            <div class="text">We provide trusted, end-to-end logistics solutions with reliable shipping, strong global coverage, and unmatched expertise in vehicle handling and transportation</div>
                         </div>
 
                         <div class="row">
@@ -26,8 +25,8 @@
                             <div class="feature-block-four col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <i class="icon flaticon-delivery-box-4"></i>
-                                    <h4 class="title">Safety & <br>reliable service</h4>
-                                    <p class="text">Nullam mollis elit quis dus is lacinia not efficitur</p>
+                                    <h4 class="title">Total Logistics<br>Solutions</h4>
+                                    <p class="text">End-to-end shipping made simple and seamless.</p>
                                 </div>
                             </div>
 
@@ -35,11 +34,12 @@
                             <div class="feature-block-four col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <i class="icon flaticon-international-shipping-3"></i>
-                                    <h4 class="title">Real time <br>tracking system</h4>
-                                    <p class="text">Nullam mollis elit quis dus is lacinia not efficitur</p>
+                                    <h4 class="title">Shipping <br>Worldwide</h4>
+                                    <p class="text">Global coverage with flexible and trusted schedules.</p>
                                 </div>
                             </div>
                         </div>
+                        
 
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     <div class="inner-column">
                         <div class="info-box bounce-y">
                             <i class="icon flaticon-customer-service"></i>
-                            <strong>Meet Our <br>Expert Agents</strong>
+                            <strong>Global Coverage,<br> Trusted Schedules</strong>
                         </div>
                         <div class="video-box">
                             <NuxtLink @click="openVideo" class="play-now-two lightbox-image"><i class="icon fa fa-play"></i>

@@ -59,8 +59,8 @@
                         <figure class="image-1 wow fadeInUp"><img src="/images/m3logiOffice.jpeg" alt=""></figure>
                         <figure class="image-2 wow fadeInRight">
                             <!-- <img src="/images/resource/about-4.jpg" alt=""> -->
-                              <img src="/images/resource/about-4.jpg" alt="">
-                            <div class="icon-box"><i class="icon flaticon-delivery-box-4"></i></div>
+                              <img src="/images/gallery-3.jpg" alt="">
+                            <!-- <div class="icon-box"><i class="icon flaticon-delivery-box-4"></i></div> -->
                         </figure>
                     </div>
                 </div>

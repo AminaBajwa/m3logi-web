@@ -3,7 +3,7 @@
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title">Our Brands</span>
-                <h2>Specialist units delivering <br>end‑to‑end logistics by m3Logi</h2>
+                <h2>Specialist units delivering <br>end‑to‑end logistics by M3Logi</h2>
             </div>
 
             <div class="row">
@@ -12,7 +12,7 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="image">
-                                 <NuxtLink to=""><img src="/images/marinelogi-logo.png" alt="">
+                                 <NuxtLink to=""><img src="/images/clients/c0.png" alt="">
                                 </NuxtLink>
                             </figure>
                             <div class="social-links">
@@ -37,7 +37,7 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="image">
-                                 <NuxtLink to=""><img src="/images/cl-logo.png" alt="">
+                                 <NuxtLink to=""><img src="/images/clients/c1.png" alt="">
                                 </NuxtLink>
                             </figure>
                             <div class="social-links">
@@ -62,7 +62,7 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="image">
-                                <NuxtLink to=""><img src="/images/marinelogi-logo.png" alt="">
+                                <NuxtLink to=""><img src="/images/clients/c2.png" alt="">
                                 </NuxtLink>
                             </figure>
                             <div class="social-links">
@@ -74,7 +74,7 @@
                         </div>
                          <div class="info-box">
                             <h4 class="name">
-                                <NuxtLink to="">AUTO MECHANIC m3Logi — Maintenance & PEI</NuxtLink>
+                                <NuxtLink to="">AUTO MECHANIC M3Logi — Maintenance & PEI</NuxtLink>
                             </h4>
                             <span class="">Certified Repairs & Pre‑Export Inspection</span>
                         </div>
@@ -86,7 +86,7 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="image">
-                                 <NuxtLink to=""><img src="/images/cl-logo.png" alt="">
+                                 <NuxtLink to=""><img src="/images/clients/c3.png" alt="">
                                 </NuxtLink>
                             </figure>
                             <div class="social-links">
@@ -99,7 +99,7 @@
                          <div class="info-box">
                             
                             <h4 class="name">
-                                <NuxtLink to="">WAREHOUSE m3Logi — Yard Services</NuxtLink>
+                                <NuxtLink to="">WAREHOUSE M3Logi — Yard Services</NuxtLink>
                             </h4>
                             <span class="">Secure Yard & Warehouse Operations</span>
                         </div>
@@ -111,7 +111,7 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="image">
-                                 <NuxtLink to=""><img src="/images/cl-logo.png" alt="">
+                                 <NuxtLink to=""><img src="/images/clients/c4.png" alt="">
                                 </NuxtLink>
                             </figure>
                             <div class="social-links">
@@ -124,7 +124,7 @@
                          <div class="info-box">
                             
                             <h4 class="name">
-                                <NuxtLink to="">DRAYAGE m3Logi — Container Drayage</NuxtLink>
+                                <NuxtLink to="">DRAYAGE M3Logi — Container Drayage</NuxtLink>
                             </h4>
                             <span class="">On‑Time Container Drayage Services</span>
                         </div>
@@ -136,7 +136,7 @@
                     <div class="inner-box">
                         <div class="image-box">
                             <figure class="image">
-                                 <NuxtLink to=""><img src="/images/cl-logo.png" alt="">
+                                 <NuxtLink to=""><img src="/images/clients/c5.png" alt="">
                                 </NuxtLink>
                             </figure>
                             <div class="social-links">
@@ -149,7 +149,7 @@
                          <div class="info-box">
                             
                             <h4 class="name">
-                                <NuxtLink to="">CUSTOM BROKER m3Logi — Customs Brokerage</NuxtLink>
+                                <NuxtLink to="">CUSTOM BROKER M3Logi — Customs Brokerage</NuxtLink>
                             </h4>
                             <span class="">Fast, Compliant Customs Clearance</span>
                         </div>

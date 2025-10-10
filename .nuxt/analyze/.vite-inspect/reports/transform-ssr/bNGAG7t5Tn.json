@@ -4,69 +4,69 @@
     {
       "name": "vite:load-fallback",
       "result": "<template>\r\n    <a class=\"scroll-to-top scroll-to-target\" :class=\"{ 'd-block': scroll }\" href=\"#__nuxt\"><span\r\n            class=\"fa fa-angle-up\"></span>\r\n    </a>\r\n</template>\r\n\r\n<script setup>\r\nimport { onMounted, onUnmounted, ref } from 'vue'\r\n\r\nconst scroll = ref(false)\r\n\r\nconst handleScroll = () => {\r\n    const scrollCheck = window.scrollY > 100\r\n    if (scrollCheck !== scroll.value) {\r\n        scroll.value = scrollCheck\r\n    }\r\n}\r\n\r\nonMounted(() => {\r\n    document.addEventListener(\"scroll\", handleScroll)\r\n})\r\n\r\nonUnmounted(() => {\r\n    document.removeEventListener(\"scroll\", handleScroll)\r\n})\r\n</script>",
-      "start": 1758152129435,
-      "end": 1758152129689,
+      "start": 1759905621304,
+      "end": 1759905621347,
       "sourcemaps": null
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "pre"
     },
     {
       "name": "nuxt:layer-aliasing",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "pre"
     },
     {
       "name": "nuxt:server-devonly:transform",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "pre"
     },
     {
       "name": "nuxt:client-fallback-auto-id",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "pre"
     },
     {
       "name": "vite:css",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "normal"
     },
     {
       "name": "vite:esbuild",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "normal"
     },
     {
       "name": "vite:json",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "normal"
     },
     {
       "name": "vite:worker",
-      "start": 1758152129689,
-      "end": 1758152129689,
+      "start": 1759905621347,
+      "end": 1759905621347,
       "order": "normal"
     },
     {
       "name": "vite:vue",
       "result": "import { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nimport { onMounted, onUnmounted, ref } from 'vue'\r\n\r\n\nconst _sfc_main = {\n  __name: 'BackToTop',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst scroll = ref(false)\r\n\r\nconst handleScroll = () => {\r\n    const scrollCheck = window.scrollY > 100\r\n    if (scrollCheck !== scroll.value) {\r\n        scroll.value = scrollCheck\r\n    }\r\n}\r\n\r\nonMounted(() => {\r\n    document.addEventListener(\"scroll\", handleScroll)\r\n})\r\n\r\nonUnmounted(() => {\r\n    document.removeEventListener(\"scroll\", handleScroll)\r\n})\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  _push(`<a${_ssrRenderAttrs(_mergeProps({\n    class: [\"scroll-to-top scroll-to-target\", { 'd-block': scroll.value }],\n    href: \"#__nuxt\"\n  }, _attrs))}><span class=\"fa fa-angle-up\"></span></a>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/elements/BackToTop.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
-      "start": 1758152129689,
-      "end": 1758152129691,
+      "start": 1759905621347,
+      "end": 1759905621348,
       "order": "normal",
       "sourcemaps": {
         "version": 3,
@@ -82,167 +82,167 @@
     },
     {
       "name": "vite:vue-jsx",
-      "start": 1758152129692,
-      "end": 1758152129692,
+      "start": 1759905621348,
+      "end": 1759905621348,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152129692,
-      "end": 1758152129692,
+      "start": 1759905621348,
+      "end": 1759905621348,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152129692,
-      "end": 1758152129692,
+      "start": 1759905621348,
+      "end": 1759905621348,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152129692,
-      "end": 1758152129692,
+      "start": 1759905621348,
+      "end": 1759905621348,
       "order": "normal"
     },
     {
       "name": "nuxt:remove-plugin-metadata",
-      "start": 1758152129692,
-      "end": 1758152129692,
+      "start": 1759905621348,
+      "end": 1759905621348,
       "order": "normal"
     },
     {
       "name": "nuxt:components:imports",
-      "start": 1758152129692,
-      "end": 1758152129692,
+      "start": 1759905621348,
+      "end": 1759905621348,
       "order": "normal"
     },
     {
       "name": "replace",
-      "start": 1758152129692,
-      "end": 1758152129692,
+      "start": 1759905621348,
+      "end": 1759905621348,
       "order": "normal"
     },
     {
       "name": "ssr-styles",
-      "start": 1758152129692,
-      "end": 1758152129692,
+      "start": 1759905621348,
+      "end": 1759905621348,
       "order": "normal"
     },
     {
       "name": "vite:define",
       "result": "import { mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport { onMounted, onUnmounted, ref } from \"vue\";\nconst _sfc_main = {\n  __name: \"BackToTop\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const scroll = ref(false);\n    const handleScroll = () => {\n      const scrollCheck = (void 0).scrollY > 100;\n      if (scrollCheck !== scroll.value) {\n        scroll.value = scrollCheck;\n      }\n    };\n    onMounted(() => {\n      (void 0).addEventListener(\"scroll\", handleScroll);\n    });\n    onUnmounted(() => {\n      (void 0).removeEventListener(\"scroll\", handleScroll);\n    });\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<a${_ssrRenderAttrs(_mergeProps({\n        class: [\"scroll-to-top scroll-to-target\", { \"d-block\": scroll.value }],\n        href: \"#__nuxt\"\n      }, _attrs))}><span class=\"fa fa-angle-up\"></span></a>`);\n    };\n  }\n};\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/elements/BackToTop.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nexport default _sfc_main;\n",
-      "start": 1758152129692,
-      "end": 1758152130004,
+      "start": 1759905621348,
+      "end": 1759905621427,
       "order": "normal",
       "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"C:/Users/ruman/Downloads/themeforest-jE7N9u7U-tronis-transport-logistics-vue-nuxt-template/tronis/file/components/elements/BackToTop.vue\"],\n  \"sourcesContent\": [\"import { mergeProps as _mergeProps } from \\\"vue\\\"\\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \\\"vue/server-renderer\\\"\\n\\nimport { onMounted, onUnmounted, ref } from 'vue'\\r\\n\\r\\n\\nconst _sfc_main = {\\n  __name: 'BackToTop',\\n  __ssrInlineRender: true,\\n  setup(__props) {\\n\\r\\nconst scroll = ref(false)\\r\\n\\r\\nconst handleScroll = () => {\\r\\n    const scrollCheck = window.scrollY > 100\\r\\n    if (scrollCheck !== scroll.value) {\\r\\n        scroll.value = scrollCheck\\r\\n    }\\r\\n}\\r\\n\\r\\nonMounted(() => {\\r\\n    document.addEventListener(\\\"scroll\\\", handleScroll)\\r\\n})\\r\\n\\r\\nonUnmounted(() => {\\r\\n    document.removeEventListener(\\\"scroll\\\", handleScroll)\\r\\n})\\r\\n\\nreturn (_ctx, _push, _parent, _attrs) => {\\n  _push(`<a${_ssrRenderAttrs(_mergeProps({\\n    class: [\\\"scroll-to-top scroll-to-target\\\", { 'd-block': scroll.value }],\\n    href: \\\"#__nuxt\\\"\\n  }, _attrs))}><span class=\\\"fa fa-angle-up\\\"></span></a>`)\\n}\\n}\\n\\n}\\n\\n\\n\\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\\nconst _sfc_setup = _sfc_main.setup\\n_sfc_main.setup = (props, ctx) => {\\n  const ssrContext = __vite_useSSRContext()\\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\\\"components/elements/BackToTop.vue\\\")\\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\\n}\\nexport default _sfc_main\"],\n  \"mappings\": \"AAAA,SAAS,cAAc,mBAAmB;AAC1C,SAAS,kBAAkB,uBAAuB;AAElD,SAAS,WAAW,aAAa,WAAW;AAG5C,MAAM,YAAY;AAAA,EAChB,QAAQ;AAAA,EACR,mBAAmB;AAAA,EACnB,MAAM,SAAS;AAEjB,UAAM,SAAS,IAAI,KAAK;AAExB,UAAM,eAAe,MAAM;AACvB,YAAM,cAAc,SAAO,UAAU;AACrC,UAAI,gBAAgB,OAAO,OAAO;AAC9B,eAAO,QAAQ;AAAA,MACnB;AAAA,IACJ;AAEA,cAAU,MAAM;AACZ,eAAS,iBAAiB,UAAU,YAAY;AAAA,IACpD,CAAC;AAED,gBAAY,MAAM;AACd,eAAS,oBAAoB,UAAU,YAAY;AAAA,IACvD,CAAC;AAED,WAAO,CAAC,MAAM,OAAO,SAAS,WAAW;AACvC,YAAM,KAAK,gBAAgB,YAAY;AAAA,QACrC,OAAO,CAAC,kCAAkC,EAAE,WAAW,OAAO,MAAM,CAAC;AAAA,QACrE,MAAM;AAAA,MACR,GAAG,MAAM,CAAC,CAAC,2CAA2C;AAAA,IACxD;AAAA,EACA;AAEA;AAIA,SAAS,iBAAiB,4BAA4B;AACtD,MAAM,aAAa,UAAU;AAC7B,UAAU,QAAQ,CAAC,OAAO,QAAQ;AAChC,QAAM,aAAa,qBAAqB;AACvC,GAAC,WAAW,YAAY,WAAW,UAAU,oBAAI,IAAI,IAAI,IAAI,mCAAmC;AACjG,SAAO,aAAa,WAAW,OAAO,GAAG,IAAI;AAC/C;AACA,eAAe;\",\n  \"names\": []\n}\n"
     },
     {
       "name": "vite:css-post",
-      "start": 1758152130004,
-      "end": 1758152130004,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "normal"
     },
     {
       "name": "vite:build-html",
-      "start": 1758152130004,
-      "end": 1758152130004,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "normal"
     },
     {
       "name": "vite:worker-import-meta-url",
-      "start": 1758152130004,
-      "end": 1758152130004,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "normal"
     },
     {
       "name": "vite:asset-import-meta-url",
-      "start": 1758152130004,
-      "end": 1758152130004,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "normal"
     },
     {
       "name": "commonjs",
-      "start": 1758152130004,
-      "end": 1758152130004,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "normal"
     },
     {
       "name": "vite:dynamic-import-vars",
-      "start": 1758152130004,
-      "end": 1758152130004,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "normal"
     },
     {
       "name": "vite:import-glob",
-      "start": 1758152130004,
-      "end": 1758152130004,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "normal"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152130004,
-      "end": 1758152130005,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "post"
     },
     {
       "name": "nuxt:composable-keys",
-      "start": 1758152130004,
-      "end": 1758152130005,
+      "start": 1759905621427,
+      "end": 1759905621427,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152130005,
-      "end": 1758152130012,
+      "start": 1759905621427,
+      "end": 1759905621429,
       "order": "post"
     },
     {
       "name": "nuxt:imports-transform",
-      "start": 1758152130005,
-      "end": 1758152130012,
+      "start": 1759905621427,
+      "end": 1759905621429,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152130012,
-      "end": 1758152130012,
+      "start": 1759905621429,
+      "end": 1759905621429,
       "order": "post"
     },
     {
       "name": "unctx:transform",
-      "start": 1758152130012,
-      "end": 1758152130012,
+      "start": 1759905621429,
+      "end": 1759905621429,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152130012,
-      "end": 1758152130012,
+      "start": 1759905621429,
+      "end": 1759905621429,
       "order": "post"
     },
     {
       "name": "nuxt:pages-macros-transform",
-      "start": 1758152130012,
-      "end": 1758152130012,
+      "start": 1759905621429,
+      "end": 1759905621429,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-template",
-      "start": 1758152130012,
-      "end": 1758152130012,
+      "start": 1759905621429,
+      "end": 1759905621429,
       "order": "post"
     },
     {
       "name": "nuxt:components-loader",
-      "start": 1758152130012,
-      "end": 1758152130018,
+      "start": 1759905621429,
+      "end": 1759905621430,
       "order": "post"
     },
     {
       "name": "nuxt:tree-shake-composables:transform",
       "result": "import { mergeProps as _mergeProps } from \"vue\";\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\";\nimport { onMounted, onUnmounted, ref } from \"vue\";\nconst _sfc_main = {\n  __name: \"BackToTop\",\n  __ssrInlineRender: true,\n  setup(__props) {\n    const scroll = ref(false);\n    const handleScroll = () => {\n      const scrollCheck = (void 0).scrollY > 100;\n      if (scrollCheck !== scroll.value) {\n        scroll.value = scrollCheck;\n      }\n    };\n     false && /*@__PURE__*/ onMounted(() => {\n      (void 0).addEventListener(\"scroll\", handleScroll);\n    });\n    onUnmounted(() => {\n      (void 0).removeEventListener(\"scroll\", handleScroll);\n    });\n    return (_ctx, _push, _parent, _attrs) => {\n      _push(`<a${_ssrRenderAttrs(_mergeProps({\n        class: [\"scroll-to-top scroll-to-target\", { \"d-block\": scroll.value }],\n        href: \"#__nuxt\"\n      }, _attrs))}><span class=\"fa fa-angle-up\"></span></a>`);\n    };\n  }\n};\nimport { useSSRContext as __vite_useSSRContext } from \"vue\";\nconst _sfc_setup = _sfc_main.setup;\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext();\n  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(\"components/elements/BackToTop.vue\");\n  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;\n};\nexport default _sfc_main;\n",
-      "start": 1758152130019,
-      "end": 1758152130122,
+      "start": 1759905621430,
+      "end": 1759905621432,
       "order": "post",
       "sourcemaps": {
         "version": 3,
@@ -255,14 +255,14 @@
     },
     {
       "name": "vite:build-import-analysis",
-      "start": 1758152130122,
-      "end": 1758152130123,
+      "start": 1759905621432,
+      "end": 1759905621433,
       "order": "normal"
     },
     {
       "name": "vite:reporter",
-      "start": 1758152130123,
-      "end": 1758152130123,
+      "start": 1759905621433,
+      "end": 1759905621433,
       "order": "normal"
     }
   ]

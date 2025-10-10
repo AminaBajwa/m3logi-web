@@ -125,6 +125,208 @@ Reset
     font-size: 100%;
 }
 
+.headoffc-contact li{display: inline-block;padding:0px 20px;font-size: 16px;margin:10px 0px;}
+.headoffc-contact li:first-child{border-right:1px solid #e6e6e6;}
+.headoffc-contact li a,.headoffc-contact li a:hover,.headoffc-contact li a:focus{text-decoration: none;color:inherit;}
+.headoffc-contact.nbdrt li{border-right:none;}
+.headoffc-contact li i{color:#3fc4f5;display: inline-block;vertical-align: middle;}
+.headoffc-contact li span{margin-left:7px;color:#333333;}
+.loc-sects1{position: relative;padding:55px 0px 40px 0px;}
+
+.loc-sects1 .nopad-right{
+		padding-left: 0px;
+	}
+
+    	.loc-sects1 .nopad-right {
+    padding-left: 15px;
+}
+
+.country-branchlist>div{display:inherit;}
+	.country-branchlist>div:last-child{width:100%;padding:0px;}
+	.country-branchlist>div img{width:100%;}
+	.head-loc2{margin-left:0px;font-size: 22px;margin-top:20px;}
+	.loc-images{margin:20px 10px 20px 0px;}
+
+	.absdv{position: relative;margin:0px;top:0px;}
+	.loc-sects{padding:30px 0px;}
+	.head-loc3{margin-bottom:10px;font-size:30px;}
+	.head-loc1{font-size: 30px;}
+	.loc-sects1{padding:20px 0px;}
+	.loc-sects2{padding:30px 0px;}
+
+	.main-scm-sec.loctop h3 {
+        font-size: 32px;
+    padding: 34px 0 0 10px;
+}
+
+
+/* --- Japan Locations Section Styling (Matching Image Layout) --- */
+
+/* General section padding */
+.japan-locations-section {
+    padding: 60px 0; /* Vertical spacing for the whole section */
+}
+
+/* Section title styling */
+.sec-title {
+    margin-bottom: 40px; /* Space below the main title */
+}
+.sec-title h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+/* Container for two location items per row on large screens */
+.locations-grid {
+    /* No custom margins/paddings here, let Bootstrap .row handle it */
+}
+
+/* Styling for each individual location block (image + details) */
+/* This will control the layout for col-lg-6 or col-md-12 */
+.location-item {
+    display: flex; /* Makes image and details side-by-side on large screens */
+    align-items: flex-start; /* Aligns content to the top */
+    background-color: #fff; /* Ensures a clean white background */
+    padding-bottom: 30px; /* Vertical space between location items/rows */
+}
+
+/* Styling for the image area */
+.location-image-area {
+    flex-shrink: 0; /* Prevents the image from shrinking */
+    width: 200px; /* Fixed width for the image as seen in the example */
+    height: 180px; /* Fixed height for consistency */
+    margin-right: 30px; /* Horizontal space between image and text details */
+    overflow: hidden; /* Ensures image doesn't overflow its fixed dimensions */
+}
+
+.location-image-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Covers the area, cropping if needed, maintaining aspect ratio */
+    display: block; /* Removes any extra space below the image */
+}
+
+/* Styling for the location details (text content) */
+.location-details-area {
+    flex-grow: 1; /* Allows details to take up the remaining horizontal space */
+    padding-top: 5px; /* A slight adjustment to align text vertically with image top */
+}
+
+.port-title {
+    font-size: 20px;
+    font-weight: 600; /* Bolder, but not fully black bold */
+    color: #333; /* Dark grey for title */
+    margin-bottom: 8px; /* Space below title */
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+
+.port-address {
+    font-size: 15px;
+    color: #777; /* Lighter grey for address */
+    line-height: 1.6;
+    margin-bottom: 15px; /* Space below address */
+    white-space: normal; /* Allows text to wrap naturally */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* Stacks phone and email links vertically */
+    gap: 8px; /* Space between phone and email links */
+}
+
+.contact-link {
+    display: flex;
+    align-items: center; /* Aligns icon and text horizontally */
+    gap: 8px; /* Space between icon and text */
+    color: #3e90e8; /* Blue color for contact text */
+    text-decoration: none; /* Removes default underline */
+    font-size: 15px;
+    transition: none; /* No hover effect on links as per image */
+}
+
+.contact-link:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: #3e90e8; /* Keep color consistent on hover */
+}
+
+/* Icon styling (filled, blue) */
+.contact-icon {
+    width: 20px; /* Size of the icon */
+    height: 20px;
+    flex-shrink: 0; /* Prevents icon from shrinking */
+    fill: #3e90e8; /* Filled icon with blue color */
+    stroke: none; /* Ensure no stroke/outline */
+}
+
+/* --- Responsive Adjustments --- */
+
+/* For tablets and smaller (Bootstrap's md breakpoint and below) */
+@media (max-width: 991px) {
+    .sec-title h2 {
+        font-size: 32px;
+    }
+    .location-item {
+        flex-direction: column; /* Stack image and details vertically */
+        align-items: center; /* Center the stacked items */
+        padding-bottom: 25px; /* Adjust vertical spacing */
+    }
+    .location-image-area {
+        width: 100%; /* Image takes full width of its column */
+        max-width: 300px; /* Limit image width for aesthetic on tablets if columns are wide */
+        height: 200px; /* Adjust image height for tablets */
+        margin-right: 0; /* No right margin when stacked */
+        margin-bottom: 20px; /* Space below image when stacked */
+    }
+    .location-details-area {
+        width: 100%; /* Details take full width */
+        padding-top: 0; /* Remove top padding when stacked */
+        text-align: center; /* Center text content when stacked */
+    }
+    .port-title {
+        font-size: 19px;
+    }
+    .port-address {
+        font-size: 14px;
+    }
+    .contact-info {
+        align-items: center; /* Center contact links when details area is centered */
+    }
+    .contact-link {
+        font-size: 14px;
+    }
+}
+
+/* For mobile phones (Bootstrap's sm breakpoint and below) */
+@media (max-width: 767px) {
+    .sec-title h2 {
+        font-size: 28px;
+    }
+    .location-item {
+        padding-bottom: 20px; /* Further adjust spacing for mobile */
+    }
+    .location-image-area {
+        height: 180px; /* Adjust image height for mobile */
+        margin-bottom: 15px;
+    }
+    .port-title {
+        font-size: 18px;
+    }
+    .port-address {
+        font-size: 13px;
+    }
+    .contact-link {
+        font-size: 13px;
+    }
+    .contact-icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
 :root {
     --theme-color1: #232331;
     --theme-color2: #3E90E8;
@@ -158,6 +360,18 @@ Reset
 ::-ms-input-placeholder {
     color: #7c858c;
 }
+
+#vision{
+  margin-top: -200px; 
+  /* padding-top: 40px;   */
+  margin-bottom: -100px;
+}
+#mission{
+  /* padding-top: 40px;   */
+  margin-bottom: -30px;
+}
+
+
 
 /*** 
 
@@ -325,6 +539,11 @@ p,
     display: none;
 }
 
+
+.subhead-loc2{
+    margin-bottom: 100px;
+}
+
 /*=======================
     Preloader
 =======================*/
@@ -407,7 +626,7 @@ Scroll To Top style
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 .list-style-one li {
@@ -1313,7 +1532,8 @@ textarea.form-control {
     height: 100%;
     width: 100%;
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0px auto;
+    margin-left: 80px;
 }
 
 .anim-icons.full-width {
@@ -1757,7 +1977,7 @@ Main Header
     min-width: 265px;
     min-height: 110px;
     margin-right: 20px;
-    background-color: var(--bg-theme-color4);
+    background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2530,7 +2750,7 @@ Sticky Header
 }
 
 .contact-list-one li:last-child {
-    margin-right: 0;
+    margin-right: 10;
 }
 
 .contact-list-one li strong {
@@ -3110,7 +3330,7 @@ Section Title
 ***/
 .features-section-two {
     position: relative;
-    padding: 100px 0 70px;
+    padding: 80px 0 20px;
     background-color: #f8f5f1;
 }
 
@@ -5659,7 +5879,7 @@ Section Title
 ***/
 .offer-section {
     position: relative;
-    background-color: var(--bg-theme-color2-light);
+    /* background-color: var(--bg-theme-color2-light); */
 }
 
 .offer-section:before {
@@ -5677,7 +5897,9 @@ Section Title
 
 .offer-section .content-column {
     position: relative;
+    
 }
+
 
 .offer-section .content-column .inner-column {
     position: relative;
@@ -5696,6 +5918,7 @@ Section Title
 .offer-section .content-column .text {
     font-size: 16px;
     line-height: 34px;
+    color: rgb(57, 57, 57);
 }
 
 .offer-section .content-column .list-style-two {
@@ -6301,7 +6524,7 @@ Section Title
 ====================================================================
 
 ***/
-.clients-section {
+/* .clients-section {
     position: relative;
     z-index: 1;
     background-color: #f8f5f1;
@@ -6327,8 +6550,8 @@ Section Title
 .clients-carousel .slide-item img {
     display: inline-block;
     max-width: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -6390,6 +6613,42 @@ Section Title
     display: none;
 }
 
+ */
+
+
+
+
+/* Adjust once here */
+:root { --logo-box-height: 90px; } /* 70–110px try kar sakte ho */
+
+.clients-section .clients-carousel .swiper-slide {
+  height: var(--logo-box-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;         /* optional breathing space */
+  box-sizing: border-box;
+}
+
+.clients-section .clients-carousel .swiper-slide a,
+.clients-section .clients-carousel .swiper-slide > * {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Make all images fit the same box without distortion */
+.clients-section .clients-carousel .swiper-slide img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;       /* no crop, letterbox allowed */
+  object-position: center;
+  display: block;
+}
 /***
 
 ====================================================================
@@ -10986,3 +11245,383 @@ Sidebar
     color: #ffffff;
 }
 
+
+#img figure img {
+  max-height: 540px;
+  width: 100%;
+  height: auto;           /* keeps aspect ratio */
+  display: block;
+}
+
+
+
+
+/* Equal-size logo frames */
+.team-section .image-box .image {
+  height: 150px;              /* all cards same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid #e9eef5;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #002d62;
+}
+
+.team-section .image-box .image img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;        /* no crop, keeps logo proportions */
+  display: block;
+}
+
+/* Optional: a bit taller on large screens */
+@media (min-width: 992px) {
+  .team-section .image-box .image { height: 170px; }
+}
+/* ================================================================================ */
+                                /* Organizatrion Chart */
+/* ================================================================================ */
+
+/* *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+} */
+
+.org-chart {
+  overflow: visible;     /* make sure it doesn’t clip */
+  min-height: 600px;     /* adjust based on your chart’s height */
+  position: relative;    /* ensure children are positioned correctly */
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* Generic styling */
+
+/* body{
+	background: #fafafa;	
+} */
+
+.contentO{
+	width: 100%;
+	max-width: 1142px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+/*
+a:focus{
+	outline: 2px solid #f7f7f7;
+}
+*/
+@media all and (max-width: 767px){
+	.content{
+		padding: 0 20px;
+	}	
+}
+
+#O ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;		
+}
+
+#O ul a{
+	display: block;
+	background: #ccc;
+	border: 4px solid #1d70b8;
+	text-align: center;
+	overflow: hidden;
+	font-size: .7em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #333;
+	height: 70px;
+	margin-bottom: -26px;
+	box-shadow: 4px 4px 9px -4px rgba(0,0,0,0.4);
+	-webkit-transition: all linear .1s;
+	-moz-transition: all linear .1s;
+	transition: all linear .1s;
+}
+
+
+@media all and (max-width: 767px){
+	#O ul a{
+		font-size: 1em;
+	}
+}
+
+
+#O ul a span{
+	top: 50%;
+	margin-top: -0.7em;
+	display: block;
+}
+
+/*
+ 
+ */
+#O h1 {
+  text-align: center;
+}
+.administration > li > a{
+	margin-bottom: 25px;
+}
+
+.director > li > a{
+	width: 50%;
+	margin: 0 auto 0px auto;
+}
+
+.subdirector:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 130px;
+	background: red;
+	border-left: 4px solid #1d70b8;
+	left: 50%;
+	position: relative;
+}
+
+.subdirector,
+.departments{
+	position: absolute;
+	width: 100%;
+}
+
+.subdirector > li:first-child,
+.departments > li:first-child{	
+	width: 18.59894921190893%;
+	height: 64px;
+	margin: 0px -2px 92px 3px;	
+	padding-top: 25px;
+	border-bottom: 4px solid #1d70b8;
+	z-index: 1;	
+}
+
+.subdirector > li:first-child{
+	float: right;
+	right: 31.2%;
+}
+
+.departments > li:first-child{	
+	float: left;
+	left: 31.2%;
+}
+
+.subdirector > li:first-child a,
+.departments > li:first-child a{
+	width: 100%;
+}
+
+.subdirector > li:first-child a{	
+	left: 25px;
+}
+
+@media all and (max-width: 767px){
+	.subdirector > li:first-child,
+	.departments > li:first-child{
+		width: 40%;	
+	}
+
+	.subdirector > li:first-child{
+		right: 10%;
+		margin-right: 2px;
+	}
+
+	.subdirector:after{
+		left: 50%;
+	}
+
+	.departments > li:first-child{
+		left: 10%;
+		margin-left: 2px;
+	}
+}
+
+
+.departments > li:first-child a{
+	right: 25px;
+}
+
+.department:first-child,
+.departments li:nth-child(2){
+	margin-left: 0;
+	clear: left;	
+}
+
+.departments:after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 76.5%;
+	height: 22px;	
+	border-top: 4px solid #1d70b8;
+	border-right: 4px solid #1d70b8;
+	border-left: 4px solid #1d70b8;
+	margin: 0 auto;
+	top: 130px;
+	left: 9.1%
+}
+
+@media all and (max-width: 767px){
+	.departments:after{
+		border-right: none;
+		left: 0;
+		width: 50%;
+	}  
+}
+
+@media all and (min-width: 768px){
+	.department:first-child:before,
+   .department:last-child:before{
+    border:none;
+  }
+}
+
+.department:before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 22px;
+	border-left: 4px solid #1d70b8;
+	z-index: 1;
+	top: -22px;
+	left: 50%;
+	margin-left: -4px;
+}
+
+.department{
+	border-left: 4px solid #1d70b8;
+	width: 18.59894921190893%;
+	float: left;
+	margin-left: 7%;
+	margin-bottom: 60px;
+}
+
+.lt-ie8 .department{
+	width: 18.25%;
+}
+
+@media all and (max-width: 767px){
+	.department{
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.department:before{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 0;
+		height: 60px;
+		border-left: 4px solid #1d70b8;
+		z-index: 1;
+		top: -60px;
+		left: 0%;
+		margin-left: -4px;
+	}
+
+	.department:nth-child(2):before{
+		display: none;
+	}
+}
+
+.department > a{
+	margin: 0 0 -26px -4px;
+	z-index: 1;
+}
+
+.department > a:hover{	
+	height: 80px;
+}
+
+.department > ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.department li{	
+	padding-left: 25px;
+	border-bottom: 4px solid #1d70b8;
+	height: 80px;	
+}
+
+.department li a{
+	background: #1d70b8;
+	top: 48px;	
+	position: absolute;
+	z-index: 1;
+	width: 90%;
+	height: 60px;
+	vertical-align: middle;
+	right: -1px;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background-image: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%) !important;
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.25)), color-stop(100%,rgba(0,0,0,0)))!important;
+	background-image: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%)!important;
+	background-image: -o-linear-gradient(-45deg,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%)!important;
+	background-image: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%)!important;
+	background-image: linear-gradient(135deg,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%)!important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#00000000',GradientType=1 );
+}
+
+.department li a:hover{
+	box-shadow: 8px 8px 9px -4px rgba(0,0,0,0.1);
+	height: 80px;
+	width: 95%;
+	top: 39px;
+	background-image: none!important;
+}
+
+/* Department/ section colors */
+ul.director li a {
+  background: #002d62; 
+  color: #fff;
+  text-transform: uppercase;
+  border: 4px solid #002d62;
+}
+
+.department.dep-a a,
+.department.dep-b a,
+.department.dep-c a,
+.department.dep-d a,
+.department.dep-e a,
+ul.departments.cf li a,
+ul.subdirector li a{
+  background: #1d70b8; 
+  color: #fff;
+  text-transform: uppercase;
+  border: 4px solid #1d70b8;
+}
+
+ul.sections li.section a {
+  background: #38aae1;
+  color: #fff;
+  text-transform: uppercase;
+  border: 0;
+}

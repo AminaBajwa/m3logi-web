@@ -43,5 +43,23 @@ export default defineNuxtConfig({
                 }
             }
         ],
+
+        "@nuxtjs/i18n",
     ],
+
+     i18n: {
+    locales: [
+      { code: "en", name: "English", file: "en-US.json" },
+      { code: "ja", name: "日本語", file: "ja-JP.json" },
+    ],
+    lazy: true, // load languages on demand
+    langDir: "locales/",
+    defaultLocale: "en",
+    strategy: "no_prefix", // optional — keeps URLs clean
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root", // or 'all' if you want redirect on every route
+    },
+  },
 })

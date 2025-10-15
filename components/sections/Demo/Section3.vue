@@ -11,29 +11,19 @@
                 <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                     <div class="inner-column">
                         <div class="sec-title">
-                            <span class="sub-title">Who We Are </span>
-                            <h2>Your Trusted NVOCC & Digital Shipping Partner</h2>
-                            <div class="text">M3Logi is an easy-to-use shipping service with online booking and flexible schedules tailored to your needs.
+                            <span class="sub-title">{{ $t('about.subtitle') }}</span>
+                            <h2>{{ $t('about.title') }}</h2>
+                            <div class="text">
+                                {{ $t('about.text_line1') }}
                                 <br><br>
-                                As a licensed NVOCC, we legally act as a carrier and assume full carrier responsibilities—delivering end‑to‑end logistics, from real‑time cargo tracking to Bill of Lading (B/L) issuance.
+                                {{ $t('about.text_line2') }}
                             </div>
                         </div>
-                        <!-- <div class="content-box">
-                            <div class="about-block">
-                                <i class="icon flaticon-worldwide-shipping"></i>
-                                <h4 class="title">Worldwide services </h4>
-                                <p class="text">We’re always provide people a complete solution focused of any business.</p>
-                            </div>
-
-                            <div class="about-block">
-                                <i class="icon flaticon-3d-cube"></i>
-                                <h4 class="title">Local services</h4>
-                                <p class="text">We’re always provide people a complete solution focused of any business.</p>
-                            </div>
-                        </div> -->
 
                         <div class="btm-box">
-                            <NuxtLink to="/page-about" class="theme-btn btn-style-one"><span class="btn-title">Explore Services</span></NuxtLink>
+                            <NuxtLink to="/page-about" class="theme-btn btn-style-one">
+                                <span class="btn-title">{{ $t('about.button') }}</span>
+                            </NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -43,8 +33,9 @@
                     <div class="inner-column" id="img">
                         <figure class="image-1"><img src="/images/resource/img1.png" alt=""></figure>
                         <figure class="image-2"><img src="/images/resource/img2.png" alt=""></figure>
-                        <div class="experience"><strong><i class="icon flaticon-global"></i> 12+<br> Years</strong> Working
-                            Exprience</div>
+                        <div class="experience">
+                            <strong><i class="icon flaticon-global"></i> {{ $t('about.experience_years') }}<br> {{ $t('about.experience_text') }}</strong>
+                        </div>
                     </div>
                 </div>
             </div>

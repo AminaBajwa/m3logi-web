@@ -7,7 +7,7 @@
     <!-- <SectionsAboutSection1/> -->
     <!-- <OrganizationChart :model="nodes" /> -->
     <SectionsAboutSection2/>
-    <SectionsAboutSection6/>
+    <!-- <SectionsAboutSection6/> -->
     <SectionsAboutSection7/>
     <!-- <SectionsAboutSection12/> -->
    

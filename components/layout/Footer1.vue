@@ -1,3 +1,12 @@
+<script setup>
+const downloadPDF = () => {
+  const link = document.createElement('a')
+  link.href = '/2025ENG.pdf'
+  link.download = '2025ENG.pdf'
+  link.click()
+}
+</script>
+
 <template>
     <footer class="main-footer">
         <div class="bg-image" style="background-image: url(./images/background/5.jpg)"></div>
@@ -14,8 +23,7 @@
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon flaticon-international-shipping-2"></i></div>
                             <h4 class="title">Address</h4>
-                            <div class="text">Aks Hatchobori Bldg 5 Floor, 2 Chome 27-6,
-Hatchobori, Chuo-ku, Tokyo-to Japan</div>
+                            <div class="text">Aks Hatchobori Bldg 5 Floor, 2 Chome 27-6, Hatchobori, Chuo-ku, Tokyo-to Japan</div>
                         </div>
                     </div>
 
@@ -55,8 +63,12 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
                                 <NuxtLink to="/"><img src="/images/logoM3Logi-.png" alt=""></NuxtLink>
                             </div>
                             <div class="text">m3Logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>
-                            <NuxtLink to="/page-about" class="theme-btn btn-style-one hvr-light small"><span
-                                    class="btn-title">About</span></NuxtLink>
+                            <!-- <NuxtLink to="/page-about" class="theme-btn btn-style-one hvr-light small"><span
+                                    class="btn-title">Company Profile</span></NuxtLink> -->
+
+                             <NuxtLink to="#" class="theme-btn btn-style-one hvr-light small" @click.prevent="downloadPDF">
+                                <span class="btn-title">Company Profile</span>
+                            </NuxtLink>       
                         </div>
                     </div>
 
@@ -66,7 +78,7 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
                             <h3 class="widget-title">Service</h3>
                             <ul class="user-links">
                                 <li>
-                                    <NuxtLink to="#">Vehicle Transportation</NuxtLink>
+                                    <NuxtLink to="#"> Land Transportation</NuxtLink>
                                 </li>
                                 <li>
                                     <NuxtLink to="#">Ocean Transportation</NuxtLink>
@@ -78,7 +90,7 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
                                     <NuxtLink to="#">Air Cargo</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Container Drayage Services</NuxtLink>
+                                    <NuxtLink to="#">Customs Clearance</NuxtLink>
                                 </li>
                                 
                             </ul>
@@ -161,17 +173,17 @@ Hatchobori, Chuo-ku, Tokyo-to Japan</div>
 
                     <ul class="social-icon-two">
                         <li>
-                            <NuxtLink to="#"><i class="fab fa-facebook"></i></NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="#"><i class="fab fa-twitter"></i></NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="#"><i class="fab fa-pinterest"></i></NuxtLink>
-                        </li>
-                        <li>
-                            <NuxtLink to="#"><i class="fab fa-instagram"></i></NuxtLink>
-                        </li>
+                        <NuxtLink to="https://web.facebook.com/m3Logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
+                    </li>
+                    <!-- <li>
+                        <NuxtLink to="https://twitter.com/m3Logi"><span class="fab fa-tiktok"></span></NuxtLink>
+                    </li> -->
+                    <li>
+                        <NuxtLink to="https://www.instagram.com/m3.logi/"><span class="fab fa-instagram"></span></NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="#"><span class="fab fa-youtube"></span></NuxtLink>
+                    </li>
                     </ul>
                 </div>
             </div>

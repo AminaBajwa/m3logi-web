@@ -84,8 +84,21 @@
         <li>
             <NuxtLink to="/">Home</NuxtLink>
         </li>
-        <li>
+        <!-- <li>
             <NuxtLink to="/page-about">About</NuxtLink>
+            <NuxtLink to="page-gallery">Gallery</NuxtLink>
+            
+        </li> -->
+         <li class="dropdown">
+            <NuxtLink to="/page-about">About</NuxtLink>
+            <ul>
+                <li>
+                    <NuxtLink to="page-gallery">Gallery</NuxtLink>
+                </li>
+                <!-- <li>
+                    <NuxtLink to="/page-service-details">Service Details</NuxtLink>
+                </li> -->
+            </ul>
         </li>
         <li class="dropdown">
             <NuxtLink to="#">Services</NuxtLink>

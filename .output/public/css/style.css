@@ -5957,6 +5957,13 @@ Section Title
     left: 50%;
     margin-left: -80px;
     top: 135px;
+    text-align: center; 
+}
+
+#cnt-title{
+     font-size: 28px;           /* Increases font size */
+    font-weight: bold;         /* Optional: makes text bold */
+    line-height: 1.4;
 }
 
 .offer-section .image-column .caption-box {
@@ -11593,4 +11600,32 @@ ul.sections li.section a {
     font-size: large;
     color: white;
     margin-bottom: 30px;
+}
+
+
+
+.swiper-navigation {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  pointer-events: all;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #ffcc00;
 }

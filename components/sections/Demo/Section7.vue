@@ -15,9 +15,9 @@
                 <div class="content-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column wow fadeInLeft">
                         <div class="sec-title light">
-                            <span class="sub-title">Why Choose Us</span>
-                            <h2>Simple Online Booking, Full Carrier Responsibility.</h2>
-                            <div class="text">We provide trusted, end-to-end logistics solutions with reliable shipping, strong global coverage, and unmatched expertise in vehicle handling and transportation</div>
+                            <span class="sub-title">{{ $t('why.subtitle') }}</span>
+                            <h2 v-html="$t('why.title')"></h2>
+                            <div class="text">{{ $t('why.description') }}</div>
                         </div>
 
                         <div class="row">
@@ -25,8 +25,8 @@
                             <div class="feature-block-four col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <i class="icon flaticon-delivery-box-4"></i>
-                                    <h4 class="title">Total Logistics<br>Solutions</h4>
-                                    <p class="text">End-to-end shipping made simple and seamless.</p>
+                                    <h4 class="title" v-html="$t('why.feature1.title')"></h4>
+                                    <p class="text">{{ $t('why.feature1.text') }}</p>
                                 </div>
                             </div>
 
@@ -34,12 +34,11 @@
                             <div class="feature-block-four col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <i class="icon flaticon-international-shipping-3"></i>
-                                    <h4 class="title">Shipping <br>Worldwide</h4>
-                                    <p class="text">Global coverage with flexible and trusted schedules.</p>
+                                    <h4 class="title" v-html="$t('why.feature2.title')"></h4>
+                                    <p class="text">{{ $t('why.feature2.text') }}</p>
                                 </div>
                             </div>
                         </div>
-                        
 
                     </div>
                 </div>
@@ -50,10 +49,11 @@
                     <div class="inner-column">
                         <div class="info-box bounce-y">
                             <i class="icon flaticon-customer-service"></i>
-                            <strong>Global Coverage,<br> Trusted Schedules</strong>
+                            <strong v-html="$t('why.info')"></strong>
                         </div>
                         <div class="video-box">
-                            <NuxtLink @click="openVideo" class="play-now-two lightbox-image"><i class="icon fa fa-play"></i>
+                            <NuxtLink @click="openVideo" class="play-now-two lightbox-image">
+                                <i class="icon fa fa-play"></i>
                             </NuxtLink>
                             <img src="/images/icons/arrow-3.png" alt="" class="arrow">
                         </div>
@@ -62,15 +62,16 @@
             </div>
         </div>
     </section>
+
     <modal-video :channel="videoChannel" :videoId="videoId" v-model:isOpen="videoIsOpen" />
 </template>
+
 <script>
 import ModalVideo from '../../components/elements/ModalVideo.vue'
+
 export default {
-    components: {
-        ModalVideo
-    },
-    data: () => {
+    components: { ModalVideo },
+    data() {
         return {
             videoIsOpen: false
         }
@@ -81,12 +82,10 @@ export default {
         }
     },
     computed: {
-        videoChannel: function () {
-            //Logic to extract based on URL
+        videoChannel() {
             return 'youtube'
         },
-        videoId: function () {
-            //Logic to extract based on URL
+        videoId() {
             return 'QiqQoqtnHrk'
         }
     }

@@ -1,7 +1,13 @@
+
+
+
 <template>
     <!-- <header  :class="{ 'sticky': scroll }">
         Header 1
     </header> -->
+
+    
+    
     <header class="main-header header-style-one" :class="{ 'moblie-search-active': isSearch }">
         <!-- Header Top -->
         <div class="header-top">
@@ -13,21 +19,33 @@
                         <NuxtLink to="tel:+81-3-6262-8600">+81-3-6262-8600</NuxtLink>
                     </li>
                     <li><i class="fa fa-user"></i>
-                        <NuxtLink to="">login</NuxtLink>
+                        <NuxtLink to="https://area.m3logi.com/">login</NuxtLink>
                     </li>
-                    <li><i class="fa fa-search"></i>
+                    <!-- <li><i class="fa fa-search"></i>
                         <NuxtLink to="">Track your Shipment</NuxtLink>
-                    </li>
-                     <li>Select Language
-                        <NuxtLink to=""><span class="flag-icon flag-icon-us"></span></NuxtLink>
-                        <NuxtLink to=""><span class="flag-icon flag-icon-jp"></span></NuxtLink>
-                    </li>
+                    </li> -->
+                     <li class="language-switcher">
+                            <i class="fa fa-globe"></i>
 
-                    <li>
-                        <i class="fa fa-globe"></i>
-                        <NuxtLink to=""><span class="flag-icon flag-icon-us"></span> Eng</NuxtLink>
-                        <NuxtLink to=""><span class="flag-icon flag-icon-jp"></span> Jpn</NuxtLink>
-                    </li>
+                            <!-- English -->
+                            <NuxtLink
+                                to=""
+                                @click.prevent="$i18n.setLocale('en')"
+                                :class="{'active': $i18n.locale === 'en'}"
+                            >
+                                <span class="fi fi-us"></span> Eng
+                            </NuxtLink>
+
+                            <!-- Japanese -->
+                            <NuxtLink
+                                to=""
+                                @click.prevent="$i18n.setLocale('ja')"
+                                :class="{'active': $i18n.locale === 'ja'}"
+                            >
+                                <span class="fi fi-jp"></span> Jpn
+                            </NuxtLink>
+                            </li>
+
                 </ul>
             </div>
 
@@ -36,14 +54,14 @@
                     <li>
                         <NuxtLink to="https://web.facebook.com/m3Logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
                     </li>
-                    <li>
-                        <NuxtLink to="https://twitter.com/m3Logi"><span class="fab fa-twitter"></span></NuxtLink>
-                    </li>
                     <!-- <li>
-                        <NuxtLink to="#"><span class="fab fa-pinterest-p"></span></NuxtLink>
+                        <NuxtLink to="https://twitter.com/m3Logi"><span class="fab fa-tiktok"></span></NuxtLink>
                     </li> -->
                     <li>
                         <NuxtLink to="https://www.instagram.com/m3.logi/"><span class="fab fa-instagram"></span></NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="#"><span class="fab fa-youtube"></span></NuxtLink>
                     </li>
                 </ul>
             </div>
@@ -135,13 +153,16 @@
                         <NuxtLink to="https://web.facebook.com/m3Logi/"><span class="fab fa-facebook-square"></span></NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://twitter.com/m3Logi"><span class="fab fa-twitter"></span></NuxtLink>
+                        <NuxtLink to="https://twitter.com/m3Logi"> <span class="fab fa-youtube"></span></NuxtLink>
                     </li>
                     <!-- <li>
                         <NuxtLink to="#"><span class="fab fa-pinterest-p"></span></NuxtLink>
                     </li> -->
                     <li>
                         <NuxtLink to="https://www.instagram.com/m3.logi/"><span class="fab fa-instagram"></span></NuxtLink>
+                    </li>
+                      <li>
+                        <NuxtLink to="https://www.instagram.com/m3.logi/"><span class="fab fa-tiktok"></span></NuxtLink>
                     </li>
                 </ul>
             </nav>

@@ -108,6 +108,11 @@ onBeforeUnmount(() => {
 
 <template>
   <div class="orgchart-wrapper" :style="wrapperStyle">
+    <div class="sec-title text-center">
+      <span class="sub-title">{{ $t('orgchart.subtitle') }}</span>
+      <h2>{{ $t('orgchart.title') }}</h2>
+    </div>
+
     <div ref="el" class="orgchart-container"></div>
   </div>
 </template>
@@ -222,9 +227,9 @@ onMounted(async () => {
       return `
         <div style="width:${w}px;height:${h}px;background:#fff;border-radius:12px;
                     box-shadow:0 4px 24px rgba(0,0,0,0.08);overflow:hidden;border:1px solid #e6e8eb;">
-          <div style="height:6px;background:#39a845;"></div>
+          <div style="height:6px;background:#3E90E8;"></div>
           <div style="display:flex;gap:12px;align-items:center;padding:14px;">
-            <img src="${image || 'https://i.pravatar.cc/100'}"
+            <img src="${'https://static.vecteezy.com/system/resources/previews/003/715/527/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector.jpg' || 'https://i.pravatar.cc/100'}"
                  style="width:56px;height:56px;border-radius:50%;object-fit:cover;border:2px solid #eaeaea;" />
             <div style="display:flex;flex-direction:column;">
               <div style="font-weight:600;color:#0f172a;font-size:15px;line-height:1.2">${name || ''}</div>

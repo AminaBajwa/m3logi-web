@@ -1,0 +1,222 @@
+{
+  "hero": {
+    "title_line1": "A Single Platform",
+    "title_line2_part1": "for",
+    "title_line2_part2": " Global",
+    "title_line2_part3": " Trade",
+    "subtitle": "We connect businesses to global markets with trusted logistics, seamless shipping, and end-to-end transportation solutions — all on one platform.",
+    "button": "Explore More",
+    "partner_text": "Trusted Partner"
+  },
+
+  "ocean": {
+    "title_part1": "Global Ocean",
+    "title_part2": " Freight ",
+    "title_part3": "Solutions",
+    "subtitle": "Partnering with major shipping lines, we offer RORO and container shipping to key global ports — connecting your business worldwide.",
+    "button": "Explore More",
+    "partner_text": "Driven Forward"
+  },
+    "container": {
+    "title_part1": "Trusted and Safe",
+    "title_part2": " Container",
+    "title_part3": " Shipment",
+    "subtitle": "We provide efficient container vanning and drayage services with trained professionals to ensure your shipment arrives safely and on time.",
+    "button": "Explore More",
+    "partner_text": "Delivering Worldwide"
+  },
+
+  "inspection": {
+    "title_part1": "Vehicle Inspection",
+    "title_part2": " & ",
+    "title_part3": "Maintenance",
+    "subtitle": "We provide professional vehicle inspection, maintenance, and pre-export inspection services to meet international standards and regulations.",
+    "button": "Explore More",
+    "partner_text": "Global Network"
+  },
+ 
+  "features": {
+    "title_line1": "M3Logi prides itself",
+    "title_line2": "on core values that shape our business.",
+    "item1": "Perseverance",
+    "item2": "Reliability",
+    "item3": "Efficiency"
+
+},
+  "about": {
+    "subtitle": "Who We Are",
+    "title": "Your Trusted NVOCC & Digital Shipping Partner",
+    "text_line1": "M3Logi is an easy-to-use shipping service with online booking and flexible schedules tailored to your needs.",
+    "text_line2": "As a licensed NVOCC, we legally act as a carrier and assume full carrier responsibilities—delivering end‑to‑end logistics, from real-time cargo tracking to Bill of Lading (B/L) issuance.",
+    "button": "Explore Services",
+    "experience_years": "12+",
+    "experience_text": "Years Working Experience"
+  },
+
+  "services": {
+    "subtitle": "Services by M3Logi",
+    "label": "Service",
+    "maintitle": "We provide services to take your goods \n where they need to go.",
+    "land": {
+      "title": "Land Transportation",
+      "text": "Safe and timely delivery across road networks."
+    },
+    "air": {
+      "title": "Air \n Cargo",
+      "text": "Fast and reliable global air freight solutions."
+    },
+    "ocean": {
+      "title": "Ocean Transportation",
+      "text": "Cost-effective worldwide sea freight services."
+    },
+    "custom": {
+      "title": "Custom \n Clearance",
+      "text": "Hassle-free customs clearance for all shipments."
+    },
+    "yard": {
+      "title": "Yard \n Services",
+      "text": "Efficient yard management ensuring smooth operations."
+    },
+    "drayage": {
+      "title": "Drayage \n Services",
+      "text": "Quick and secure container transport from port to door."
+    },
+    "inspection": {
+      "title": "Vehicle \n Inspection",
+      "text": "Expert care to extend vehicle life and safety."
+    },
+    "maintenance": {
+      "title": "Vehicle Maintenance",
+      "text": "Keeping your fleet in top performance condition."
+    }
+  },
+   "cta": {
+    "subtitle": "Get in touch with us anytime",
+    "ctatitle": "Looking for the best \n logistics & transport service?",
+    "button": "Get A Quote"
+  },
+  "why": {
+    "subtitle": "Why Choose Us",
+    "title": "Simple Online Booking, Full Carrier Responsibility.",
+    "description": "We provide trusted, end-to-end logistics solutions with reliable shipping, strong global coverage, and unmatched expertise in vehicle handling and transportation.",
+    "feature1": {
+      "title": "Total Logistics\nSolutions",
+      "text": "End-to-end shipping made simple and seamless."
+    },
+    "feature2": {
+      "title": "Shipping\nWorldwide",
+      "text": "Global coverage with flexible and trusted schedules."
+    },
+    "info": "Global Coverage,\n Trusted Schedules"
+  },
+  "brands": {
+    "subtitle": "Our Brands",
+    "title": "Specialist units delivering\\nend-to-end logistics by M3Logi",
+
+    "marinelogi": {
+      "name": "MARINELOGI — Ocean Transportation",
+      "desc": "Fast and Secure Ocean Shipping Worldwide"
+    },
+    "carcarrier": {
+      "name": "CAR CARRIER — Vehicle Transportation",
+      "desc": "End-to-End Vehicle Transport Nationwide"
+    },
+    "automechanic": {
+      "name": "AUTO MECHANIC M3Logi — Maintenance & PEI",
+      "desc": "Certified Repairs & Pre-Export Inspection"
+    },
+    "warehouse": {
+      "name": "WAREHOUSE M3Logi — Yard Services",
+      "desc": "Secure Yard & Warehouse Operations"
+    },
+    "drayage": {
+      "name": "DRAYAGE M3Logi — Container Drayage",
+      "desc": "On-Time Container Drayage Services"
+    },
+    "custombroker": {
+      "name": "CUSTOM BROKER M3Logi — Customs Brokerage",
+      "desc": "Fast, Compliant Customs Clearance"
+    }
+  },
+  "ceo": {
+    "subtitle": "Get to know us",
+    "title": "Global Logistics Solution Provider",
+    "subtitle2": "Simplify your freight and logistics needs with a personal approach.",
+    "ceoMessageTitle": "Message from CEO",
+    "ceoQuote": "We support our customers in all aspects of their cargo from storage, transportation, and delivery, and strive for their benefit.\nIf you are considering importing or exporting, please contact us and we will be happy to assist you.",
+    "ceoNameAndTitle": "Muzammal Majeed, CEO & Founder",
+    "ceoName": "Muzammal Majeed",
+    "ceoDesignation": "CEO & Founder of Company"
+  },
+   "work": {
+    "subtitle": "How It Works",
+    "title": "Ship with M3Logi in 3 Easy Steps",
+    "description": "Online booking with a licensed NVOCC — fast, compliant, and trackable.",
+    "step1Title": "Get an instant online quotation",
+    "step2Title": "Confirm booking & drop cargo",
+    "step3Title": "Track, Ship & Receive Documents"
+  },
+  "companyProfile": {
+    "title": "Company Profile",
+    "subtitle": "M3Logi, a single window approach for transporters, ports, customs and shipping lines.",
+    "description": "M3Logi is an ideal solution to acquire combined services provided by transporters, port yards, customs, and shipping lines. One of the most convenient shipping services in the world, M3Logi offers online booking with various shipping schedules according to client requirements. With competitive rates and as a non-vessel operating common carrier (NVOCC), M3Logi provides comprehensive services including shipment tracking and bill of lading. We aim to offer our customers complete 'carrier-to-shipper' and 'shipper-to-carrier' solutions globally.",
+    "exploreMore": "Explore More"
+  },
+  "mission": {
+    "subtitle": "Our Mission",
+    "title": "Your Destination Is Our Mission",
+    "tagline": "Since 2012, m3Logi has been simplifying global freight and logistics.",
+    "paragraph1": "We provide a single-window system that seamlessly integrates transporters, port yards, customs, and shipping lines—making logistics management easier than ever.",
+    "paragraph2": "With our easy-to-use online platform, you can book shipments instantly and choose from a wide range of flexible shipping schedules that best fit your needs. Our digital tools help you manage, monitor, and create shipments online, ensuring transparency and full control over your cargo journey."
+  
+  },
+  "vision": {
+    "subtitle": "Our Vision",
+    "title": "Driving the Future of Global Logistics",
+    "tagline": "Our vision is to redefine the way the world moves cargo.",
+    "paragraph1": "We aim to create a smarter, faster, and more sustainable logistics ecosystem where technology bridges every gap in international trade.",
+    "paragraph2": "We envision a future where businesses of all sizes—from local exporters to multinational corporations—can access seamless freight solutions at their fingertips. By combining digital innovation with our global expertise, we strive to eliminate complexity, reduce delays, and empower customers with complete visibility over their shipments.",
+    "paragraph3": "Our goal is to build a connected logistics network that not only simplifies trade but also fosters growth, trust, and opportunity for our partners worldwide."
+  },
+  "orgchart": {
+    "subtitle": "M3Logi",
+    "title": "Organization Chart"
+  },
+  "aboutservices": {
+    "subtitle": "Our Services",
+    "title": "Services We Provide",
+    "tagline": "At m3Logi we ensure to connect the world through our unparalleled transport services.",
+    "text1": "We are a 360-degree cargo freight service provider with extensive facilities to transport your vehicles and other goods.",
+    "text2": "As pioneers in the industry, we are equipped to provide complete cargo and logistics arrangements — from domestic deliveries to worldwide transport."
+  },
+
+  "offerings": {
+    "01Service": "01 Service",
+    "02Service": "02 Service",
+    "03Service": "03 Service",
+    "04Service": "04 Service",
+    "05Service": "05 Service",
+    "06Service": "06 Service",
+
+    "landTransportationTitle": "Land Transportation",
+    "landTransportationText": "We offer our customers the matchless land transport services to transport your vehicles from any Auction or Stock-Yard to your required port. We ensure safe and swift vehicle delivery in collaboration with trusted drivers and vendors with a simplified process.",
+
+    "oceanTransportTitle": "Ocean Transport",
+    "oceanTransportText": "We offer our customers prime ocean transport services with the association of top of the line shipping companies worldwide to ensure the efficient delivery of the vehicle to any port of the world. Our skilled team simplifies the process for our customers for a hassle free delivery.",
+
+    "customsClearanceTitle": "Customs Clearance",
+    "customsClearanceText": "m3Logi has a vision to facilitate its customers at every level. To assist our customers with the complexities of customs rules and regulations, we offer customs clearance services through expert clearance agents. We strive to simplify every aspect of the trade for our customers.",
+
+    "scmConsultingTitle": "SCM Consulting",
+    "scmConsultingText": "m3Logi provides its customers with easy Supply Chain Management System to cater to the complete process from the beginning till the end. As we aim to serve our customers comprehensively, we save them from all kinds of hassle and responsibility.",
+
+    "yardServicesTitle": "Yard Services",
+    "yardServicesText": "m3Logi has yards located at strategic locations all over Japan for the safe and secure storage of the vehicle. Additionally, we have trained staff at the yards for the up-keep of the goods stored.",
+
+    "airFreightTitle": "Air Freight",
+    "airFreightText": "m3Logi offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support."
+  }
+
+
+}
+

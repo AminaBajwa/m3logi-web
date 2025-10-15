@@ -7,46 +7,42 @@
 
         <div class="auto-container">
             <div class="sec-title text-center">
-                <span class="sub-title">How It Work</span>
-                <h2>Ship with M3Logi in 3 Easy Steps</h2>
-                <!-- <P>Online booking with a licensed NVOCC—fast, compliant, and trackable.</P> -->
+                <span class="sub-title">{{ $t('work.subtitle') }}</span>
+                <h2>{{ $t('work.title') }}</h2>
+                <!-- <p>{{ $t('work.description') }}</p> -->
             </div>
 
             <div class="row">
-                <!-- Work Block -->
+                <!-- Work Block 1 -->
                 <div class="work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight">
                     <div class="inner-box">
                         <div class="icon-box">
                             <span class="count">01</span>
-                              <i class="icon flaticon-stock-1"></i>
-                            <!-- <i class="icon flaticon-delivery-box-4"></i> -->
+                            <i class="icon flaticon-stock-1"></i>
                         </div>
-                        <h4 class="title">Get an instant <br>online quotation</h4>
-                        <!-- <P>Origin, destination, cargo, <br>and preferred schedule.</P> -->
+                        <h4 class="title">{{ $t('work.step1Title') }}</h4>
                     </div>
                 </div>
 
-                <!-- Work Block -->
+                <!-- Work Block 2 -->
                 <div class="work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
                     <div class="inner-box">
                         <div class="icon-box">
                             <span class="count">02</span>
-                            <!-- <i class="icon flaticon-stock-1"></i> -->
-                              <!-- <i class="icon flaticon-delivery-box-4"></i> -->
-                               <i class="icon flaticon-checklist"></i>
+                            <i class="icon flaticon-checklist"></i>
                         </div>
-                        <h4 class="title">Confirm booking<br>& drop cargo</h4>
+                        <h4 class="title">{{ $t('work.step2Title') }}</h4>
                     </div>
                 </div>
 
-                <!-- Work Block -->
+                <!-- Work Block 3 -->
                 <div class="work-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="600ms">
                     <div class="inner-box">
                         <div class="icon-box">
                             <span class="count">03</span>
-                               <i class="icon flaticon-location"></i>
+                            <i class="icon flaticon-location"></i>
                         </div>
-                        <h4 class="title">Track, Ship & <br>Receive Documents</h4>
+                        <h4 class="title">{{ $t('work.step3Title') }}</h4>
                     </div>
                 </div>
             </div>

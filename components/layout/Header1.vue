@@ -19,7 +19,7 @@
                         <NuxtLink to="tel:+81-3-6262-8600">+81-3-6262-8600</NuxtLink>
                     </li>
                     <li><i class="fa fa-user"></i>
-                        <NuxtLink to="https://area.m3logi.com/">login</NuxtLink>
+                        <NuxtLink to="https://area.m3logi.com/"> {{ $t('header.login') }}</NuxtLink>
                     </li>
                     <!-- <li><i class="fa fa-search"></i>
                         <NuxtLink to="">Track your Shipment</NuxtLink>
@@ -33,7 +33,7 @@
                                 @click.prevent="$i18n.setLocale('en')"
                                 :class="{'active': $i18n.locale === 'en'}"
                             >
-                                <span class="fi fi-us"></span> Eng
+                                <span class="fi fi-us"></span> {{ $t('header.langEn') }}
                             </NuxtLink>
 
                             <!-- Japanese -->
@@ -42,7 +42,7 @@
                                 @click.prevent="$i18n.setLocale('ja')"
                                 :class="{'active': $i18n.locale === 'ja'}"
                             >
-                                <span class="fi fi-jp"></span> Jpn
+                                <span class="fi fi-jp"></span> {{ $t('header.langJa') }}
                             </NuxtLink>
                             </li>
 
@@ -95,8 +95,7 @@
 
                         <!-- <NuxtLink to="#" class="ui-btn"><i class="lnr-icon-shopping-cart"></i></NuxtLink> -->
 
-                        <NuxtLink to="/page-contact" class="theme-btn btn-style-one alternate"><span class="btn-title">Get A
-                                Quote</span></NuxtLink>
+                        <NuxtLink to="/page-contact" class="theme-btn btn-style-one alternate"><span class="btn-title">{{ $t('header.getQuote') }}</span></NuxtLink>
 
                         <!-- Mobile Nav toggler -->
                         <div class="mobile-nav-toggler" @click="handleToggled"><span class="icon lnr-icon-bars"></span>
@@ -126,7 +125,7 @@
                         <!-- Contact Info Box -->
                         <div class="contact-info-box">
                             <i class="icon lnr-icon-phone-handset"></i>
-                            <span class="title">Call Now</span>
+                            <span class="title">{{ $t('header.callNow') }}</span>
                             <NuxtLink to="tel:+92880098670">+92 (8800) - 98670</NuxtLink>
                         </div>
                     </li>
@@ -134,7 +133,7 @@
                         <!-- Contact Info Box -->
                         <div class="contact-info-box">
                             <span class="icon lnr-icon-envelope1"></span>
-                            <span class="title">Send Email</span>
+                            <span class="title">{{ $t('header.sendEmail') }}</span>
                             <NuxtLink to="mailto:help@company.com">help@company.com</NuxtLink>
                         </div>
                     </li>
@@ -142,7 +141,7 @@
                         <!-- Contact Info Box -->
                         <div class="contact-info-box">
                             <span class="icon lnr-icon-clock"></span>
-                            <span class="title">Send Email</span>
+                            <span class="title">{{ $t('header.sendEmail') }}</span>
                             Mon - Fri 9:00 - 5:00, Saturday, Sunday - CLOSED
                         </div>
                     </li>

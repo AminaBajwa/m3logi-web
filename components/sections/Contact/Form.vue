@@ -2,185 +2,103 @@
 	<!--Contact Details Start-->
 	<section class="contact-details">
 		<div class="container">
-			<div class="row">
-				<div class="col-xl-5 col-lg-6">
-					<div class="contact-details__right">
-						<div class="sec-title">
-							<span class="sub-title">Need any help?</span>
-							<h2>Get in touch with us</h2>
-							<div class="text">You can contact us for any kind of query or request, you can get information regarding any business you want to do with us and you can also demand any offer you wish to avail from ourservices. We value your feedback on the services we provide at m3Logi, share your thoughts with us.</div>
-						</div>
-						<ul class="list-unstyled contact-details__info">
-							<li>
-								<div class="icon">
-									<span class="lnr-icon-phone-plus"></span>
-								</div>
-								<div class="text">
-									<h6>Have any question?</h6>
-									<NuxtLink to="tel:980089850"><span>Free</span> +81-3-6262-8600</NuxtLink>
-								</div>
-							</li>
-							<li>
-								<div class="icon">
-									<span class="lnr-icon-envelope1"></span>
-								</div>
-								<div class="text">
-									<h6>Write email</h6>
-									<NuxtLink to="mailto:sales@m3Logi.com ">sales@m3Logi.com </NuxtLink>
-								</div>
-							</li>
-							<li>
-								<div class="icon">
-									<span class="lnr-icon-location"></span>
-								</div>
-								<div class="text">
-									<h6>Visit anytime</h6>
-									<span>AKS Hatchobori Bldg 5F,Tokyo-to 104-0032</span>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-xl-7 col-lg-6">
-					<div class="sec-title">
-						<span class="sub-title">Send us email</span>
-						<h2>Feel free to write</h2>
-					</div>
-					<!-- Contact Form -->
-					<form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="mb-3">
-									<label>Name <small>*</small></label>
-									<input name="form_name" class="form-control" type="text" placeholder="Enter Name" />
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="mb-3">
-									<label>Email <small>*</small></label>
-									<input name="form_email" class="form-control required email" type="email" placeholder="Enter Email" />
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="mb-3">
-									<label>Subject <small>*</small></label>
-									<input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject" />
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="mb-3">
-									<label>Phone</label>
-									<input name="form_phone" class="form-control" type="text" placeholder="Enter Phone" />
-								</div>
-							</div>
-						</div>
-						<div class="mb-3">
-							<label>Message</label>
-							<textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
-						</div>
-						<div class="mb-3">
-							<input name="form_botcheck" class="form-control" type="hidden" value="" />
-							<button type="submit" class="theme-btn btn-style-one me-3" data-loading-text="Please wait..."><span class="btn-title">Send message</span></button>
-							<button type="reset" class="theme-btn btn-style-one"><span class="btn-title">Reset</span></button>
-						</div>
-					</form>
-					<!-- Contact Form Validation-->
-				</div>
-			</div>
+		<div class="row">
+  <div class="col-xl-5 col-lg-6">
+    <div class="contact-details__right">
+      <div class="sec-title">
+        <span class="sub-title">{{ $t('contact.needHelp.subTitle') }}</span>
+        <h2>{{ $t('contact.needHelp.title') }}</h2>
+        <div class="text">{{ $t('contact.needHelp.text') }}</div>
+      </div>
+      <ul class="list-unstyled contact-details__info">
+        <li>
+          <div class="icon">
+            <span class="lnr-icon-phone-plus"></span>
+          </div>
+          <div class="text">
+            <h6>{{ $t('contact.info.question') }}</h6>
+            <NuxtLink to="tel:980089850"><span>Free</span> {{ $t('contact.address.phone') }}</NuxtLink>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <span class="lnr-icon-envelope1"></span>
+          </div>
+          <div class="text">
+            <h6>{{ $t('contact.info.email') }}</h6>
+            <NuxtLink to="mailto:sales@m3Logi.com">sales@m3Logi.com</NuxtLink>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <span class="lnr-icon-location"></span>
+          </div>
+          <div class="text">
+            <h6>{{ $t('contact.info.visit') }}</h6>
+            <span>{{ $t('contact.address.location') }}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-xl-7 col-lg-6">
+    <div class="sec-title">
+      <span class="sub-title">{{ $t('contact.form.sendEmail') }}</span>
+      <h2>{{ $t('contact.form.feelFree') }}</h2>
+    </div>
+
+    <form id="contact_form" name="contact_form" action="includes/sendmail.php" method="post">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="mb-3">
+            <label>{{ $t('contact.form.name') }} <small>*</small></label>
+            <input name="form_name" class="form-control" type="text" placeholder="{{ $t('contact.form.name') }}" />
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="mb-3">
+            <label>{{ $t('contact.form.email') }} <small>*</small></label>
+            <input name="form_email" class="form-control required email" type="email" placeholder="{{ $t('contact.form.email') }}" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="mb-3">
+            <label>{{ $t('contact.form.subject') }} <small>*</small></label>
+            <input name="form_subject" class="form-control required" type="text" placeholder="{{ $t('contact.form.subject') }}" />
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="mb-3">
+            <label>{{ $t('contact.form.phone') }}</label>
+            <input name="form_phone" class="form-control" type="text" placeholder="{{ $t('contact.form.phone') }}" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label>{{ $t('contact.form.message') }}</label>
+        <textarea name="form_message" class="form-control required" rows="5" placeholder="{{ $t('contact.form.message') }}"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <input name="form_botcheck" class="form-control" type="hidden" value="" />
+        <button type="submit" class="theme-btn btn-style-one me-3" data-loading-text="Please wait...">
+          <span class="btn-title">{{ $t('contact.form.sendBtn') }}</span>
+        </button>
+        <button type="reset" class="theme-btn btn-style-one">
+          <span class="btn-title">{{ $t('contact.form.resetBtn') }}</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
 		</div>
 
-		<div class="careers-sec1">
-		 <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="absdv">
-            <h2 class="head-loc3">Office Locations</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <!-- Durban Office -->
-        <div class="col-lg-3 col-md-6 col-sm-6 nopad-right cntc">
-          <div class="loc-images img-trans">
-            <img src="/images/durban-of.png" alt="Durban Office">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 cntc">
-          <p class="jpn-lochd">DURBAN OFFICE</p>
-          <p class="jpnparag">m3Logi 1 (PTY) LTD OFFICE: 403, 4TH FLOOR CORPORATE PLACE, 9 DOROTHY NYEMBE STREET, DURBAN, 4001 SOUTH AFRICA</p>
-          <a href="tel:+0027313010504" class="locphn">
-            <i class="icon-phone-icon"></i>
-            <span>+0027 31 3010504</span>
-          </a>
-          <a href="mailto:sales@m3Logi.com" class="locemail">
-            <i class="icon-info-icon"></i>
-            <span class="eml">sales@m3Logi.com</span>
-          </a>
-        </div>
-
-        <!-- Chile Office -->
-        <div class="col-lg-3 col-md-6 col-sm-6 nopad-right cntc">
-          <div class="loc-images img-trans">
-            <img src="/images/chile-of.png" alt="Chile Office">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 cntc">
-          <p class="jpn-lochd">CHILE OFFICE</p>
-          <p class="jpnparag">m3Logi SHIPPING CHILE LTD. OFICINA 1101, AV. BOLÍVAR 202, EDIFICIO FINANZAS, IQUIQUE, CHILE</p>
-          <a href="tel:coming-soon" class="locphn">
-            <i class="icon-phone-icon"></i>
-            <span>Coming Soon</span>
-          </a>
-          <a href="mailto:chile@m3Logi.com" class="locemail">
-            <i class="icon-info-icon"></i>
-            <span class="eml">chile@m3Logi.com</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="row">
-        <!-- Mozambique Office -->
-        <div class="col-lg-3 col-md-6 col-sm-6 nopad-right cntc">
-          <div class="loc-images img-trans">
-            <img src="/images/mozambique-of.jpg" alt="Mozambique Office">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 cntc">
-          <p class="jpn-lochd">MOZAMBIQUE OFFICE</p>
-          <p class="jpnparag">m3Logi SHIPPING MOZAMBIQUE AFRICA PARK AVENIDA ACORDOS DE LUSAKA NO 95 MAPUTO MOZAMBIQUE</p>
-          <a href="tel:coming-soon" class="locphn">
-            <i class="icon-phone-icon"></i>
-            <span>Coming Soon</span>
-          </a>
-          <a href="mailto:mozambique@m3Logi.com" class="locemail">
-            <i class="icon-info-icon"></i>
-            <span class="eml">mozambique@m3Logi.com</span>
-          </a>
-        </div>
-
-        <!-- Pakistan Office -->
-        <div class="col-lg-3 col-md-6 col-sm-6 nopad-right cntc pad-mmb">
-          <div class="loc-images img-trans">
-            <img src="/images/pakistan-of.png" alt="Pakistan Office">
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 cntc pad-mmb">
-          <p class="jpn-lochd">PAKISTAN OFFICE</p>
-          <p class="jpnparag">m3Logi SHIPPING PAKISTAN ROOM#204&205, 2ND FLOOR, SKY CENTER, AGHA KAMAL HAIDER ROAD, SIALKOT CANTT 51310 PAKISTAN</p>
-          <a href="tel:coming-soon" class="locphn">
-            <i class="icon-phone-icon"></i>
-            <span>Coming Soon</span>
-          </a>
-          <a href="mailto:pakistan@m3Logi.com" class="locemail">
-            <i class="icon-info-icon"></i>
-            <span class="eml">pakistan@m3Logi.com</span>
-          </a>
-        </div>
-      </div>
-    </div>
-	</div>div>
 		
 	</section>
 	<!--Contact Details End-->

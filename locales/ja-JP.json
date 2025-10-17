@@ -16,7 +16,7 @@
     "subtitle": "オークションからヤード、ヤードから港、またはオークション間の移動まで、信頼できる車両ネットワークを通じてスムーズな輸送を保証します。",
     "button": "詳しく見る",
     "partner_text": "お客様へのサービス"
-  },
+  }, 
   "container": {
     "title_part1": "信頼できる安全な",
     "title_part2": " コンテナ ",
@@ -221,8 +221,189 @@
 
     "airFreightTitle": "航空輸送",
     "airFreightText": "m3Logiは、世界中の主要航空会社と提携し、迅速かつ安全な貨物輸送を提供しています。包括的な追跡機能と通関サポートにより、お客様に安心してご利用いただけます。"
+  },
+  "locations": {
+    "title": "拠点一覧",
+    "subtitle": "世界各地の拠点を検索して、簡単に連絡できます。"
+  },
+  "labels": {
+    "phoneComingSoon": "電話番号は近日公開"
+  },
+  "actions": {
+    "getDirections": "ルートを表示",
+    "copyAddress": "住所をコピー"
+  },
+  "toast": {
+    "addressCopied": "住所をコピーしました"
+  },
+  "aria": {
+    "callOffice": "{office} に電話する",
+    "emailOffice": "{office} にメールする"
+  },
+  "tags": {
+    "HQ": "本社"
+  },
+  
+  "contact": {
+    "needHelp": {
+      "subTitle": "お手伝いが必要ですか？",
+      "title": "お問い合わせください",
+      "text": "ご質問やご要望がございましたら、お気軽にお問い合わせください。m3Logiとのビジネスに関する情報を得たり、サービスに関するご希望のオファーをリクエストしたりすることも可能です。m3Logiが提供するサービスに対する皆様のご意見・ご感想をお待ちしております。"
+    },
+    "info": {
+      "question": "ご質問はありますか？",
+      "email": "メールを書く",
+      "visit": "いつでもお越しください"
+    },
+    "form": {
+      "sendEmail": "メールを送信",
+      "feelFree": "お気軽にご記入ください",
+      "name": "お名前",
+      "email": "メールアドレス",
+      "subject": "件名",
+      "phone": "電話番号",
+      "message": "メッセージ",
+      "sendBtn": "メッセージを送信",
+      "resetBtn": "リセット"
+    },
+    "address": {
+      "location": "日本東京都中央区八丁堀 AKS八丁堀ビル5階 〒104-0032",
+      "phone": "フリーダイヤル +81-3-6262-8600"
+    }
+  },
+  
+  "international": {
+    "titleShort": "M3Logi",
+    "titleFull": "海外拠点",
+    "headOffice": "本社",
+    "headOfficeAddress": "東京都中央区八丁堀2丁目27-6 AKS八丁堀ビル5階 〒104-0032",
+    "yokohamaOffice": "横浜オフィス",
+    "yokohamaAddress": "神奈川県横浜市中区日本大通14 KN日本大通ビル3階301C 〒231-0021",
+    "otherOffices": "世界の支店",
+    "durbanAddress": "南アフリカ ダーバン市 ドロシー・ニエンベ通り9番地 コーポレートプレイス4階403A号室",
+    "pakistanAddress": "パキスタン シアールコート市 ワジラバード通り ジョン＆スコット学校付近 ジャーミア・ビラル・モスク向かい",
+    "ukAddress": "イギリス ボルトン グレーター・マンチェスター ワイレスデール・ロード22番地 BL1 4DN",
+    "japanLocations": "日本の港湾"
+  },
+  
+  "companyLocations": {
+    "sectionTitle": "会社情報",
+    "sectionSubtitle": "所在地",
+    "internationalTitle": "海外拠点",
+    "japanTitle": "日本拠点",
+
+    "headOfficeTitle": "本社",
+    "headOfficeAddress": "日本 〒104-0032 東京都中央区八丁堀2丁目27-6 AKS Hatchoboriビル5階",
+
+    "fax": "FAX",
+    "phone": "電話",
+    "email": "メール",
+
+    "yokohamaOfficeTitle": "横浜オフィス",
+    "yokohamaOfficeAddress": "日本 〒231-0021 神奈川県横浜市中区日本大通14 KN Nihon Odori 3F 301C",
+
+   
+    "yokohamaPort": "横浜港",
+    "yokohamaPortAddress": "〒306-0656 茨城県坂東市寺久12-1297",
+
+    "kobePort": "神戸港",
+    "kobePortAddress": "",
+
+    "nagoyaPort": "名古屋港",
+    "nagoyaPortAddress": "〒498-0816 三重県桑名市木曽崎町源六和住1-1020",
+
+    "hakataPort": "博多港",
+    "hakataPortAddress": "〒830-1221 福岡県三井郡大刀洗町高江西奥野2484-1",
+    "durban": {
+      "companyName": "（m3Logi シッピング（PTY）株式会社）",
+      "city": "ダーバン",
+      "address": "オフィス403A号室、4階 Corporate Place、Dorothly Nyembe 通り9番地、ダーバン、4001 南アフリカ共和国"
+    },
+    "pakistan": {
+      "companyName": "（m3Logi シッピング パキスタン）",
+      "city": "パキスタン",
+      "address": "ハッラー、ワジラバード通り、ジョン＆スコット学校の向かい、ジャーミア・ビラル・モスク近く、シアルコット、パンジャーブ州、パキスタン"
+    },
+    "southampton": {
+      "companyName": "C2sky カーゴ株式会社（代理店）",
+      "city": "サウサンプトン（イギリス）",
+      "address": "22 Wyresdale Road、グレーター・マンチェスター、ボルトン BL1 4DN、イギリス"
+    }
+  },
+
+    "japanLocations": {
+       "sectionTitle": "会社情報",
+    "yokohama": {
+      "companyName": "横浜港",
+      "address": "〒306-0656 茨城県坂東市寺久12-1297",
+
+    },
+    "kobe": {
+      "companyName": "神戸港",
+      "address": " "
+
+    },
+    "nagoya": {
+      "companyName": "名古屋港",
+      "address": "〒498-0816 三重県桑名市木曽岬町源緑和住1-1020",
+   
+    },
+    "hakata": {
+      "companyName": "博多港",
+      "address": "〒830-1221 福岡県三井郡大刀洗町高江西奥野2484-1",
+     
+    }
+  },
+   "nav": {
+    "home":                  "ホーム",
+    "about":                 "会社概要",
+    "gallery":               "ギャラリー",
+    "services":              "サービス",
+    "servicesList":          "サービス一覧",
+    "serviceDetails":        "サービス詳細",
+    "locations":             "拠点",
+    "internationalLocation": "国際拠点",
+    "newsDetails":           "ニュース詳細",
+    "contact":               "お問い合わせ"
+  },
+  "header": {
+ 
+    "login":             "ログイン",
+    "langEn":            "英語",
+    "langJa":            "日本語",
+    "getQuote":          "お見積り依頼",
+    "callNow":           "お電話はこちら",
+    "sendEmail":         "メールはこちら",
+    "officeHoursTitle":  "営業時間",
+    "officeHours":       "月〜金 9:00 - 17:00, 土日休業",
+
+    "searchPlaceholder": "検索…"
+  },
+  
+  "footer": {
+    "addressTitle":        "住所",
+    "address":             "〒104-0032 東京都中央区八丁堀2-27-6 AKS八丁堀ビル5階",
+    "contactTitle":        "お問い合わせ",
+    "timingTitle":         "営業時間",
+    "timing":              "月〜土：8:00〜17:00、日曜日：休業",
+
+    "aboutText":           "m3Logiは世界をより近づけ、お客様のニーズに合わせた最高のサービスを提供します。",
+    "companyProfile":      "会社案内",
+
+    "serviceTitle":        "サービス",
+    "services": {
+      "landTransportation":  "陸上輸送",
+      "oceanTransportation": "海上輸送",
+      "yardServices":        "ヤードサービス",
+      "airCargo":            "航空貨物",
+      "customsClearance":    "通関手続き"
+    },
+
+    "projectsTitle":       "プロジェクト",
+
+    "newsletterTitle":     "ニュースレター",
+    "newsletterText":      "最新情報とニュースをお届けします。ニュースレターを購読してください。",
+    "emailPlaceholder":    "メールアドレス"
   }
-
-
 
 }

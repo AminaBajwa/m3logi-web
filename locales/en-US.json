@@ -215,8 +215,197 @@
 
     "airFreightTitle": "Air Freight",
     "airFreightText": "m3Logi offers premium air freight services, ensuring swift and secure delivery of cargo worldwide through partnerships with leading airlines, with comprehensive tracking and customs support."
+  },
+  "locations": {
+    "title": "Office Locations",
+    "subtitle": "Find and contact our offices around the world."
+  },
+  "labels": {
+    "phoneComingSoon": "Phone coming soon"
+  },
+  "actions": {
+    "getDirections": "Get directions",
+    "copyAddress": "Copy address"
+  },
+  "toast": {
+    "addressCopied": "Address copied"
+  },
+  "aria": {
+    "callOffice": "Call {office}",
+    "emailOffice": "Email {office}"
+  },
+  "tags": {
+    "HQ": "HQ"
+  },
+  
+  "contact": {
+    "needHelp": {
+      "subTitle": "Need any help?",
+      "title": "Get in touch with us",
+      "text": "You can contact us for any kind of query or request, you can get information regarding any business you want to do with us and you can also demand any offer you wish to avail from our services. We value your feedback on the services we provide at m3Logi, share your thoughts with us."
+    },
+    "info": {
+      "question": "Have any question?",
+      "email": "Write email",
+      "visit": "Visit anytime"
+    },
+    "form": {
+      "sendEmail": "Send us email",
+      "feelFree": "Feel free to write",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "phone": "Phone",
+      "message": "Message",
+      "sendBtn": "Send message",
+      "resetBtn": "Reset"
+    },
+    "address": {
+      "location": "AKS Hatchobori Bldg 5F, Tokyo-to 104-0032",
+      "phone": "Free +81-3-6262-8600"
+    }
+  },
+
+  "international": {
+    "titleShort": "M3Logi",
+    "titleFull": "International Locations",
+    "headOffice": "Head Office",
+    "headOfficeAddress": "AKS Hatchobori Bldg 5F, 2 Chome-27-6 Hatchobori, Chuo-ku, Tokyo 104-0032, Japan",
+    "yokohamaOffice": "Yokohama Office",
+    "yokohamaAddress": "301C, KN Nihon Odori 3F, Nihon Odori 14, Naka-ku, Yokohama-shi, Kanagawa-ken Japan 231-0021",
+    "otherOffices": "Global Branches",
+    "durbanAddress": "Office No 403A, 4th floor corporate place, 9 Dorothly Nyembe Street, Durban, 4001 South Africa.",
+    "pakistanAddress": "Harrar, Wazirabad road, opposite Jamia Bilal masjid near John & Scot School Sialkot, Punjab, Pakistan.",
+    "ukAddress": "22 Wyresdale Road Greater Manchester Bolton BL1 4DN UK",
+    "japanLocations": "Japan Ports"
+  },
+  
+  "companyLocations": {
+  "sectionTitle": "Company Information",
+  "sectionSubtitle": "Locations",
+  "internationalTitle": "International Offices",
+  "japanTitle": "Japan Offices",
+
+  "headOffice": "Head Office",
+  "headOfficeAddress": "5th Floor, AKS Hatchobori Building, 2-27-6 Hatchobori, Chuo-ku, Tokyo 104-0032, Japan",
+
+  "fax": "FAX",
+  "phone": "Phone",
+  "email": "Email",
+
+    "yokohamaOfficeTitle": "Yokohama Office",
+    "yokohamaOfficeAddress": "301C, 3F, KN Nihon Odori, 14 Nihon Odori, Naka-ku, Yokohama, Kanagawa 231-0021, Japan",
+
+  "yokohamaPort": "Yokohama Port",
+  "yokohamaPortAddress": "12-1297 Teraku, Bando City, Ibaraki 306-0656, Japan",
+
+  "kobePort": "Kobe Port",
+  "kobePortAddress": "",
+
+  "nagoyaPort": "Nagoya Port",
+  "nagoyaPortAddress": "1-1020 Genrokuzumi, Kisosaki-cho, Kuwana City, Mie 498-0816, Japan",
+
+  "hakataPort": "Hakata Port",
+  "hakataPortAddress": "2484-1 Takanishi Okuno, Tachiarai-machi, Mii-gun, Fukuoka 830-1221, Japan",
+
+  "durban": {
+    "companyName": "m3Logi Shipping (PTY) Ltd.",
+    "city": "Durban",
+    "address": "Room 403A, 4th Floor, Corporate Place, 9 Dorothly Nyembe Street, Durban, 4001, South Africa"
+  },
+
+  "pakistan": {
+    "companyName": "m3Logi Shipping Pakistan",
+    "city": "Pakistan",
+    "address": "Opposite John & Scott School, Wazirabad Road, near Jamia Bilal Mosque, Halla, Sialkot, Punjab, Pakistan"
+  },
+
+  "southampton": {
+    "companyName": "C2sky Cargo Ltd. (Agent)",
+    "city": "Southampton (UK)",
+    "address": "22 Wyresdale Road, Greater Manchester, Bolton BL1 4DN, United Kingdom"
   }
+},
 
+  "japanLocations": {
+    "sectionTitle": "Company Information",
+    "yokohama": {
+      "companyName": "YOKOHAMA PORT",
+      "address": "12-1297, TERAKU, BANDO-SHI, IBARAKI-KEN, 306-0656.",
+    },
+    "kobe": {
+      "companyName": "KOBE PORT",
+      "address": "",
+   
+    },
+    "nagoya": {
+      "companyName": "NAGOYA PORT",
+      "address": "1-1020, GENROKUWAJU, KISOSAKICHO, KUWANA, MIE-KEN, 498-0816",
+    
+    },
+    "hakata": {
+      "companyName": "HAKATA PORT",
+      "address": "2484-1 NISHIOKUNO, TAKAE, TACHIARAI-MACHI, MII-GUN, FUKUOKA-KEN 830-1221",
+     
+    }
+  
+},
+"header": {
+    "phone":             "+81-3-6262-8600",
+    "login":             "Login",
+    "langEn":            "Eng",
+    "langJa":            "Jpn",
+    "getQuote":          "Get A Quote",
+    "callNow":           "Call Now",
+    "sendEmail":         "Send Email",
+    "officeHoursTitle":  "Office Hours",
+    "officeHours":       "Mon - Fri 9:00 - 17:00, Sat & Sun - CLOSED",
+    "searchPlaceholder": "Search..."
+  },
+  "nav": {
+    "home":                  "Home",
+    "about":                 "About",
+    "gallery":               "Gallery",
+    "services":              "Services",
+    "servicesList":          "Services List",
+    "serviceDetails":        "Service Details",
+    "locations":             "Locations",
+    "internationalLocation": "International Location",
+    "newsDetails":           "News Details",
+    "contact":               "Contact"
+  },
+  
+  "footer": {
+    "addressTitle":        "Address",
+    "address":             "Aks Hatchobori Bldg 5 Floor, 2 Chome 27-6, Hatchobori, Chuo-ku, Tokyo-to Japan",
+    "contactTitle":        "Contact",
+    "timingTitle":         "Timing",
+    "timing":              "Mon - Sat: 8 am - 5 pm, Sunday: CLOSED",
 
+    "aboutText":           "m3Logi brings the world closer together—we provide you with the best possible service tailored to your needs.",
+    "companyProfile":      "Company Profile",
+
+    "serviceTitle":        "Service",
+    "services": {
+      "landTransportation":  "Land Transportation",
+      "oceanTransportation": "Ocean Transportation",
+      "yardServices":        "Yard Services",
+      "airCargo":            "Air Cargo",
+      "customsClearance":    "Customs Clearance"
+    },
+
+    "projectsTitle":       "Projects",
+
+    "newsletterTitle":     "Newsletter",
+    "newsletterText":      "Subscribe to our newsletter to get our latest updates & news",
+    "emailPlaceholder":    "Email Address"
+  }
 }
+
+
+
+
+
+
+
 

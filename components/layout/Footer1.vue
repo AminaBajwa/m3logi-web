@@ -22,8 +22,8 @@ const downloadPDF = () => {
                     <div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon flaticon-international-shipping-2"></i></div>
-                            <h4 class="title">Address</h4>
-                            <div class="text">Aks Hatchobori Bldg 5 Floor, 2 Chome 27-6, Hatchobori, Chuo-ku, Tokyo-to Japan</div>
+                            <h4 class="title">{{ $t('footer.addressTitle') }}</h4>
+                            <div class="text">{{ $t('footer.address') }}</div>
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ const downloadPDF = () => {
                     <div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon flaticon-stock-1"></i></div>
-                            <h4 class="title">Contact</h4>
+                            <h4 class="title">{{ $t('footer.contactTitle') }}</h4>
                             <div class="text">
                                 <NuxtLink to="mailto:sales@m3Logi.com ">sales@m3Logi.com </NuxtLink>
                                 <NuxtLink to="tel:+92(8800)48720">+81-3-6262-8600</NuxtLink>
@@ -43,8 +43,8 @@ const downloadPDF = () => {
                     <div class="contact-info-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="600ms">
                         <div class="inner-box">
                             <div class="icon-box"><i class="icon flaticon-24-hours-2"></i></div>
-                            <h4 class="title">Timing</h4>
-                            <div class="text">Mon - Sat: 8 am - 5 pm, Sunday: CLOSED</div>
+                           <h4 class="title">{{ $t('footer.timingTitle') }}</h4>
+              <div class="text">{{ $t('footer.timing') }}</div>
                         </div>
                     </div>
                 </div>
@@ -62,12 +62,12 @@ const downloadPDF = () => {
                             <div class="logo">
                                 <NuxtLink to="/"><img src="/images/logoM3Logi-.png" alt=""></NuxtLink>
                             </div>
-                            <div class="text">m3Logi brings the world closer together we provide you with the best possible service tailored to your needs.</div>
+                            <div class="text">{{ $t('footer.aboutText') }}</div>
                             <!-- <NuxtLink to="/page-about" class="theme-btn btn-style-one hvr-light small"><span
                                     class="btn-title">Company Profile</span></NuxtLink> -->
 
                              <NuxtLink to="#" class="theme-btn btn-style-one hvr-light small" @click.prevent="downloadPDF">
-                                <span class="btn-title">Company Profile</span>
+                                <span class="btn-title">{{ $t('footer.companyProfile') }}</span>
                             </NuxtLink>       
                         </div>
                     </div>
@@ -75,22 +75,22 @@ const downloadPDF = () => {
                     <!--Footer Column-->
                     <div class="footer-column col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="footer-widget">
-                            <h3 class="widget-title">Service</h3>
+                            <h3 class="widget-title">{{ $t('footer.serviceTitle') }}</h3>
                             <ul class="user-links">
                                 <li>
-                                    <NuxtLink to="#"> Land Transportation</NuxtLink>
+                                    <NuxtLink to="#"> {{ $t('footer.services.landTransportation') }}</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Ocean Transportation</NuxtLink>
+                                    <NuxtLink to="#">{{ $t('footer.services.oceanTransportation') }}</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Yard Services</NuxtLink>
+                                    <NuxtLink to="#">{{ $t('footer.services.yardServices') }}</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Air Cargo</NuxtLink>
+                                    <NuxtLink to="#">{{ $t('footer.services.airCargo') }}</NuxtLink>
                                 </li>
                                 <li>
-                                    <NuxtLink to="#">Customs Clearance</NuxtLink>
+                                    <NuxtLink to="#">{{ $t('footer.services.customsClearance') }}</NuxtLink>
                                 </li>
                                 
                             </ul>
@@ -101,7 +101,7 @@ const downloadPDF = () => {
                     <!--Footer Column-->
                     <div class="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="footer-widget gallery-widget">
-                            <h3 class="widget-title">Projects</h3>
+                            <h3 class="widget-title">{{ $t('footer.projectsTitle') }}</h3>
                             <div class="widget-content">
                                 <div class="outer clearfix">
                                     <figure class="image">
@@ -141,14 +141,14 @@ const downloadPDF = () => {
                     <!--Footer Column-->
                     <div class="footer-column col-xl-3 col-lg-5 col-md-6 col-sm-12">
                         <div class="footer-widget">
-                            <h3 class="widget-title">Newsletter</h3>
+                            <h3 class="widget-title">{{ $t('footer.newsletterTitle') }}</h3>
                             <div class="widget-content">
                                 <div class="subscribe-form">
-                                    <div class="text">Subscribe our newsletter to get our latest update & news</div>
+                                    <div class="text">{{ $t('footer.newsletterText') }}</div>
                                     <form method="post">
                                         <div class="form-group">
                                             <input type="email" name="email" class="email" value=""
-                                                placeholder="Email Address" />
+                                                :placeholder="$t('footer.emailPlaceholder')" />
                                             <button type="button" class="theme-btn btn-style-one"><span class="btn-title"><i
                                                         class="fa fa-paper-plane"></i></span></button>
                                         </div>
